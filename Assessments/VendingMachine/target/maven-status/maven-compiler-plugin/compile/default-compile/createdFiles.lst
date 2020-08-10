@@ -1,0 +1,4 @@
+com\re\vendingmachine\ui\UserIOConsoleImpl.class
+com\re\vendingmachine\ui\UserIO.class
+com\re\vendingmachine\App.class
+com\re\vendingmachine\controller\VendingMachineController.class
