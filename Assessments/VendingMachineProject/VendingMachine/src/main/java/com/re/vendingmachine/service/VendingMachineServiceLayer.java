@@ -24,6 +24,13 @@ public interface VendingMachineServiceLayer {
     List<Item> getFullItemList();
     
     /**
+     * takes the full inventory list and returns a list with only those that
+     * are in stock and available for purchase.
+     * @return filtered list of only available items.
+     */
+    List<Item> getAvailableItemsList();
+    
+    /**
      * Expects to receive an Item from the DAO given the item's name
      * @param name
      * @return item specified by the name
@@ -31,10 +38,10 @@ public interface VendingMachineServiceLayer {
     Item getInventoryItem(String name);
     
     /**
-     * Checks if funds entered by the user is sufficient enough to purchase 
-     * the item.Then checks if the item is in stock.If both conditions are met
- the method return true else, returns false.Also writes to an audit log 
- file for inventory history tracking.
+     * Checks if funds entered by the user is sufficient for the purchase the 
+     * item that they selected. Then checks if the item is in stock.If both 
+     * conditions are met the method return true else, returns false. Also 
+     * writes to an audit log or inventory history tracking.
      * @param funds that the user entered as input.
      * @param selection the integer corresponding to the item selected.
      * @return Boolean depending if funds are sufficient and item is available 
@@ -57,12 +64,12 @@ public interface VendingMachineServiceLayer {
      * @throws VendingMachinePersistenceException if inventory cannot be loaded
      * into the program.
      */
-    void loadFromInventory() throws VendingMachinePersistenceException;
+    void loadApiInventory() throws VendingMachinePersistenceException;
     
     /**
      * Saves inventory's current in-memory state of the program to the external 
      * storage
      * @throws VendingMachinePersistenceException if inventory cannot be saved.
      */
-    void saveToInventory() throws VendingMachinePersistenceException;
+    void saveApiInventory() throws VendingMachinePersistenceException;
 }
