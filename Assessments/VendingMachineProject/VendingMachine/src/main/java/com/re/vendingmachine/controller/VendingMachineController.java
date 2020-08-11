@@ -11,6 +11,7 @@ import com.re.vendingmachine.dto.Item;
 import com.re.vendingmachine.ui.UserIO;
 import com.re.vendingmachine.ui.UserIOConsoleImpl;
 import com.re.vendingmachine.ui.VendingMachineView;
+import java.math.BigDecimal;
 import java.util.List;
 
 /**
@@ -35,7 +36,7 @@ public class VendingMachineController {
 
         boolean keepGoing = false;
         int selection;
-        double funds = 0;
+        //BigDecimal funds;
         double change = 0;
         
         try{
@@ -56,24 +57,17 @@ public class VendingMachineController {
             }
 
             //prompt user to add funds
-            funds = io.readDouble("Add funds");
-
             //prompt user to make selection
-            selection = io.readInt("Select an item\n"
-                    + "1) Cola- 1.00\n"
-                    + "2) Snickers - 2.00\n"
-                    + "3) chips - 3.00\n"
-                    + "4) fruit snacks - 4.00\n"
-                    + "5) Exit", 1, 5);
+            selection = vendItem() - 1;
             /*update inventory and dispense change on successful vend; 
             display to user that item was vended*/
-            if (selection == 5) {
-                keepGoing = false;
-            } else {
-                change = funds - selection;
-                io.print("Item vended! Your change is " + change);
-                funds = 0;
-            }
+//            if (selection == dao.getAllItems().size()) {
+//                keepGoing = false;
+//            } else {
+                
+                io.print("Item vended! Your change is funds - price");
+                
+            //}
 
             /*cycle back to beginning and continue process until user chooses to exit
             program*/
@@ -82,12 +76,19 @@ public class VendingMachineController {
     }
     
     private void displayVendingMachineItems(){
-        List<Item> itemList = dao.getFullItemList();
+        List<Item> itemList = dao.getAllItems();
         view.displayInventory(itemList);
     }
     
     private boolean engageOrWalkAway(){
         return view.askUserToEngage();
+    }
+    
+    private int vendItem(){
+        BigDecimal funds = view.promptToAddFunds();
+        List<Item> itemList = dao.getAllItems();
+        int selection = view.displayInventoryAndMakeSelection(itemList);
+        return selection;
     }
     
     private void exitMessage(){

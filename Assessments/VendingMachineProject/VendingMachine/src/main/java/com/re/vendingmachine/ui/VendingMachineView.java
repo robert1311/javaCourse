@@ -6,6 +6,7 @@
 package com.re.vendingmachine.ui;
 
 import com.re.vendingmachine.dto.Item;
+import java.math.BigDecimal;
 import java.util.List;
 
 /**
@@ -21,7 +22,7 @@ public class VendingMachineView {
     }
     
     public void displayInventory(List<Item> itemList){
-        
+        int menuSize =itemList.size() + 1;
         int itemCounter = 1;
         io.print("========Vending Machine ========");
         
@@ -30,7 +31,14 @@ public class VendingMachineView {
                     + "$" + item.getCost());
             itemCounter++;
         }
+        io.print("" + menuSize + ") Coin Return");
         io.print("================================");
+    }
+    
+    public int displayInventoryAndMakeSelection(List<Item> itemList){
+        int menuSize =itemList.size() + 1;
+        this.displayInventory(itemList);
+        return io.readInt("Select an item", 1, menuSize);
     }
     
     public boolean askUserToEngage(){
@@ -40,5 +48,9 @@ public class VendingMachineView {
     
     public void exitMsg(){
         io.print("Goodbye!");
+    }
+    
+    public BigDecimal promptToAddFunds(){
+        return io.readBigDecimal("Enter funds into the machine ($0.00)");
     }
 }
