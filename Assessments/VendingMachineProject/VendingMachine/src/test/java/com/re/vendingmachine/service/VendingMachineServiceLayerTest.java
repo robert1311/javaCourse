@@ -9,6 +9,7 @@ import com.re.vendingmachine.dao.VendingMachineAuditDao;
 import com.re.vendingmachine.dao.VendingMachineAuditDaoStubImpl;
 import com.re.vendingmachine.dao.VendingMachineDao;
 import com.re.vendingmachine.dao.VendingMachineDaoStubImpl;
+import com.re.vendingmachine.dao.VendingMachinePersistenceException;
 import com.re.vendingmachine.dto.Item;
 import java.math.BigDecimal;
 import java.util.List;
@@ -57,7 +58,7 @@ public class VendingMachineServiceLayerTest {
      */
     @Test
     public void testGetFullItemList() {
-        assertEquals(2, service.getFullItemList());
+        assertEquals(2, service.getFullItemList().size());
     }
     
     /**
@@ -69,7 +70,8 @@ public class VendingMachineServiceLayerTest {
         assertEquals(1, items.size());
         
         Item available = items.get(0);
-        assertEquals("Cola", service.getInventoryItem(available.getName()));
+        assertEquals("Cola", service.getInventoryItem(available.getName())
+                .getName());
     }
 
     /**
@@ -98,7 +100,7 @@ public class VendingMachineServiceLayerTest {
         BigDecimal funds = new BigDecimal("1.00");
         try{
             //first element in list
-        service.validateFundsAndAvailability(funds, 0);
+        service.validateFundsAndAvailability(funds, 1);
         fail("Expected VendingMachineInsufficientFiundsException not thrown.");
         } catch (VendingMachineInsufficientFundsException e){
 
@@ -114,7 +116,7 @@ public class VendingMachineServiceLayerTest {
     public void testItemAvailability() throws Exception {
         BigDecimal funds = new BigDecimal("1.00");
         try{
-        service.validateFundsAndAvailability(funds, 1);
+        service.validateFundsAndAvailability(funds, 2);
         fail("Expected VendingMachineNoItemInventoryException");
         } catch (VendingMachineNoItemInventoryException e){
             
@@ -129,9 +131,8 @@ public class VendingMachineServiceLayerTest {
     @Test
     public void testSuccessfulVend() throws Exception {
         BigDecimal funds = new BigDecimal("2.00");
-        service.validateFundsAndAvailability(funds, 0);
-        int itemCount = service.getFullItemList().get(0).getCount() -1;
-        assertEquals(0, itemCount);
+        service.validateFundsAndAvailability(funds, 1);
+        assertEquals(0, service.getInventoryItem("Cola").getCount());
     }
 
     /**
@@ -139,17 +140,27 @@ public class VendingMachineServiceLayerTest {
      * @throws java.lang.Exception
      */
     @Test
-    public void testLoadApiInventory() throws Exception {
-        service.loadApiInventory();
+    public void testLoadApiInventory() throws Exception{
+        try{
+            service.loadApiInventory();
+            fail("Expected VendingMachinePersistenceEception was not thrown.");
+        }catch(VendingMachinePersistenceException e){
+            
+        }
     }
-
+    
     /**
      * Test of saveApiInventory method, of class VendingMachineServiceLayer.
      * @throws java.lang.Exception
      */
     @Test
     public void testSaveApiInventory() throws Exception {
-        service.saveApiInventory();
+        try{
+            service.saveApiInventory();
+            fail("Expected VendingMachinePersistenceEception was not thrown.");
+        }catch(VendingMachinePersistenceException e){
+            
+        }
     }
 
    

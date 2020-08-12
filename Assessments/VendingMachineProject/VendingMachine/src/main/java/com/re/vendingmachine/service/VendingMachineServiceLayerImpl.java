@@ -11,6 +11,7 @@ import com.re.vendingmachine.dao.VendingMachinePersistenceException;
 import com.re.vendingmachine.dto.Item;
 import java.math.BigDecimal;
 import java.util.List;
+import java.util.stream.Collectors;
 
 /**
  *
@@ -29,32 +30,68 @@ public class VendingMachineServiceLayerImpl implements VendingMachineServiceLaye
     
     @Override
     public List<Item> getFullItemList() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return dao.getAllItems();
     }
 
      @Override
     public List<Item> getAvailableItemsList() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return dao.getAllItems()
+                .stream()
+                .filter(i -> i.getCount() > 0)
+                .collect(Collectors.toList());
     }
     
     @Override
     public Item getInventoryItem(String name) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return dao.getItem(name);
     }
 
     @Override
-    public boolean validateFundsAndAvailability(BigDecimal funds, int selection) throws VendingMachineInsufficientFundsException, VendingMachineNoItemInventoryException, VendingMachinePersistenceException {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public boolean validateFundsAndAvailability(BigDecimal funds, int selection) 
+            throws VendingMachineInsufficientFundsException, 
+            VendingMachineNoItemInventoryException, 
+            VendingMachinePersistenceException {
+        
+        List<Item> fullInventory = this.getFullItemList();
+        List<Item> availableItems = this.getAvailableItemsList();
+        int index = selection -1;
+        Item selected = dao.getItem(fullInventory.get(index).getName());
+        
+        checkAvailability(availableItems, selected);
+        
+        validateFunds(selected, funds);
+        
+        selected.setCount(selected.getCount() -1);
+        //calculate change
+        //write audit log
+        return true;
+    }
+    
+    private void checkAvailability(List<Item> instockItems, Item selected) 
+            throws VendingMachineNoItemInventoryException{
+        if(!instockItems.contains(selected)){
+            throw new VendingMachineNoItemInventoryException("SOLD OUT! Please"
+                    + "make another selection.");
+        }
+       
+    }
+    
+    private void validateFunds(Item selected, BigDecimal funds) throws 
+            VendingMachineInsufficientFundsException {
+        if(funds.compareTo(selected.getCost()) == -1){
+            throw new VendingMachineInsufficientFundsException("Insufficient "
+                    + "funds. Please add more $ for the slected item.");
+        }
     }
 
     @Override
     public void loadApiInventory() throws VendingMachinePersistenceException {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        dao.loadInventory();
     }
 
     @Override
     public void saveApiInventory() throws VendingMachinePersistenceException {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        dao.writeInventory();
     }
 
    

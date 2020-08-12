@@ -86,7 +86,7 @@ public class VendingMachineDaoStubImpl implements VendingMachineDao {
         Scanner sc;
         try {
             sc = new Scanner(new BufferedReader(
-                    new FileReader("inventry.txt")));
+                    new FileReader("")));
         } catch (FileNotFoundException e) {
             throw new VendingMachinePersistenceException("Error: Inventory "
                     + "could not be loaded.", e);
@@ -97,7 +97,7 @@ public class VendingMachineDaoStubImpl implements VendingMachineDao {
     public void writeInventory() throws VendingMachinePersistenceException {
         PrintWriter out;
         try{
-        out = new PrintWriter(new FileWriter("inventry.txt"));
+        out = new PrintWriter(new FileWriter(""));
         } catch(IOException e){
             throw new VendingMachinePersistenceException(
                     "Could not save inventory. Try again later.", e);
