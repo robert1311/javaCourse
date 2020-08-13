@@ -44,8 +44,7 @@ public interface VendingMachineServiceLayer {
      * writes to an audit log or inventory history tracking.
      * @param funds that the user entered as input.
      * @param selection the integer corresponding to the item selected.
-     * @return Boolean depending if funds are sufficient and item is available 
-     * for purchase.
+     * @return Change due to the user.
      * @throws VendingMachineInsufficientFundsException if cost of item is more 
      * than funds entered.
      * @throws VendingMachineNoItemInventoryException if item selected is 
@@ -53,7 +52,7 @@ public interface VendingMachineServiceLayer {
      * @throws VendingMachinePersistenceException if Audit Log cannot be 
      * persisted on successful vends.
      */
-    boolean validateFundsAndAvailability(BigDecimal funds, int selection) 
+    Change validateFundsAndAvailability(BigDecimal funds, int selection) 
             throws VendingMachineInsufficientFundsException,
             VendingMachineNoItemInventoryException,
             VendingMachinePersistenceException;

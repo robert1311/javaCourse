@@ -12,7 +12,8 @@ package com.re.vendingmachine.dao;
 public interface VendingMachineAuditDao {
     /**
      * logs successful transactions with cost and updated counts
+     * @param entry
      * @throws com.re.vendingmachine.dao.VendingMachinePersistenceException
      */
-    void writeAuditLog() throws VendingMachinePersistenceException;
+    void writeAuditLog(String entry) throws VendingMachinePersistenceException;
 }

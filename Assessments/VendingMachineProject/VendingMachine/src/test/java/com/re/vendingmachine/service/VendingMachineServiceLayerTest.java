@@ -115,6 +115,7 @@ public class VendingMachineServiceLayerTest {
     @Test
     public void testItemAvailability() throws Exception {
         BigDecimal funds = new BigDecimal("1.00");
+        
         try{
         service.validateFundsAndAvailability(funds, 2);
         fail("Expected VendingMachineNoItemInventoryException");

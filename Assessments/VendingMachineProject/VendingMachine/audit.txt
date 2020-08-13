@@ -1,0 +1,8 @@
+2020-08-13T04:28:22.836758 : Successful Vend : Fanta : $1.25 : Count-9 : Change Return - Quarters[7],Dimes[0],Nickels[1],Pennies[4]
+2020-08-13T04:30:47.261826700 : Coin Return : No Selection : $N/A : Count-N/A : Change Return - Quarters[12],Dimes[0],Nickels[1],Pennies[0]
+2020-08-13T04:36:28.810423800 : Successful Vend : Vitamin Water : $2.50 : Count-24 : Change Return - Quarters[10],Dimes[0],Nickels[0],Pennies[0]
+2020-08-13T04:37:29.520507900 : Successful Vend : Grand Smoothie : $5.99 : Count-4 : Change Return - Quarters[0],Dimes[0],Nickels[0],Pennies[1]
+2020-08-13T04:39:47.257009600 : Successful Vend : Root Beer : $1.25 : Count-1 : Change Return - Quarters[0],Dimes[0],Nickels[0],Pennies[0]
+2020-08-13T04:41:07.587425 : Successful Vend : Root Beer : $1.25 : Count-0 : Change Return - Quarters[0],Dimes[0],Nickels[0],Pennies[0]
+2020-08-13T04:42:49.892485900 : Successful Vend : Sprite : $1.25 : Count-21 : Change Return - Quarters[1],Dimes[0],Nickels[1],Pennies[1]
+2020-08-13T04:48:26.695776400 : Successful Vend : Dr. Pepper : $1.25 : Count-16 : Change Return - Quarters[0],Dimes[0],Nickels[0],Pennies[4]

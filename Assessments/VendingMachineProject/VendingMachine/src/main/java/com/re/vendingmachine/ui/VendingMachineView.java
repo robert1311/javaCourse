@@ -6,6 +6,7 @@
 package com.re.vendingmachine.ui;
 
 import com.re.vendingmachine.dto.Item;
+import com.re.vendingmachine.service.Change;
 import java.math.BigDecimal;
 import java.util.List;
 
@@ -14,43 +15,84 @@ import java.util.List;
  * @author rober
  */
 public class VendingMachineView {
-    
+
     UserIO io;
-    
-    public VendingMachineView(UserIO io){
+
+    public VendingMachineView(UserIO io) {
         this.io = io;
     }
-    
-    public void displayInventory(List<Item> itemList){
-        int menuSize =itemList.size() + 1;
+
+    public boolean askUserToEngage() {
+        String response = io.readString("Thirsty? (y/n)");
+        return response.equalsIgnoreCase("y");
+    }
+
+    public void displayInventory(List<Item> itemList) {
+        int menuSize = itemList.size() + 1;
         int itemCounter = 1;
+        String stock;
         io.print("========Vending Machine ========");
-        
-        for(Item item : itemList){
-            io.print("" + itemCounter + ") " + item.getName() + " - " 
-                    + "$" + item.getCost());
+
+        for (Item item : itemList) {
+            stock = "";
+            if (item.getCount() < 1) {
+                stock = "SOLD OUT!";
+            }
+            io.print("" + itemCounter + ") " + item.getName() + " - "
+                    + "$" + item.getCost() + " " + stock);
             itemCounter++;
         }
         io.print("" + menuSize + ") Coin Return");
-        io.print("================================");
+        io.print("================================\n");
     }
-    
-    public int displayInventoryAndMakeSelection(List<Item> itemList){
-        int menuSize =itemList.size() + 1;
+
+    public BigDecimal promptToAddFunds(BigDecimal funds) {
+        return io.readBigDecimal("Enter funds into the machine (balance: $"
+                + funds.toString() + ")");
+    }
+
+    public int displayInventoryAndMakeSelection(List<Item> itemList,
+            BigDecimal funds) {
+        int menuSize = itemList.size() + 1;
         this.displayInventory(itemList);
-        return io.readInt("Select an item", 1, menuSize);
+        int selection = io.readInt("Select an item (balance: $" 
+                + funds.toString() + ")", 1, menuSize);
+        if (selection <= menuSize - 1) {
+            io.print("==============\n"
+                    + itemList.get(selection - 1).getName() + "\n");
+        } else {
+            io.print("=============\n"
+                    + "Coin Return\n");
+        }
+        return selection;
     }
-    
-    public boolean askUserToEngage(){
-        String response = io.readString("Thirsty");
-        return response.equalsIgnoreCase("y");
+
+    public boolean displayChangeDueAndAskToExit(Change change, boolean isReturn) {
+        String operation;
+        if(isReturn){
+            operation = "FUNDS RETURNED!";
+        } else{
+            operation = "SUCCESSFUL VEND!";
+        }
+        io.readString("==================================\n"
+                + operation + " Please Take your change of "
+                + change.getTotal() + ": \n"
+                + change.getQuarters() + " Quarters\n"
+                + change.getDimes() + " Dimes\n"
+                + change.getNickels() + " Nickels\n"
+                + change.getPennies() + " Pennies\n"
+                + "==================================\n"
+                + "Press enter to continue.");
+        String exit = io.readString("Exit?");
+        return exit.equalsIgnoreCase("n");
     }
-    
-    public void exitMsg(){
+
+    public void displayErrorMessage(String message) {
+        io.print(message);
+    }
+
+    public void exitMsg() {
         io.print("Goodbye!");
     }
-    
-    public BigDecimal promptToAddFunds(){
-        return io.readBigDecimal("Enter funds into the machine ($0.00)");
-    }
+
 }

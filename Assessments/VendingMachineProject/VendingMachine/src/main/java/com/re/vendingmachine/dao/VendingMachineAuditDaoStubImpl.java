@@ -12,7 +12,7 @@ package com.re.vendingmachine.dao;
 public class VendingMachineAuditDaoStubImpl implements VendingMachineAuditDao{
     
     @Override
-    public void writeAuditLog() throws VendingMachinePersistenceException{
+    public void writeAuditLog(String entry) throws VendingMachinePersistenceException{
 
     }
 }

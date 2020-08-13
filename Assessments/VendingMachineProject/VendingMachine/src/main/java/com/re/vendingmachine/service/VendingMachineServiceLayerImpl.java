@@ -20,68 +20,110 @@ import java.util.stream.Collectors;
 public class VendingMachineServiceLayerImpl implements VendingMachineServiceLayer {
 
     private VendingMachineDao dao;
-    private VendingMachineAuditDao auditDao;
-    
-    public VendingMachineServiceLayerImpl(VendingMachineDao dao, 
-            VendingMachineAuditDao auditDao){
+    private VendingMachineAuditDao auditDao; 
+
+    public VendingMachineServiceLayerImpl(VendingMachineDao dao,
+            VendingMachineAuditDao auditDao) {
         this.dao = dao;
         this.auditDao = auditDao;
     }
-    
+
     @Override
     public List<Item> getFullItemList() {
         return dao.getAllItems();
     }
 
-     @Override
+    @Override
     public List<Item> getAvailableItemsList() {
         return dao.getAllItems()
                 .stream()
                 .filter(i -> i.getCount() > 0)
                 .collect(Collectors.toList());
     }
-    
+
     @Override
     public Item getInventoryItem(String name) {
         return dao.getItem(name);
     }
 
     @Override
-    public boolean validateFundsAndAvailability(BigDecimal funds, int selection) 
-            throws VendingMachineInsufficientFundsException, 
-            VendingMachineNoItemInventoryException, 
+    public Change validateFundsAndAvailability(BigDecimal funds, int selection)
+            throws VendingMachineInsufficientFundsException,
+            VendingMachineNoItemInventoryException,
             VendingMachinePersistenceException {
-        
+
         List<Item> fullInventory = this.getFullItemList();
-        List<Item> availableItems = this.getAvailableItemsList();
-        int index = selection -1;
-        Item selected = dao.getItem(fullInventory.get(index).getName());
+        int pennyChange;
+        Change change;
+        String operation;
+        Item selected;
+        String itemName;
+        String itemPrice;
+        String itemCount;
+        BigDecimal lOO = new BigDecimal("100");
         
-        checkAvailability(availableItems, selected);
-        
-        validateFunds(selected, funds);
-        
-        selected.setCount(selected.getCount() -1);
-        //calculate change
+        if (selection <= fullInventory.size()) {
+            List<Item> availableItems = this.getAvailableItemsList();
+            int index = selection - 1;
+            selected = dao.getItem(fullInventory.get(index).getName());
+
+            checkAvailability(availableItems, selected);
+
+            validateFunds(selected, funds);
+
+            selected.setCount(selected.getCount() - 1);
+
+            BigDecimal bigChange = funds.subtract(selected.getCost());
+            pennyChange = bigChange.multiply(lOO).intValue();
+           operation = "Successful Vend";
+           itemName = selected.getName();
+           itemPrice = selected.getCost().toString();
+           itemCount = String.valueOf(selected.getCount());
+        } else {//Coin Return
+            pennyChange = funds.multiply(lOO).intValue();
+            operation = "Coin Return";
+            itemName = "No Selection";
+            itemPrice = "N/A";
+            itemCount = "N/A";
+        }
+        change = calculateChange(pennyChange);
+            
         //write audit log
-        return true;
+        auditDao.writeAuditLog(operation + " : " + itemName + " : $" + itemPrice
+            + " : Count-" + itemCount + " : Change Return - "
+                    + "Quarters[" + change.getQuarters() + "],"
+                    + "Dimes[" + change.getDimes() + "],"
+                            + "Nickels[" + change.getNickels() + "],"
+                + "Pennies[" + change.getPennies() + "]");
+            
+        return change;
     }
-    
-    private void checkAvailability(List<Item> instockItems, Item selected) 
-            throws VendingMachineNoItemInventoryException{
-        if(!instockItems.contains(selected)){
+
+    private void checkAvailability(List<Item> instockItems, Item selected)
+            throws VendingMachineNoItemInventoryException {
+        if (!instockItems.contains(selected)) {
             throw new VendingMachineNoItemInventoryException("SOLD OUT! Please"
                     + "make another selection.");
         }
-       
+
     }
-    
-    private void validateFunds(Item selected, BigDecimal funds) throws 
+
+    private void validateFunds(Item selected, BigDecimal funds) throws
             VendingMachineInsufficientFundsException {
-        if(funds.compareTo(selected.getCost()) == -1){
+        if (funds.compareTo(selected.getCost()) == -1) {
             throw new VendingMachineInsufficientFundsException("Insufficient "
                     + "funds. Please add more $ for the slected item.");
         }
+    }
+    
+    private Change calculateChange(int pennyChange){
+        Change change = new Change();
+            change.calculateCoinReturn(Coin.PENNIES, pennyChange);
+            change.calculateCoinReturn(Coin.NICKELS, pennyChange);
+            change.calculateCoinReturn(Coin.DIMES, pennyChange);
+            change.calculateCoinReturn(Coin.QUARTERS, pennyChange);
+            
+            return change;
     }
 
     @Override
@@ -94,6 +136,4 @@ public class VendingMachineServiceLayerImpl implements VendingMachineServiceLaye
         dao.writeInventory();
     }
 
-   
-    
 }
