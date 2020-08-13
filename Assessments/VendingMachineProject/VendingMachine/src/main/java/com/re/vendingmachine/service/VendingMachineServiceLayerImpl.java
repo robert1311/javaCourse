@@ -110,9 +110,10 @@ public class VendingMachineServiceLayerImpl implements VendingMachineServiceLaye
 
     private void validateFunds(Item selected, BigDecimal funds) throws
             VendingMachineInsufficientFundsException {
+        BigDecimal difference = selected.getCost().subtract(funds);
         if (funds.compareTo(selected.getCost()) == -1) {
             throw new VendingMachineInsufficientFundsException("Insufficient "
-                    + "funds. Please add more $ for the slected item.");
+                    + "funds. Please add $" + difference + " for the slected item.");
         }
     }
     

@@ -47,7 +47,7 @@ public class VendingMachineView {
     }
 
     public BigDecimal promptToAddFunds(BigDecimal funds) {
-        return io.readBigDecimal("Enter funds into the machine (balance: $"
+        return io.readBigDecimal("Add funds into the machine (balance: $"
                 + funds.toString() + ")");
     }
 
@@ -75,8 +75,8 @@ public class VendingMachineView {
             operation = "SUCCESSFUL VEND!";
         }
         io.readString("==================================\n"
-                + operation + " Please Take your change of "
-                + change.getTotal() + ": \n"
+                + operation + " Please Take your change of $"
+                + BigDecimal.valueOf(change.getTotal()) + ": \n"
                 + change.getQuarters() + " Quarters\n"
                 + change.getDimes() + " Dimes\n"
                 + change.getNickels() + " Nickels\n"

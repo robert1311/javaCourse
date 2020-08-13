@@ -105,9 +105,15 @@ public class VendingMachineController {
                 view.displayErrorMessage(e.getMessage());
             }
         } while(hasErrors);
+        try{
+            saveInventory();
+        } catch (VendingMachinePersistenceException e){
+            view.displayErrorMessage(e.getMessage());
+        }
         if((int) changeDue.getTotal() == (int) funds.intValue()){
             isReturn = true;
         }
+        
         keepGoing = view.displayChangeDueAndAskToExit(changeDue, isReturn);
         return keepGoing;
     }
