@@ -7,6 +7,7 @@ package com.re.vendingmachine.controller;
 
 import com.re.vendingmachine.dao.VendingMachinePersistenceException;
 import com.re.vendingmachine.dto.Item;
+import com.re.vendingmachine.dto.Reservoir;
 import com.re.vendingmachine.service.Change;
 import com.re.vendingmachine.service.VendingMachineInsufficientFundsException;
 import com.re.vendingmachine.service.VendingMachineNoItemInventoryException;
@@ -41,6 +42,7 @@ public class VendingMachineController {
         boolean keepGoing = false;
         try{
             loadAllInventory();
+            loadReservoir();
         } catch (VendingMachinePersistenceException e){
             view.displayErrorMessage(e.getMessage());
         }
@@ -67,6 +69,7 @@ public class VendingMachineController {
         } while (keepGoing);
         try{
             saveInventory();
+            saveReservoir();
         } catch (VendingMachinePersistenceException e){
             view.displayErrorMessage(e.getMessage());
         }
@@ -89,10 +92,12 @@ public class VendingMachineController {
         Change changeDue = null;
         BigDecimal funds = new BigDecimal("0.00").setScale(2, 
                 RoundingMode.HALF_UP);
+        Reservoir in = service.getSpecReservoir("In");
         do{
             hasErrors = false;
             isReturn = false;
-            funds = funds.add(view.promptToAddFunds(funds));
+            funds = funds.add(view.promptToAddFunds(funds, in));
+            service.saveApiReservoir();
             List<Item> itemList = service.getFullItemList();
             int selection = view.displayInventoryAndMakeSelection(itemList, 
                     funds);
@@ -124,6 +129,14 @@ public class VendingMachineController {
     
     private void saveInventory() throws VendingMachinePersistenceException{
         service.saveApiInventory();
+    }
+    
+    private void loadReservoir() throws VendingMachinePersistenceException{
+        service.loadApiReservoir();
+    }
+    
+     private void saveReservoir() throws VendingMachinePersistenceException{
+        service.loadApiReservoir();
     }
     
     private void exitMessage(){

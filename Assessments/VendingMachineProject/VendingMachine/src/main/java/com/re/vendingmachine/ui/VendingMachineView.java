@@ -6,8 +6,10 @@
 package com.re.vendingmachine.ui;
 
 import com.re.vendingmachine.dto.Item;
+import com.re.vendingmachine.dto.Reservoir;
 import com.re.vendingmachine.service.Change;
 import java.math.BigDecimal;
+import java.math.RoundingMode;
 import java.util.List;
 
 /**
@@ -46,9 +48,54 @@ public class VendingMachineView {
         io.print("================================\n");
     }
 
-    public BigDecimal promptToAddFunds(BigDecimal funds) {
-        return io.readBigDecimal("Add funds into the machine (balance: $"
-                + funds.toString() + ")");
+    public BigDecimal promptToAddFunds(BigDecimal funds, Reservoir in) {
+        boolean keepGoing;
+        BigDecimal addFunds = new BigDecimal("0.00").setScale(2, RoundingMode.HALF_UP);
+        io.print("Add funds into the machine\n");
+        //BigDecimal quarter = new BigDecimal("0.25");
+        do{
+            keepGoing = true;
+            io.print("Current funds: $" + funds.add(addFunds).toString());
+            int selection = io.readInt("Add...\n"
+                    + "================\n"
+                    + "1) Quarter - .25\n"
+                    + "2) Dime - .10\n"
+                    + "3) Nickel - .05\n"
+                    + "4) Penny - .01\n"
+                    + "5) Done\n"
+                    + "================\n", 1, 5);
+            switch(selection){
+                case 1:
+                    in.setQuarters(in.getQuarters() + 1);
+                    addFunds = addFunds.add(BigDecimal.valueOf(0.25).setScale(2, 
+                            RoundingMode.HALF_UP));
+                    break;
+                case 2:
+                    in.setDimes(in.getDimes() + 1);
+                    addFunds = addFunds.add(BigDecimal.valueOf(0.10).setScale(2, 
+                            RoundingMode.HALF_UP));
+                    break;
+                case 3:
+                    in.setNickels(in.getNickels() + 1);
+                    addFunds = addFunds.add(BigDecimal.valueOf(0.05).setScale(2, 
+                            RoundingMode.HALF_UP));
+                    break;
+                case 4:
+                    in.setPennies(in.getPennies() + 1);
+                    addFunds = addFunds.add(BigDecimal.valueOf(0.01).setScale(2, 
+                            RoundingMode.HALF_UP));
+                    break;
+                case 5:
+                    keepGoing = false;
+                    break;
+                default:
+                    break;
+            }
+            
+        } while(keepGoing);
+        
+        
+        return addFunds;
     }
 
     public int displayInventoryAndMakeSelection(List<Item> itemList,
@@ -86,6 +133,8 @@ public class VendingMachineView {
         String exit = io.readString("Exit?");
         return exit.equalsIgnoreCase("n");
     }
+    
+    
 
     public void displayErrorMessage(String message) {
         io.print(message);

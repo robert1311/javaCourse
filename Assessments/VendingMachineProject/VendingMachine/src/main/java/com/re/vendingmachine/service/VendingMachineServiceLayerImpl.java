@@ -9,6 +9,7 @@ import com.re.vendingmachine.dao.VendingMachineAuditDao;
 import com.re.vendingmachine.dao.VendingMachineDao;
 import com.re.vendingmachine.dao.VendingMachinePersistenceException;
 import com.re.vendingmachine.dto.Item;
+import com.re.vendingmachine.dto.Reservoir;
 import java.math.BigDecimal;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -20,7 +21,7 @@ import java.util.stream.Collectors;
 public class VendingMachineServiceLayerImpl implements VendingMachineServiceLayer {
 
     private VendingMachineDao dao;
-    private VendingMachineAuditDao auditDao; 
+    private VendingMachineAuditDao auditDao;
 
     public VendingMachineServiceLayerImpl(VendingMachineDao dao,
             VendingMachineAuditDao auditDao) {
@@ -47,6 +48,16 @@ public class VendingMachineServiceLayerImpl implements VendingMachineServiceLaye
     }
 
     @Override
+    public Reservoir getSpecReservoir(String type) {
+        return dao.getReservoir(type);
+    }
+
+    private Reservoir updateReservoir(Reservoir reservoir) {
+        return dao.putReservoir(reservoir);
+
+    }
+
+    @Override
     public Change validateFundsAndAvailability(BigDecimal funds, int selection)
             throws VendingMachineInsufficientFundsException,
             VendingMachineNoItemInventoryException,
@@ -61,7 +72,7 @@ public class VendingMachineServiceLayerImpl implements VendingMachineServiceLaye
         String itemPrice;
         String itemCount;
         BigDecimal lOO = new BigDecimal("100");
-        
+
         if (selection <= fullInventory.size()) {
             List<Item> availableItems = this.getAvailableItemsList();
             int index = selection - 1;
@@ -75,10 +86,10 @@ public class VendingMachineServiceLayerImpl implements VendingMachineServiceLaye
 
             BigDecimal bigChange = funds.subtract(selected.getCost());
             pennyChange = bigChange.multiply(lOO).intValue();
-           operation = "Successful Vend";
-           itemName = selected.getName();
-           itemPrice = selected.getCost().toString();
-           itemCount = String.valueOf(selected.getCount());
+            operation = "Successful Vend";
+            itemName = selected.getName();
+            itemPrice = selected.getCost().toString();
+            itemCount = String.valueOf(selected.getCount());
         } else {//Coin Return
             pennyChange = funds.multiply(lOO).intValue();
             operation = "Coin Return";
@@ -86,16 +97,19 @@ public class VendingMachineServiceLayerImpl implements VendingMachineServiceLaye
             itemPrice = "N/A";
             itemCount = "N/A";
         }
-        change = calculateChange(pennyChange);
-            
+        Reservoir out = this.getSpecReservoir("Out");
+        change = calculateChange(pennyChange, out);
+        updateReservoir(out);
+        this.saveApiReservoir();
+
         //write audit log
         auditDao.writeAuditLog(operation + " : " + itemName + " : $" + itemPrice
-            + " : Count-" + itemCount + " : Change Return - "
-                    + "Quarters[" + change.getQuarters() + "],"
-                    + "Dimes[" + change.getDimes() + "],"
-                            + "Nickels[" + change.getNickels() + "],"
+                + " : Count-" + itemCount + " : Change Return - "
+                + "Quarters[" + change.getQuarters() + "],"
+                + "Dimes[" + change.getDimes() + "],"
+                + "Nickels[" + change.getNickels() + "],"
                 + "Pennies[" + change.getPennies() + "]");
-            
+
         return change;
     }
 
@@ -116,15 +130,45 @@ public class VendingMachineServiceLayerImpl implements VendingMachineServiceLaye
                     + "funds. Please add $" + difference + " for the slected item.");
         }
     }
-    
-    private Change calculateChange(int pennyChange){
+
+    private Change calculateChange(int pennyChange, Reservoir out) {
+        int quartersOut;
+        int dimesOut;
+        int nickelsOut;
+        int penniesOut;
+
         Change change = new Change();
-            change.calculateCoinReturn(Coin.PENNIES, pennyChange);
-            change.calculateCoinReturn(Coin.NICKELS, pennyChange);
-            change.calculateCoinReturn(Coin.DIMES, pennyChange);
-            change.calculateCoinReturn(Coin.QUARTERS, pennyChange);
-            
-            return change;
+        Reservoir in = this.getSpecReservoir("In");
+
+        quartersOut = change.calculateCoinReturn(Coin.QUARTERS, pennyChange);
+        if (out.getQuarters() <= quartersOut) {
+            out.setQuarters(out.getQuarters() + in.getQuarters());
+            in.setQuarters(0);
+        }
+        out.setQuarters(out.getQuarters() - quartersOut);
+
+        dimesOut = change.calculateCoinReturn(Coin.DIMES, pennyChange);
+        if (out.getDimes() <= dimesOut) {
+            out.setDimes(out.getDimes() + in.getDimes());
+            in.setDimes(0);
+        }
+            out.setDimes(out.getDimes() - dimesOut);
+        
+        nickelsOut = change.calculateCoinReturn(Coin.NICKELS, pennyChange);
+        if (out.getNickels() <= nickelsOut) {
+            out.setNickels(out.getNickels() + in.getNickels());
+            in.setNickels(0);
+        }
+            out.setNickels(out.getNickels() - nickelsOut);
+        
+        penniesOut = change.calculateCoinReturn(Coin.PENNIES, pennyChange);
+        if (out.getPennies() <= penniesOut) {
+            out.setPennies(out.getPennies() + in.getPennies());
+            in.setPennies(0);
+        }
+            out.setPennies(out.getPennies() - penniesOut);
+
+        return change;
     }
 
     @Override
@@ -135,6 +179,16 @@ public class VendingMachineServiceLayerImpl implements VendingMachineServiceLaye
     @Override
     public void saveApiInventory() throws VendingMachinePersistenceException {
         dao.writeInventory();
+    }
+
+    @Override
+    public void loadApiReservoir() throws VendingMachinePersistenceException {
+        dao.loadReservoir();
+    }
+
+    @Override
+    public void saveApiReservoir() throws VendingMachinePersistenceException {
+        dao.writeReservoir();
     }
 
 }

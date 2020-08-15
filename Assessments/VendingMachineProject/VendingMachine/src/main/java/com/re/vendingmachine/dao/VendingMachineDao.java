@@ -6,6 +6,7 @@
 package com.re.vendingmachine.dao;
 
 import com.re.vendingmachine.dto.Item;
+import com.re.vendingmachine.dto.Reservoir;
 import java.util.List;
 
 /**
@@ -40,6 +41,16 @@ public interface VendingMachineDao {
      * @return 
      */
     public Item removeItem(Item item);
+    
+    /**
+     * returns the coin reservoir needed for the appropriate vending machine
+     * operation.
+     * @param type of reservoir to be returned.
+     * @return specified reservoir
+     */
+    public Reservoir getReservoir(String type);
+    
+    public Reservoir putReservoir(Reservoir type);
 
     /**
      * loads inventory from external storage to in-memory storage
@@ -52,4 +63,8 @@ public interface VendingMachineDao {
      * @throws com.re.vendingmachine.dao.VendingMachinePersistenceException
      */
     public void writeInventory() throws VendingMachinePersistenceException;
+    
+    public void loadReservoir() throws VendingMachinePersistenceException;
+    
+    public void writeReservoir() throws VendingMachinePersistenceException;
 }

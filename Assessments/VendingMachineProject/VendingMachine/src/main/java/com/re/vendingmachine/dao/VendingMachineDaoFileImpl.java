@@ -6,6 +6,7 @@
 package com.re.vendingmachine.dao;
 
 import com.re.vendingmachine.dto.Item;
+import com.re.vendingmachine.dto.Reservoir;
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -27,8 +28,10 @@ import java.util.Scanner;
 public class VendingMachineDaoFileImpl implements VendingMachineDao{
 
     Map<String, Item> itemMap = new HashMap<>();
+    Map<String, Reservoir> reservoirMap = new HashMap<>();
     public static final String DELIMITER = "::";
     public static final String INVENTORY_FILE = "inventory.txt";
+    public static final String RESERVOIR_FILE = "reservoir.txt";
     
     
     @Override
@@ -39,6 +42,16 @@ public class VendingMachineDaoFileImpl implements VendingMachineDao{
     @Override
     public Item getItem(String name) {
         return itemMap.get(name);
+    }
+    
+    @Override
+    public Reservoir getReservoir(String type){
+        return reservoirMap.get(type);
+    }
+    
+    @Override
+    public Reservoir putReservoir(Reservoir type){
+        return reservoirMap.put(type.getReservoirType(), type);
     }
 
     @Override
@@ -117,7 +130,69 @@ public class VendingMachineDaoFileImpl implements VendingMachineDao{
         out.close();
     }
 
-
+    private Reservoir unmarshallReservoir(String reservoirAsText){
+        String[] resTokens = reservoirAsText.split(DELIMITER);
+        
+        String type = resTokens[0];
+        Reservoir unmarshalledRes = new Reservoir(type);
+        unmarshalledRes.setQuarters(Integer.parseInt(resTokens[1]));
+        unmarshalledRes.setDimes(Integer.parseInt(resTokens[2]));
+        unmarshalledRes.setNickels(Integer.parseInt(resTokens[3]));
+        unmarshalledRes.setPennies(Integer.parseInt(resTokens[4]));
+        
+        
+        
+        return unmarshalledRes;
+    }
     
+    @Override
+    public void loadReservoir() throws VendingMachinePersistenceException{
+        Scanner sc;
+        try {
+            sc = new Scanner(new BufferedReader(
+                    new FileReader(RESERVOIR_FILE)));
+        } catch (FileNotFoundException e) {
+            throw new VendingMachinePersistenceException("Error: Inventory "
+                    + "could not be loaded.", e);
+        }
+        
+        Reservoir currentReservoir;
+        String currentLine;
+        
+        while(sc.hasNext()){
+            currentLine = sc.nextLine();
+            currentReservoir = unmarshallReservoir(currentLine);
+            reservoirMap.put(currentReservoir.getReservoirType(), currentReservoir);
+        }
+        sc.close();
+    }
+    
+    public String marshallReservoir(Reservoir reservoir){
+        String reservoirAsText = reservoir.getReservoirType() + DELIMITER;
+        reservoirAsText += reservoir.getQuarters() + DELIMITER;
+        reservoirAsText += reservoir.getDimes() + DELIMITER;
+        reservoirAsText += reservoir.getNickels() + DELIMITER;
+        reservoirAsText += reservoir.getPennies();
+        
+        return reservoirAsText;
+    }
+    
+    @Override
+    public void writeReservoir() throws VendingMachinePersistenceException{
+        PrintWriter out;
+        try{
+        out = new PrintWriter(new FileWriter(RESERVOIR_FILE));
+        } catch(IOException e){
+            throw new VendingMachinePersistenceException(
+                    "Could not save reservoir. Try again later.", e);
+        }
+        String marshalledReservoir;
+        for(Reservoir currentReservoir : reservoirMap.values()){
+            marshalledReservoir = marshallReservoir(currentReservoir);
+            out.println(marshalledReservoir);
+            out.flush();
+        }
+        out.close();
+    }
     
 }

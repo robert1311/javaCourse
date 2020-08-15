@@ -4,7 +4,7 @@
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="11.0.8+10"/>
     <property name="sun.boot.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-11.0.8.10-hotspot\bin"/>
-    <property name="maven.multiModuleProjectDirectory" value="E:\Documents\repos\java-dal-0120-robert1311\Classwork\m3-IntermediateJava\Assessment\VendingMachine"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\rober\Documents\myRepos\javaCourse\Assessments\VendingMachineProject\VendingMachine"/>
     <property name="java.vm.vendor" value="AdoptOpenJDK"/>
     <property name="java.vendor.url" value="https://adoptopenjdk.net/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -14,9 +14,8 @@
     <property name="user.script" value=""/>
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="test" value="com.re.vendingmachine.dao.VendingMachineDaoTest"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="E:\Documents\repos\java-dal-0120-robert1311\Classwork\m3-IntermediateJava\Assessment\VendingMachine"/>
+    <property name="user.dir" value="C:\Users\rober\Documents\myRepos\javaCourse\Assessments\VendingMachineProject\VendingMachine"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="java.runtime.version" value="11.0.8+10"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
@@ -45,7 +44,7 @@
     <property name="java.class.path" value="C:\Users\rober\Documents\netbeans\java\maven\boot\plexus-classworlds-2.5.2.jar"/>
     <property name="java.vm.specification.version" value="11"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dtest=com.re.vendingmachine.dao.VendingMachineDaoTest -Dmaven.ext.class.path=C:\Users\rober\Documents\netbeans\java\maven-nblib\netbeans-eventspy.jar -Dfile.encoding=UTF-8 surefire:test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dmaven.ext.class.path=C:\Users\rober\Documents\netbeans\java\maven-nblib\netbeans-eventspy.jar -Dfile.encoding=UTF-8 clean install"/>
     <property name="java.home" value="C:\Program Files\AdoptOpenJDK\jdk-11.0.8.10-hotspot"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>

@@ -7,6 +7,7 @@ package com.re.vendingmachine.service;
 
 import com.re.vendingmachine.dao.VendingMachinePersistenceException;
 import com.re.vendingmachine.dto.Item;
+import com.re.vendingmachine.dto.Reservoir;
 import java.math.BigDecimal;
 import java.util.List;
 
@@ -37,11 +38,16 @@ public interface VendingMachineServiceLayer {
      */
     Item getInventoryItem(String name);
     
+    Reservoir getSpecReservoir(String reservoirType);
+    
+    //Reservoir updateReservoir(Reservoir reservoir);
+    
+    
     /**
      * Checks if funds entered by the user is sufficient for the purchase the 
-     * item that they selected. Then checks if the item is in stock.If both 
-     * conditions are met the method return true else, returns false. Also 
-     * writes to an audit log or inventory history tracking.
+     * item that they selected.Then checks if the item is in stock.If both 
+ conditions are met the method return true else, returns false. Also 
+ writes to an audit log or inventory history tracking.
      * @param funds that the user entered as input.
      * @param selection the integer corresponding to the item selected.
      * @return Change due to the user.
@@ -71,4 +77,8 @@ public interface VendingMachineServiceLayer {
      * @throws VendingMachinePersistenceException if inventory cannot be saved.
      */
     void saveApiInventory() throws VendingMachinePersistenceException;
+    
+    void loadApiReservoir() throws VendingMachinePersistenceException;
+    
+    void saveApiReservoir() throws VendingMachinePersistenceException;
 }

@@ -11,6 +11,7 @@ import com.re.vendingmachine.dao.VendingMachineDao;
 import com.re.vendingmachine.dao.VendingMachineDaoStubImpl;
 import com.re.vendingmachine.dao.VendingMachinePersistenceException;
 import com.re.vendingmachine.dto.Item;
+import com.re.vendingmachine.dto.Reservoir;
 import java.math.BigDecimal;
 import java.util.List;
 import org.junit.jupiter.api.AfterEach;
@@ -89,6 +90,17 @@ public class VendingMachineServiceLayerTest {
         assertTrue(ofTwo.contains(fromDao));
         assertTrue(ofTwo.contains(fromDao2));
     }
+    
+     /**
+     * Test of testGetReservoir method, of class VendingMachineServiceLayer.
+     */
+   @Test
+   public void testGetReservoir(){
+       Reservoir inFromDao =  service.getSpecReservoir("in");
+        assertEquals("in", inFromDao.getReservoirType());
+        Reservoir outFromDao =  service.getSpecReservoir("out");
+        assertEquals("out", outFromDao.getReservoirType());
+   }
 
     /**
      * Test funds validation of validateFundsAndAvailability method, of class 
@@ -115,7 +127,6 @@ public class VendingMachineServiceLayerTest {
     @Test
     public void testItemAvailability() throws Exception {
         BigDecimal funds = new BigDecimal("1.00");
-        
         try{
         service.validateFundsAndAvailability(funds, 2);
         fail("Expected VendingMachineNoItemInventoryException");

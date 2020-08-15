@@ -6,6 +6,7 @@
 package com.re.vendingmachine.dao;
 
 import com.re.vendingmachine.dto.Item;
+import com.re.vendingmachine.dto.Reservoir;
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -25,7 +26,10 @@ public class VendingMachineDaoStubImpl implements VendingMachineDao {
     
     Item pricyItem;
     Item noItem;
+    Reservoir inReservoir;
+    Reservoir outReservoir;
     List<Item> itemList = new ArrayList<>();
+    List<Reservoir> resList = new ArrayList<>();
 
     public VendingMachineDaoStubImpl() {
         pricyItem = new Item("Cola");
@@ -41,6 +45,22 @@ public class VendingMachineDaoStubImpl implements VendingMachineDao {
         noItem.setCount(0);
 
         itemList.add(noItem);
+        
+        inReservoir = new Reservoir("in");
+        inReservoir.setQuarters(0);
+        inReservoir.setDimes(0);
+        inReservoir.setNickels(0);
+        inReservoir.setPennies(0);
+        
+        resList.add(inReservoir);
+        
+        outReservoir = new Reservoir("out");
+        outReservoir.setQuarters(10);
+        outReservoir.setDimes(10);
+        outReservoir.setNickels(10);
+        outReservoir.setPennies(10);
+        
+        resList.add(outReservoir);
     }
 
     @Override
@@ -101,6 +121,50 @@ public class VendingMachineDaoStubImpl implements VendingMachineDao {
         } catch(IOException e){
             throw new VendingMachinePersistenceException(
                     "Could not save inventory. Try again later.", e);
+        }
+    }
+
+    @Override
+    public Reservoir getReservoir(String type) {
+        if(type.equalsIgnoreCase("In")){
+            return inReservoir;
+        } else if(type.equalsIgnoreCase("Out")){
+            return outReservoir;
+        } else{
+            return null;
+        }
+    }
+    
+    @Override
+    public Reservoir putReservoir(Reservoir type){
+        if(type.getReservoirType().equalsIgnoreCase("In")){
+            return inReservoir;
+        } else if(type.getReservoirType().equalsIgnoreCase("Out")){
+            return outReservoir;
+        } else{
+            return null;
+        }
+    }
+
+    @Override
+    public void loadReservoir() throws VendingMachinePersistenceException {
+Scanner sc;
+        try {
+            sc = new Scanner(new BufferedReader(
+                    new FileReader("")));
+        } catch (FileNotFoundException e) {
+            throw new VendingMachinePersistenceException("Error: Reservoir "
+                    + "could not be loaded.", e);
+        }    }
+
+    @Override
+    public void writeReservoir() throws VendingMachinePersistenceException {
+        PrintWriter out;
+        try{
+        out = new PrintWriter(new FileWriter(""));
+        } catch(IOException e){
+            throw new VendingMachinePersistenceException(
+                    "Could not save reservoir. Try again later.", e);
         }
     }
 }
