@@ -104,6 +104,7 @@ public class VendingMachineController {
             try{
             changeDue = service.validateFundsAndAvailability(funds, 
                     selection);
+            service.updateReservoir(service.getSpecReservoir("Out"));
             } catch(VendingMachineInsufficientFundsException 
                     | VendingMachineNoItemInventoryException e){
                 hasErrors = true;
@@ -111,6 +112,7 @@ public class VendingMachineController {
             }
         } while(hasErrors);
         try{
+            saveReservoir();
             saveInventory();
         } catch (VendingMachinePersistenceException e){
             view.displayErrorMessage(e.getMessage());
@@ -136,7 +138,7 @@ public class VendingMachineController {
     }
     
      private void saveReservoir() throws VendingMachinePersistenceException{
-        service.loadApiReservoir();
+        service.saveApiReservoir();
     }
     
     private void exitMessage(){

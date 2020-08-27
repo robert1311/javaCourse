@@ -40,7 +40,12 @@ public interface VendingMachineServiceLayer {
     
     Reservoir getSpecReservoir(String reservoirType);
     
-    //Reservoir updateReservoir(Reservoir reservoir);
+    /**
+     * Updates the counts for each coin in the specified reservoir
+     * @param reservoir
+     * @return the specified updated reservoir
+     */
+    Reservoir updateReservoir(Reservoir reservoir);
     
     
     /**

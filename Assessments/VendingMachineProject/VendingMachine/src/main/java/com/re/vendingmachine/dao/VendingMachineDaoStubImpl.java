@@ -35,7 +35,7 @@ public class VendingMachineDaoStubImpl implements VendingMachineDao {
         pricyItem = new Item("Cola");
         BigDecimal cost = new BigDecimal("2.00");
         pricyItem.setCost(cost);
-        pricyItem.setCount(1);
+        pricyItem.setCount(10);
 
         itemList.add(pricyItem);
         

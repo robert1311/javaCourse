@@ -5,11 +5,6 @@
  */
 package com.re.vendingmachine.service;
 
-import com.re.vendingmachine.dao.VendingMachineAuditDao;
-import com.re.vendingmachine.dao.VendingMachineAuditDaoStubImpl;
-import com.re.vendingmachine.dao.VendingMachineDao;
-import com.re.vendingmachine.dao.VendingMachineDaoStubImpl;
-import com.re.vendingmachine.dao.VendingMachinePersistenceException;
 import com.re.vendingmachine.dto.Item;
 import com.re.vendingmachine.dto.Reservoir;
 import java.math.BigDecimal;
@@ -22,6 +17,8 @@ import static org.junit.jupiter.api.Assertions.fail;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
  *
@@ -32,10 +29,14 @@ public class VendingMachineServiceLayerTest {
     VendingMachineServiceLayer service;
     
     public VendingMachineServiceLayerTest() {
-        VendingMachineDao dao = new VendingMachineDaoStubImpl();
-        VendingMachineAuditDao auditDao = new VendingMachineAuditDaoStubImpl();
+//        VendingMachineDao dao = new VendingMachineDaoStubImpl();
+//        VendingMachineAuditDao auditDao = new VendingMachineAuditDaoStubImpl();
         
-        service = new VendingMachineServiceLayerImpl(dao, auditDao);
+        ApplicationContext ctx = 
+                new ClassPathXmlApplicationContext("applicationContext.xml");
+        service =ctx.getBean("serviceLayer", VendingMachineServiceLayer.class);
+
+        
     }
     
     @BeforeAll
@@ -143,37 +144,38 @@ public class VendingMachineServiceLayerTest {
     @Test
     public void testSuccessfulVend() throws Exception {
         BigDecimal funds = new BigDecimal("2.00");
+        int iCount = service.getInventoryItem("Cola").getCount();
         service.validateFundsAndAvailability(funds, 1);
-        assertEquals(0, service.getInventoryItem("Cola").getCount());
+        assertEquals(iCount - 1, service.getInventoryItem("Cola").getCount());
     }
 
-    /**
-     * Test of loadApiInventory method, of class VendingMachineServiceLayer.
-     * @throws java.lang.Exception
-     */
-    @Test
-    public void testLoadApiInventory() throws Exception{
-        try{
-            service.loadApiInventory();
-            fail("Expected VendingMachinePersistenceEception was not thrown.");
-        }catch(VendingMachinePersistenceException e){
-            
-        }
-    }
-    
-    /**
-     * Test of saveApiInventory method, of class VendingMachineServiceLayer.
-     * @throws java.lang.Exception
-     */
-    @Test
-    public void testSaveApiInventory() throws Exception {
-        try{
-            service.saveApiInventory();
-            fail("Expected VendingMachinePersistenceEception was not thrown.");
-        }catch(VendingMachinePersistenceException e){
-            
-        }
-    }
+//    /**
+//     * Test of loadApiInventory method, of class VendingMachineServiceLayer.
+//     * @throws java.lang.Exception
+//     */
+//    @Test
+//    public void testLoadApiInventory() throws Exception{
+//        try{
+//            service.loadApiInventory();
+//            fail("Expected VendingMachinePersistenceEception was not thrown.");
+//        }catch(VendingMachinePersistenceException e){
+//            
+//        }
+//    }
+//    
+//    /**
+//     * Test of saveApiInventory method, of class VendingMachineServiceLayer.
+//     * @throws java.lang.Exception
+//     */
+//    @Test
+//    public void testSaveApiInventory() throws Exception {
+//        try{
+//            service.saveApiInventory();
+//            fail("Expected VendingMachinePersistenceEception was not thrown.");
+//        }catch(VendingMachinePersistenceException e){
+//            
+//        }
+//    }
 
    
     

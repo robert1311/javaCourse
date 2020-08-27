@@ -52,7 +52,9 @@ public class VendingMachineServiceLayerImpl implements VendingMachineServiceLaye
         return dao.getReservoir(type);
     }
 
-    private Reservoir updateReservoir(Reservoir reservoir) {
+    
+    @Override
+    public Reservoir updateReservoir(Reservoir reservoir) {
         return dao.putReservoir(reservoir);
 
     }
@@ -99,8 +101,8 @@ public class VendingMachineServiceLayerImpl implements VendingMachineServiceLaye
         }
         Reservoir out = this.getSpecReservoir("Out");
         change = calculateChange(pennyChange, out);
-        updateReservoir(out);
-        this.saveApiReservoir();
+//        updateReservoir(out);
+//        this.saveApiReservoir();
 
         //write audit log
         auditDao.writeAuditLog(operation + " : " + itemName + " : $" + itemPrice
