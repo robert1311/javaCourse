@@ -54,6 +54,7 @@ public class Cost {
     public void setTotalCost(BigDecimal totalCost) {
         this.totalCost = totalCost;
     }
+    
 
     @Override
     public int hashCode() {
