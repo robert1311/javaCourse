@@ -53,7 +53,7 @@ public class FlooringDaoFileImpl implements FlooringDao {
 
     @Override
     public Product addProduct(Product product) {
-        return productMap.put(product.getProdutType(), product);
+        return productMap.put(product.getProductType(), product);
     }
 
     @Override

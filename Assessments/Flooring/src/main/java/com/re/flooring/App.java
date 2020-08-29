@@ -6,6 +6,11 @@
 package com.re.flooring;
 
 import com.re.flooring.controller.FlooringController;
+import com.re.flooring.dao.FlooringDao;
+import com.re.flooring.dao.FlooringDaoFileImpl;
+import com.re.flooring.ui.FlooringView;
+import com.re.flooring.ui.UserIO;
+import com.re.flooring.ui.UserIOConsoleImpl;
 
 /**
  *
@@ -13,7 +18,10 @@ import com.re.flooring.controller.FlooringController;
  */
 public class App {
     public static void main(String[] args) {
-        FlooringController controller = new FlooringController();
+        UserIO myIO = new UserIOConsoleImpl();
+        FlooringView myView = new FlooringView(myIO);
+        FlooringDao myDao = new FlooringDaoFileImpl();
+        FlooringController controller = new FlooringController(myDao, myView);
         controller.run();
     }
 }

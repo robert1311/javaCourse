@@ -5,6 +5,7 @@
  */
 package com.re.flooring.dto;
 
+import java.time.LocalDate;
 import java.util.Objects;
 
 /**
@@ -18,10 +19,13 @@ public class Order {
     private Product productInfo;
     private State stateInfo;
     private Cost costInfo;
+    private LocalDate orderDate;
 
-    public Order(int orderNumber, String customerName, String productType, 
+   
+
+    public Order(String customerName, String productType, 
             String stateName){
-        this.orderNumber = orderNumber;
+        
         this.customerName = customerName;
         productInfo = new Product(productType);
         stateInfo = new State(stateName);
@@ -75,15 +79,24 @@ public class Order {
         this.costInfo = costInfo;
     }
 
+     public LocalDate getOrderDate() {
+        return orderDate;
+    }
+
+    public void setOrderDate(LocalDate orderDate) {
+        this.orderDate = orderDate;
+    }
+
     @Override
     public int hashCode() {
         int hash = 5;
-        hash = 79 * hash + this.orderNumber;
-        hash = 79 * hash + Objects.hashCode(this.customerName);
-        hash = 79 * hash + (int) (Double.doubleToLongBits(this.area) ^ (Double.doubleToLongBits(this.area) >>> 32));
-        hash = 79 * hash + Objects.hashCode(this.productInfo);
-        hash = 79 * hash + Objects.hashCode(this.stateInfo);
-        hash = 79 * hash + Objects.hashCode(this.costInfo);
+        hash = 89 * hash + this.orderNumber;
+        hash = 89 * hash + Objects.hashCode(this.customerName);
+        hash = 89 * hash + (int) (Double.doubleToLongBits(this.area) ^ (Double.doubleToLongBits(this.area) >>> 32));
+        hash = 89 * hash + Objects.hashCode(this.productInfo);
+        hash = 89 * hash + Objects.hashCode(this.stateInfo);
+        hash = 89 * hash + Objects.hashCode(this.costInfo);
+        hash = 89 * hash + Objects.hashCode(this.orderDate);
         return hash;
     }
 
@@ -117,8 +130,12 @@ public class Order {
         if (!Objects.equals(this.costInfo, other.costInfo)) {
             return false;
         }
+        if (!Objects.equals(this.orderDate, other.orderDate)) {
+            return false;
+        }
         return true;
     }
     
+   
     
 }

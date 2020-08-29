@@ -13,20 +13,20 @@ import java.util.Objects;
  * @author rober
  */
 public class Product {
-    private String produtType;
+    private String productType;
     private BigDecimal matCostPerSqFt;
     private BigDecimal labCostPersqft;
 
     public Product(String productType){
-        this.produtType = productType;
-    }
-    
-    public String getProdutType() {
-        return produtType;
+        this.productType = productType;
     }
 
-    public void setProdutType(String produtType) {
-        this.produtType = produtType;
+    public String getProductType() {
+        return productType;
+    }
+
+    public void setProductType(String productType) {
+        this.productType = productType;
     }
 
     public BigDecimal getMatCostPerSqFt() {
@@ -48,7 +48,7 @@ public class Product {
     @Override
     public int hashCode() {
         int hash = 7;
-        hash = 97 * hash + Objects.hashCode(this.produtType);
+        hash = 97 * hash + Objects.hashCode(this.productType);
         hash = 97 * hash + Objects.hashCode(this.matCostPerSqFt);
         hash = 97 * hash + Objects.hashCode(this.labCostPersqft);
         return hash;
@@ -66,7 +66,7 @@ public class Product {
             return false;
         }
         final Product other = (Product) obj;
-        if (!Objects.equals(this.produtType, other.produtType)) {
+        if (!Objects.equals(this.productType, other.productType)) {
             return false;
         }
         if (!Objects.equals(this.matCostPerSqFt, other.matCostPerSqFt)) {

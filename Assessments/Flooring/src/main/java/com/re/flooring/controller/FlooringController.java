@@ -5,8 +5,13 @@
  */
 package com.re.flooring.controller;
 
+import com.re.flooring.dao.FlooringDao;
+import com.re.flooring.dto.Product;
+import com.re.flooring.dto.State;
+import com.re.flooring.ui.FlooringView;
 import com.re.flooring.ui.UserIO;
 import com.re.flooring.ui.UserIOConsoleImpl;
+import java.util.List;
 
 /**
  *
@@ -15,6 +20,13 @@ import com.re.flooring.ui.UserIOConsoleImpl;
 public class FlooringController {
     
     UserIO io = new UserIOConsoleImpl();
+    FlooringDao dao;
+    FlooringView view;
+    
+    public FlooringController(FlooringDao dao, FlooringView view){
+        this.dao = dao;
+        this.view = view;
+    }
     
     /*runs a program used to manage flooring orders through CRUD operations*/
     public void run(){
@@ -25,16 +37,10 @@ public class FlooringController {
         keep cycling back to menu after each user case until the "quit' option 
         is selected*/
         while(keepGoing){
-            selection = io.readInt("Choose an operation from the following.\n"
-                    + "1) Create Order\n"
-                    + "2) Get Order\n"
-                    + "3) Get Orders By Date\n"
-                    + "4) Update Order\n"
-                    + "5) Remove Order\n"
-                    + "6) Save & Quit\n", 1, 6);
+            selection = view.displayMenuAndGetSelection("#");
             switch(selection){
                 case 1:
-                    io.print("CREATE ORDER");
+                    createOrder();
                     break;
                 case 2:
                     io.print("GET ORDER");
@@ -52,8 +58,17 @@ public class FlooringController {
                     keepGoing = false;
                     io.print("QUIT");
                     break;
+                default:
+                    io.print("INVALID ENTRY");
+                    
             }
         }
         io.print("GOODBYE!");
+    }
+    
+    private void createOrder(){
+        List<State> stateList = dao.getAllStates();
+        List<Product> productList = dao.getAllProducts();
+        view.displayGetNewOrderInfo(stateList, productList);
     }
 }
