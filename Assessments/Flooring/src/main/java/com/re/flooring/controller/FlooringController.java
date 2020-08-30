@@ -6,6 +6,7 @@
 package com.re.flooring.controller;
 
 import com.re.flooring.dao.FlooringDao;
+import com.re.flooring.dao.FlooringPersistenceException;
 import com.re.flooring.dto.Product;
 import com.re.flooring.dto.State;
 import com.re.flooring.ui.FlooringView;
@@ -18,27 +19,34 @@ import java.util.List;
  * @author rober
  */
 public class FlooringController {
-    
+
     UserIO io = new UserIOConsoleImpl();
     FlooringDao dao;
     FlooringView view;
-    
-    public FlooringController(FlooringDao dao, FlooringView view){
+
+    public FlooringController(FlooringDao dao, FlooringView view) {
         this.dao = dao;
         this.view = view;
     }
-    
+
     /*runs a program used to manage flooring orders through CRUD operations*/
-    public void run(){
+    public void run() {
         boolean keepGoing = true;
         int selection;
-        
+
+        try {
+            dao.loadOrders();
+            dao.loadStates();
+            dao.loadProducts();
+        } catch (FlooringPersistenceException e) {
+            view.displayErrorMessage(e.getMessage());
+        }
         /*Menu allows user to create, read, update, delete orders; 
         keep cycling back to menu after each user case until the "quit' option 
         is selected*/
-        while(keepGoing){
+        while (keepGoing) {
             selection = view.displayMenuAndGetSelection("#");
-            switch(selection){
+            switch (selection) {
                 case 1:
                     createOrder();
                     break;
@@ -60,15 +68,16 @@ public class FlooringController {
                     break;
                 default:
                     io.print("INVALID ENTRY");
-                    
+
             }
         }
         io.print("GOODBYE!");
     }
-    
-    private void createOrder(){
+
+    private void createOrder() {
         List<State> stateList = dao.getAllStates();
         List<Product> productList = dao.getAllProducts();
         view.displayGetNewOrderInfo(stateList, productList);
     }
+
 }

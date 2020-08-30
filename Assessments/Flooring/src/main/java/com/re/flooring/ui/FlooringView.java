@@ -54,19 +54,25 @@ public class FlooringView {
         String stateEntry;
         String productEntry;
         double area;
-
-        io.print("All fields must be filled in before an order can be "
-                + "created.");
+        
+        io.print("\nAll fields must be filled in before an order can be "
+                + "created.\n");
+        //Enter non-blank Customer Name
         do{
         customerName = io.readString("Enter customer's name.");
         } while(customerName.isBlank());
+        
+        //Enter valid State
         do {
             hasErrors = true;
-            stateEntry = io.readString("Enter state code for the customer's "
-                    + "order from the list of eligible states.");
+             io.print("\nEnter state code for the customer's "
+                    + "order from the list of eligible states.\n"
+                    + "========");
             stateList.forEach((state) -> {
                 io.print(state.getStateName());
             });
+           
+            stateEntry = io.readString("");
             for(State state : stateList){
                 if(state.getStateName().equalsIgnoreCase(stateEntry
                         .toUpperCase())){
@@ -75,35 +81,45 @@ public class FlooringView {
                 }
             }
             if(hasErrors){
-                io.print("===Invalid Entry===");
+                io.print("\n===Invalid Entry===\n");
             }
         } while (hasErrors);
-
         
+        //Enter valid Product type
         do {
             hasErrors = false;
-            productEntry = io.readString("Enter product type for the customer's "
-                    + "order from the list of eligible products.");
+            io.print("Enter product type for the customer's "
+                    + "order from the list of eligible products.\n"
+                    + "========");
             productList.forEach((product) -> {
                 io.print(product.getProductType());
             });
+            
+            productEntry = io.readString("");
             for(Product product : productList){
-                if(product.getProductType().equalsIgnoreCase(stateEntry
+                if(product.getProductType().equalsIgnoreCase(productEntry
                         .toUpperCase())){
                     hasErrors = false;
                     break;
                 }
             }
             if(hasErrors){
-                io.print("===Invalid Entry===");
+                io.print("\n===Invalid Entry===\n");
             }
         } while (hasErrors);
 
-        area = io.readDouble("Enter the area amount to be covered. (in sqFt)"
-                , 0, 10000);
+        //Enter Area to be covered
+        area = io.readDouble("\nEnter the area amount to be covered. (in sqFt)\n"
+                + "(min 10 SqFt - max 10,000)"
+                , 10, 10000);
         
+        //Create new Order and set values
         Order newOrder = new Order(customerName, stateEntry, productEntry);
+        newOrder.setArea(area);
         return newOrder;
     }
 
+    public void displayErrorMessage(String message) {
+        io.print(message);
+    }
 }

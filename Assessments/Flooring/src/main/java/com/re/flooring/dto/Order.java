@@ -35,9 +35,9 @@ public class Order {
         return orderNumber;
     }
 
-//    public void setOrderNumber(int orderNumber) {//handle in SL
-//        this.orderNumber = orderNumber;
-//    }
+    public void setOrderNumber(int orderNumber) {//handle in SL
+        this.orderNumber = orderNumber;
+    }
 
     public String getCustomerName() {
         return customerName;

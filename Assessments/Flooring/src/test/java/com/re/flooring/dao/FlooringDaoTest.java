@@ -168,7 +168,8 @@ public class FlooringDaoTest {
      */
     @Test
     public void testAddGetOrder() {
-        Order newOrder = new Order(1, "Rob", "Wood", "Tx");
+        Order newOrder = new Order("Rob", "Wood", "Tx");
+        newOrder.setOrderNumber(1);
         newOrder.setArea(5.00);
         newOrder.getProductInfo().setLabCostPersqft(BigDecimal.TEN);
         newOrder.getProductInfo().setMatCostPerSqFt(BigDecimal.TEN);
@@ -186,7 +187,8 @@ public class FlooringDaoTest {
      */
     @Test
     public void testGetAllOrder() {
-        Order newOrder = new Order(1, "Rob", "Wood", "TX");
+        Order newOrder = new Order("Rob", "Wood", "Tx");
+        newOrder.setOrderNumber(1);
         newOrder.setArea(5.00);
         newOrder.getProductInfo().setLabCostPersqft(BigDecimal.TEN);
         newOrder.getProductInfo().setMatCostPerSqFt(BigDecimal.TEN);
@@ -196,7 +198,8 @@ public class FlooringDaoTest {
 
         assertEquals(1, dao.getAllOrder().size());
 
-        Order newOrder2 = new Order(2, "John", "laminate", "LA");
+        Order newOrder2 = new Order("John", "laminate", "LA");
+        newOrder.setOrderNumber(2);
         newOrder2.setArea(10.00);
         newOrder2.getProductInfo().setLabCostPersqft(BigDecimal.TEN);
         newOrder2.getProductInfo().setMatCostPerSqFt(BigDecimal.TEN);
@@ -212,7 +215,8 @@ public class FlooringDaoTest {
      */
     @Test
     public void testRemoveOrder() {
-        Order newOrder = new Order(1, "Rob", "Wood", "TX");
+        Order newOrder = new Order("Rob", "Wood", "Tx");
+        newOrder.setOrderNumber(1);
         newOrder.setArea(5.00);
         newOrder.getProductInfo().setLabCostPersqft(BigDecimal.TEN);
         newOrder.getProductInfo().setMatCostPerSqFt(BigDecimal.TEN);
@@ -220,7 +224,8 @@ public class FlooringDaoTest {
         newOrder.setOrderDate(LocalDate.now());
         dao.addOrder(newOrder);
 
-        Order newOrder2 = new Order(2, "John", "laminate", "LA");
+        Order newOrder2 = new Order("John", "laminate", "LA");
+        newOrder2.setOrderNumber(2);
         newOrder2.setArea(10.00);
         newOrder2.getProductInfo().setLabCostPersqft(BigDecimal.TEN);
         newOrder2.getProductInfo().setMatCostPerSqFt(BigDecimal.TEN);
