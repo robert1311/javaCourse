@@ -6,6 +6,7 @@
 package com.re.flooring.dto;
 
 import java.math.BigDecimal;
+import java.math.RoundingMode;
 import java.util.Objects;
 
 /**
@@ -33,7 +34,7 @@ public class State {
     }
 
     public void setTaxRate(BigDecimal taxRate) {
-        this.taxRate = taxRate;
+        this.taxRate = taxRate.setScale(2, RoundingMode.HALF_UP);;
     }
 
     @Override

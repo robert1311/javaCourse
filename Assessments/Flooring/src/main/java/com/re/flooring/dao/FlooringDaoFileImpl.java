@@ -15,6 +15,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.math.BigDecimal;
+import java.math.RoundingMode;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
@@ -137,21 +138,23 @@ public class FlooringDaoFileImpl implements FlooringDao {
     private Order unmarshallOrder(String orderAsText) {
         String[] orderTokens = orderAsText.split(DELIMITER);
         int orderNumber = Integer.parseInt(orderTokens[0]);
-        String customerName = orderTokens[1];
-        String stateName = orderTokens[2];
-        BigDecimal taxRate = new BigDecimal(orderTokens[3]);
-        String productType = orderTokens[4];
-        BigDecimal matCostSqFt = new BigDecimal(orderTokens[5]);
-        BigDecimal labCostsqFt = new BigDecimal(orderTokens[6]);
-        double area = Double.parseDouble(orderTokens[7]);
+        String firstName = orderTokens[1];
+        String lastName = orderTokens[2];
+        String stateName = orderTokens[3];
+        BigDecimal taxRate = new BigDecimal(orderTokens[4])
+                .setScale(2, RoundingMode.HALF_UP);
+        String productType = orderTokens[5];
+        BigDecimal matCostSqFt = new BigDecimal(orderTokens[6]);
+        BigDecimal labCostsqFt = new BigDecimal(orderTokens[7]);
+        double area = Double.parseDouble(orderTokens[8]);
         BigDecimal matCost = new BigDecimal(orderTokens[8]);
-        BigDecimal labCost = new BigDecimal(orderTokens[9]);
-        BigDecimal tax = new BigDecimal(orderTokens[10]);
-        BigDecimal total = new BigDecimal(orderTokens[11]);
-        LocalDate ld = LocalDate.parse(orderTokens[12],
+        BigDecimal labCost = new BigDecimal(orderTokens[10]);
+        BigDecimal tax = new BigDecimal(orderTokens[11]);
+        BigDecimal total = new BigDecimal(orderTokens[12]);
+        LocalDate ld = LocalDate.parse(orderTokens[13],
                 DateTimeFormatter.ofPattern("MM/dd/yyyy"));
         
-        Order unmarshalledOrder = new Order(customerName, stateName, 
+        Order unmarshalledOrder = new Order(firstName, lastName, stateName, 
                 productType);
         unmarshalledOrder.setOrderNumber(orderNumber);
         unmarshalledOrder.getStateInfo().setTaxRate(taxRate);
@@ -224,7 +227,8 @@ public class FlooringDaoFileImpl implements FlooringDao {
 
     private String marshallOrder(Order anOrder) {
         String orderAsText = "" + anOrder.getOrderNumber() + DELIMITER;
-                orderAsText += anOrder.getCustomerName() + DELIMITER;
+                orderAsText += anOrder.getFirstName() + DELIMITER;
+                orderAsText += anOrder.getLastName() + DELIMITER;
                 orderAsText += anOrder.getStateInfo().getStateName() + DELIMITER;
                 orderAsText += anOrder.getStateInfo().getTaxRate() + DELIMITER;
                 orderAsText += anOrder.getProductInfo().getProductType() + DELIMITER;

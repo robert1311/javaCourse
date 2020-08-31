@@ -14,7 +14,8 @@ import java.util.Objects;
  */
 public class Order {
     private int orderNumber;
-    private String customerName;
+    private String firstName;
+    private String lastName;
     private double area;
     private Product productInfo;
     private State stateInfo;
@@ -23,10 +24,10 @@ public class Order {
 
    
 
-    public Order(String customerName, String productType, 
+    public Order(String firstName, String firstNamre, String productType, 
             String stateName){
-        
-        this.customerName = customerName;
+        this.firstName = firstName;
+        this.lastName = lastName;
         productInfo = new Product(productType);
         stateInfo = new State(stateName);
     }
@@ -39,13 +40,22 @@ public class Order {
         this.orderNumber = orderNumber;
     }
 
-    public String getCustomerName() {
-        return customerName;
+    public String getFirstName() {
+        return firstName;
     }
 
-    public void setCustomerName(String customerName) {
-        this.customerName = customerName;
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
     }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
 
     public Product getProductInfo() {
         return productInfo;
@@ -89,14 +99,15 @@ public class Order {
 
     @Override
     public int hashCode() {
-        int hash = 5;
-        hash = 89 * hash + this.orderNumber;
-        hash = 89 * hash + Objects.hashCode(this.customerName);
-        hash = 89 * hash + (int) (Double.doubleToLongBits(this.area) ^ (Double.doubleToLongBits(this.area) >>> 32));
-        hash = 89 * hash + Objects.hashCode(this.productInfo);
-        hash = 89 * hash + Objects.hashCode(this.stateInfo);
-        hash = 89 * hash + Objects.hashCode(this.costInfo);
-        hash = 89 * hash + Objects.hashCode(this.orderDate);
+        int hash = 7;
+        hash = 17 * hash + this.orderNumber;
+        hash = 17 * hash + Objects.hashCode(this.firstName);
+        hash = 17 * hash + Objects.hashCode(this.lastName);
+        hash = 17 * hash + (int) (Double.doubleToLongBits(this.area) ^ (Double.doubleToLongBits(this.area) >>> 32));
+        hash = 17 * hash + Objects.hashCode(this.productInfo);
+        hash = 17 * hash + Objects.hashCode(this.stateInfo);
+        hash = 17 * hash + Objects.hashCode(this.costInfo);
+        hash = 17 * hash + Objects.hashCode(this.orderDate);
         return hash;
     }
 
@@ -118,7 +129,10 @@ public class Order {
         if (Double.doubleToLongBits(this.area) != Double.doubleToLongBits(other.area)) {
             return false;
         }
-        if (!Objects.equals(this.customerName, other.customerName)) {
+        if (!Objects.equals(this.firstName, other.firstName)) {
+            return false;
+        }
+        if (!Objects.equals(this.lastName, other.lastName)) {
             return false;
         }
         if (!Objects.equals(this.productInfo, other.productInfo)) {
@@ -135,7 +149,6 @@ public class Order {
         }
         return true;
     }
-    
+
    
-    
 }

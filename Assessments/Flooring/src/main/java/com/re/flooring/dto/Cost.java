@@ -6,6 +6,7 @@
 package com.re.flooring.dto;
 
 import java.math.BigDecimal;
+import java.math.RoundingMode;
 import java.util.Objects;
 
 /**
@@ -28,7 +29,7 @@ public class Cost {
     }
 
     public void setMaterialCost(BigDecimal materialCost) {
-        this.materialCost = materialCost;
+        this.materialCost = materialCost.setScale(2, RoundingMode.HALF_UP);;
     }
 
     public BigDecimal getLaborCost() {
@@ -36,7 +37,7 @@ public class Cost {
     }
 
     public void setLaborCost(BigDecimal laborCost) {
-        this.laborCost = laborCost;
+        this.laborCost = laborCost.setScale(2, RoundingMode.HALF_UP);;
     }
 
     public BigDecimal getTax() {
@@ -44,7 +45,7 @@ public class Cost {
     }
 
     public void setTax(BigDecimal tax) {
-        this.tax = tax;
+        this.tax = tax.setScale(2, RoundingMode.HALF_UP);;
     }
 
     public BigDecimal getTotalCost() {
@@ -52,7 +53,7 @@ public class Cost {
     }
 
     public void setTotalCost(BigDecimal totalCost) {
-        this.totalCost = totalCost;
+        this.totalCost = totalCost.setScale(2, RoundingMode.HALF_UP);;
     }
     
 

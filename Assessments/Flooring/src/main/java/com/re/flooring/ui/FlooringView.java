@@ -50,7 +50,8 @@ public class FlooringView {
     public Order displayGetNewOrderInfo(List<State> stateList,
             List<Product> productList) {
         boolean hasErrors;
-        String customerName;
+        String firstName;
+        String lastName;
         String stateEntry;
         String productEntry;
         double area;
@@ -59,8 +60,11 @@ public class FlooringView {
                 + "created.\n");
         //Enter non-blank Customer Name
         do{
-        customerName = io.readString("Enter customer's name.");
-        } while(customerName.isBlank());
+        firstName = io.readString("Enter customer's First Name.");
+        } while(firstName.isBlank());
+        do{
+        lastName = io.readString("Enter customer's Last Name.");
+        } while(lastName.isBlank());
         
         //Enter valid State
         do {
@@ -114,7 +118,7 @@ public class FlooringView {
                 , 10, 10000);
         
         //Create new Order and set values
-        Order newOrder = new Order(customerName, stateEntry, productEntry);
+        Order newOrder = new Order(firstName, lastName, stateEntry, productEntry);
         newOrder.setArea(area);
         return newOrder;
     }

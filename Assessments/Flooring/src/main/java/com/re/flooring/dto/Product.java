@@ -6,6 +6,7 @@
 package com.re.flooring.dto;
 
 import java.math.BigDecimal;
+import java.math.RoundingMode;
 import java.util.Objects;
 
 /**
@@ -34,7 +35,7 @@ public class Product {
     }
 
     public void setMatCostPerSqFt(BigDecimal matCostPerSqFt) {
-        this.matCostPerSqFt = matCostPerSqFt;
+        this.matCostPerSqFt = matCostPerSqFt.setScale(2, RoundingMode.HALF_UP);;
     }
 
     public BigDecimal getLabCostPersqft() {
@@ -42,7 +43,7 @@ public class Product {
     }
 
     public void setLabCostPersqft(BigDecimal labCostPersqft) {
-        this.labCostPersqft = labCostPersqft;
+        this.labCostPersqft = labCostPersqft.setScale(2, RoundingMode.HALF_UP);;
     }
 
     @Override
