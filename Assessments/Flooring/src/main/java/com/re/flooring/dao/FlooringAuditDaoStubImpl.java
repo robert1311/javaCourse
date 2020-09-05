@@ -9,7 +9,11 @@ package com.re.flooring.dao;
  *
  * @author rober
  */
-public interface FlooringAuditDao {
+public class FlooringAuditDaoStubImpl implements FlooringAuditDao {
 
-    void writeAuditLog(String entry) throws FlooringPersistenceException;
+    @Override
+    public void writeAuditLog(String entry) {
+
+    }
+    
 }

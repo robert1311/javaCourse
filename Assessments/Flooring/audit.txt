@@ -1,0 +1,3 @@
+CREATED ORDER: 2020-09-04(1) - Name:Rob Esq - State:PA - TaxRate:6.75% - Product:Carpet - MatCost/SqFt:$2.25 - LabCost/SqFt$2.10 - Area:100.0SqFt - MatCost:$225.00 - LabCost:$210.00 - Tax:$29.36 - Total:$464.36 - TimeOfSave: 2020-09-04T13:47:45.273702100
+CREATED ORDER: 2020-09-04(2) - Name:John Doe - State:IN - TaxRate:6.00% - Product:Wood - MatCost/SqFt:$5.15 - LabCost/SqFt$4.75 - Area:312.0SqFt - MatCost:$1606.80 - LabCost:$1482.00 - Tax:$185.33 - Total:$3274.13 - TimeOfSave: 2020-09-04T13:50:15.210508500
+CREATED ORDER: 2020-09-05(3) - Name:Joe Smith - State:MI - TaxRate:5.75% - Product:Carpet - MatCost/SqFt:$2.25 - LabCost/SqFt$2.10 - Area:546.0SqFt - MatCost:$1228.50 - LabCost:$1146.60 - Tax:$136.57 - Total:$2511.67 - TimeOfSave: 2020-09-05T00:44:14.791838900

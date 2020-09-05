@@ -168,8 +168,9 @@ public class FlooringDaoTest {
      */
     @Test
     public void testAddGetOrder() {
-        Order newOrder = new Order("Rob", "One", "Wood", "Tx");
-        newOrder.setOrderNumber(1);
+        Order newOrder = new Order(1, "Wood", "Tx");
+        newOrder.setFirstName("Rob");
+        newOrder.setLastName("Esq");
         newOrder.setArea(5.00);
         newOrder.getProductInfo().setLabCostPersqft(BigDecimal.TEN);
         newOrder.getProductInfo().setMatCostPerSqFt(BigDecimal.TEN);
@@ -187,8 +188,9 @@ public class FlooringDaoTest {
      */
     @Test
     public void testGetAllOrder() {
-        Order newOrder = new Order("Rob", "One", "Wood", "Tx");
-        newOrder.setOrderNumber(1);
+       Order newOrder = new Order(1, "Wood", "Tx");
+        newOrder.setFirstName("Rob");
+        newOrder.setLastName("Esq");
         newOrder.setArea(5.00);
         newOrder.getProductInfo().setLabCostPersqft(BigDecimal.TEN);
         newOrder.getProductInfo().setMatCostPerSqFt(BigDecimal.TEN);
@@ -198,8 +200,9 @@ public class FlooringDaoTest {
 
         assertEquals(1, dao.getAllOrder().size());
 
-        Order newOrder2 = new Order("John", "Doe", "laminate", "LA");
-        newOrder.setOrderNumber(2);
+        Order newOrder2 = new Order(2,"laminate", "LA");
+        newOrder2.setFirstName("John");
+        newOrder2.setLastName("Doe");
         newOrder2.setArea(10.00);
         newOrder2.getProductInfo().setLabCostPersqft(BigDecimal.TEN);
         newOrder2.getProductInfo().setMatCostPerSqFt(BigDecimal.TEN);
@@ -215,8 +218,9 @@ public class FlooringDaoTest {
      */
     @Test
     public void testRemoveOrder() {
-        Order newOrder = new Order("Rob", "One", "Wood", "Tx");
-        newOrder.setOrderNumber(1);
+        Order newOrder = new Order(1, "Wood", "Tx");
+        newOrder.setFirstName("Rob");
+        newOrder.setLastName("Esq");
         newOrder.setArea(5.00);
         newOrder.getProductInfo().setLabCostPersqft(BigDecimal.TEN);
         newOrder.getProductInfo().setMatCostPerSqFt(BigDecimal.TEN);
@@ -224,8 +228,9 @@ public class FlooringDaoTest {
         newOrder.setOrderDate(LocalDate.now());
         dao.addOrder(newOrder);
 
-        Order newOrder2 = new Order("John", "Doe", "laminate", "LA");
-        newOrder2.setOrderNumber(2);
+        Order newOrder2 = new Order(2,"laminate", "LA");
+        newOrder2.setFirstName("John");
+        newOrder2.setLastName("Doe");
         newOrder2.setArea(10.00);
         newOrder2.getProductInfo().setLabCostPersqft(BigDecimal.TEN);
         newOrder2.getProductInfo().setMatCostPerSqFt(BigDecimal.TEN);

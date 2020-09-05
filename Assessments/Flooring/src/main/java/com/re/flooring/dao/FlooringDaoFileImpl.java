@@ -5,6 +5,7 @@
  */
 package com.re.flooring.dao;
 
+import com.re.flooring.dto.Cost;
 import com.re.flooring.dto.Order;
 import com.re.flooring.dto.Product;
 import com.re.flooring.dto.State;
@@ -154,13 +155,16 @@ public class FlooringDaoFileImpl implements FlooringDao {
         LocalDate ld = LocalDate.parse(orderTokens[13],
                 DateTimeFormatter.ofPattern("MM/dd/yyyy"));
         
-        Order unmarshalledOrder = new Order(firstName, lastName, stateName, 
+        Order unmarshalledOrder = new Order(orderNumber, stateName, 
                 productType);
-        unmarshalledOrder.setOrderNumber(orderNumber);
+        unmarshalledOrder.setFirstName(firstName);
+        unmarshalledOrder.setLastName(lastName);
         unmarshalledOrder.getStateInfo().setTaxRate(taxRate);
         unmarshalledOrder.getProductInfo().setMatCostPerSqFt(matCostSqFt);
         unmarshalledOrder.getProductInfo().setLabCostPersqft(labCostsqFt);
         unmarshalledOrder.setArea(area);
+        Cost cost = new Cost();
+        unmarshalledOrder.setCostInfo(cost);
         unmarshalledOrder.getCostInfo().setMaterialCost(matCost);
         unmarshalledOrder.getCostInfo().setLaborCost(labCost);
         unmarshalledOrder.getCostInfo().setTax(tax);
@@ -227,18 +231,32 @@ public class FlooringDaoFileImpl implements FlooringDao {
 
     private String marshallOrder(Order anOrder) {
         String orderAsText = "" + anOrder.getOrderNumber() + DELIMITER;
-                orderAsText += anOrder.getFirstName() + DELIMITER;
-                orderAsText += anOrder.getLastName() + DELIMITER;
-                orderAsText += anOrder.getStateInfo().getStateName() + DELIMITER;
-                orderAsText += anOrder.getStateInfo().getTaxRate() + DELIMITER;
-                orderAsText += anOrder.getProductInfo().getProductType() + DELIMITER;
-                orderAsText += anOrder.getProductInfo().getMatCostPerSqFt() + DELIMITER;
-                orderAsText += anOrder.getProductInfo().getLabCostPersqft() + DELIMITER;
-                orderAsText += anOrder.getArea() + DELIMITER;
-                orderAsText += anOrder.getCostInfo().getMaterialCost() + DELIMITER;
-                orderAsText += anOrder.getCostInfo().getLaborCost() + DELIMITER;
-                orderAsText += anOrder.getCostInfo().getTax() + DELIMITER;
-                orderAsText += anOrder.getCostInfo().getTotalCost();
+                orderAsText += anOrder.getFirstName() 
+                        + DELIMITER;
+                orderAsText += anOrder.getLastName() 
+                        + DELIMITER;
+                orderAsText += anOrder.getStateInfo().getStateName() 
+                        + DELIMITER;
+                orderAsText += anOrder.getStateInfo().getTaxRate() 
+                        + DELIMITER;
+                orderAsText += anOrder.getProductInfo().getProductType() 
+                        + DELIMITER;
+                orderAsText += anOrder.getProductInfo().getMatCostPerSqFt() 
+                        + DELIMITER;
+                orderAsText += anOrder.getProductInfo().getLabCostPersqft() 
+                        + DELIMITER;
+                orderAsText += anOrder.getArea() 
+                        + DELIMITER;
+                orderAsText += anOrder.getCostInfo().getMaterialCost() 
+                        + DELIMITER;
+                orderAsText += anOrder.getCostInfo().getLaborCost() 
+                        + DELIMITER;
+                orderAsText += anOrder.getCostInfo().getTax() 
+                        + DELIMITER;
+                orderAsText += anOrder.getCostInfo().getTotalCost()
+                        + DELIMITER;
+                orderAsText += anOrder.getOrderDate().format(DateTimeFormatter
+                        .ofPattern("MM/dd/yyyy"));
                 return orderAsText;
         
     }

@@ -24,10 +24,8 @@ public class Order {
 
    
 
-    public Order(String firstName, String firstNamre, String productType, 
-            String stateName){
-        this.firstName = firstName;
-        this.lastName = lastName;
+    public Order(int orderNumber, String productType, String stateName){
+        this.orderNumber = orderNumber;
         productInfo = new Product(productType);
         stateInfo = new State(stateName);
     }
@@ -36,9 +34,9 @@ public class Order {
         return orderNumber;
     }
 
-    public void setOrderNumber(int orderNumber) {//handle in SL
-        this.orderNumber = orderNumber;
-    }
+//    public void setOrderNumber(int orderNumber) {//handle in SL
+//        this.orderNumber = orderNumber;
+//    }
 
     public String getFirstName() {
         return firstName;
