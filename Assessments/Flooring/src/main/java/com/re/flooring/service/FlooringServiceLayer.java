@@ -90,8 +90,9 @@ public interface FlooringServiceLayer {
      *
      * @param orderNumber
      * @return the Order with the matching order number
+     * @throws com.re.flooring.service.FlooringNoSuchOrderException
      */
-    Order getOrder(int orderNumber);
+    Order getOrder(int orderNumber) throws FlooringNoSuchOrderException;
 
     /**
      * Updates an existing Order in the system.Order number cannot be changed.

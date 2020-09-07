@@ -170,6 +170,12 @@ public class FlooringServiceLayerTest {
     public void testGetOrder() throws Exception {
         
         assertNotNull(service.getOrder(1));
+        try{
+            service.getOrder(2);
+            fail("Expected FlooringNoSuchOrderException not thrown.");
+        } catch(FlooringNoSuchOrderException e){
+            return;
+        }
         
     }
     

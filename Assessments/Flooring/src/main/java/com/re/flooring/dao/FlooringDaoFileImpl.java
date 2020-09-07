@@ -155,8 +155,8 @@ public class FlooringDaoFileImpl implements FlooringDao {
         LocalDate ld = LocalDate.parse(orderTokens[13],
                 DateTimeFormatter.ofPattern("MM/dd/yyyy"));
         
-        Order unmarshalledOrder = new Order(orderNumber, stateName, 
-                productType);
+        Order unmarshalledOrder = new Order(orderNumber, productType, 
+                stateName);
         unmarshalledOrder.setFirstName(firstName);
         unmarshalledOrder.setLastName(lastName);
         unmarshalledOrder.getStateInfo().setTaxRate(taxRate);

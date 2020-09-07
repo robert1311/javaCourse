@@ -10,10 +10,9 @@ import com.re.flooring.dto.Order;
 import com.re.flooring.dto.Product;
 import com.re.flooring.dto.State;
 import com.re.flooring.service.FlooringInvalidDateException;
+import com.re.flooring.service.FlooringNoSuchOrderException;
 import com.re.flooring.service.FlooringServiceLayer;
 import com.re.flooring.ui.FlooringView;
-import com.re.flooring.ui.UserIO;
-import com.re.flooring.ui.UserIOConsoleImpl;
 import java.util.List;
 
 /**
@@ -22,7 +21,6 @@ import java.util.List;
  */
 public class FlooringController {
 
-    UserIO io = new UserIOConsoleImpl();
     FlooringServiceLayer service;
     FlooringView view;
 
@@ -35,20 +33,13 @@ public class FlooringController {
     public void run() {
         boolean keepGoing = true;
         int selection;
-        boolean isTraining = false;
-        try {
-            service.loadEntities();
-            isTraining = service.getConfigApplicationMode();
-        } catch (FlooringPersistenceException e) {
-            view.displayErrorMessage(e.getMessage());
-        }
+        boolean isTraining = applicationMode();
+
         /*Menu allows user to create, read, update, delete orders; 
-        keep cycling back to menu after each user case until the "quit' option 
+        keep cycling back to menu after each user case until the Exit option 
         is selected*/
-        
         while (keepGoing) {
-            view.displayApplicationModeBanner(isTraining);
-            selection = view.displayMenuAndGetSelection("#");
+            selection = menuFrameAndGetSelection(isTraining);
             switch (selection) {
                 case 1:
                     createOrder();
@@ -60,25 +51,20 @@ public class FlooringController {
                     getOrdersByDate();
                     break;
                 case 4:
-                    io.print("UPDATE ORDER");
+                    updateOrder();
                     break;
                 case 5:
-                    io.print("REMOVE ORDER");
+                    removeOrder();
                     break;
                 case 6:
                     keepGoing = false;
-                    io.print("QUIT");
                     break;
                 default:
-                    io.print("INVALID ENTRY");
+                    invalidEntry();
+                    break;
             }
         }
-        try{
-        service.saveOrders();
-        } catch (FlooringPersistenceException e){
-            view.displayErrorMessage(e.getMessage());
-        }
-        io.print("GOODBYE!");
+        exit(isTraining);
     }
 
     private void createOrder() {
@@ -87,7 +73,7 @@ public class FlooringController {
         boolean isTraining;
         int orderNum;
         try {
-            isTraining  = service.getConfigApplicationMode();
+            isTraining = service.getConfigApplicationMode();
             orderNum = service.getConfigNextOrderNumber();
         } catch (FlooringPersistenceException e) {
             view.displayErrorMessage(e.getMessage());
@@ -97,53 +83,120 @@ public class FlooringController {
                 orderNum);
         Order finalOrder = service.finalizeOrder(newOrder);
         boolean isConfirmed = view.displayFinalOrderAndCommit(finalOrder);
-        if(isConfirmed & !isTraining){
-            try{
-            service.createNewOrder(finalOrder);
-            service.saveOrders();
-            view.displayCreateOrderSuccessBanner();
-            } catch(FlooringPersistenceException e){
+        if (isConfirmed & !isTraining) {
+            try {
+                service.createNewOrder(finalOrder);
+                service.saveOrders();
+                view.displayCreateOrderSuccessBanner();
+            } catch (FlooringPersistenceException e) {
                 view.displayErrorMessage(e.getMessage());
             }
-        } else if(!isConfirmed){
+        } else if (!isConfirmed) {
             view.displayCancelCreateOrderBanner();
-        } else if(isTraining){
+        } else if (isTraining) {
+            view.displayApplicationModeBanner(isTraining);
             view.displayOrderNotCreatedBanner();
         }
     }
-    
-    private void getOrderByOrderNumber(){
-        int orderNum = view.getOrderNumber();
-        Order order = service.getOrder(orderNum);
-        int operation = view.displayOrderInfoAndGetOperation(order);
-        orderOptions(operation);
+
+    private void getOrderByOrderNumber() {
+        Order order = getOrderCore();
+        if (order == null) {
+
+        } else {
+            int operation = view.displayOrderInfoAndGetOperation(order);
+            orderOptions(operation, order);
+        }
     }
-    
-    private void getOrdersByDate(){
+
+    private void getOrdersByDate() {
         boolean hasErrors;
         String date;
         List<Order> orderList = null;
-        do{
+        Order selected = null;
+        int dateOperation;
+        do {
             hasErrors = false;
             date = view.getDateInput();
-            try{
-            orderList = service.getOrdersByDate(date);
-            } catch(FlooringInvalidDateException e){
+            try {
+                orderList = service.getOrdersByDate(date);
+                selected = view.displayOrdersByDate(date, orderList);
+            } catch (FlooringInvalidDateException e) {
                 hasErrors = true;
-                view.displayErrorMessage(e.getMessage());;
+                view.displayErrorMessage(e.getMessage());
+                dateOperation = view.getDateOperation();
+                if (dateOperation == 2) {
+                    hasErrors = false;
+                }
             }
-        } while(hasErrors);
-        int operation = view.displayOrdersByDate(date, orderList);
-        orderOptions(operation);
+        } while (hasErrors);
+
+        if (selected != null) {
+            int operation = view.displayOrderInfoAndGetOperation(selected);
+            orderOptions(operation, selected);
+        } else {
+
+        }
     }
-    
-    private void orderOptions(int operation){
-        switch(operation){
+
+    private void updateOrder() {//load orders again after cancelled update
+        Order initial = getOrderCore();
+        if (initial == null) {
+
+        } else {
+            view.displayOrderFrame(initial);
+            updateOrderCore(initial);
+        }
+    }
+
+    public void removeOrder() {
+        Order order = getOrderCore();
+        if (order == null) {
+
+        } else {
+            removeOrderCore(order);
+        }
+    }
+
+    private boolean applicationMode() {
+        boolean isTraining = false;
+        try {
+            service.loadEntities();
+            isTraining = service.getConfigApplicationMode();
+        } catch (FlooringPersistenceException e) {
+            view.displayErrorMessage(e.getMessage());
+        }
+        return isTraining;
+    }
+
+    private int menuFrameAndGetSelection(boolean isTraining) {
+        view.displayApplicationModeBanner(isTraining);
+        return view.displayMenuAndGetSelection();
+    }
+
+    private void invalidEntry() {
+        view.invalidEntryMessage();
+    }
+
+    private void exit(boolean isTraining) {
+        if (!isTraining) {
+            try {
+                service.saveOrders();
+            } catch (FlooringPersistenceException e) {
+                view.displayErrorMessage(e.getMessage());
+            }
+        }
+        view.exitMessage(isTraining);
+    }
+
+    ///////////////////////////Class Only Methods//////////////////////////////
+    private void orderOptions(int operation, Order order) {
+        switch (operation) {
             case 1:
-                //Edit
+                updateOrderCore(order);
                 break;
             case 2:
-                //Remove
+                removeOrderCore(order);
                 break;
             case 3:
                 break;
@@ -151,6 +204,104 @@ public class FlooringController {
                 view.displayErrorMessage("Invalid Selection");
                 break;
         }
+    }
+
+    private Order getOrderCore() {
+        boolean hasErrors;
+        Order order = null;
+        do {
+            hasErrors = false;
+            int orderNum = view.getOrderNumber();
+            if (orderNum == 0) {//Exit
+
+            } else {//get Order
+                try {
+                    order = service.getOrder(orderNum);
+                } catch (FlooringNoSuchOrderException e) {
+                    hasErrors = true;
+                    view.displayErrorMessage(e.getMessage());
+                }
+            }
+        } while (hasErrors);
+
+        return order;
+    }
+
+    private Order updateOrderCore(Order order) {
+        Order edited;
+        Order finalEdit;
+        boolean keepEditing;
+        boolean isTraining;
+        List<State> stateList = service.getAllStateInfo();
+        List<Product> productList = service.getAllProductInfo();
+
+        try {
+            isTraining = service.getConfigApplicationMode();
+        } catch (FlooringPersistenceException e) {
+            view.displayErrorMessage(e.getMessage());
+            return order;
+        }
+
+        do {
+            keepEditing = false;
+            edited = view.editOrderForm(stateList, productList, order);
+            finalEdit = service.finalizeOrder(edited);
+            int operation = view.updatedOrderAndSelectOperation(edited);
+            switch (operation) {
+                case 1://update
+                    try {
+                        service.updateOrder(finalEdit);
+                        if (isTraining) {
+                            view.displayApplicationModeBanner(isTraining);
+                        }
+                        view.orderSuccessfullyUpdatedBanner();
+                    } catch (FlooringPersistenceException e) {
+                        view.displayErrorMessage(e.getMessage());
+                    }
+                    keepEditing = false;
+                    break;
+                case 2://keepEditing
+                    keepEditing = true;
+                    try {
+                        service.loadEntities();
+                    } catch (FlooringPersistenceException e) {
+                        view.displayErrorMessage(e.getMessage());
+                    }
+                    break;
+                case 3://Exit
+                    keepEditing = false;
+                    try {
+                        service.loadEntities();
+                    } catch (FlooringPersistenceException e) {
+                        view.displayErrorMessage(e.getMessage());
+                    }
+            }
+        } while (keepEditing);
+        return finalEdit;
+    }
+
+    private Order removeOrderCore(Order order) {
+        int orderNum = order.getOrderNumber();
+        boolean isConfirmed = view.isConfirmedRemove(order);
+        boolean isTraining;
+        try {
+            isTraining = service.getConfigApplicationMode();
+        } catch (FlooringPersistenceException e) {
+            view.displayErrorMessage(e.getMessage());
+            return order;
+        }
+        if (isConfirmed) {//Production Mode
+            try {
+                service.removeOrder(orderNum);
+                if (isTraining) {
+                    view.displayApplicationModeBanner(isTraining);
+                }
+                view.orderSuccessfullyRemovedBanner();
+            } catch (FlooringPersistenceException e) {
+                view.displayErrorMessage(e.getMessage());
+            }
+        }
+        return order;
     }
 
 }

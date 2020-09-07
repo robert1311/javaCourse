@@ -32,7 +32,8 @@ public class App {
                 new FlooringConfigurationDaoFileImpl();
         FlooringServiceLayer myService = 
                 new FlooringServiceLayerImpl(myDao, myAudit, myConfig);
-        FlooringController controller = new FlooringController(myService, myView);
+        FlooringController controller = new FlooringController(myService, 
+                myView);
         controller.run();
     }
 }
