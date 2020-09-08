@@ -16,16 +16,16 @@
           http://www.springframework.org/schema/aop/spring-aop-3.2.xsd">
 
     <!-- Bean definitions go here -->
-    <bean id="daoStub" 
-          class="com.re.vendingmachine.dao.VendingMachineDaoStubImpl"/>
+    <bean id="daoStub" class="com.re.flooring.dao.FlooringDaoStubImpl"/>
     
-    <bean id="auditStub" 
-          class="com.re.vendingmachine.dao.VendingMachineAuditDaoStubImpl"/>
+    <bean id="auditStub" class="com.re.flooring.dao.FlooringAuditDaoStubImpl"/>
     
-    <bean id="serviceLayer" 
-          class="com.re.vendingmachine.service.VendingMachineServiceLayerImpl">
+    <bean id="configStub" class="com.re.flooring.dao.FlooringConfigurationDaoStubImpl"/>
+    
+    <bean id="serviceLayer" class="com.re.flooring.service.FlooringServiceLayerImpl">
         <constructor-arg ref="daoStub"/>
         <constructor-arg ref="auditStub"/>
+        <constructor-arg ref="configStub"/>
     </bean>
-   
+    
 </beans>

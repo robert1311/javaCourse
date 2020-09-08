@@ -48,19 +48,12 @@ public class FlooringConfigurationDaoTest {
         assertFalse(dao.getApplicationMode());
     }
 
-//    /**
-//     * Test of getNextOrderNumber method, of class FlooringConfigurationDao.
-//     */
-//    @Test
-//    public void testGetNextOrderNumber() throws Exception {
-//        assertEquals(1,dao.getNextOrderNumber());
-//    }
 
     /**
      * Test of setOrderNumber method, of class FlooringConfigurationDao.
      */
     @Test
-    public void testSetOrderNumber() throws Exception {
+    public void testGetSetOrderNumber() throws Exception {
         int previousNum = dao.getNextOrderNumber() - 1;
         dao.setOrderNumber(previousNum);
         int currentNum = previousNum + 1;

@@ -5,25 +5,19 @@
  */
 package com.re.flooring.service;
 
-import com.re.flooring.dao.FlooringAuditDao;
-import com.re.flooring.dao.FlooringAuditDaoStubImpl;
-import com.re.flooring.dao.FlooringConfigurationDao;
-import com.re.flooring.dao.FlooringConfigurationDaoStubImpl;
-import com.re.flooring.dao.FlooringDao;
-import com.re.flooring.dao.FlooringDaoStubImpl;
 import com.re.flooring.dao.FlooringPersistenceException;
-import com.re.flooring.dto.Cost;
 import com.re.flooring.dto.Order;
 import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
-import java.time.format.DateTimeParseException;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
  *
@@ -34,11 +28,15 @@ public class FlooringServiceLayerTest {
     private FlooringServiceLayer service;
 
     public FlooringServiceLayerTest() {
-        FlooringDao dao = new FlooringDaoStubImpl();
-        FlooringAuditDao audit = new FlooringAuditDaoStubImpl();
-        FlooringConfigurationDao config = new FlooringConfigurationDaoStubImpl();
-
-        service = new FlooringServiceLayerImpl(dao, audit, config);
+//        FlooringDao dao = new FlooringDaoStubImpl();
+//        FlooringAuditDao audit = new FlooringAuditDaoStubImpl();
+//        FlooringConfigurationDao config = new FlooringConfigurationDaoStubImpl();
+        ApplicationContext ctx = new 
+            ClassPathXmlApplicationContext("applicationContext.xml");
+        
+            
+//        service = new FlooringServiceLayerImpl(dao, audit, config);
+        service = ctx.getBean("serviceLayer", FlooringServiceLayer.class);
     }
 
     @BeforeAll
@@ -125,13 +123,6 @@ public class FlooringServiceLayerTest {
                 .ofPattern("MM/dd/yyyy")), newOrder.getOrderDate()
                 .format(DateTimeFormatter.ofPattern("MM/dd/yyyy")));
 
-//        newOrder.getStateInfo().setTaxRate(BigDecimal.TEN);
-//        newOrder.getProductInfo().setMatCostPerSqFt(BigDecimal.TEN);
-//        newOrder.getProductInfo().setLabCostPersqft(BigDecimal.TEN);
-//        newOrder.getCostInfo().setMaterialCost(BigDecimal.valueOf(100));
-//        newOrder.getCostInfo().setLaborCost(BigDecimal.valueOf(100));
-//        newOrder.getCostInfo().setTax(BigDecimal.);
-//        newOrder.getCostInfo().setTotalCost(BigDecimal.ZERO);
     }
 
     /**

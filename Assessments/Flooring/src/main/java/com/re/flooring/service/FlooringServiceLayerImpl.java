@@ -130,11 +130,11 @@ public class FlooringServiceLayerImpl implements FlooringServiceLayer {
 
     @Override
     public Order getOrder(int orderNumber) throws FlooringNoSuchOrderException {
-        
+
         Order order;
-        
+
         order = dao.getOrder(orderNumber);
-        if(order == null){
+        if (order == null) {
             throw new FlooringNoSuchOrderException("Order does not exist for "
                     + "the given Order Number. Try Again.");
         }

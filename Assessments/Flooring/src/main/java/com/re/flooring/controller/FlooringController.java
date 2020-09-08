@@ -57,6 +57,9 @@ public class FlooringController {
                     removeOrder();
                     break;
                 case 6:
+                    saveWork();
+                    break;
+                case 7:
                     keepGoing = false;
                     break;
                 default:
@@ -86,8 +89,13 @@ public class FlooringController {
         if (isConfirmed & !isTraining) {
             try {
                 service.createNewOrder(finalOrder);
-                service.saveOrders();
-                view.displayCreateOrderSuccessBanner();
+                boolean isSaving = view.promptToSaveWork();
+                if (isSaving) {
+                    service.saveOrders();
+                    view.displayCreateOrderSuccessBanner();
+                } else {
+                    view.createdNotSavedBanner();
+                }
             } catch (FlooringPersistenceException e) {
                 view.displayErrorMessage(e.getMessage());
             }
@@ -156,6 +164,16 @@ public class FlooringController {
         } else {
             removeOrderCore(order);
         }
+    }
+
+    private void saveWork() {
+        try {
+            service.saveOrders();
+            view.workSavedBanner();
+        } catch (FlooringPersistenceException e) {
+            view.displayErrorMessage(e.getMessage());
+        }
+
     }
 
     private boolean applicationMode() {
@@ -228,6 +246,7 @@ public class FlooringController {
     }
 
     private Order updateOrderCore(Order order) {
+//        Order initial = order;
         Order edited;
         Order finalEdit;
         boolean keepEditing;
@@ -264,7 +283,8 @@ public class FlooringController {
                     keepEditing = true;
                     try {
                         service.loadEntities();
-                    } catch (FlooringPersistenceException e) {
+                        order = service.getOrder(order.getOrderNumber());
+                    } catch (FlooringPersistenceException | FlooringNoSuchOrderException e) {
                         view.displayErrorMessage(e.getMessage());
                     }
                     break;

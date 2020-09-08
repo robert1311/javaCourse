@@ -46,14 +46,15 @@ public class FlooringView {
                 + x + " 3) Get Orders By Date\n"
                 + x + " 4) Update Order\n"
                 + x + " 5) Remove Order\n"
-                + x + " 6) Save & Quit\n"
+                + x + " 6) Save Current Work\n"
+                + x + " 7) Save & Quit\n"
                 + x + "\n"
                 + x + " " + x + " " + x + " " + x + " " + x + " " + x + " "
                 + x + " " + x + " " + x + " " + x + " " + x + " " + x + " " + x
                 + " " + x + " " + x + " " + x + " " + x + " " + x + " " + x
                 + " " + x + " " + x + " " + x + " " + x + " " + x + " " + x
                 + " " + x + " " + x + " " + x + " " + x + " " + x + " " + x
-                + " " + x + " ", 1, 6);
+                + " " + x + " ", 1, 7);
         return selection;
     }
 
@@ -154,23 +155,34 @@ public class FlooringView {
     }
 
     public boolean displayFinalOrderAndCommit(Order finalOrder) {
+        displayOrderFrame(finalOrder);
         io.print("\nReview Order. Press 'S' to save and finalize order; \n"
                 + "Press 'C' to cancel.\n");
-        displayOrderFrame(finalOrder);
         return io.readString("").equalsIgnoreCase("s");
 
     }
+    
+    public boolean promptToSaveWork(){
+        String save = io.readString("Save all progress? (y/n) - Selecting 'y' "
+                + "will save any\ncreations, delations, and updates made "
+                + "during this session.");
+        return save.equalsIgnoreCase("y");
+    }
+    
+    public void createdNotSavedBanner(){
+        io.print("=== ORDER CREATED - NOT SAVED ===");
+    }
 
     public void displayCreateOrderSuccessBanner() {
-        io.print("\n===ORDER SUCCESSFULLY CREATED===\n");
+        io.print("\n=== ORDER SUCCESSFULLY CREATED/SAVED ===\n");
     }
 
     public void displayCancelCreateOrderBanner() {
-        io.print("\n===ORDER CREATION CANCELLED ===\n");
+        io.print("\n=== ORDER CREATION CANCELLED ===\n");
     }
 
     public void displayOrderNotCreatedBanner() {
-        io.print("\n===ORDER NOT CREATED ===\n");
+        io.print("\n=== ORDER NOT CREATED ===\n");
     }
 
     public int getOrderNumber() {
@@ -298,7 +310,7 @@ public class FlooringView {
             String areaString;
             do {
                 hasErrors = false;
-                areaString = io.readString("Area: " + order.getArea());
+                areaString = io.readString("Area: " + tempArea);
                 if (areaString.isBlank()) {
                     editArea = tempArea;
                 } else {
@@ -315,8 +327,14 @@ public class FlooringView {
                 keepGoing = false;
             }
         }
-        order.setFirstName(editFirstName);
-        order.setLastName(editLastName);
+        String lowerFirst = editFirstName.toLowerCase();
+        String lowerLast = editLastName.toLowerCase();
+        String capFirstName = lowerFirst.replace(lowerFirst
+                .substring(0, 1), lowerFirst.substring(0, 1).toUpperCase());
+        String capLastName = lowerLast.replace(lowerLast
+                .substring(0, 1), lowerLast.substring(0, 1).toUpperCase());
+        order.setFirstName(capFirstName);
+        order.setLastName(capLastName);
         order.getStateInfo().setStateName(editStateName.toUpperCase());
         order.getProductInfo().setProductType(editProductType.substring(0, 1).toUpperCase()
                 + editProductType.substring(1).toLowerCase());
@@ -327,7 +345,7 @@ public class FlooringView {
     public int updatedOrderAndSelectOperation(Order updated) {
         displayOrderFrame(updated);
         return io.readInt("\n================================\n"
-                + "1) Save & Update Order\n"
+                + "1) Finish & Update Order \n"
                 + "2) Edit Order\n"
                 + "3) Cancel Changes\n", 1, 3);
     }
@@ -372,6 +390,10 @@ public class FlooringView {
                 + "---------------------------------\n"
                 + "Total: $" + order.getCostInfo().getTotalCost() + "\n");
     }
+    
+    public void workSavedBanner(){
+        io.print("\n=== WORK SUCCESSFULLY SAVED ===\n");
+    }
 
     public void invalidEntryMessage() {
         io.print("Invalid Entry. Try Again.");
@@ -387,5 +409,4 @@ public class FlooringView {
             io.print("=== GOOD BYE!!! ===");
         }
     }
-
 }
