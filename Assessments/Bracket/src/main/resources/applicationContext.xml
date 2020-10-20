@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+          http://www.springframework.org/schema/beans/spring-beans.xsd
+          http://www.springframework.org/schema/mvc
+          http://www.springframework.org/schema/mvc/spring-mvc.xsd
+          http://www.springframework.org/schema/tx
+          http://www.springframework.org/schema/tx/spring-tx-3.0.xsd
+          http://www.springframework.org/schema/context
+          http://www.springframework.org/schema/context/spring-context.xsd
+          http://www.springframework.org/schema/aop  
+          http://www.springframework.org/schema/aop/spring-aop-3.2.xsd">
+
+    <!-- Bean definitions go here -->
+    
+    <bean id="UserIO" class="com.re.bracket.ui.UserIOConsoleImpl"/>
+    
+    <bean id="view" class="com.re.bracket.ui.View">
+        <constructor-arg ref="UserIO"/>
+    </bean>
+    
+    <bean id="uDao" class="com.re.bracket.dao.UserDaoFileImpl"/>
+    
+    <bean id="uAudit" class="com.re.bracket.dao.UserAuditDaoFileImpl"/>
+    
+    <bean id="tmDao" class="com.re.bracket.dao.TeamDaoFileImpl"/>
+    
+    <bean id="tmAudit" class="com.re.bracket.dao.TeamAuditDaoFileImpl"/>
+    
+    <bean id="tDao" class="com.re.bracket.dao.TournamentDaoFileImpl"/>
+    
+    <bean id="tAudit" class="com.re.bracket.dao.TournamentAuditDaoFileImpl"/>
+    
+    <bean id="config" class="com.re.bracket.dao.TournamentConfigurationDaoFileImpl"/>
+    
+    <bean id="uService" class="com.re.bracket.service.UserServiceLayerImpl">
+        <constructor-arg ref="uDao"/>
+        <constructor-arg ref="uAudit"/>
+    </bean>
+    
+    <bean id="tmService" class="com.re.bracket.service.TeamServiceLayerImpl">
+        <constructor-arg ref="tmDao"/>
+        <constructor-arg ref="tmAudit"/>
+        <constructor-arg ref="config"/>
+    </bean>
+    
+    <bean id="tService" class="com.re.bracket.service.TournamentServiceLayerImpl">
+        <constructor-arg ref="tDao"/>
+        <constructor-arg ref="tAudit"/>
+        <constructor-arg ref="config"/>
+    </bean>
+    
+    <bean id="controller" class="com.re.bracket.controller.TournamentController">
+        <constructor-arg ref="tService"/>
+        <constructor-arg ref="tmService"/>
+        <constructor-arg ref="uService"/>
+        <constructor-arg ref="view"/>
+    </bean>
+    
+</beans>

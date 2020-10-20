@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+          http://www.springframework.org/schema/beans/spring-beans.xsd
+          http://www.springframework.org/schema/mvc
+          http://www.springframework.org/schema/mvc/spring-mvc.xsd
+          http://www.springframework.org/schema/tx
+          http://www.springframework.org/schema/tx/spring-tx-3.0.xsd
+          http://www.springframework.org/schema/context
+          http://www.springframework.org/schema/context/spring-context.xsd
+          http://www.springframework.org/schema/aop  
+          http://www.springframework.org/schema/aop/spring-aop-3.2.xsd">
+
+    <!-- Bean definitions go here -->
+    <bean id="uStubDao" class="com.re.bracket.dao.UserDaoStubImpl"/>
+    
+    <bean id="uStubAudit" class="com.re.bracket.dao.UserAuditDaoStubImpl"/>
+    
+    <bean id="uService" class="com.re.bracket.service.UserServiceLayerImpl">
+        <constructor-arg ref="uStubDao"/>
+        <constructor-arg ref="uStubAudit"/>
+    </bean>
+    
+    <bean id="tmDaoStub" class="com.re.bracket.dao.TeamDaoStubImpl"/>
+    
+    <bean id="tmAuditStub" class="com.re.bracket.dao.TeamAuditDaoStubImpl"/>
+    
+    <bean id="config" class="com.re.bracket.dao.TournamentConfigurationDaoStubImpl"/>
+    
+    <bean id="tmService" class="com.re.bracket.service.TeamServiceLayerImpl">
+        <constructor-arg ref="tmDaoStub"/>
+        <constructor-arg ref="tmAuditStub"/>
+        <constructor-arg ref="config"/>
+    </bean>
+    
+    <bean id="tDaoStub" class="com.re.bracket.dao.TournamentDaoStubImpl"/>
+    
+    <bean id="tAuditStub" class="com.re.bracket.dao.TournamentAuditDaoStubImpl"/>
+    
+    <bean id="tService" class="com.re.bracket.service.TournamentServiceLayerImpl">
+        <constructor-arg ref="tDaoStub"/>
+        <constructor-arg ref="tAuditStub"/>
+        <constructor-arg ref="config"/>
+    </bean>
+</beans>
