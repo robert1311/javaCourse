@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.re.bracket.service.UserServiceLayerTest" time="0.566" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.re.bracket.service.UserServiceLayerTest" time="0" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -17,9 +17,8 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-11.0.8.10-hotspot\bin"/>
-    <property name="sun.java.command" value="C:\Users\rober\AppData\Local\Temp\surefire8753760518910733036\surefirebooter4051087795121724.jar C:\Users\rober\AppData\Local\Temp\surefire8753760518910733036 2020-10-16T00-33-52_534-jvmRun1 surefire2009628737386867457tmp surefire_013014061019269298731tmp"/>
+    <property name="sun.java.command" value="C:\Users\rober\AppData\Local\Temp\surefire8577216831414559319\surefirebooter18388887517692864655.jar C:\Users\rober\AppData\Local\Temp\surefire8577216831414559319 2020-10-25T14-54-48_153-jvmRun1 surefire18244203020154072697tmp surefire_06040618271491433725tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="test" value="com.re.bracket.service.UserServiceLayerTest"/>
     <property name="surefire.test.class.path" value="C:\Users\rober\OneDrive\Documents\NetBeansProjects\Bracket\target\test-classes;C:\Users\rober\OneDrive\Documents\NetBeansProjects\Bracket\target\classes;C:\Users\rober\.m2\repository\org\springframework\spring-context\4.3.4.RELEASE\spring-context-4.3.4.RELEASE.jar;C:\Users\rober\.m2\repository\org\springframework\spring-aop\4.3.4.RELEASE\spring-aop-4.3.4.RELEASE.jar;C:\Users\rober\.m2\repository\org\springframework\spring-beans\4.3.4.RELEASE\spring-beans-4.3.4.RELEASE.jar;C:\Users\rober\.m2\repository\org\springframework\spring-core\4.3.4.RELEASE\spring-core-4.3.4.RELEASE.jar;C:\Users\rober\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\rober\.m2\repository\org\springframework\spring-expression\4.3.4.RELEASE\spring-expression-4.3.4.RELEASE.jar;C:\Users\rober\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.3.1\junit-jupiter-api-5.3.1.jar;C:\Users\rober\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\rober\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\rober\.m2\repository\org\junit\platform\junit-platform-commons\1.3.1\junit-platform-commons-1.3.1.jar;C:\Users\rober\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.3.1\junit-jupiter-params-5.3.1.jar;C:\Users\rober\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.3.1\junit-jupiter-engine-5.3.1.jar;C:\Users\rober\.m2\repository\org\junit\platform\junit-platform-engine\1.3.1\junit-platform-engine-1.3.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\rober"/>
@@ -34,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\rober\AppData\Local\Temp\surefire8753760518910733036\surefirebooter4051087795121724.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\rober\AppData\Local\Temp\surefire8577216831414559319\surefirebooter18388887517692864655.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.8+10"/>
@@ -55,15 +54,15 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="java.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-11.0.8.10-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\AdoptOpenJDK\jdk-11.0.8.10-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\rober\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-11.0.8.10-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\AdoptOpenJDK\jdk-11.0.8.10-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\rober\AppData\Local\Microsoft\WindowsApps;C:\Users\rober\.dotnet\tools;."/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.vendor" value="AdoptOpenJDK"/>
     <property name="java.vm.version" value="11.0.8+10"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="testClearNotifications" classname="com.re.bracket.service.UserServiceLayerTest" time="0.017"/>
-  <testcase name="testAddNotificationsToUser" classname="com.re.bracket.service.UserServiceLayerTest" time="0.013"/>
-  <testcase name="testGetLoggedInUser" classname="com.re.bracket.service.UserServiceLayerTest" time="0.001"/>
-  <testcase name="testCreateNewUser" classname="com.re.bracket.service.UserServiceLayerTest" time="0.001"/>
+  <testcase name="testClearNotifications" classname="com.re.bracket.service.UserServiceLayerTest" time="0"/>
+  <testcase name="testAddNotificationsToUser" classname="com.re.bracket.service.UserServiceLayerTest" time="0"/>
+  <testcase name="testGetLoggedInUser" classname="com.re.bracket.service.UserServiceLayerTest" time="0"/>
+  <testcase name="testCreateNewUser" classname="com.re.bracket.service.UserServiceLayerTest" time="0"/>
 </testsuite>

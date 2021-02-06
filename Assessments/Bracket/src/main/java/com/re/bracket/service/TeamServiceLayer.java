@@ -41,13 +41,17 @@ public interface TeamServiceLayer {
 
     public List<Player> getPlayersByTeamId(int teamId);
 
-    public Team updateTeamStats(Team team, Game played);
+    public Team updateTeamStats(Team team, Game played) 
+            throws TournamentPersistenceException;
     
-    public Team updateTeamStats(Team team, Series series, Tournament tournament);
+    public Team updateTeamStats(Team team, Series series, Tournament tournament) 
+            throws TournamentPersistenceException;
     
-    public Player updatePlayerStats(Player player, Game game);
+    public List<Player> updatePlayerStats(List<Player> players, Game game) 
+            throws TournamentPersistenceException;
     
-    public Player updatePlayerStats(Player player, Series series, Tournament tournament);
+    public List<Player> updatePlayerStats(List <Player> players, Series series, 
+            Tournament tournament) throws TournamentPersistenceException;
 
     public Tournament userJoinTournament(Tournament tournament,
             String username) throws EventFullException;
@@ -64,10 +68,13 @@ public interface TeamServiceLayer {
             throws NoSuchTeamException;
 
     public List<Team> getTeamStandings(List<Team> teamList,
-            Tournament tournament);
+            Tournament tournament, List<Game> completedGames);
 
 //    public List<Stat> getPlayerStandings(List<Team> teamList,
 //            Tournament tournament);
+    public String getSingleGameResult(int gameId) throws TournamentPersistenceException;
+    
+    public String getAllGameResults(int teamId) throws TournamentPersistenceException;
     
     public void loadTeamEntities() throws TournamentPersistenceException;
     

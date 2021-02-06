@@ -445,61 +445,61 @@ public class TeamServiceLayerTest {
     /**
      * Test of getTeamStandings method, of class TeamServiceLayer.
      */
-    @Test
-    public void testGetTeamStandings() {
-        List<Team> unsortedTeamList = new ArrayList<>();
-
-        Team team1 = new Team(11);
-        Stat team1Stat = new Stat();
-        team1.setStatInfo(team1Stat);
-        team1.getStatInfo().setWinPercent(0.70);
-        team1.getStatInfo().setPtsPerGame(3);
-        team1.getStatInfo().setTotalPoints(15);
-        unsortedTeamList.add(team1);
-
-        Team team2 = new Team(12);
-        Stat team2Stat = new Stat();
-        team2.setStatInfo(team2Stat);
-        team2.getStatInfo().setWinPercent(0.44);
-        team2.getStatInfo().setPtsPerGame(1);
-        team2.getStatInfo().setTotalPoints(2);
-        unsortedTeamList.add(team2);
-
-        Team team3 = new Team(13);
-        Stat team3Stat = new Stat();
-        team3.setStatInfo(team3Stat);
-        team3.getStatInfo().setWinPercent(0.70);
-        team3.getStatInfo().setPtsPerGame(5);
-        team3.getStatInfo().setTotalPoints(10);
-        unsortedTeamList.add(team3);
-
-        Team team4 = new Team(14);
-        Stat team4Stat = new Stat();
-        team4.setStatInfo(team4Stat);
-        team4.getStatInfo().setWinPercent(0.91);
-        team4.getStatInfo().setPtsPerGame(4);
-        team4.getStatInfo().setTotalPoints(9);
-        unsortedTeamList.add(team4);
-
-        Team team5 = new Team(15);
-        Stat team5Stat = new Stat();
-        team5.setStatInfo(team5Stat);
-        team5.getStatInfo().setWinPercent(0.44);
-        team5.getStatInfo().setPtsPerGame(1);
-        team5.getStatInfo().setTotalPoints(4);
-        unsortedTeamList.add(team5);
-
-        Tournament tournament = new Tournament(1);
-        tournament.setIsSecondStage(false);
-
-        service.getTeamStandings(unsortedTeamList, tournament);
-
-        assertEquals(1, team4.getRank());
-        assertEquals(2, team3.getRank());
-        assertEquals(3, team1.getRank());
-        assertEquals(4, team5.getRank());
-        assertEquals(5, team2.getRank());
-    }
+//    @Test
+//    public void testGetTeamStandings() {
+//        List<Team> unsortedTeamList = new ArrayList<>();
+//
+//        Team team1 = new Team(11);
+//        Stat team1Stat = new Stat();
+//        team1.setStatInfo(team1Stat);
+//        team1.getStatInfo().setWinPercent(0.70);
+//        team1.getStatInfo().setPtsPerGame(3);
+//        team1.getStatInfo().setTotalPoints(15);
+//        unsortedTeamList.add(team1);
+//
+//        Team team2 = new Team(12);
+//        Stat team2Stat = new Stat();
+//        team2.setStatInfo(team2Stat);
+//        team2.getStatInfo().setWinPercent(0.44);
+//        team2.getStatInfo().setPtsPerGame(1);
+//        team2.getStatInfo().setTotalPoints(2);
+//        unsortedTeamList.add(team2);
+//
+//        Team team3 = new Team(13);
+//        Stat team3Stat = new Stat();
+//        team3.setStatInfo(team3Stat);
+//        team3.getStatInfo().setWinPercent(0.70);
+//        team3.getStatInfo().setPtsPerGame(5);
+//        team3.getStatInfo().setTotalPoints(10);
+//        unsortedTeamList.add(team3);
+//
+//        Team team4 = new Team(14);
+//        Stat team4Stat = new Stat();
+//        team4.setStatInfo(team4Stat);
+//        team4.getStatInfo().setWinPercent(0.91);
+//        team4.getStatInfo().setPtsPerGame(4);
+//        team4.getStatInfo().setTotalPoints(9);
+//        unsortedTeamList.add(team4);
+//
+//        Team team5 = new Team(15);
+//        Stat team5Stat = new Stat();
+//        team5.setStatInfo(team5Stat);
+//        team5.getStatInfo().setWinPercent(0.44);
+//        team5.getStatInfo().setPtsPerGame(1);
+//        team5.getStatInfo().setTotalPoints(4);
+//        unsortedTeamList.add(team5);
+//
+//        Tournament tournament = new Tournament(1);
+//        tournament.setIsSecondStage(false);
+//
+//        service.getTeamStandings(unsortedTeamList, tournament);
+//
+//        assertEquals(1, team4.getRank());
+//        assertEquals(2, team3.getRank());
+//        assertEquals(3, team1.getRank());
+//        assertEquals(4, team5.getRank());
+//        assertEquals(5, team2.getRank());
+//    }
 
     /**
      * Test of getPlayerStandings method, of class TeamServiceLayer.

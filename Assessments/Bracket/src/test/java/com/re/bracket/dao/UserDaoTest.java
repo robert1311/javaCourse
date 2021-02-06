@@ -4,7 +4,6 @@
  * and open the template in the editor.
  */
 package com.re.bracket.dao;
-
 import com.re.bracket.dto.User;
 import java.util.List;
 import org.junit.jupiter.api.AfterEach;

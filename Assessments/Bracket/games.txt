@@ -1,7 +1,112 @@
-17::443::1::1::true::true::77::80::Blue::Green::10/13/2020 12:30::true::15::9::Blue::Green
 9::437::1::1::true::true::77::80::Blue::Green::10/13/2020 12:30::true::8::5::Blue::Green
 10::438::1::1::true::true::78::79::Red::Yellow::10/13/2020 12:30::true::6::7::Yellow::Red
 11::435::1::1::true::true::77::78::Blue::Red::10/13/2020 12:30::true::6::2::Blue::Red
 12::440::1::1::true::true::79::80::Yellow::Green::10/13/2020 12:30::true::3::7::Green::Yellow
 13::439::1::1::true::true::78::80::Red::Green::10/13/2020 12:30::true::8::9::Green::Red
 14::436::1::1::true::true::77::79::Blue::Yellow::10/13/2020 12:30::true::10::14::Yellow::Blue
+17::443::1::1::true::true::77::80::Blue::Green::10/13/2020 12:30::true::15::9::Blue::Green
+22::941::1::1::true::true::100::96::Nuggets::Mavs::10/21/2020 12:30::true::5::10::Mavs::Nuggets
+24::942::1::1::true::true::98::97::Clippers::Lakers::10/21/2020 10:30::true::-2::4::Lakers::Clippers
+27::944::1::1::true::true::97::96::Lakers::Mavs::10/21/2020 10:30::true::4::8::Mavs::Lakers
+28::939::1::1::true::true::100::98::Nuggets::Clippers::10/21/2020 10:30::true::4::-4::Nuggets::Clippers
+29::444::1::1::true::true::78::79::Red::Yellow::10/13/2020 10:30::true::4::6::Yellow::Red
+30::940::1::1::true::true::100::97::Nuggets::Lakers::10/21/2020 10:30::true::2::-3::Nuggets::Lakers
+31::943::1::1::true::true::98::96::Clippers::Mavs::10/21/2020 10:30::true::-2::10::Mavs::Clippers
+34::1034::1::1::true::true::109::123::Fury::Brute Force::10/21/2020 12:30::true::2::-4::Fury::Brute Force
+35::1070::1::1::true::true::112::120::Rampage::Mean Green::10/21/2020 12:30::true::-4::-8::Rampage::Mean Green
+36::1059::1::1::true::true::111::121::Monarch::Icons::10/21/2020 12:30::true::0::-11::Monarch::Icons
+41::1089::1::1::true::true::114::118::Chaos::Legends::10/21/2020 12:30::true::-6::4::Legends::Chaos
+42::1080::1::1::true::true::113::119::Alliance::Thrashers::10/21/2020 12:30::true::4::-6::Alliance::Thrashers
+43::1047::1::1::true::true::110::122::Vanquish::High Voltage::10/21/2020 12:30::true::-14::14::High Voltage::Vanquish
+44::1097::1::1::true::true::115::117::Supremacy::Wrecking Crew::10/21/2020 12:30::true::-4::2::Wrecking Crew::Supremacy
+45::953::1::1::true::true::105::108::BlackSun::Crown::10/21/2020 12:30::true::9::-10::BlackSun::Crown
+46::970::1::1::true::true::106::107::Inferno::Doom::10/21/2020 12:30::true::1::-3::Inferno::Doom
+47::1048::1::1::true::true::110::123::Vanquish::Brute Force::10/21/2020 12:30::true::3::-3::Vanquish::Brute Force
+48::1060::1::1::true::true::111::122::Monarch::High Voltage::10/21/2020 12:30::true::8::-16::Monarch::High Voltage
+49::1081::1::1::true::true::113::120::Alliance::Mean Green::10/21/2020 12:30::true::12::-11::Alliance::Mean Green
+50::1090::1::1::true::true::114::119::Chaos::Thrashers::10/21/2020 12:30::true::-7::7::Thrashers::Chaos
+51::1098::1::1::true::true::115::118::Supremacy::Legends::10/21/2020 12:30::true::-2::1::Legends::Supremacy
+52::1105::1::1::true::true::116::117::Royalty::Wrecking Crew::10/21/2020 12:30::true::-13::13::Wrecking Crew::Royalty
+53::1071::1::1::true::true::112::121::Rampage::Icons::10/21/2020 12:30::true::-3::-1::Icons::Rampage
+54::954::1::1::true::true::105::109::BlackSun::Fury::10/21/2020 12:30::true::-9::9::Fury::BlackSun
+55::971::1::1::true::true::106::108::Inferno::Crown::10/21/2020 12:30::true::7::-6::Inferno::Crown
+57::1061::1::1::true::false::123::111::Brute Force::Monarch::10/21/2020 12:30::true::6::-11::Brute Force::Monarch
+58::1072::1::1::true::false::122::112::High Voltage::Rampage::10/21/2020 12:30::true::-14::3::Rampage::High Voltage
+59::1082::1::1::true::false::121::113::Icons::Alliance::10/21/2020 12:30::true::-3::2::Alliance::Icons
+60::1091::1::1::true::false::120::114::Mean Green::Chaos::10/21/2020 12:30::true::-3::-1::Chaos::Mean Green
+61::1099::1::1::true::false::119::115::Thrashers::Supremacy::10/21/2020 12:30::true::-18::18::Supremacy::Thrashers
+62::1106::1::1::true::false::118::116::Legends::Royalty::10/21/2020 12:30::true::-1::1::Royalty::Legends
+63::955::1::1::true::true::105::110::BlackSun::Vanquish::10/21/2020 12:30::true::7::-11::BlackSun::Vanquish
+64::972::1::1::true::false::109::106::Fury::Inferno::10/21/2020 12:30::true::17::-20::Fury::Inferno
+65::988::1::1::true::false::108::107::Crown::Doom::10/21/2020 12:30::true::8::-9::Crown::Doom
+66::1083::1::1::true::false::122::113::High Voltage::Alliance::10/21/2020 12:30::true::-15::14::Alliance::High Voltage
+67::1092::1::1::true::false::121::114::Icons::Chaos::10/21/2020 12:30::true::12::-17::Icons::Chaos
+68::1100::1::1::true::false::120::115::Mean Green::Supremacy::10/21/2020 12:30::true::4::-6::Mean Green::Supremacy
+69::1107::1::1::true::false::119::116::Thrashers::Royalty::10/21/2020 12:30::true::8::-9::Thrashers::Royalty
+70::1113::1::1::true::true::117::118::Wrecking Crew::Legends::10/21/2020 12:30::true::14::-19::Wrecking Crew::Legends
+71::956::1::1::true::false::111::105::Monarch::BlackSun::10/21/2020 12:30::true::-15::11::BlackSun::Monarch
+72::973::1::1::true::false::110::106::Vanquish::Inferno::10/21/2020 12:30::true::-16::16::Inferno::Vanquish
+73::989::1::1::true::true::107::109::Doom::Fury::10/21/2020 12:30::true::-7::7::Fury::Doom
+74::1073::1::1::true::false::123::112::Brute Force::Rampage::10/21/2020 12:30::true::-9::7::Rampage::Brute Force
+75::990::1::1::true::true::107::110::Doom::Vanquish::10/21/2020 12:30::true::7::-11::Doom::Vanquish
+76::1093::1::1::true::true::114::122::Chaos::High Voltage::10/21/2020 12:30::true::7::-7::Chaos::High Voltage
+77::1108::1::1::true::true::116::120::Royalty::Mean Green::10/21/2020 12:30::true::3::-5::Royalty::Mean Green
+78::1084::1::1::true::true::113::123::Alliance::Brute Force::10/21/2020 12:30::true::1::-1::Alliance::Brute Force
+79::1101::1::1::true::true::115::121::Supremacy::Icons::10/21/2020 12:30::true::19::-19::Supremacy::Icons
+80::1005::1::1::true::true::108::109::Crown::Fury::10/21/2020 12:30::true::3::-3::Crown::Fury
+81::974::1::1::true::true::106::111::Inferno::Monarch::10/21/2020 12:30::true::10::-12::Inferno::Monarch
+82::1114::1::1::true::true::117::119::Wrecking Crew::Thrashers::10/21/2020 12:30::true::4::-4::Wrecking Crew::Thrashers
+83::957::1::1::true::false::112::105::Rampage::BlackSun::10/21/2020 12:30::true::0::-8::Rampage::BlackSun
+84::1006::1::1::true::true::108::110::Crown::Vanquish::10/21/2020 12:30::true::5::-6::Crown::Vanquish
+85::1102::1::1::true::false::122::115::High Voltage::Supremacy::10/21/2020 12:30::true::0::1::Supremacy::High Voltage
+86::1094::1::1::true::false::123::114::Brute Force::Chaos::10/21/2020 12:30::true::9::-11::Brute Force::Chaos
+87::991::1::1::true::true::107::111::Doom::Monarch::10/21/2020 12:30::true::2::-10::Doom::Monarch
+88::1109::1::1::true::false::121::116::Icons::Royalty::10/21/2020 12:30::true::-6::8::Royalty::Icons
+89::1120::1::1::true::true::118::119::Legends::Thrashers::10/21/2020 12:30::true::19::-18::Legends::Thrashers
+90::975::1::1::true::true::106::112::Inferno::Rampage::10/21/2020 12:30::true::-4::3::Rampage::Inferno
+91::1115::1::1::true::false::120::117::Mean Green::Wrecking Crew::10/21/2020 12:30::true::-16::9::Wrecking Crew::Mean Green
+92::958::1::1::true::true::105::113::BlackSun::Alliance::10/21/2020 12:30::true::5::-9::BlackSun::Alliance
+93::1021::1::1::true::true::109::110::Fury::Vanquish::10/21/2020 12:30::true::17::-24::Fury::Vanquish
+94::1110::1::1::true::true::116::122::Royalty::High Voltage::10/21/2020 12:30::true::4::-5::Royalty::High Voltage
+95::1121::1::1::true::true::118::120::Legends::Mean Green::10/21/2020 12:30::true::6::-10::Legends::Mean Green
+96::959::1::1::true::false::114::105::Chaos::BlackSun::10/21/2020 12:30::true::1::-1::Chaos::BlackSun
+97::1007::1::1::true::false::111::108::Monarch::Crown::10/21/2020 12:30::true::0::-3::Monarch::Crown
+98::1116::1::1::true::true::117::121::Wrecking Crew::Icons::10/21/2020 12:30::true::17::-17::Wrecking Crew::Icons
+99::976::1::1::true::false::113::106::Alliance::Inferno::10/21/2020 12:30::true::-4::4::Inferno::Alliance
+100::1103::1::1::true::true::115::123::Supremacy::Brute Force::10/21/2020 12:30::true::-8::8::Brute Force::Supremacy
+101::992::1::1::true::false::112::107::Rampage::Doom::10/21/2020 12:30::true::5::-4::Rampage::Doom
+102::1126::1::1::true::true::119::120::Thrashers::Mean Green::10/21/2020 12:30::true::3::-6::Thrashers::Mean Green
+108::1111::1::1::true::true::116::123::Royalty::Brute Force::10/21/2020 12:30::true::-13::11::Brute Force::Royalty
+109::993::1::1::true::true::107::113::Doom::Alliance::10/21/2020 12:30::true::-10::8::Alliance::Doom
+110::1122::1::1::true::true::118::121::Legends::Icons::10/21/2020 12:30::true::12::-12::Legends::Icons
+111::1117::1::1::true::true::117::122::Wrecking Crew::High Voltage::10/21/2020 12:30::true::9::-15::Wrecking Crew::High Voltage
+112::1022::1::1::true::true::109::111::Fury::Monarch::10/21/2020 12:30::true::8::-10::Fury::Monarch
+113::977::1::1::true::true::106::114::Inferno::Chaos::10/21/2020 12:30::true::4::-3::Inferno::Chaos
+115::960::1::1::true::true::105::115::BlackSun::Supremacy::10/21/2020 12:30::true::5::-7::BlackSun::Supremacy
+116::1008::1::1::true::true::108::112::Crown::Rampage::10/21/2020 12:30::true::0::-3::Crown::Rampage
+117::1036::1::1::true::true::110::111::Vanquish::Monarch::10/21/2020 12:30::true::-6::3::Monarch::Vanquish
+118::1123::1::1::true::true::118::122::Legends::High Voltage::10/21/2020 12:30::true::15::-15::Legends::High Voltage
+119::994::1::1::true::true::107::114::Doom::Chaos::10/21/2020 12:30::true::-9::7::Chaos::Doom
+120::1127::1::1::true::true::119::121::Thrashers::Icons::10/21/2020 12:30::true::-1::-3::Thrashers::Icons
+121::961::1::1::true::true::105::116::BlackSun::Royalty::10/21/2020 12:30::true::1::-10::BlackSun::Royalty
+122::978::1::1::true::true::106::115::Inferno::Supremacy::10/21/2020 12:30::true::9::-10::Inferno::Supremacy
+123::1009::1::1::true::true::108::113::Crown::Alliance::10/21/2020 12:30::true::-2::1::Alliance::Crown
+124::1118::1::1::true::true::117::123::Wrecking Crew::Brute Force::10/21/2020 12:30::true::9::-9::Wrecking Crew::Brute Force
+125::1023::1::1::true::true::109::112::Fury::Rampage::10/21/2020 12:30::true::-9::1::Rampage::Fury
+126::1128::1::1::true::false::122::119::High Voltage::Thrashers::10/21/2020 12:30::true::1::-5::High Voltage::Thrashers
+127::1131::1::1::true::false::121::120::Icons::Mean Green::10/21/2020 12:30::true::-3::3::Mean Green::Icons
+128::995::1::1::true::false::115::107::Supremacy::Doom::10/21/2020 12:30::true::13::-15::Supremacy::Doom
+130::1010::1::1::true::false::114::108::Chaos::Crown::10/21/2020 12:30::true::-2::1::Crown::Chaos
+131::1124::1::1::true::false::123::118::Brute Force::Legends::10/21/2020 12:30::true::5::-5::Brute Force::Legends
+132::962::1::1::true::false::117::105::Wrecking Crew::BlackSun::10/21/2020 12:30::true::9::-8::Wrecking Crew::BlackSun
+133::1024::1::1::true::false::113::109::Alliance::Fury::10/21/2020 12:30::true::-14::14::Fury::Alliance
+134::1037::1::1::true::false::112::110::Rampage::Vanquish::10/21/2020 12:30::true::-1::-11::Rampage::Vanquish
+135::979::1::1::true::false::116::106::Royalty::Inferno::10/21/2020 12:30::true::-16::16::Inferno::Royalty
+136::1038::1::1::true::true::110::113::Vanquish::Alliance::10/21/2020 12:30::true::-18::18::Alliance::Vanquish
+138::1132::1::1::true::true::120::122::Mean Green::High Voltage::10/21/2020 12:30::true::12::-14::Mean Green::High Voltage
+139::996::1::1::true::true::107::116::Doom::Royalty::10/21/2020 12:30::true::7::-7::Doom::Royalty
+140::1025::1::1::true::false::114::109::Chaos::Fury::10/21/2020 12:30::true::-4::4::Fury::Chaos
+141::1011::1::1::true::false::115::108::Supremacy::Crown::10/21/2020 12:30::true::-6::3::Crown::Supremacy
+142::1129::1::1::true::false::123::119::Brute Force::Thrashers::10/21/2020 12:30::true::7::-9::Brute Force::Thrashers
+143::963::1::1::true::false::118::105::Legends::BlackSun::10/21/2020 12:30::true::3::-4::Legends::BlackSun
+144::980::1::1::true::true::106::117::Inferno::Wrecking Crew::10/21/2020 12:30::true::0::-2::Inferno::Wrecking Crew

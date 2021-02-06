@@ -1,6 +1,6 @@
 com\re\bracket\service\TeamServiceLayerTest.class
-com\re\bracket\service\TournamentServiceLayerTest.class
 com\re\bracket\dao\TournamentDaoTest.class
-com\re\bracket\dao\TeamDaoTest.class
 com\re\bracket\dao\UserDaoTest.class
 com\re\bracket\service\UserServiceLayerTest.class
+com\re\bracket\service\TournamentServiceLayerTest.class
+com\re\bracket\dao\TeamDaoTest.class

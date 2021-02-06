@@ -221,14 +221,62 @@ public class View {
 
     }
 
-    public void teamAndRoster(Team team, List<Player> roster) {
+    public void teamAndRoster(Team team, List<Player> roster, Tournament tournament) {
         int counter = 1;
+        String padding;
+        int maxNameLength;
+        String linePadding;
+        int paddingIncrements;
+        Stat currentStat;
+        double ppg;
+        int total;
+
         teamDisplayFrame(team);
+
         if (team.isHasPlayers()) {
-            io.print("----Roster----");
-            for (Player player : roster) {
-                io.print("" + counter + ") " + player.getPlayerName());
-                counter++;
+            if (roster.size() > 0) {
+                maxNameLength = roster.stream().mapToInt(p -> p.getPlayerName()
+                        .length()).max().getAsInt();
+            } else {
+                maxNameLength = 0;
+            }
+            linePadding = "   ";
+            for (int i = 0; i < maxNameLength; i++) {
+                linePadding += " ";
+            }
+
+            io.print("----Roster----" + linePadding + "PPG     Total");
+
+            if (!tournament.isIsSecondStage()) {
+                for (Player player : roster) {
+                    currentStat = player.getStatInfo();
+                    ppg = currentStat.getPtsPerGame();
+                    total = currentStat.getTotalPoints();
+                    padding = "              ";
+                    paddingIncrements = maxNameLength - player.getPlayerName().length();
+                    for (int j = 0; j < paddingIncrements; j++) {
+                        padding += " ";
+                    }
+                    io.print("" + counter + ") " + player.getPlayerName()
+                            + padding + String.format("%.02f", ppg) + "      "
+                            + total);
+                    counter++;
+                }
+            } else {
+                for (Player player : roster) {
+                    currentStat = player.getS2StatInfo();
+                    ppg = currentStat.getPtsPerGame();
+                    total = currentStat.getTotalPoints();
+                    padding = "     ";
+                    paddingIncrements = maxNameLength - player.getPlayerName().length();
+                    for (int j = 0; j < paddingIncrements; j++) {
+                        padding += " ";
+                    }
+                    io.print("" + counter + ") " + player.getPlayerName()
+                            + padding + String.format("%.02f", ppg) + "      "
+                            + total);
+                    counter++;
+                }
             }
         }
         io.readString("Press Enter to continue.");
@@ -265,6 +313,7 @@ public class View {
 
     public int tournamentFullSchedule(List<Series> fullSchedule,
             Tournament tournament) {
+        displayTournamentFrame(tournament);
         int numOfRounds = tournament.getS1NumOfRounds();
         String status = "";
 
@@ -499,7 +548,7 @@ public class View {
                 }
             }
             //change best of
-            changeBestOf = io.readString("Change Best of # of games?")
+            changeBestOf = io.readString("Change Best of # of games? (y/n)")
                     .equalsIgnoreCase("y");
             if (changeBestOf) {
                 do {
@@ -530,6 +579,45 @@ public class View {
     public Game finishGameForm(Game game) {
         gameFrameDisplay(game);
         return updateGameForm(game);
+    }
+
+    public List<Player> updatePlayerScores(Team team, List<Player> players,
+            Game game) {
+        boolean update;
+        boolean isConfirm;
+        int posPts;
+        int negPts;
+        update = io.readString("Enter scores for players? (y/n)")
+                .equalsIgnoreCase("y");
+        if (update) {
+            do {
+                if (game.getStageNumber() == 1) {
+                    for (Player player : players) {
+                        posPts = io.readInt("Enter +Score for "
+                                + player.getPlayerName());
+                        negPts = io.readInt("Enter -Score for "
+                                + player.getPlayerName());
+                        player.getStatInfo().setPosPoints(posPts);
+                        player.getStatInfo().setNegPoints(negPts);
+                    }
+                } else {//stage 2
+                    for (Player player : players) {
+                        posPts = io.readInt("Enter +Score for "
+                                + player.getPlayerName());
+                        negPts = io.readInt("Enter -Score for "
+                                + player.getPlayerName());
+                        player.getS2StatInfo().setPosPoints(posPts);
+                        player.getS2StatInfo().setNegPoints(negPts);
+                    }
+                }
+                isConfirm = io.readString("Confirm scores? (y/n)")
+                        .equalsIgnoreCase("y");
+            } while (!isConfirm);
+        } else {
+            //do nothing
+        }
+
+        return players;
     }
 
     public int gamesDisplayAndNavigate(List<Game> games) {
@@ -579,8 +667,8 @@ public class View {
                 + field
                 + "Date/Time: " + game.getDateTime() + "\n"
                 + "============================\n"
-                + game.getAwayTeam() + ": " + awayScore + "\n"
-                + game.getHomeTeam() + ": " + homeScore + "\n"
+                + game.getAwayTeam() + "(A): " + awayScore + "\n"
+                + game.getHomeTeam() + "(H): " + homeScore + "\n"
         );
     }
 
@@ -608,7 +696,7 @@ public class View {
         gameFrameDisplay(game);
 
         if (!isReady) {
-            isReady = io.readString("Is this game ready?")
+            isReady = io.readString("Is this game ready? (y/n)")
                     .equalsIgnoreCase("y");
             game.setIsReady(isReady);
         }
@@ -619,39 +707,37 @@ public class View {
                 ldt = getStartDate();
                 game.setDateTime(ldt);
             }
+        }
+        keepPreference = io.readString("Keep field preference? (y/n)")
+                .equalsIgnoreCase("y");
+        if (!keepPreference & !isNeutralField) {
+            game.setIsNeutralField(true);
+            game.setHomeTeam(homeTeamName);
+            game.setAwayTeam(awayTeamName);
+            game.setHomeTeamId(homeTeamId);
+            game.setAwayTeamId(awayTeamId);
+        } else if (!keepPreference & isNeutralField) {
+            game.setIsNeutralField(false);
+            fieldSelection = io.readInt("Choose Home Team.\n"
+                    + "1) " + homeTeamName + "\n"
+                    + "2) " + awayTeamName + "\n", 1, 2);
+            if (fieldSelection == 2) {
+                game.setHomeTeam(awayTeamName);
+                game.setAwayTeam(homeTeamName);
+                game.setHomeTeamId(awayTeamId);
+                game.setAwayTeamId(homeTeamId);
+            } else {
 
-            keepPreference = io.readString("Keep field preference? (y/n)")
-                    .equalsIgnoreCase("y");
-            if (!keepPreference & !isNeutralField) {
-                game.setIsNeutralField(true);
-                game.setHomeTeam(homeTeamName);
-                game.setAwayTeam(awayTeamName);
-                game.setHomeTeamId(homeTeamId);
-                game.setAwayTeamId(awayTeamId);
-            } else if (!keepPreference & isNeutralField) {
-                game.setIsNeutralField(false);
-                fieldSelection = io.readInt("Choose Home Team.\n"
-                        + "1) " + homeTeamName + "\n"
-                        + "2) " + awayTeamName + "\n", 1, 2);
-                if (fieldSelection == 2) {
-                    game.setHomeTeam(awayTeamName);
-                    game.setAwayTeam(homeTeamName);
-                    game.setHomeTeamId(awayTeamId);
-                    game.setAwayTeamId(homeTeamId);
-                } else {
-
-                }
             }
-
         }
         if (isReady & !isComplete) {
             updateResults = io.readString("Update results? (y/n)")
                     .equalsIgnoreCase("y");
             if (updateResults) {
-                homeScore = io.readInt("Enter score for " + homeTeamName
+                homeScore = io.readInt("Enter score for " + game.getHomeTeam()//Name didn't change when fields changed
                         + "\n");
                 game.setHomeScore(homeScore);
-                awayScore = io.readInt("Enter score for " + awayTeamName
+                awayScore = io.readInt("Enter score for " + game.getAwayTeam()
                         + "\n");
                 game.setAwayScore(awayScore);
                 winningNum = io.readInt("Select winner:\n"
@@ -684,7 +770,13 @@ public class View {
         int rank;
         int paddingIncrements;
         boolean isSecondStage;
+        String ppgSpace;
+        String totalSpace;
+        String streakSpace;
+        String rankSpace;
+        String pntDiffSpace;
         Stat stat;
+        double diffPerGame;
 
         isSecondStage = tournament.isIsSecondStage();
         int maxNameLength = standings.stream().mapToInt(t -> t.getTeamName()
@@ -694,11 +786,19 @@ public class View {
             linePadding += " ";
         }
 
-        io.print("Team " + linePadding + "W - L    WIN%     GB     HOME    AWAY    "
-                + "PPG     TOTAL    STREAK   SERIES"
+        io.print("Team " + linePadding + " W - L    WIN%     GB     HOME    AWAY    "
+                + " ptDiff/GM      PPG      STREAK   SERIES"
         );
         for (Team team : standings) {
+            ppgSpace = " ";
+            totalSpace = " ";
+            streakSpace = " ";
             padding = "     ";
+            rankSpace = "";
+            pntDiffSpace = "   ";
+            if(team.getRank() < 10){
+                rankSpace = " ";
+            }
             paddingIncrements = maxNameLength - team.getTeamName().length();
             for (int j = 0; j < paddingIncrements; j++) {
                 padding += " ";
@@ -727,10 +827,35 @@ public class View {
             } else {
                 streak = "L";
             }
-
+            
+            int total = stat.getTotalPoints();
+            if( total < 0){
+                totalSpace = "";
+            }
+//            if(Math.abs(total) <10){
+//                streakSpace = " ";
+//            }
+            if(stat.getPtsPerGame() < 0){
+                ppgSpace = "";
+                if(stat.getPtsPerGame() <= -10){
+                    streakSpace = "";
+                }
+            }
+            diffPerGame = (double) stat.getPntDifferential() / stat.getGamesPlayed();
+            if(diffPerGame < 0){
+                pntDiffSpace = "  ";
+            } 
+            if(Math.abs(diffPerGame) < 100){
+                pntDiffSpace += " ";
+                if(Math.abs(diffPerGame) < 10){
+                    pntDiffSpace += " ";
+                }
+            }
+            
+            
             io.print("---------------------------------------------------------"
-                    + "--------------------------");
-            io.print("" + rank + ". " + team.getTeamName() + padding
+                    + "-------------------------------------");
+            io.print("" + rankSpace + rank + ". " + team.getTeamName() + padding
                     + currentWins + " - "
                     + currentLosses + "    "
                     + String.format("%.02f", stat.getWinPercent()) + "     "
@@ -738,10 +863,10 @@ public class View {
                     + stat.getHomeWins() + "-"
                     + stat.getHomeLosses() + "     "
                     + stat.getAwayWins() + "-"
-                    + stat.getAwayLosses() + "    "
-                    + String.format("%.02f", stat.getPtsPerGame()) + "      "
-                    + stat.getTotalPoints() + "       "
-                    + streak + " "
+                    + stat.getAwayLosses() + "    " + pntDiffSpace
+                    + String.format("%.02f", diffPerGame) + "      " + ppgSpace
+                    + String.format("%.02f", stat.getPtsPerGame()) + "      " 
+                    + streakSpace + streak 
                     + stat.getStreakCount() + "      "
                     + stat.getSeriesWins() + "-"
                     + stat.getSeriesLosses());
@@ -752,6 +877,22 @@ public class View {
         return io.readInt("\nSelect team by rank number to view Team\n"
                 + "(Press 0 to go back)", 0,
                 standings.size());
+    }
+
+    public boolean getGameResults() {
+        return io.readString("View game results? (y/n)").equalsIgnoreCase("y");
+    }
+
+    public int gameResults(String results) {
+        io.print(results);
+        int gameOperation = io.readInt("Enter gameId to view team/player "
+                + "results for that game.");
+        return gameOperation;
+    }
+
+    public void SingleGameResult(String gameResult) {
+        io.readString(gameResult + "\n"
+                + "Press Enter to continue.");
     }
 
     public void teamStatByStatType(Stat stat, Team team) {
@@ -788,6 +929,7 @@ public class View {
 
     /////////////////////////// Private Methods //////////////////////
     private void displayTournamentFrame(Tournament tournament) {
+
         io.print("===========================================\n"
                 + "Tournament Name: " + tournament.getTournamentName() + "\n"
                 + "Stage-Type: " + tournament.getStageType() + "-Stage\n"

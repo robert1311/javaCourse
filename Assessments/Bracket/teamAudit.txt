@@ -1,0 +1,1340 @@
+TeamID: 78 - Red GameID:29 - SeriesID:444 TournamentID:20 - Red HOME LOSS : 4 - 6 - 2020-10-13T10:30 - TimeOfSave: 2020-10-24T19:12:11.595623
+TeamID: 79 - Yellow GameID:29 - SeriesID:444 TournamentID:20 - YellowAWAY WIN : 4 - 6 - 2020-10-13T10:30 - TimeOfSave: 2020-10-24T19:12:11.597617900
+TeamID: 100 - Nuggets GameID:30 - SeriesID:940 TournamentID:22 - NuggetsHOME WIN : 2 - -3 - 2020-10-21T10:30 - TimeOfSave: 2020-10-24T19:16:37.509676700
+PlayerID: 21 - GameID: 30 - Series: 940Jokic +1_-2 WIN2 - -32020-10-21T10:30 - TimeOfSave: 2020-10-24T19:17:35.520314
+PlayerID: 22 - GameID: 30 - Series: 940Murray +3_-0 WIN2 - -32020-10-21T10:30 - TimeOfSave: 2020-10-24T19:17:35.521312700
+PlayerID: 23 - GameID: 30 - Series: 940extra1 +0_-0 WIN2 - -32020-10-21T10:30 - TimeOfSave: 2020-10-24T19:17:35.558355900
+PlayerID: 24 - GameID: 30 - Series: 940extra2 +0_-0 WIN2 - -32020-10-21T10:30 - TimeOfSave: 2020-10-24T19:17:35.559357900
+TeamID: 97 - Lakers GameID:30 - SeriesID:940 TournamentID:22 - LakersAWAY LOSS : 2 - -3 - 2020-10-21T10:30 - TimeOfSave: 2020-10-24T19:17:35.560353400
+PlayerID: 14 - GameID: 30 - Series: 940Lebron +1_-1 WIN2 - -32020-10-21T10:30 - TimeOfSave: 2020-10-24T19:18:17.948658
+PlayerID: 15 - GameID: 30 - Series: 940AD +2_-3 WIN2 - -32020-10-21T10:30 - TimeOfSave: 2020-10-24T19:18:17.952647800
+PlayerID: 16 - GameID: 30 - Series: 940Rondo +3_-0 WIN2 - -32020-10-21T10:30 - TimeOfSave: 2020-10-24T19:18:17.956635300
+PlayerID: 17 - GameID: 30 - Series: 940Kuzma +0_-1 WIN2 - -32020-10-21T10:30 - TimeOfSave: 2020-10-24T19:18:17.960624900
+TeamID: 100 - Nuggets - SeriesID:940 TournamentID:22 - NuggetsWIN  : 2020-10-21T10:30 - TimeOfSave: 2020-10-24T19:18:18.024455500
+TeamID: 97 - Lakers - SeriesID:940 TournamentID:22 - LakersLOSS  : 2020-10-21T10:30 - TimeOfSave: 2020-10-24T19:18:18.031437400
+TeamID: 98 - Clippers GameID:31 - SeriesID:943 TournamentID:22 - ClippersHOME LOSS : -2 - 10 - 2020-10-21T10:30 - TimeOfSave: 2020-10-24T20:05:52.191234300
+PlayerID: 10 - GameID: 31 - Series: 943 Kawhi +1_-1 WIN-2 - 102020-10-21T10:30 - TimeOfSave: 2020-10-24T20:06:27.189061
+PlayerID: 18 - GameID: 31 - Series: 943 PG +2_-3 WIN-2 - 102020-10-21T10:30 - TimeOfSave: 2020-10-24T20:06:27.190063300
+PlayerID: 19 - GameID: 31 - Series: 943 Pat Bev +1_-2 WIN-2 - 102020-10-21T10:30 - TimeOfSave: 2020-10-24T20:06:27.191054
+PlayerID: 20 - GameID: 31 - Series: 943 Harrel +1_-1 WIN-2 - 102020-10-21T10:30 - TimeOfSave: 2020-10-24T20:06:27.191054
+TeamID: 96 - Mavs GameID: 31 - SeriesID: 943 TournamentID: 22 - Mavs AWAY WIN : -2 - 10 - 2020-10-21T10:30 - TimeOfSave: 2020-10-24T20:06:27.193049300
+PlayerID: 9 - GameID: 31 - Series: 943 Luka +4_-0 WIN-2 - 102020-10-21T10:30 - TimeOfSave: 2020-10-24T20:08:07.553205600
+PlayerID: 11 - GameID: 31 - Series: 943 Rob3113 +3_-0 WIN-2 - 102020-10-21T10:30 - TimeOfSave: 2020-10-24T20:08:07.555201400
+PlayerID: 12 - GameID: 31 - Series: 943 KP +2_-0 WIN-2 - 102020-10-21T10:30 - TimeOfSave: 2020-10-24T20:08:07.557192700
+PlayerID: 13 - GameID: 31 - Series: 943 Giannis +1_-0 WIN-2 - 102020-10-21T10:30 - TimeOfSave: 2020-10-24T20:08:07.559191700
+TeamID: 100 - Nuggets GameID: 32 - SeriesID: 947 TournamentID: 22 - NuggetsHOME LOSS : 4 - 8 - 10/21/2020 10:30 - TimeOfSave: 2020-10-25T15:20:59.967060900
+PlayerID: 21 - TeamID: 100 GameID: 32 - Series: 947 Jokic +1_-0 LOSS 4 - 810/21/2020 10:30 - TimeOfSave: 2020-10-25T15:21:16.551463200
+PlayerID: 22 - TeamID: 100 GameID: 32 - Series: 947 Murray +1_-0 LOSS 4 - 810/21/2020 10:30 - TimeOfSave: 2020-10-25T15:21:16.552553500
+PlayerID: 23 - TeamID: 100 GameID: 32 - Series: 947 extra1 +1_-0 LOSS 4 - 810/21/2020 10:30 - TimeOfSave: 2020-10-25T15:21:16.553551600
+PlayerID: 24 - TeamID: 100 GameID: 32 - Series: 947 extra2 +1_-0 LOSS 4 - 810/21/2020 10:30 - TimeOfSave: 2020-10-25T15:21:16.553983700
+TeamID: 96 - Mavs GameID: 32 - SeriesID: 947 TournamentID: 22 - MavsAWAY WIN : 4 - 8 - 10/21/2020 10:30 - TimeOfSave: 2020-10-25T15:21:16.555125700
+PlayerID: 9 - TeamID: 96 GameID: 32 - Series: 947 Luka +2_-0 WIN 4 - 810/21/2020 10:30 - TimeOfSave: 2020-10-25T15:21:28.335943700
+PlayerID: 11 - TeamID: 96 GameID: 32 - Series: 947 Rob3113 +2_-0 WIN 4 - 810/21/2020 10:30 - TimeOfSave: 2020-10-25T15:21:28.337945200
+PlayerID: 12 - TeamID: 96 GameID: 32 - Series: 947 KP +2_-0 WIN 4 - 810/21/2020 10:30 - TimeOfSave: 2020-10-25T15:21:28.339783900
+PlayerID: 13 - TeamID: 96 GameID: 32 - Series: 947 Giannis +2_-0 WIN 4 - 810/21/2020 10:30 - TimeOfSave: 2020-10-25T15:21:28.341777400
+TeamID: 100 - Nuggets -  SeriesID: 947 TournamentID: 22 - NuggetsLOSS  : 10/21/2020 10:30 - TimeOfSave: 2020-10-25T15:21:28.352620600
+TeamID: 96 - Mavs -  SeriesID: 947 TournamentID: 22 - MavsWIN  : 10/21/2020 10:30 - TimeOfSave: 2020-10-25T15:21:28.353933600
+TeamID: 98 - Clippers GameID: 33 - SeriesID: 948 TournamentID: 22 - ClippersHOME LOSS : 4 - 8 - 10/21/2020 10:30 - TimeOfSave: 2020-10-25T15:22:32.974833800
+PlayerID: 10 - TeamID: 98 GameID: 33 - Series: 948 Kawhi +1_-0 LOSS 4 - 810/21/2020 10:30 - TimeOfSave: 2020-10-25T15:22:41.460528400
+PlayerID: 18 - TeamID: 98 GameID: 33 - Series: 948 PG +1_-0 LOSS 4 - 810/21/2020 10:30 - TimeOfSave: 2020-10-25T15:22:41.461556200
+PlayerID: 19 - TeamID: 98 GameID: 33 - Series: 948 Pat Bev +1_-0 LOSS 4 - 810/21/2020 10:30 - TimeOfSave: 2020-10-25T15:22:41.462521300
+PlayerID: 20 - TeamID: 98 GameID: 33 - Series: 948 Harrel +1_-0 LOSS 4 - 810/21/2020 10:30 - TimeOfSave: 2020-10-25T15:22:41.463051700
+TeamID: 97 - Lakers GameID: 33 - SeriesID: 948 TournamentID: 22 - LakersAWAY WIN : 4 - 8 - 10/21/2020 10:30 - TimeOfSave: 2020-10-25T15:22:41.464050900
+PlayerID: 14 - TeamID: 97 GameID: 33 - Series: 948 Lebron +2_-0 WIN 4 - 810/21/2020 10:30 - TimeOfSave: 2020-10-25T15:22:48.330578700
+PlayerID: 15 - TeamID: 97 GameID: 33 - Series: 948 AD +2_-0 WIN 4 - 810/21/2020 10:30 - TimeOfSave: 2020-10-25T15:22:48.331626400
+PlayerID: 16 - TeamID: 97 GameID: 33 - Series: 948 Rondo +2_-0 WIN 4 - 810/21/2020 10:30 - TimeOfSave: 2020-10-25T15:22:48.332624300
+PlayerID: 17 - TeamID: 97 GameID: 33 - Series: 948 Kuzma +2_-0 WIN 4 - 810/21/2020 10:30 - TimeOfSave: 2020-10-25T15:22:48.333486800
+TeamID: 98 - Clippers -  SeriesID: 948 TournamentID: 22 - ClippersLOSS  : 10/21/2020 10:30 - TimeOfSave: 2020-10-25T15:22:48.333486800
+TeamID: 97 - Lakers -  SeriesID: 948 TournamentID: 22 - LakersWIN  : 10/21/2020 10:30 - TimeOfSave: 2020-10-25T15:22:48.334483500
+TeamID: 109 - Fury GameID: 34 - SeriesID: 1034 TournamentID: 24 - FuryHOME WIN : 2 - -4 - 10/21/2020 12:30 - TimeOfSave: 2020-11-02T22:26:04.856589200
+PlayerID: 49 - TeamID: 109 GameID: 34 - Series: 1034 Ike +18_-19 WIN 2 - -410/21/2020 12:30 - TimeOfSave: 2020-11-02T22:26:56.284922
+PlayerID: 50 - TeamID: 109 GameID: 34 - Series: 1034 Byleth +17_-11 WIN 2 - -410/21/2020 12:30 - TimeOfSave: 2020-11-02T22:26:56.285920100
+PlayerID: 51 - TeamID: 109 GameID: 34 - Series: 1034 Rosalina +7_-11 WIN 2 - -410/21/2020 12:30 - TimeOfSave: 2020-11-02T22:26:56.285920100
+PlayerID: 52 - TeamID: 109 GameID: 34 - Series: 1034 Mega Man +13_-12 WIN 2 - -410/21/2020 12:30 - TimeOfSave: 2020-11-02T22:26:56.286917200
+TeamID: 123 - Brute Force GameID: 34 - SeriesID: 1034 TournamentID: 24 - Brute ForceAWAY LOSS : 2 - -4 - 10/21/2020 12:30 - TimeOfSave: 2020-11-02T22:26:56.287915
+PlayerID: 105 - TeamID: 123 GameID: 34 - Series: 1034 Donkey Kong +12_-16 LOSS 2 - -410/21/2020 12:30 - TimeOfSave: 2020-11-02T22:27:29.355219800
+PlayerID: 106 - TeamID: 123 GameID: 34 - Series: 1034 Greninja +12_-14 LOSS 2 - -410/21/2020 12:30 - TimeOfSave: 2020-11-02T22:27:29.355552200
+PlayerID: 107 - TeamID: 123 GameID: 34 - Series: 1034 Zelda +16_-13 LOSS 2 - -410/21/2020 12:30 - TimeOfSave: 2020-11-02T22:27:29.356553800
+PlayerID: 108 - TeamID: 123 GameID: 34 - Series: 1034 Falco +11_-12 LOSS 2 - -410/21/2020 12:30 - TimeOfSave: 2020-11-02T22:27:29.357549200
+TeamID: 109 - Fury -  SeriesID: 1034 TournamentID: 24 - FuryWIN  : 10/21/2020 12:30 - TimeOfSave: 2020-11-03T14:24:39.001421400
+TeamID: 123 - Brute Force -  SeriesID: 1034 TournamentID: 24 - Brute ForceLOSS  : 10/21/2020 12:30 - TimeOfSave: 2020-11-03T14:24:39.002446100
+TeamID: 112 - Rampage GameID: 35 - SeriesID: 1070 TournamentID: 24 - RampageHOME WIN : -4 - -8 - 10/21/2020 12:30 - TimeOfSave: 2020-11-10T22:54:34.797961200
+PlayerID: 61 - TeamID: 112 GameID: 35 - Series: 1070 Yoshi +9_-9 WIN -4 - -810/21/2020 12:30 - TimeOfSave: 2020-11-10T22:55:31.434734300
+PlayerID: 62 - TeamID: 112 GameID: 35 - Series: 1070 Mewtwo +15_-10 WIN -4 - -810/21/2020 12:30 - TimeOfSave: 2020-11-10T22:55:31.435732700
+PlayerID: 63 - TeamID: 112 GameID: 35 - Series: 1070 Ryu +6_-12 WIN -4 - -810/21/2020 12:30 - TimeOfSave: 2020-11-10T22:55:31.436762100
+PlayerID: 64 - TeamID: 112 GameID: 35 - Series: 1070 Snake +15_-18 WIN -4 - -810/21/2020 12:30 - TimeOfSave: 2020-11-10T22:55:31.437727
+TeamID: 120 - Mean Green GameID: 35 - SeriesID: 1070 TournamentID: 24 - Mean GreenAWAY LOSS : -4 - -8 - 10/21/2020 12:30 - TimeOfSave: 2020-11-10T22:55:31.438725700
+PlayerID: 93 - TeamID: 120 GameID: 35 - Series: 1070 Little Mac +12_-12 LOSS -4 - -810/21/2020 12:30 - TimeOfSave: 2020-11-10T22:56:41.058821400
+PlayerID: 94 - TeamID: 120 GameID: 35 - Series: 1070 Corrin +7_-11 LOSS -4 - -810/21/2020 12:30 - TimeOfSave: 2020-11-10T22:56:41.060815700
+PlayerID: 95 - TeamID: 120 GameID: 35 - Series: 1070 Luigi +4_-10 LOSS -4 - -810/21/2020 12:30 - TimeOfSave: 2020-11-10T22:56:41.063190500
+PlayerID: 96 - TeamID: 120 GameID: 35 - Series: 1070 Palutena +14_-12 LOSS -4 - -810/21/2020 12:30 - TimeOfSave: 2020-11-10T22:56:41.064802800
+TeamID: 111 - Monarch GameID: 36 - SeriesID: 1059 TournamentID: 24 - MonarchHOME WIN : 0 - -11 - 10/21/2020 12:30 - TimeOfSave: 2020-11-11T00:12:07.357319100
+PlayerID: 57 - TeamID: 111 GameID: 36 - Series: 1059 0 Suit Samus +18_-16 WIN 0 - -1110/21/2020 12:30 - TimeOfSave: 2020-11-11T00:19:33.878281400
+PlayerID: 58 - TeamID: 111 GameID: 36 - Series: 1059 Lucina +19_-18 WIN 0 - -1110/21/2020 12:30 - TimeOfSave: 2020-11-11T00:19:33.879209900
+PlayerID: 59 - TeamID: 111 GameID: 36 - Series: 1059 Piranha Plant +10_-14 WIN 0 - -1110/21/2020 12:30 - TimeOfSave: 2020-11-11T00:19:33.880207300
+PlayerID: 60 - TeamID: 111 GameID: 36 - Series: 1059 Duck Hunt +15_-14 WIN 0 - -1110/21/2020 12:30 - TimeOfSave: 2020-11-11T00:19:33.882142900
+TeamID: 121 - Icons GameID: 36 - SeriesID: 1059 TournamentID: 24 - IconsAWAY LOSS : 0 - -11 - 10/21/2020 12:30 - TimeOfSave: 2020-11-11T00:19:33.883188100
+PlayerID: 97 - TeamID: 121 GameID: 36 - Series: 1059 Ken +11_-18 LOSS 0 - -1110/21/2020 12:30 - TimeOfSave: 2020-11-11T00:20:26.116686900
+PlayerID: 98 - TeamID: 121 GameID: 36 - Series: 1059 Banjo & Kazooie +13_-17 LOSS 0 - -1110/21/2020 12:30 - TimeOfSave: 2020-11-11T00:20:26.119285200
+PlayerID: 99 - TeamID: 121 GameID: 36 - Series: 1059 Lucario +13_-14 LOSS 0 - -1110/21/2020 12:30 - TimeOfSave: 2020-11-11T00:20:26.121676
+PlayerID: 100 - TeamID: 121 GameID: 36 - Series: 1059 R.O.B. +17_-16 LOSS 0 - -1110/21/2020 12:30 - TimeOfSave: 2020-11-11T00:20:26.123846700
+TeamID: 112 - Rampage -  SeriesID: 1070 TournamentID: 24 - RampageWIN  : 10/21/2020 12:30 - TimeOfSave: 2020-11-16T16:34:30.305322900
+TeamID: 120 - Mean Green -  SeriesID: 1070 TournamentID: 24 - Mean GreenLOSS  : 10/21/2020 12:30 - TimeOfSave: 2020-11-16T16:34:30.335492200
+TeamID: 111 - Monarch -  SeriesID: 1059 TournamentID: 24 - MonarchWIN  : 10/21/2020 12:30 - TimeOfSave: 2020-11-16T16:36:38.003233600
+TeamID: 121 - Icons -  SeriesID: 1059 TournamentID: 24 - IconsLOSS  : 10/21/2020 12:30 - TimeOfSave: 2020-11-16T16:36:38.006442800
+TeamID: 113 - Alliance GameID: 37 - SeriesID: 1080 TournamentID: 24 - AllianceHOME WIN : 5 - -15 - 10/21/2020 12:30 - TimeOfSave: 2020-11-16T18:11:11.506835400
+TeamID: 113 - Alliance GameID: 38 - SeriesID: 1080 TournamentID: 24 - AllianceHOME WIN : 5 - -15 - 10/21/2020 12:30 - TimeOfSave: 2020-11-16T18:15:17.166106200
+PlayerID: 65 - TeamID: 113 GameID: 38 - Series: 1080 Robin +18_-12 WIN 5 - -1510/21/2020 12:30 - TimeOfSave: 2020-11-16T18:15:58.407571900
+PlayerID: 66 - TeamID: 113 GameID: 38 - Series: 1080 Captain Falcon +15_-12 WIN 5 - -1510/21/2020 12:30 - TimeOfSave: 2020-11-16T18:15:58.408569100
+PlayerID: 67 - TeamID: 113 GameID: 38 - Series: 1080 Inkling +14_-15 WIN 5 - -1510/21/2020 12:30 - TimeOfSave: 2020-11-16T18:15:58.409566500
+PlayerID: 68 - TeamID: 113 GameID: 38 - Series: 1080 Ridley +14_-17 WIN 5 - -1510/21/2020 12:30 - TimeOfSave: 2020-11-16T18:15:58.410564
+TeamID: 119 - Thrashers GameID: 38 - SeriesID: 1080 TournamentID: 24 - ThrashersAWAY LOSS : 5 - -15 - 10/21/2020 12:30 - TimeOfSave: 2020-11-16T18:15:58.410564
+PlayerID: 89 - TeamID: 119 GameID: 38 - Series: 1080 Chrom +24_-19 LOSS 5 - -1510/21/2020 12:30 - TimeOfSave: 2020-11-16T18:17:05.988814200
+PlayerID: 90 - TeamID: 119 GameID: 38 - Series: 1080 Marth +11_-15 LOSS 5 - -1510/21/2020 12:30 - TimeOfSave: 2020-11-16T18:17:05.989366500
+PlayerID: 91 - TeamID: 119 GameID: 38 - Series: 1080 Young Link +8_-15 LOSS 5 - -1510/21/2020 12:30 - TimeOfSave: 2020-11-16T18:17:05.990366400
+PlayerID: 92 - TeamID: 119 GameID: 38 - Series: 1080 Jigglypuff +7_-16 LOSS 5 - -1510/21/2020 12:30 - TimeOfSave: 2020-11-16T18:17:05.991364500
+TeamID: 113 - Alliance -  SeriesID: 1080 TournamentID: 24 - AllianceWIN  : 10/21/2020 12:30 - TimeOfSave: 2020-11-16T18:17:05.998344900
+TeamID: 119 - Thrashers -  SeriesID: 1080 TournamentID: 24 - ThrashersLOSS  : 10/21/2020 12:30 - TimeOfSave: 2020-11-16T18:17:05.999342400
+TeamID: 110 - Vanquish GameID: 39 - SeriesID: 1047 TournamentID: 24 - VanquishHOME WIN : 7 - -7 - 10/21/2020 12:30 - TimeOfSave: 2020-11-16T19:38:44.030726200
+PlayerID: 53 - TeamID: 110 GameID: 39 - Series: 1047 Sheik +5_-7 WIN 7 - -710/21/2020 12:30 - TimeOfSave: 2020-11-16T19:39:19.813752800
+PlayerID: 54 - TeamID: 110 GameID: 39 - Series: 1047 Pac-Man +7_-6 WIN 7 - -710/21/2020 12:30 - TimeOfSave: 2020-11-16T19:39:19.815750100
+PlayerID: 55 - TeamID: 110 GameID: 39 - Series: 1047 Roy +9_-7 WIN 7 - -710/21/2020 12:30 - TimeOfSave: 2020-11-16T19:39:19.817742300
+PlayerID: 56 - TeamID: 110 GameID: 39 - Series: 1047 Richter +13_-7 WIN 7 - -710/21/2020 12:30 - TimeOfSave: 2020-11-16T19:39:19.818735300
+TeamID: 122 - High Voltage GameID: 39 - SeriesID: 1047 TournamentID: 24 - High VoltageAWAY LOSS : 7 - -7 - 10/21/2020 12:30 - TimeOfSave: 2020-11-16T19:39:19.818735300
+PlayerID: 101 - TeamID: 122 GameID: 39 - Series: 1047 Pichu +8_-10 LOSS 7 - -710/21/2020 12:30 - TimeOfSave: 2020-11-16T19:40:36.346610500
+PlayerID: 102 - TeamID: 122 GameID: 39 - Series: 1047 Terry +8_-8 LOSS 7 - -710/21/2020 12:30 - TimeOfSave: 2020-11-16T19:40:36.347607300
+PlayerID: 103 - TeamID: 122 GameID: 39 - Series: 1047 Pikachu +3_-8 LOSS 7 - -710/21/2020 12:30 - TimeOfSave: 2020-11-16T19:40:36.349613500
+PlayerID: 104 - TeamID: 122 GameID: 39 - Series: 1047 Mr. Game & Watch +8_-8 LOSS 7 - -710/21/2020 12:30 - TimeOfSave: 2020-11-16T19:40:36.351597200
+TeamID: 110 - Vanquish -  SeriesID: 1047 TournamentID: 24 - VanquishWIN  : 10/21/2020 12:30 - TimeOfSave: 2020-11-16T19:40:36.352599300
+TeamID: 122 - High Voltage -  SeriesID: 1047 TournamentID: 24 - High VoltageLOSS  : 10/21/2020 12:30 - TimeOfSave: 2020-11-16T19:40:36.354588600
+TeamID: 114 - Chaos GameID: 41 - SeriesID: 1089 TournamentID: 24 - ChaosHOME LOSS : -6 - 4 - 10/21/2020 12:30 - TimeOfSave: 2020-11-16T23:28:18.123172300
+PlayerID: 69 - TeamID: 114 GameID: 41 - Series: 1089 Wario +8_-10 LOSS -6 - 410/21/2020 12:30 - TimeOfSave: 2020-11-16T23:29:00.519465500
+PlayerID: 70 - TeamID: 114 GameID: 41 - Series: 1089 Kirby +11_-12 LOSS -6 - 410/21/2020 12:30 - TimeOfSave: 2020-11-16T23:29:00.520652300
+PlayerID: 71 - TeamID: 114 GameID: 41 - Series: 1089 Diddy Kong +7_-10 LOSS -6 - 410/21/2020 12:30 - TimeOfSave: 2020-11-16T23:29:00.521650700
+PlayerID: 72 - TeamID: 114 GameID: 41 - Series: 1089 Joker +11_-11 LOSS -6 - 410/21/2020 12:30 - TimeOfSave: 2020-11-16T23:29:00.522871700
+TeamID: 118 - Legends GameID: 41 - SeriesID: 1089 TournamentID: 24 - LegendsAWAY WIN : -6 - 4 - 10/21/2020 12:30 - TimeOfSave: 2020-11-16T23:29:00.523945900
+PlayerID: 85 - TeamID: 118 GameID: 41 - Series: 1089 Bayonetta +4_-11 WIN -6 - 410/21/2020 12:30 - TimeOfSave: 2020-11-16T23:29:39.245119800
+PlayerID: 86 - TeamID: 118 GameID: 41 - Series: 1089 Dr. Mario +9_-7 WIN -6 - 410/21/2020 12:30 - TimeOfSave: 2020-11-16T23:29:39.246552300
+PlayerID: 87 - TeamID: 118 GameID: 41 - Series: 1089 Ganondorf +23_-13 WIN -6 - 410/21/2020 12:30 - TimeOfSave: 2020-11-16T23:29:39.247550900
+PlayerID: 88 - TeamID: 118 GameID: 41 - Series: 1089 Pokemon Trainer +7_-8 WIN -6 - 410/21/2020 12:30 - TimeOfSave: 2020-11-16T23:29:39.248549900
+TeamID: 114 - Chaos -  SeriesID: 1089 TournamentID: 24 - ChaosLOSS  : 10/21/2020 12:30 - TimeOfSave: 2020-11-16T23:29:39.260364
+TeamID: 118 - Legends -  SeriesID: 1089 TournamentID: 24 - LegendsWIN  : 10/21/2020 12:30 - TimeOfSave: 2020-11-16T23:29:39.261363600
+TeamID: 113 - Alliance GameID: 42 - SeriesID: 1080 TournamentID: 24 - AllianceHOME WIN : 4 - -6 - 10/21/2020 12:30 - TimeOfSave: 2020-11-17T13:25:49.824489900
+PlayerID: 65 - TeamID: 113 GameID: 42 - Series: 1080 Robin +13_-10 WIN 4 - -610/21/2020 12:30 - TimeOfSave: 2020-11-17T13:26:32.807274200
+PlayerID: 66 - TeamID: 113 GameID: 42 - Series: 1080 Captain Falcon +13_-14 WIN 4 - -610/21/2020 12:30 - TimeOfSave: 2020-11-17T13:26:32.807274200
+PlayerID: 67 - TeamID: 113 GameID: 42 - Series: 1080 Inkling +12_-13 WIN 4 - -610/21/2020 12:30 - TimeOfSave: 2020-11-17T13:26:32.808271400
+PlayerID: 68 - TeamID: 113 GameID: 42 - Series: 1080 Ridley +21_-18 WIN 4 - -610/21/2020 12:30 - TimeOfSave: 2020-11-17T13:26:32.808271400
+TeamID: 119 - Thrashers GameID: 42 - SeriesID: 1080 TournamentID: 24 - ThrashersAWAY LOSS : 4 - -6 - 10/21/2020 12:30 - TimeOfSave: 2020-11-17T13:26:32.809268600
+PlayerID: 89 - TeamID: 119 GameID: 42 - Series: 1080 Chrom +25_-18 LOSS 4 - -610/21/2020 12:30 - TimeOfSave: 2020-11-17T13:27:12.793389900
+PlayerID: 90 - TeamID: 119 GameID: 42 - Series: 1080 Marth +9_-15 LOSS 4 - -610/21/2020 12:30 - TimeOfSave: 2020-11-17T13:27:12.793858500
+PlayerID: 91 - TeamID: 119 GameID: 42 - Series: 1080 Young Link +9_-12 LOSS 4 - -610/21/2020 12:30 - TimeOfSave: 2020-11-17T13:27:12.794862300
+PlayerID: 92 - TeamID: 119 GameID: 42 - Series: 1080 Jigglypuff +12_-16 LOSS 4 - -610/21/2020 12:30 - TimeOfSave: 2020-11-17T13:27:12.795857
+TeamID: 113 - Alliance -  SeriesID: 1080 TournamentID: 24 - AllianceWIN  : 10/21/2020 12:30 - TimeOfSave: 2020-11-17T13:27:12.806826800
+TeamID: 119 - Thrashers -  SeriesID: 1080 TournamentID: 24 - ThrashersLOSS  : 10/21/2020 12:30 - TimeOfSave: 2020-11-17T13:27:12.807824200
+TeamID: 110 - Vanquish GameID: 43 - SeriesID: 1047 TournamentID: 24 - VanquishHOME LOSS : -14 - 14 - 10/21/2020 12:30 - TimeOfSave: 2020-11-17T14:08:16.145662500
+PlayerID: 53 - TeamID: 110 GameID: 43 - Series: 1047 Sheik +5_-11 LOSS -14 - 1410/21/2020 12:30 - TimeOfSave: 2020-11-17T14:09:08.343123200
+PlayerID: 54 - TeamID: 110 GameID: 43 - Series: 1047 Pac-Man +5_-10 LOSS -14 - 1410/21/2020 12:30 - TimeOfSave: 2020-11-17T14:09:08.344123600
+PlayerID: 55 - TeamID: 110 GameID: 43 - Series: 1047 Roy +14_-13 LOSS -14 - 1410/21/2020 12:30 - TimeOfSave: 2020-11-17T14:09:08.345120100
+PlayerID: 56 - TeamID: 110 GameID: 43 - Series: 1047 Richter +8_-12 LOSS -14 - 1410/21/2020 12:30 - TimeOfSave: 2020-11-17T14:09:08.346115600
+TeamID: 122 - High Voltage GameID: 43 - SeriesID: 1047 TournamentID: 24 - High VoltageAWAY WIN : -14 - 14 - 10/21/2020 12:30 - TimeOfSave: 2020-11-17T14:09:08.347147900
+PlayerID: 101 - TeamID: 122 GameID: 43 - Series: 1047 Pichu +9_-9 WIN -14 - 1410/21/2020 12:30 - TimeOfSave: 2020-11-17T14:10:26.293267300
+PlayerID: 102 - TeamID: 122 GameID: 43 - Series: 1047 Terry +7_-8 WIN -14 - 1410/21/2020 12:30 - TimeOfSave: 2020-11-17T14:10:26.295264900
+PlayerID: 103 - TeamID: 122 GameID: 43 - Series: 1047 Pikachu +14_-7 WIN -14 - 1410/21/2020 12:30 - TimeOfSave: 2020-11-17T14:10:26.296262300
+PlayerID: 104 - TeamID: 122 GameID: 43 - Series: 1047 Mr. Game & Watch +16_-8 WIN -14 - 1410/21/2020 12:30 - TimeOfSave: 2020-11-17T14:10:26.297256700
+TeamID: 110 - Vanquish -  SeriesID: 1047 TournamentID: 24 - VanquishLOSS  : 10/21/2020 12:30 - TimeOfSave: 2020-11-17T14:10:26.303239900
+TeamID: 122 - High Voltage -  SeriesID: 1047 TournamentID: 24 - High VoltageWIN  : 10/21/2020 12:30 - TimeOfSave: 2020-11-17T14:10:26.304237400
+TeamID: 115 - Supremacy GameID: 44 - SeriesID: 1097 TournamentID: 24 - SupremacyHOME LOSS : -4 - 2 - 10/21/2020 12:30 - TimeOfSave: 2020-11-17T15:38:35.153952600
+PlayerID: 73 - TeamID: 115 GameID: 44 - Series: 1097 Olimar +8_-11 LOSS -4 - 210/21/2020 12:30 - TimeOfSave: 2020-11-17T15:39:04.644703600
+PlayerID: 74 - TeamID: 115 GameID: 44 - Series: 1097 King K. Rool +14_-15 LOSS -4 - 210/21/2020 12:30 - TimeOfSave: 2020-11-17T15:39:04.645111700
+PlayerID: 75 - TeamID: 115 GameID: 44 - Series: 1097 Cloud +14_-13 LOSS -4 - 210/21/2020 12:30 - TimeOfSave: 2020-11-17T15:39:04.646142300
+PlayerID: 76 - TeamID: 115 GameID: 44 - Series: 1097 Bowser Jr +12_-13 LOSS -4 - 210/21/2020 12:30 - TimeOfSave: 2020-11-17T15:39:04.647139300
+TeamID: 117 - Wrecking Crew GameID: 44 - SeriesID: 1097 TournamentID: 24 - Wrecking CrewAWAY WIN : -4 - 2 - 10/21/2020 12:30 - TimeOfSave: 2020-11-17T15:39:04.648165900
+PlayerID: 81 - TeamID: 117 GameID: 44 - Series: 1097 Simon +19_-14 WIN -4 - 210/21/2020 12:30 - TimeOfSave: 2020-11-17T15:39:38.576098700
+PlayerID: 82 - TeamID: 117 GameID: 44 - Series: 1097 Link +10_-12 WIN -4 - 210/21/2020 12:30 - TimeOfSave: 2020-11-17T15:39:38.578732500
+PlayerID: 83 - TeamID: 117 GameID: 44 - Series: 1097 Hero +14_-12 WIN -4 - 210/21/2020 12:30 - TimeOfSave: 2020-11-17T15:39:38.581196700
+PlayerID: 84 - TeamID: 117 GameID: 44 - Series: 1097 Ice Climbers +9_-12 WIN -4 - 210/21/2020 12:30 - TimeOfSave: 2020-11-17T15:39:38.583576400
+TeamID: 115 - Supremacy -  SeriesID: 1097 TournamentID: 24 - SupremacyLOSS  : 10/21/2020 12:30 - TimeOfSave: 2020-11-17T15:39:38.605524500
+TeamID: 117 - Wrecking Crew -  SeriesID: 1097 TournamentID: 24 - Wrecking CrewWIN  : 10/21/2020 12:30 - TimeOfSave: 2020-11-17T15:39:38.608981
+TeamID: 105 - BlackSun GameID: 45 - SeriesID: 953 TournamentID: 24 - BlackSunHOME WIN : 9 - -10 - 10/21/2020 12:30 - TimeOfSave: 2020-11-18T01:19:27.081062800
+PlayerID: 33 - TeamID: 105 GameID: 45 - Series: 953 Villager +12_-17 WIN 9 - -1010/21/2020 12:30 - TimeOfSave: 2020-11-18T01:20:43.283236800
+PlayerID: 34 - TeamID: 105 GameID: 45 - Series: 953 Sonic +27_-16 WIN 9 - -1010/21/2020 12:30 - TimeOfSave: 2020-11-18T01:20:43.284233800
+PlayerID: 35 - TeamID: 105 GameID: 45 - Series: 953 Lucas +20_-18 WIN 9 - -1010/21/2020 12:30 - TimeOfSave: 2020-11-18T01:20:43.284233800
+PlayerID: 36 - TeamID: 105 GameID: 45 - Series: 953 Dark Samus +18_-17 WIN 9 - -1010/21/2020 12:30 - TimeOfSave: 2020-11-18T01:20:43.285239800
+TeamID: 108 - Crown GameID: 45 - SeriesID: 953 TournamentID: 24 - CrownAWAY LOSS : 9 - -10 - 10/21/2020 12:30 - TimeOfSave: 2020-11-18T01:20:43.286260400
+PlayerID: 45 - TeamID: 108 GameID: 45 - Series: 953 Daisy +10_-19 LOSS 9 - -1010/21/2020 12:30 - TimeOfSave: 2020-11-18T01:23:46.676828400
+PlayerID: 46 - TeamID: 108 GameID: 45 - Series: 953 Shulk +19_-18 LOSS 9 - -1010/21/2020 12:30 - TimeOfSave: 2020-11-18T01:23:46.677826700
+PlayerID: 47 - TeamID: 108 GameID: 45 - Series: 953 King Dedede +24_-22 LOSS 9 - -1010/21/2020 12:30 - TimeOfSave: 2020-11-18T01:23:46.677826700
+PlayerID: 48 - TeamID: 108 GameID: 45 - Series: 953 Metaknight +16_-20 LOSS 9 - -1010/21/2020 12:30 - TimeOfSave: 2020-11-18T01:23:46.678836
+TeamID: 105 - BlackSun -  SeriesID: 953 TournamentID: 24 - BlackSunWIN  : 10/21/2020 12:30 - TimeOfSave: 2020-11-18T01:23:46.685832400
+TeamID: 108 - Crown -  SeriesID: 953 TournamentID: 24 - CrownLOSS  : 10/21/2020 12:30 - TimeOfSave: 2020-11-18T01:23:46.686802700
+TeamID: 106 - Inferno GameID: 46 - SeriesID: 970 TournamentID: 24 - InfernoHOME WIN : 1 - -3 - 10/21/2020 12:30 - TimeOfSave: 2020-11-18T02:05:29.182223700
+PlayerID: 37 - TeamID: 106 GameID: 46 - Series: 970 Bowser +7_-14 WIN 1 - -310/21/2020 12:30 - TimeOfSave: 2020-11-18T02:06:20.953719800
+PlayerID: 38 - TeamID: 106 GameID: 46 - Series: 970 Ness +12_-13 WIN 1 - -310/21/2020 12:30 - TimeOfSave: 2020-11-18T02:06:20.956001400
+PlayerID: 39 - TeamID: 106 GameID: 46 - Series: 970 Pit +17_-14 WIN 1 - -310/21/2020 12:30 - TimeOfSave: 2020-11-18T02:06:20.957953200
+PlayerID: 40 - TeamID: 106 GameID: 46 - Series: 970 Dark Pit +19_-13 WIN 1 - -310/21/2020 12:30 - TimeOfSave: 2020-11-18T02:06:20.958947500
+TeamID: 107 - Doom GameID: 46 - SeriesID: 970 TournamentID: 24 - DoomAWAY LOSS : 1 - -3 - 10/21/2020 12:30 - TimeOfSave: 2020-11-18T02:06:20.958947500
+PlayerID: 41 - TeamID: 107 GameID: 46 - Series: 970 Incineroar +15_-15 LOSS 1 - -310/21/2020 12:30 - TimeOfSave: 2020-11-18T02:07:55.901414200
+PlayerID: 42 - TeamID: 107 GameID: 46 - Series: 970 Fox +11_-15 LOSS 1 - -310/21/2020 12:30 - TimeOfSave: 2020-11-18T02:07:55.902416100
+PlayerID: 43 - TeamID: 107 GameID: 46 - Series: 970 Wolf +8_-12 LOSS 1 - -310/21/2020 12:30 - TimeOfSave: 2020-11-18T02:07:55.903412400
+PlayerID: 44 - TeamID: 107 GameID: 46 - Series: 970 Samus +20_-15 LOSS 1 - -310/21/2020 12:30 - TimeOfSave: 2020-11-18T02:07:55.904409400
+TeamID: 106 - Inferno -  SeriesID: 970 TournamentID: 24 - InfernoWIN  : 10/21/2020 12:30 - TimeOfSave: 2020-11-18T02:07:55.904409400
+TeamID: 107 - Doom -  SeriesID: 970 TournamentID: 24 - DoomLOSS  : 10/21/2020 12:30 - TimeOfSave: 2020-11-18T02:07:55.905406800
+TeamID: 110 - Vanquish GameID: 47 - SeriesID: 1048 TournamentID: 24 - VanquishHOME WIN : 3 - -3 - 10/21/2020 12:30 - TimeOfSave: 2020-11-18T13:54:24.876922800
+PlayerID: 53 - TeamID: 110 GameID: 47 - Series: 1048 Sheik +6_-8 WIN 3 - -310/21/2020 12:30 - TimeOfSave: 2020-11-18T13:54:56.099724800
+PlayerID: 54 - TeamID: 110 GameID: 47 - Series: 1048 Pac-Man +12_-7 WIN 3 - -310/21/2020 12:30 - TimeOfSave: 2020-11-18T13:54:56.101205300
+PlayerID: 55 - TeamID: 110 GameID: 47 - Series: 1048 Roy +12_-9 WIN 3 - -310/21/2020 12:30 - TimeOfSave: 2020-11-18T13:54:56.102201800
+PlayerID: 56 - TeamID: 110 GameID: 47 - Series: 1048 Richter +6_-9 WIN 3 - -310/21/2020 12:30 - TimeOfSave: 2020-11-18T13:54:56.103199
+TeamID: 123 - Brute Force GameID: 47 - SeriesID: 1048 TournamentID: 24 - Brute ForceAWAY LOSS : 3 - -3 - 10/21/2020 12:30 - TimeOfSave: 2020-11-18T13:54:56.104222600
+PlayerID: 105 - TeamID: 123 GameID: 47 - Series: 1048 Donkey Kong +7_-10 LOSS 3 - -310/21/2020 12:30 - TimeOfSave: 2020-11-18T13:55:29.559735200
+PlayerID: 106 - TeamID: 123 GameID: 47 - Series: 1048 Greninja +4_-9 LOSS 3 - -310/21/2020 12:30 - TimeOfSave: 2020-11-18T13:55:29.560967600
+PlayerID: 107 - TeamID: 123 GameID: 47 - Series: 1048 Zelda +17_-8 LOSS 3 - -310/21/2020 12:30 - TimeOfSave: 2020-11-18T13:55:29.562171400
+PlayerID: 108 - TeamID: 123 GameID: 47 - Series: 1048 Falco +5_-9 LOSS 3 - -310/21/2020 12:30 - TimeOfSave: 2020-11-18T13:55:29.563445900
+TeamID: 110 - Vanquish -  SeriesID: 1048 TournamentID: 24 - VanquishWIN  : 10/21/2020 12:30 - TimeOfSave: 2020-11-18T13:55:29.569671900
+TeamID: 123 - Brute Force -  SeriesID: 1048 TournamentID: 24 - Brute ForceLOSS  : 10/21/2020 12:30 - TimeOfSave: 2020-11-18T13:55:29.570668200
+TeamID: 111 - Monarch GameID: 48 - SeriesID: 1060 TournamentID: 24 - MonarchHOME WIN : 8 - -16 - 10/21/2020 12:30 - TimeOfSave: 2020-11-18T14:18:29.727738300
+PlayerID: 57 - TeamID: 111 GameID: 48 - Series: 1060 0 Suit Samus +14_-16 WIN 8 - -1610/21/2020 12:30 - TimeOfSave: 2020-11-18T14:18:58.974609600
+PlayerID: 58 - TeamID: 111 GameID: 48 - Series: 1060 Lucina +19_-15 WIN 8 - -1610/21/2020 12:30 - TimeOfSave: 2020-11-18T14:18:58.975609500
+PlayerID: 59 - TeamID: 111 GameID: 48 - Series: 1060 Piranha Plant +24_-12 WIN 8 - -1610/21/2020 12:30 - TimeOfSave: 2020-11-18T14:18:58.976602300
+PlayerID: 60 - TeamID: 111 GameID: 48 - Series: 1060 Duck Hunt +9_-15 WIN 8 - -1610/21/2020 12:30 - TimeOfSave: 2020-11-18T14:18:58.977599700
+TeamID: 122 - High Voltage GameID: 48 - SeriesID: 1060 TournamentID: 24 - High VoltageAWAY LOSS : 8 - -16 - 10/21/2020 12:30 - TimeOfSave: 2020-11-18T14:18:58.978711900
+PlayerID: 101 - TeamID: 122 GameID: 48 - Series: 1060 Pichu +18_-19 LOSS 8 - -1610/21/2020 12:30 - TimeOfSave: 2020-11-18T14:19:32.672226200
+PlayerID: 102 - TeamID: 122 GameID: 48 - Series: 1060 Terry +13_-17 LOSS 8 - -1610/21/2020 12:30 - TimeOfSave: 2020-11-18T14:19:32.673934100
+PlayerID: 103 - TeamID: 122 GameID: 48 - Series: 1060 Pikachu +6_-14 LOSS 8 - -1610/21/2020 12:30 - TimeOfSave: 2020-11-18T14:19:32.675775500
+PlayerID: 104 - TeamID: 122 GameID: 48 - Series: 1060 Mr. Game & Watch +15_-18 LOSS 8 - -1610/21/2020 12:30 - TimeOfSave: 2020-11-18T14:19:32.677882700
+TeamID: 111 - Monarch -  SeriesID: 1060 TournamentID: 24 - MonarchWIN  : 10/21/2020 12:30 - TimeOfSave: 2020-11-18T14:19:32.680321500
+TeamID: 122 - High Voltage -  SeriesID: 1060 TournamentID: 24 - High VoltageLOSS  : 10/21/2020 12:30 - TimeOfSave: 2020-11-18T14:19:32.683317200
+TeamID: 113 - Alliance GameID: 49 - SeriesID: 1081 TournamentID: 24 - AllianceHOME WIN : 12 - -11 - 10/21/2020 12:30 - TimeOfSave: 2020-11-18T14:52:39.465722900
+PlayerID: 65 - TeamID: 113 GameID: 49 - Series: 1081 Robin +18_-13 WIN 12 - -1110/21/2020 12:30 - TimeOfSave: 2020-11-18T14:53:14.526821800
+PlayerID: 66 - TeamID: 113 GameID: 49 - Series: 1081 Captain Falcon +18_-10 WIN 12 - -1110/21/2020 12:30 - TimeOfSave: 2020-11-18T14:53:14.527820400
+PlayerID: 67 - TeamID: 113 GameID: 49 - Series: 1081 Inkling +9_-9 WIN 12 - -1110/21/2020 12:30 - TimeOfSave: 2020-11-18T14:53:14.528816
+PlayerID: 68 - TeamID: 113 GameID: 49 - Series: 1081 Ridley +14_-15 WIN 12 - -1110/21/2020 12:30 - TimeOfSave: 2020-11-18T14:53:14.529811300
+TeamID: 120 - Mean Green GameID: 49 - SeriesID: 1081 TournamentID: 24 - Mean GreenAWAY LOSS : 12 - -11 - 10/21/2020 12:30 - TimeOfSave: 2020-11-18T14:53:14.531806300
+PlayerID: 93 - TeamID: 120 GameID: 49 - Series: 1081 Little Mac +10_-15 LOSS 12 - -1110/21/2020 12:30 - TimeOfSave: 2020-11-18T14:53:46.457257300
+PlayerID: 94 - TeamID: 120 GameID: 49 - Series: 1081 Corrin +15_-15 LOSS 12 - -1110/21/2020 12:30 - TimeOfSave: 2020-11-18T14:53:46.457257300
+PlayerID: 95 - TeamID: 120 GameID: 49 - Series: 1081 Luigi +8_-12 LOSS 12 - -1110/21/2020 12:30 - TimeOfSave: 2020-11-18T14:53:46.458254100
+PlayerID: 96 - TeamID: 120 GameID: 49 - Series: 1081 Palutena +14_-16 LOSS 12 - -1110/21/2020 12:30 - TimeOfSave: 2020-11-18T14:53:46.459251900
+TeamID: 113 - Alliance -  SeriesID: 1081 TournamentID: 24 - AllianceWIN  : 10/21/2020 12:30 - TimeOfSave: 2020-11-18T14:53:46.468227700
+TeamID: 120 - Mean Green -  SeriesID: 1081 TournamentID: 24 - Mean GreenLOSS  : 10/21/2020 12:30 - TimeOfSave: 2020-11-18T14:53:46.469225500
+TeamID: 114 - Chaos GameID: 50 - SeriesID: 1090 TournamentID: 24 - ChaosHOME LOSS : -7 - 7 - 10/21/2020 12:30 - TimeOfSave: 2020-11-18T23:07:30.840700300
+PlayerID: 69 - TeamID: 114 GameID: 50 - Series: 1090 Wario +12_-14 LOSS -7 - 710/21/2020 12:30 - TimeOfSave: 2020-11-18T23:08:14.516772100
+PlayerID: 70 - TeamID: 114 GameID: 50 - Series: 1090 Kirby +14_-14 LOSS -7 - 710/21/2020 12:30 - TimeOfSave: 2020-11-18T23:08:14.517975200
+PlayerID: 71 - TeamID: 114 GameID: 50 - Series: 1090 Diddy Kong +11_-15 LOSS -7 - 710/21/2020 12:30 - TimeOfSave: 2020-11-18T23:08:14.518972200
+PlayerID: 72 - TeamID: 114 GameID: 50 - Series: 1090 Joker +9_-10 LOSS -7 - 710/21/2020 12:30 - TimeOfSave: 2020-11-18T23:08:14.519971500
+TeamID: 119 - Thrashers GameID: 50 - SeriesID: 1090 TournamentID: 24 - ThrashersAWAY WIN : -7 - 7 - 10/21/2020 12:30 - TimeOfSave: 2020-11-18T23:08:14.521147200
+PlayerID: 89 - TeamID: 119 GameID: 50 - Series: 1090 Chrom +25_-14 WIN -7 - 710/21/2020 12:30 - TimeOfSave: 2020-11-18T23:09:00.659134400
+PlayerID: 90 - TeamID: 119 GameID: 50 - Series: 1090 Marth +8_-11 WIN -7 - 710/21/2020 12:30 - TimeOfSave: 2020-11-18T23:09:00.660840100
+PlayerID: 91 - TeamID: 119 GameID: 50 - Series: 1090 Young Link +6_-11 WIN -7 - 710/21/2020 12:30 - TimeOfSave: 2020-11-18T23:09:00.663097500
+PlayerID: 92 - TeamID: 119 GameID: 50 - Series: 1090 Jigglypuff +14_-10 WIN -7 - 710/21/2020 12:30 - TimeOfSave: 2020-11-18T23:09:00.665868600
+TeamID: 114 - Chaos -  SeriesID: 1090 TournamentID: 24 - ChaosLOSS  : 10/21/2020 12:30 - TimeOfSave: 2020-11-18T23:09:00.688264
+TeamID: 119 - Thrashers -  SeriesID: 1090 TournamentID: 24 - ThrashersWIN  : 10/21/2020 12:30 - TimeOfSave: 2020-11-18T23:09:00.691887100
+TeamID: 115 - Supremacy GameID: 51 - SeriesID: 1098 TournamentID: 24 - SupremacyHOME LOSS : -2 - 1 - 10/21/2020 12:30 - TimeOfSave: 2020-11-18T23:39:52.641710300
+PlayerID: 73 - TeamID: 115 GameID: 51 - Series: 1098 Olimar +12_-14 LOSS -2 - 110/21/2020 12:30 - TimeOfSave: 2020-11-18T23:40:23.572307400
+PlayerID: 74 - TeamID: 115 GameID: 51 - Series: 1098 King K. Rool +20_-17 LOSS -2 - 110/21/2020 12:30 - TimeOfSave: 2020-11-18T23:40:23.573303500
+PlayerID: 75 - TeamID: 115 GameID: 51 - Series: 1098 Cloud +13_-15 LOSS -2 - 110/21/2020 12:30 - TimeOfSave: 2020-11-18T23:40:23.574341600
+PlayerID: 76 - TeamID: 115 GameID: 51 - Series: 1098 Bowser Jr +13_-14 LOSS -2 - 110/21/2020 12:30 - TimeOfSave: 2020-11-18T23:40:23.575301200
+TeamID: 118 - Legends GameID: 51 - SeriesID: 1098 TournamentID: 24 - LegendsAWAY WIN : -2 - 1 - 10/21/2020 12:30 - TimeOfSave: 2020-11-18T23:40:23.576295200
+PlayerID: 85 - TeamID: 118 GameID: 51 - Series: 1098 Bayonetta +10_-11 WIN -2 - 110/21/2020 12:30 - TimeOfSave: 2020-11-18T23:41:00.437256100
+PlayerID: 86 - TeamID: 118 GameID: 51 - Series: 1098 Dr. Mario +21_-17 WIN -2 - 110/21/2020 12:30 - TimeOfSave: 2020-11-18T23:41:00.438253700
+PlayerID: 87 - TeamID: 118 GameID: 51 - Series: 1098 Ganondorf +14_-15 WIN -2 - 110/21/2020 12:30 - TimeOfSave: 2020-11-18T23:41:00.439252600
+PlayerID: 88 - TeamID: 118 GameID: 51 - Series: 1098 Pokemon Trainer +14_-15 WIN -2 - 110/21/2020 12:30 - TimeOfSave: 2020-11-18T23:41:00.439252600
+TeamID: 115 - Supremacy -  SeriesID: 1098 TournamentID: 24 - SupremacyLOSS  : 10/21/2020 12:30 - TimeOfSave: 2020-11-18T23:41:00.440248500
+TeamID: 118 - Legends -  SeriesID: 1098 TournamentID: 24 - LegendsWIN  : 10/21/2020 12:30 - TimeOfSave: 2020-11-18T23:41:00.441247100
+TeamID: 116 - Royalty GameID: 52 - SeriesID: 1105 TournamentID: 24 - RoyaltyHOME LOSS : -13 - 13 - 10/21/2020 12:30 - TimeOfSave: 2020-11-19T19:24:25.885240100
+PlayerID: 77 - TeamID: 116 GameID: 52 - Series: 1105 Toon Link +9_-14 LOSS -13 - 1310/21/2020 12:30 - TimeOfSave: 2020-11-19T19:24:59.432712900
+PlayerID: 78 - TeamID: 116 GameID: 52 - Series: 1105 Isabelle +11_-13 LOSS -13 - 1310/21/2020 12:30 - TimeOfSave: 2020-11-19T19:24:59.433713200
+PlayerID: 79 - TeamID: 116 GameID: 52 - Series: 1105 Mario +13_-14 LOSS -13 - 1310/21/2020 12:30 - TimeOfSave: 2020-11-19T19:24:59.434793500
+PlayerID: 80 - TeamID: 116 GameID: 52 - Series: 1105 Peach +7_-12 LOSS -13 - 1310/21/2020 12:30 - TimeOfSave: 2020-11-19T19:24:59.435793700
+TeamID: 117 - Wrecking Crew GameID: 52 - SeriesID: 1105 TournamentID: 24 - Wrecking CrewAWAY WIN : -13 - 13 - 10/21/2020 12:30 - TimeOfSave: 2020-11-19T19:24:59.437156100
+PlayerID: 81 - TeamID: 117 GameID: 52 - Series: 1105 Simon +14_-11 WIN -13 - 1310/21/2020 12:30 - TimeOfSave: 2020-11-19T19:25:37.305915200
+PlayerID: 82 - TeamID: 117 GameID: 52 - Series: 1105 Link +15_-9 WIN -13 - 1310/21/2020 12:30 - TimeOfSave: 2020-11-19T19:25:37.305915200
+PlayerID: 83 - TeamID: 117 GameID: 52 - Series: 1105 Hero +16_-9 WIN -13 - 1310/21/2020 12:30 - TimeOfSave: 2020-11-19T19:25:37.306912600
+PlayerID: 84 - TeamID: 117 GameID: 52 - Series: 1105 Ice Climbers +8_-11 WIN -13 - 1310/21/2020 12:30 - TimeOfSave: 2020-11-19T19:25:37.307909800
+TeamID: 116 - Royalty -  SeriesID: 1105 TournamentID: 24 - RoyaltyLOSS  : 10/21/2020 12:30 - TimeOfSave: 2020-11-19T19:25:37.315905800
+TeamID: 117 - Wrecking Crew -  SeriesID: 1105 TournamentID: 24 - Wrecking CrewWIN  : 10/21/2020 12:30 - TimeOfSave: 2020-11-19T19:25:37.316903100
+TeamID: 112 - Rampage GameID: 53 - SeriesID: 1071 TournamentID: 24 - RampageHOME LOSS : -3 - -1 - 10/21/2020 12:30 - TimeOfSave: 2020-11-19T20:44:27.636016900
+PlayerID: 61 - TeamID: 112 GameID: 53 - Series: 1071 Yoshi +8_-8 LOSS -3 - -110/21/2020 12:30 - TimeOfSave: 2020-11-19T20:51:44.709606700
+PlayerID: 62 - TeamID: 112 GameID: 53 - Series: 1071 Mewtwo +15_-13 LOSS -3 - -110/21/2020 12:30 - TimeOfSave: 2020-11-19T20:51:44.710920400
+PlayerID: 63 - TeamID: 112 GameID: 53 - Series: 1071 Ryu +5_-9 LOSS -3 - -110/21/2020 12:30 - TimeOfSave: 2020-11-19T20:51:44.711940100
+PlayerID: 64 - TeamID: 112 GameID: 53 - Series: 1071 Snake +12_-13 LOSS -3 - -110/21/2020 12:30 - TimeOfSave: 2020-11-19T20:51:44.712939100
+TeamID: 121 - Icons GameID: 53 - SeriesID: 1071 TournamentID: 24 - IconsAWAY WIN : -3 - -1 - 10/21/2020 12:30 - TimeOfSave: 2020-11-19T20:51:44.713934300
+PlayerID: 97 - TeamID: 121 GameID: 53 - Series: 1071 Ken +7_-10 WIN -3 - -110/21/2020 12:30 - TimeOfSave: 2020-11-19T20:53:38.730904600
+PlayerID: 98 - TeamID: 121 GameID: 53 - Series: 1071 Banjo & Kazooie +10_-10 WIN -3 - -110/21/2020 12:30 - TimeOfSave: 2020-11-19T20:53:38.732079800
+PlayerID: 99 - TeamID: 121 GameID: 53 - Series: 1071 Lucario +10_-9 WIN -3 - -110/21/2020 12:30 - TimeOfSave: 2020-11-19T20:53:38.733260200
+PlayerID: 100 - TeamID: 121 GameID: 53 - Series: 1071 R.O.B. +12_-11 WIN -3 - -110/21/2020 12:30 - TimeOfSave: 2020-11-19T20:53:38.734257800
+TeamID: 112 - Rampage -  SeriesID: 1071 TournamentID: 24 - RampageLOSS  : 10/21/2020 12:30 - TimeOfSave: 2020-11-19T20:53:38.735503600
+TeamID: 121 - Icons -  SeriesID: 1071 TournamentID: 24 - IconsWIN  : 10/21/2020 12:30 - TimeOfSave: 2020-11-19T20:53:38.736504700
+TeamID: 105 - BlackSun GameID: 54 - SeriesID: 954 TournamentID: 24 - BlackSunHOME LOSS : -9 - 9 - 10/21/2020 12:30 - TimeOfSave: 2020-11-19T22:27:42.633018100
+PlayerID: 33 - TeamID: 105 GameID: 54 - Series: 954 Villager +23_-23 LOSS -9 - 910/21/2020 12:30 - TimeOfSave: 2020-11-19T22:28:29.707981800
+PlayerID: 34 - TeamID: 105 GameID: 54 - Series: 954 Sonic +12_-19 LOSS -9 - 910/21/2020 12:30 - TimeOfSave: 2020-11-19T22:28:29.709759100
+PlayerID: 35 - TeamID: 105 GameID: 54 - Series: 954 Lucas +19_-19 LOSS -9 - 910/21/2020 12:30 - TimeOfSave: 2020-11-19T22:28:29.711926100
+PlayerID: 36 - TeamID: 105 GameID: 54 - Series: 954 Dark Samus +21_-23 LOSS -9 - 910/21/2020 12:30 - TimeOfSave: 2020-11-19T22:28:29.713784800
+TeamID: 109 - Fury GameID: 54 - SeriesID: 954 TournamentID: 24 - FuryAWAY WIN : -9 - 9 - 10/21/2020 12:30 - TimeOfSave: 2020-11-19T22:28:29.715788300
+PlayerID: 49 - TeamID: 109 GameID: 54 - Series: 954 Ike +25_-20 WIN -9 - 910/21/2020 12:30 - TimeOfSave: 2020-11-19T22:29:03.468445
+PlayerID: 50 - TeamID: 109 GameID: 54 - Series: 954 Byleth +23_-19 WIN -9 - 910/21/2020 12:30 - TimeOfSave: 2020-11-19T22:29:03.469604800
+PlayerID: 51 - TeamID: 109 GameID: 54 - Series: 954 Rosalina +17_-19 WIN -9 - 910/21/2020 12:30 - TimeOfSave: 2020-11-19T22:29:03.470603600
+PlayerID: 52 - TeamID: 109 GameID: 54 - Series: 954 Mega Man +19_-17 WIN -9 - 910/21/2020 12:30 - TimeOfSave: 2020-11-19T22:29:03.471628400
+TeamID: 105 - BlackSun -  SeriesID: 954 TournamentID: 24 - BlackSunLOSS  : 10/21/2020 12:30 - TimeOfSave: 2020-11-19T22:29:03.472627500
+TeamID: 109 - Fury -  SeriesID: 954 TournamentID: 24 - FuryWIN  : 10/21/2020 12:30 - TimeOfSave: 2020-11-19T22:29:03.473434
+TeamID: 106 - Inferno GameID: 55 - SeriesID: 971 TournamentID: 24 - InfernoHOME WIN : 7 - -6 - 10/21/2020 12:30 - TimeOfSave: 2020-11-19T23:34:13.891496100
+PlayerID: 37 - TeamID: 106 GameID: 55 - Series: 971 Bowser +11_-13 WIN 7 - -610/21/2020 12:30 - TimeOfSave: 2020-11-19T23:35:00.127880600
+PlayerID: 38 - TeamID: 106 GameID: 55 - Series: 971 Ness +20_-14 WIN 7 - -610/21/2020 12:30 - TimeOfSave: 2020-11-19T23:35:00.127880600
+PlayerID: 39 - TeamID: 106 GameID: 55 - Series: 971 Pit +9_-10 WIN 7 - -610/21/2020 12:30 - TimeOfSave: 2020-11-19T23:35:00.128878
+PlayerID: 40 - TeamID: 106 GameID: 55 - Series: 971 Dark Pit +16_-12 WIN 7 - -610/21/2020 12:30 - TimeOfSave: 2020-11-19T23:35:00.128878
+TeamID: 108 - Crown GameID: 55 - SeriesID: 971 TournamentID: 24 - CrownAWAY LOSS : 7 - -6 - 10/21/2020 12:30 - TimeOfSave: 2020-11-19T23:35:00.129874200
+PlayerID: 45 - TeamID: 108 GameID: 55 - Series: 971 Daisy +6_-10 LOSS 7 - -610/21/2020 12:30 - TimeOfSave: 2020-11-19T23:35:34.202098100
+PlayerID: 46 - TeamID: 108 GameID: 55 - Series: 971 Shulk +12_-15 LOSS 7 - -610/21/2020 12:30 - TimeOfSave: 2020-11-19T23:35:34.205045500
+PlayerID: 47 - TeamID: 108 GameID: 55 - Series: 971 King Dedede +13_-15 LOSS 7 - -610/21/2020 12:30 - TimeOfSave: 2020-11-19T23:35:34.207042900
+PlayerID: 48 - TeamID: 108 GameID: 55 - Series: 971 Metaknight +18_-15 LOSS 7 - -610/21/2020 12:30 - TimeOfSave: 2020-11-19T23:35:34.209035200
+TeamID: 106 - Inferno -  SeriesID: 971 TournamentID: 24 - InfernoWIN  : 10/21/2020 12:30 - TimeOfSave: 2020-11-19T23:35:34.218001300
+TeamID: 108 - Crown -  SeriesID: 971 TournamentID: 24 - CrownLOSS  : 10/21/2020 12:30 - TimeOfSave: 2020-11-19T23:35:34.218001300
+TeamID: 123 - Brute Force GameID: 57 - SeriesID: 1061 TournamentID: 24 - Brute ForceHOME WIN : -11 - 6 - 10/21/2020 12:30 - TimeOfSave: 2020-11-26T12:19:47.379475300
+PlayerID: 105 - TeamID: 123 GameID: 57 - Series: 1061 Donkey Kong +15_-15 WIN -11 - 610/21/2020 12:30 - TimeOfSave: 2020-11-26T12:20:18.285902
+PlayerID: 106 - TeamID: 123 GameID: 57 - Series: 1061 Greninja +9_-7 WIN -11 - 610/21/2020 12:30 - TimeOfSave: 2020-11-26T12:20:18.285902
+PlayerID: 107 - TeamID: 123 GameID: 57 - Series: 1061 Zelda +13_-10 WIN -11 - 610/21/2020 12:30 - TimeOfSave: 2020-11-26T12:20:18.286900600
+PlayerID: 108 - TeamID: 123 GameID: 57 - Series: 1061 Falco +12_-11 WIN -11 - 610/21/2020 12:30 - TimeOfSave: 2020-11-26T12:20:18.287895900
+TeamID: 111 - Monarch GameID: 57 - SeriesID: 1061 TournamentID: 24 - MonarchAWAY LOSS : -11 - 6 - 10/21/2020 12:30 - TimeOfSave: 2020-11-26T12:20:18.287895900
+PlayerID: 57 - TeamID: 111 GameID: 57 - Series: 1061 0 Suit Samus +3_-14 LOSS -11 - 610/21/2020 12:30 - TimeOfSave: 2020-11-26T12:21:17.517212900
+PlayerID: 58 - TeamID: 111 GameID: 57 - Series: 1061 Lucina +19_-12 LOSS -11 - 610/21/2020 12:30 - TimeOfSave: 2020-11-26T12:21:17.518151900
+PlayerID: 59 - TeamID: 111 GameID: 57 - Series: 1061 Piranha Plant +9_-12 LOSS -11 - 610/21/2020 12:30 - TimeOfSave: 2020-11-26T12:21:17.519176400
+PlayerID: 60 - TeamID: 111 GameID: 57 - Series: 1061 Duck Hunt +11_-15 LOSS -11 - 610/21/2020 12:30 - TimeOfSave: 2020-11-26T12:21:17.520154400
+TeamID: 123 - Brute Force -  SeriesID: 1061 TournamentID: 24 - Brute ForceWIN  : 10/21/2020 12:30 - TimeOfSave: 2020-11-26T12:21:17.529126600
+TeamID: 111 - Monarch -  SeriesID: 1061 TournamentID: 24 - MonarchLOSS  : 10/21/2020 12:30 - TimeOfSave: 2020-11-26T12:21:17.530123500
+TeamID: 122 - High Voltage GameID: 58 - SeriesID: 1072 TournamentID: 24 - High VoltageHOME LOSS : 3 - -14 - 10/21/2020 12:30 - TimeOfSave: 2020-11-30T20:43:50.029823600
+PlayerID: 101 - TeamID: 122 GameID: 58 - Series: 1072 Pichu +15_-17 LOSS 3 - -1410/21/2020 12:30 - TimeOfSave: 2020-11-30T20:44:28.264135800
+PlayerID: 102 - TeamID: 122 GameID: 58 - Series: 1072 Terry +8_-13 LOSS 3 - -1410/21/2020 12:30 - TimeOfSave: 2020-11-30T20:44:28.265132200
+PlayerID: 103 - TeamID: 122 GameID: 58 - Series: 1072 Pikachu +14_-15 LOSS 3 - -1410/21/2020 12:30 - TimeOfSave: 2020-11-30T20:44:28.266129400
+PlayerID: 104 - TeamID: 122 GameID: 58 - Series: 1072 Mr. Game & Watch +10_-16 LOSS 3 - -1410/21/2020 12:30 - TimeOfSave: 2020-11-30T20:44:28.266129400
+TeamID: 112 - Rampage GameID: 58 - SeriesID: 1072 TournamentID: 24 - RampageAWAY WIN : 3 - -14 - 10/21/2020 12:30 - TimeOfSave: 2020-11-30T20:44:28.268126100
+PlayerID: 61 - TeamID: 112 GameID: 58 - Series: 1072 Yoshi +12_-13 WIN 3 - -1410/21/2020 12:30 - TimeOfSave: 2020-11-30T20:45:07.251575300
+PlayerID: 62 - TeamID: 112 GameID: 58 - Series: 1072 Mewtwo +26_-14 WIN 3 - -1410/21/2020 12:30 - TimeOfSave: 2020-11-30T20:45:07.253758500
+PlayerID: 63 - TeamID: 112 GameID: 58 - Series: 1072 Ryu +8_-13 WIN 3 - -1410/21/2020 12:30 - TimeOfSave: 2020-11-30T20:45:07.255758200
+PlayerID: 64 - TeamID: 112 GameID: 58 - Series: 1072 Snake +15_-18 WIN 3 - -1410/21/2020 12:30 - TimeOfSave: 2020-11-30T20:45:07.258100100
+TeamID: 122 - High Voltage -  SeriesID: 1072 TournamentID: 24 - High VoltageLOSS  : 10/21/2020 12:30 - TimeOfSave: 2020-11-30T20:45:07.285016900
+TeamID: 112 - Rampage -  SeriesID: 1072 TournamentID: 24 - RampageWIN  : 10/21/2020 12:30 - TimeOfSave: 2020-11-30T20:45:07.287629800
+TeamID: 121 - Icons GameID: 59 - SeriesID: 1082 TournamentID: 24 - IconsHOME LOSS : -3 - 2 - 10/21/2020 12:30 - TimeOfSave: 2020-12-01T14:59:13.096075800
+PlayerID: 97 - TeamID: 121 GameID: 59 - Series: 1082 Ken +13_-17 LOSS -3 - 210/21/2020 12:30 - TimeOfSave: 2020-12-01T14:59:52.373351400
+PlayerID: 98 - TeamID: 121 GameID: 59 - Series: 1082 Banjo & Kazooie +15_-17 LOSS -3 - 210/21/2020 12:30 - TimeOfSave: 2020-12-01T14:59:52.374337600
+PlayerID: 99 - TeamID: 121 GameID: 59 - Series: 1082 Lucario +11_-14 LOSS -3 - 210/21/2020 12:30 - TimeOfSave: 2020-12-01T14:59:52.374337600
+PlayerID: 100 - TeamID: 121 GameID: 59 - Series: 1082 R.O.B. +19_-13 LOSS -3 - 210/21/2020 12:30 - TimeOfSave: 2020-12-01T14:59:52.375336
+TeamID: 113 - Alliance GameID: 59 - SeriesID: 1082 TournamentID: 24 - AllianceAWAY WIN : -3 - 2 - 10/21/2020 12:30 - TimeOfSave: 2020-12-01T14:59:52.378328300
+PlayerID: 65 - TeamID: 113 GameID: 59 - Series: 1082 Robin +17_-13 WIN -3 - 210/21/2020 12:30 - TimeOfSave: 2020-12-01T15:00:54.739243300
+PlayerID: 66 - TeamID: 113 GameID: 59 - Series: 1082 Captain Falcon +21_-16 WIN -3 - 210/21/2020 12:30 - TimeOfSave: 2020-12-01T15:00:54.740241700
+PlayerID: 67 - TeamID: 113 GameID: 59 - Series: 1082 Inkling +10_-11 WIN -3 - 210/21/2020 12:30 - TimeOfSave: 2020-12-01T15:00:54.741940900
+PlayerID: 68 - TeamID: 113 GameID: 59 - Series: 1082 Ridley +12_-18 WIN -3 - 210/21/2020 12:30 - TimeOfSave: 2020-12-01T15:00:54.742866600
+TeamID: 121 - Icons -  SeriesID: 1082 TournamentID: 24 - IconsLOSS  : 10/21/2020 12:30 - TimeOfSave: 2020-12-01T15:00:54.751475600
+TeamID: 113 - Alliance -  SeriesID: 1082 TournamentID: 24 - AllianceWIN  : 10/21/2020 12:30 - TimeOfSave: 2020-12-01T15:00:54.752348400
+TeamID: 120 - Mean Green GameID: 60 - SeriesID: 1091 TournamentID: 24 - Mean GreenHOME LOSS : -3 - -1 - 10/21/2020 12:30 - TimeOfSave: 2020-12-01T16:23:00.533485400
+PlayerID: 93 - TeamID: 120 GameID: 60 - Series: 1091 Little Mac +13_-16 LOSS -3 - -110/21/2020 12:30 - TimeOfSave: 2020-12-01T16:24:25.763327500
+PlayerID: 94 - TeamID: 120 GameID: 60 - Series: 1091 Corrin +14_-15 LOSS -3 - -110/21/2020 12:30 - TimeOfSave: 2020-12-01T16:24:25.764726800
+PlayerID: 95 - TeamID: 120 GameID: 60 - Series: 1091 Luigi +20_-17 LOSS -3 - -110/21/2020 12:30 - TimeOfSave: 2020-12-01T16:24:25.765724400
+PlayerID: 96 - TeamID: 120 GameID: 60 - Series: 1091 Palutena +15_-17 LOSS -3 - -110/21/2020 12:30 - TimeOfSave: 2020-12-01T16:24:25.766721700
+TeamID: 114 - Chaos GameID: 60 - SeriesID: 1091 TournamentID: 24 - ChaosAWAY WIN : -3 - -1 - 10/21/2020 12:30 - TimeOfSave: 2020-12-01T16:24:25.767718500
+PlayerID: 69 - TeamID: 114 GameID: 60 - Series: 1091 Wario +19_-18 WIN -3 - -110/21/2020 12:30 - TimeOfSave: 2020-12-01T16:25:04.769057300
+PlayerID: 70 - TeamID: 114 GameID: 60 - Series: 1091 Kirby +20_-16 WIN -3 - -110/21/2020 12:30 - TimeOfSave: 2020-12-01T16:25:04.770111900
+PlayerID: 71 - TeamID: 114 GameID: 60 - Series: 1091 Diddy Kong +10_-15 WIN -3 - -110/21/2020 12:30 - TimeOfSave: 2020-12-01T16:25:04.771144100
+PlayerID: 72 - TeamID: 114 GameID: 60 - Series: 1091 Joker +14_-15 WIN -3 - -110/21/2020 12:30 - TimeOfSave: 2020-12-01T16:25:04.772710300
+TeamID: 120 - Mean Green -  SeriesID: 1091 TournamentID: 24 - Mean GreenLOSS  : 10/21/2020 12:30 - TimeOfSave: 2020-12-01T16:25:04.773706600
+TeamID: 114 - Chaos -  SeriesID: 1091 TournamentID: 24 - ChaosWIN  : 10/21/2020 12:30 - TimeOfSave: 2020-12-01T16:25:04.775160
+TeamID: 119 - Thrashers GameID: 61 - SeriesID: 1099 TournamentID: 24 - ThrashersHOME LOSS : -18 - 18 - 10/21/2020 12:30 - TimeOfSave: 2020-12-01T17:28:07.302120900
+PlayerID: 89 - TeamID: 119 GameID: 61 - Series: 1099 Chrom +18_-25 LOSS -18 - 1810/21/2020 12:30 - TimeOfSave: 2020-12-01T17:28:52.371270700
+PlayerID: 90 - TeamID: 119 GameID: 61 - Series: 1099 Marth +19_-21 LOSS -18 - 1810/21/2020 12:30 - TimeOfSave: 2020-12-01T17:28:52.373420400
+PlayerID: 91 - TeamID: 119 GameID: 61 - Series: 1099 Young Link +10_-19 LOSS -18 - 1810/21/2020 12:30 - TimeOfSave: 2020-12-01T17:28:52.375263
+PlayerID: 92 - TeamID: 119 GameID: 61 - Series: 1099 Jigglypuff +23_-23 LOSS -18 - 1810/21/2020 12:30 - TimeOfSave: 2020-12-01T17:28:52.377662800
+TeamID: 115 - Supremacy GameID: 61 - SeriesID: 1099 TournamentID: 24 - SupremacyAWAY WIN : -18 - 18 - 10/21/2020 12:30 - TimeOfSave: 2020-12-01T17:28:52.379663900
+PlayerID: 73 - TeamID: 115 GameID: 61 - Series: 1099 Olimar +21_-15 WIN -18 - 1810/21/2020 12:30 - TimeOfSave: 2020-12-01T17:29:42.933019600
+PlayerID: 74 - TeamID: 115 GameID: 61 - Series: 1099 King K. Rool +22_-23 WIN -18 - 1810/21/2020 12:30 - TimeOfSave: 2020-12-01T17:29:42.933405400
+PlayerID: 75 - TeamID: 115 GameID: 61 - Series: 1099 Cloud +18_-16 WIN -18 - 1810/21/2020 12:30 - TimeOfSave: 2020-12-01T17:29:42.935487200
+PlayerID: 76 - TeamID: 115 GameID: 61 - Series: 1099 Bowser Jr +27_-16 WIN -18 - 1810/21/2020 12:30 - TimeOfSave: 2020-12-01T17:29:42.935600600
+TeamID: 119 - Thrashers -  SeriesID: 1099 TournamentID: 24 - ThrashersLOSS  : 10/21/2020 12:30 - TimeOfSave: 2020-12-01T17:29:42.936595700
+TeamID: 115 - Supremacy -  SeriesID: 1099 TournamentID: 24 - SupremacyWIN  : 10/21/2020 12:30 - TimeOfSave: 2020-12-01T17:29:42.937593100
+TeamID: 118 - Legends GameID: 62 - SeriesID: 1106 TournamentID: 24 - LegendsHOME LOSS : -1 - 1 - 10/21/2020 12:30 - TimeOfSave: 2020-12-01T18:46:35.947851900
+PlayerID: 85 - TeamID: 118 GameID: 62 - Series: 1106 Bayonetta +7_-9 LOSS -1 - 110/21/2020 12:30 - TimeOfSave: 2020-12-01T18:49:12.686751800
+PlayerID: 86 - TeamID: 118 GameID: 62 - Series: 1106 Dr. Mario +9_-10 LOSS -1 - 110/21/2020 12:30 - TimeOfSave: 2020-12-01T18:49:12.689081700
+PlayerID: 87 - TeamID: 118 GameID: 62 - Series: 1106 Ganondorf +14_-11 LOSS -1 - 110/21/2020 12:30 - TimeOfSave: 2020-12-01T18:49:12.690569
+PlayerID: 88 - TeamID: 118 GameID: 62 - Series: 1106 Pokemon Trainer +9_-10 LOSS -1 - 110/21/2020 12:30 - TimeOfSave: 2020-12-01T18:49:12.692908700
+TeamID: 116 - Royalty GameID: 62 - SeriesID: 1106 TournamentID: 24 - RoyaltyAWAY WIN : -1 - 1 - 10/21/2020 12:30 - TimeOfSave: 2020-12-01T18:49:12.694747700
+PlayerID: 77 - TeamID: 116 GameID: 62 - Series: 1106 Toon Link +6_-9 WIN -1 - 110/21/2020 12:30 - TimeOfSave: 2020-12-01T18:49:58.906089
+PlayerID: 78 - TeamID: 116 GameID: 62 - Series: 1106 Isabelle +14_-10 WIN -1 - 110/21/2020 12:30 - TimeOfSave: 2020-12-01T18:49:58.907108600
+PlayerID: 79 - TeamID: 116 GameID: 62 - Series: 1106 Mario +9_-10 WIN -1 - 110/21/2020 12:30 - TimeOfSave: 2020-12-01T18:49:58.908163800
+PlayerID: 80 - TeamID: 116 GameID: 62 - Series: 1106 Peach +11_-10 WIN -1 - 110/21/2020 12:30 - TimeOfSave: 2020-12-01T18:49:58.909160600
+TeamID: 118 - Legends -  SeriesID: 1106 TournamentID: 24 - LegendsLOSS  : 10/21/2020 12:30 - TimeOfSave: 2020-12-01T18:49:58.910157600
+TeamID: 116 - Royalty -  SeriesID: 1106 TournamentID: 24 - RoyaltyWIN  : 10/21/2020 12:30 - TimeOfSave: 2020-12-01T18:49:58.911404100
+TeamID: 105 - BlackSun GameID: 63 - SeriesID: 955 TournamentID: 24 - BlackSunHOME WIN : 7 - -11 - 10/21/2020 12:30 - TimeOfSave: 2020-12-01T19:25:11.983609700
+PlayerID: 33 - TeamID: 105 GameID: 63 - Series: 955 Villager +12_-14 WIN 7 - -1110/21/2020 12:30 - TimeOfSave: 2020-12-01T19:25:38.568226300
+PlayerID: 34 - TeamID: 105 GameID: 63 - Series: 955 Sonic +17_-16 WIN 7 - -1110/21/2020 12:30 - TimeOfSave: 2020-12-01T19:25:38.570356800
+PlayerID: 35 - TeamID: 105 GameID: 63 - Series: 955 Lucas +26_-12 WIN 7 - -1110/21/2020 12:30 - TimeOfSave: 2020-12-01T19:25:38.571353700
+PlayerID: 36 - TeamID: 105 GameID: 63 - Series: 955 Dark Samus +11_-17 WIN 7 - -1110/21/2020 12:30 - TimeOfSave: 2020-12-01T19:25:38.571882
+TeamID: 110 - Vanquish GameID: 63 - SeriesID: 955 TournamentID: 24 - VanquishAWAY LOSS : 7 - -11 - 10/21/2020 12:30 - TimeOfSave: 2020-12-01T19:25:38.573380700
+PlayerID: 53 - TeamID: 110 GameID: 63 - Series: 955 Sheik +12_-16 LOSS 7 - -1110/21/2020 12:30 - TimeOfSave: 2020-12-01T19:26:10.613128
+PlayerID: 54 - TeamID: 110 GameID: 63 - Series: 955 Pac-Man +13_-16 LOSS 7 - -1110/21/2020 12:30 - TimeOfSave: 2020-12-01T19:26:10.613387500
+PlayerID: 55 - TeamID: 110 GameID: 63 - Series: 955 Roy +18_-20 LOSS 7 - -1110/21/2020 12:30 - TimeOfSave: 2020-12-01T19:26:10.614916900
+PlayerID: 56 - TeamID: 110 GameID: 63 - Series: 955 Richter +14_-16 LOSS 7 - -1110/21/2020 12:30 - TimeOfSave: 2020-12-01T19:26:10.615914800
+TeamID: 105 - BlackSun -  SeriesID: 955 TournamentID: 24 - BlackSunWIN  : 10/21/2020 12:30 - TimeOfSave: 2020-12-01T19:26:10.616946
+TeamID: 110 - Vanquish -  SeriesID: 955 TournamentID: 24 - VanquishLOSS  : 10/21/2020 12:30 - TimeOfSave: 2020-12-01T19:26:10.616946
+TeamID: 109 - Fury GameID: 64 - SeriesID: 972 TournamentID: 24 - FuryHOME WIN : 17 - -20 - 10/21/2020 12:30 - TimeOfSave: 2020-12-01T20:10:30.915252600
+PlayerID: 49 - TeamID: 109 GameID: 64 - Series: 972 Ike +14_-11 WIN 17 - -2010/21/2020 12:30 - TimeOfSave: 2020-12-01T20:10:53.801555900
+PlayerID: 50 - TeamID: 109 GameID: 64 - Series: 972 Byleth +14_-13 WIN 17 - -2010/21/2020 12:30 - TimeOfSave: 2020-12-01T20:10:53.803549200
+PlayerID: 51 - TeamID: 109 GameID: 64 - Series: 972 Rosalina +14_-16 WIN 17 - -2010/21/2020 12:30 - TimeOfSave: 2020-12-01T20:10:53.805542
+PlayerID: 52 - TeamID: 109 GameID: 64 - Series: 972 Mega Man +28_-13 WIN 17 - -2010/21/2020 12:30 - TimeOfSave: 2020-12-01T20:10:53.806530900
+TeamID: 106 - Inferno GameID: 64 - SeriesID: 972 TournamentID: 24 - InfernoAWAY LOSS : 17 - -20 - 10/21/2020 12:30 - TimeOfSave: 2020-12-01T20:10:53.806530900
+PlayerID: 37 - TeamID: 106 GameID: 64 - Series: 972 Bowser +13_-18 LOSS 17 - -2010/21/2020 12:30 - TimeOfSave: 2020-12-01T20:11:18.659184300
+PlayerID: 38 - TeamID: 106 GameID: 64 - Series: 972 Ness +15_-19 LOSS 17 - -2010/21/2020 12:30 - TimeOfSave: 2020-12-01T20:11:18.661067400
+PlayerID: 39 - TeamID: 106 GameID: 64 - Series: 972 Pit +12_-18 LOSS 17 - -2010/21/2020 12:30 - TimeOfSave: 2020-12-01T20:11:18.664100700
+PlayerID: 40 - TeamID: 106 GameID: 64 - Series: 972 Dark Pit +11_-16 LOSS 17 - -2010/21/2020 12:30 - TimeOfSave: 2020-12-01T20:11:18.666056200
+TeamID: 109 - Fury -  SeriesID: 972 TournamentID: 24 - FuryWIN  : 10/21/2020 12:30 - TimeOfSave: 2020-12-01T20:11:18.666056200
+TeamID: 106 - Inferno -  SeriesID: 972 TournamentID: 24 - InfernoLOSS  : 10/21/2020 12:30 - TimeOfSave: 2020-12-01T20:11:18.667048
+TeamID: 108 - Crown GameID: 65 - SeriesID: 988 TournamentID: 24 - CrownHOME WIN : 8 - -9 - 10/21/2020 12:30 - TimeOfSave: 2020-12-01T20:45:18.870555900
+PlayerID: 45 - TeamID: 108 GameID: 65 - Series: 988 Daisy +8_-9 WIN 8 - -910/21/2020 12:30 - TimeOfSave: 2020-12-01T20:45:50.438527400
+PlayerID: 46 - TeamID: 108 GameID: 65 - Series: 988 Shulk +13_-12 WIN 8 - -910/21/2020 12:30 - TimeOfSave: 2020-12-01T20:45:50.439521400
+PlayerID: 47 - TeamID: 108 GameID: 65 - Series: 988 King Dedede +20_-11 WIN 8 - -910/21/2020 12:30 - TimeOfSave: 2020-12-01T20:45:50.440521100
+PlayerID: 48 - TeamID: 108 GameID: 65 - Series: 988 Metaknight +11_-12 WIN 8 - -910/21/2020 12:30 - TimeOfSave: 2020-12-01T20:45:50.441520400
+TeamID: 107 - Doom GameID: 65 - SeriesID: 988 TournamentID: 24 - DoomAWAY LOSS : 8 - -9 - 10/21/2020 12:30 - TimeOfSave: 2020-12-01T20:45:50.442518200
+PlayerID: 41 - TeamID: 107 GameID: 65 - Series: 988 Incineroar +15_-16 LOSS 8 - -910/21/2020 12:30 - TimeOfSave: 2020-12-01T20:46:27.818779200
+PlayerID: 42 - TeamID: 107 GameID: 65 - Series: 988 Fox +11_-15 LOSS 8 - -910/21/2020 12:30 - TimeOfSave: 2020-12-01T20:46:27.819150500
+PlayerID: 43 - TeamID: 107 GameID: 65 - Series: 988 Wolf +8_-12 LOSS 8 - -910/21/2020 12:30 - TimeOfSave: 2020-12-01T20:46:27.820152700
+PlayerID: 44 - TeamID: 107 GameID: 65 - Series: 988 Samus +11_-11 LOSS 8 - -910/21/2020 12:30 - TimeOfSave: 2020-12-01T20:46:27.821150200
+TeamID: 108 - Crown -  SeriesID: 988 TournamentID: 24 - CrownWIN  : 10/21/2020 12:30 - TimeOfSave: 2020-12-01T20:46:27.822146900
+TeamID: 107 - Doom -  SeriesID: 988 TournamentID: 24 - DoomLOSS  : 10/21/2020 12:30 - TimeOfSave: 2020-12-01T20:46:27.822146900
+TeamID: 122 - High Voltage GameID: 66 - SeriesID: 1083 TournamentID: 24 - High VoltageHOME LOSS : -15 - 14 - 10/21/2020 12:30 - TimeOfSave: 2020-12-02T15:26:47.575729700
+PlayerID: 101 - TeamID: 122 GameID: 66 - Series: 1083 Pichu +14_-18 LOSS -15 - 1410/21/2020 12:30 - TimeOfSave: 2020-12-02T15:27:14.180321400
+PlayerID: 102 - TeamID: 122 GameID: 66 - Series: 1083 Terry +16_-17 LOSS -15 - 1410/21/2020 12:30 - TimeOfSave: 2020-12-02T15:27:14.180321400
+PlayerID: 103 - TeamID: 122 GameID: 66 - Series: 1083 Pikachu +7_-11 LOSS -15 - 1410/21/2020 12:30 - TimeOfSave: 2020-12-02T15:27:14.181319300
+PlayerID: 104 - TeamID: 122 GameID: 66 - Series: 1083 Mr. Game & Watch +8_-14 LOSS -15 - 1410/21/2020 12:30 - TimeOfSave: 2020-12-02T15:27:14.182318200
+TeamID: 113 - Alliance GameID: 66 - SeriesID: 1083 TournamentID: 24 - AllianceAWAY WIN : -15 - 14 - 10/21/2020 12:30 - TimeOfSave: 2020-12-02T15:27:14.183314300
+PlayerID: 65 - TeamID: 113 GameID: 66 - Series: 1083 Robin +20_-10 WIN -15 - 1410/21/2020 12:30 - TimeOfSave: 2020-12-02T15:27:40.531104200
+PlayerID: 66 - TeamID: 113 GameID: 66 - Series: 1083 Captain Falcon +15_-11 WIN -15 - 1410/21/2020 12:30 - TimeOfSave: 2020-12-02T15:27:40.533080700
+PlayerID: 67 - TeamID: 113 GameID: 66 - Series: 1083 Inkling +7_-10 WIN -15 - 1410/21/2020 12:30 - TimeOfSave: 2020-12-02T15:27:40.536115400
+PlayerID: 68 - TeamID: 113 GameID: 66 - Series: 1083 Ridley +18_-15 WIN -15 - 1410/21/2020 12:30 - TimeOfSave: 2020-12-02T15:27:40.538073900
+TeamID: 122 - High Voltage -  SeriesID: 1083 TournamentID: 24 - High VoltageLOSS  : 10/21/2020 12:30 - TimeOfSave: 2020-12-02T15:27:40.557016100
+TeamID: 113 - Alliance -  SeriesID: 1083 TournamentID: 24 - AllianceWIN  : 10/21/2020 12:30 - TimeOfSave: 2020-12-02T15:27:40.559009200
+TeamID: 121 - Icons GameID: 67 - SeriesID: 1092 TournamentID: 24 - IconsHOME WIN : 12 - -17 - 10/21/2020 12:30 - TimeOfSave: 2020-12-02T15:53:26.704881
+PlayerID: 97 - TeamID: 121 GameID: 67 - Series: 1092 Ken +11_-15 WIN 12 - -1710/21/2020 12:30 - TimeOfSave: 2020-12-02T15:53:55.466774400
+PlayerID: 98 - TeamID: 121 GameID: 67 - Series: 1092 Banjo & Kazooie +14_-13 WIN 12 - -1710/21/2020 12:30 - TimeOfSave: 2020-12-02T15:53:55.467772300
+PlayerID: 99 - TeamID: 121 GameID: 67 - Series: 1092 Lucario +18_-9 WIN 12 - -1710/21/2020 12:30 - TimeOfSave: 2020-12-02T15:53:55.468769900
+PlayerID: 100 - TeamID: 121 GameID: 67 - Series: 1092 R.O.B. +19_-13 WIN 12 - -1710/21/2020 12:30 - TimeOfSave: 2020-12-02T15:53:55.468769900
+TeamID: 114 - Chaos GameID: 67 - SeriesID: 1092 TournamentID: 24 - ChaosAWAY LOSS : 12 - -17 - 10/21/2020 12:30 - TimeOfSave: 2020-12-02T15:53:55.469767200
+PlayerID: 69 - TeamID: 114 GameID: 67 - Series: 1092 Wario +12_-16 LOSS 12 - -1710/21/2020 12:30 - TimeOfSave: 2020-12-02T15:54:20.669323200
+PlayerID: 70 - TeamID: 114 GameID: 67 - Series: 1092 Kirby +14_-17 LOSS 12 - -1710/21/2020 12:30 - TimeOfSave: 2020-12-02T15:54:20.670320900
+PlayerID: 71 - TeamID: 114 GameID: 67 - Series: 1092 Diddy Kong +7_-14 LOSS 12 - -1710/21/2020 12:30 - TimeOfSave: 2020-12-02T15:54:20.671318700
+PlayerID: 72 - TeamID: 114 GameID: 67 - Series: 1092 Joker +11_-14 LOSS 12 - -1710/21/2020 12:30 - TimeOfSave: 2020-12-02T15:54:20.672316800
+TeamID: 121 - Icons -  SeriesID: 1092 TournamentID: 24 - IconsWIN  : 10/21/2020 12:30 - TimeOfSave: 2020-12-02T15:54:20.680295400
+TeamID: 114 - Chaos -  SeriesID: 1092 TournamentID: 24 - ChaosLOSS  : 10/21/2020 12:30 - TimeOfSave: 2020-12-02T15:54:20.681292
+TeamID: 120 - Mean Green GameID: 68 - SeriesID: 1100 TournamentID: 24 - Mean GreenHOME WIN : 4 - -6 - 10/21/2020 12:30 - TimeOfSave: 2020-12-02T16:29:21.405225800
+PlayerID: 93 - TeamID: 120 GameID: 68 - Series: 1100 Little Mac +22_-20 WIN 4 - -610/21/2020 12:30 - TimeOfSave: 2020-12-02T16:30:10.573361300
+PlayerID: 94 - TeamID: 120 GameID: 68 - Series: 1100 Corrin +19_-16 WIN 4 - -610/21/2020 12:30 - TimeOfSave: 2020-12-02T16:30:10.575346300
+PlayerID: 95 - TeamID: 120 GameID: 68 - Series: 1100 Luigi +14_-14 WIN 4 - -610/21/2020 12:30 - TimeOfSave: 2020-12-02T16:30:10.578346200
+PlayerID: 96 - TeamID: 120 GameID: 68 - Series: 1100 Palutena +16_-17 WIN 4 - -610/21/2020 12:30 - TimeOfSave: 2020-12-02T16:30:10.580336600
+TeamID: 115 - Supremacy GameID: 68 - SeriesID: 1100 TournamentID: 24 - SupremacyAWAY LOSS : 4 - -6 - 10/21/2020 12:30 - TimeOfSave: 2020-12-02T16:30:10.582331
+PlayerID: 73 - TeamID: 115 GameID: 68 - Series: 1100 Olimar +14_-19 LOSS 4 - -610/21/2020 12:30 - TimeOfSave: 2020-12-02T16:30:51.812379400
+PlayerID: 74 - TeamID: 115 GameID: 68 - Series: 1100 King K. Rool +10_-16 LOSS 4 - -610/21/2020 12:30 - TimeOfSave: 2020-12-02T16:30:51.813334
+PlayerID: 75 - TeamID: 115 GameID: 68 - Series: 1100 Cloud +14_-17 LOSS 4 - -610/21/2020 12:30 - TimeOfSave: 2020-12-02T16:30:51.814330
+PlayerID: 76 - TeamID: 115 GameID: 68 - Series: 1100 Bowser Jr +27_-19 LOSS 4 - -610/21/2020 12:30 - TimeOfSave: 2020-12-02T16:30:51.815327200
+TeamID: 120 - Mean Green -  SeriesID: 1100 TournamentID: 24 - Mean GreenWIN  : 10/21/2020 12:30 - TimeOfSave: 2020-12-02T16:30:51.816324400
+TeamID: 115 - Supremacy -  SeriesID: 1100 TournamentID: 24 - SupremacyLOSS  : 10/21/2020 12:30 - TimeOfSave: 2020-12-02T16:30:51.818319
+TeamID: 119 - Thrashers GameID: 69 - SeriesID: 1107 TournamentID: 24 - ThrashersHOME WIN : 8 - -9 - 10/21/2020 12:30 - TimeOfSave: 2020-12-02T17:07:15.503418700
+PlayerID: 89 - TeamID: 119 GameID: 69 - Series: 1107 Chrom +29_-19 WIN 8 - -910/21/2020 12:30 - TimeOfSave: 2020-12-02T17:07:52.992277500
+PlayerID: 90 - TeamID: 119 GameID: 69 - Series: 1107 Marth +18_-17 WIN 8 - -910/21/2020 12:30 - TimeOfSave: 2020-12-02T17:07:52.993270600
+PlayerID: 91 - TeamID: 119 GameID: 69 - Series: 1107 Young Link +10_-12 WIN 8 - -910/21/2020 12:30 - TimeOfSave: 2020-12-02T17:07:52.994267900
+PlayerID: 92 - TeamID: 119 GameID: 69 - Series: 1107 Jigglypuff +15_-16 WIN 8 - -910/21/2020 12:30 - TimeOfSave: 2020-12-02T17:07:52.995265200
+TeamID: 116 - Royalty GameID: 69 - SeriesID: 1107 TournamentID: 24 - RoyaltyAWAY LOSS : 8 - -9 - 10/21/2020 12:30 - TimeOfSave: 2020-12-02T17:07:52.996262500
+PlayerID: 77 - TeamID: 116 GameID: 69 - Series: 1107 Toon Link +9_-16 LOSS 8 - -910/21/2020 12:30 - TimeOfSave: 2020-12-02T17:08:34.149616500
+PlayerID: 78 - TeamID: 116 GameID: 69 - Series: 1107 Isabelle +27_-23 LOSS 8 - -910/21/2020 12:30 - TimeOfSave: 2020-12-02T17:08:34.152611900
+PlayerID: 79 - TeamID: 116 GameID: 69 - Series: 1107 Mario +15_-17 LOSS 8 - -910/21/2020 12:30 - TimeOfSave: 2020-12-02T17:08:34.155604100
+PlayerID: 80 - TeamID: 116 GameID: 69 - Series: 1107 Peach +14_-18 LOSS 8 - -910/21/2020 12:30 - TimeOfSave: 2020-12-02T17:08:34.156550800
+TeamID: 119 - Thrashers -  SeriesID: 1107 TournamentID: 24 - ThrashersWIN  : 10/21/2020 12:30 - TimeOfSave: 2020-12-02T17:08:34.157542900
+TeamID: 116 - Royalty -  SeriesID: 1107 TournamentID: 24 - RoyaltyLOSS  : 10/21/2020 12:30 - TimeOfSave: 2020-12-02T17:08:34.158305400
+TeamID: 117 - Wrecking Crew GameID: 70 - SeriesID: 1113 TournamentID: 24 - Wrecking CrewHOME WIN : 14 - -19 - 10/21/2020 12:30 - TimeOfSave: 2020-12-02T17:57:08.571050900
+PlayerID: 81 - TeamID: 117 GameID: 70 - Series: 1113 Simon +22_-18 WIN 14 - -1910/21/2020 12:30 - TimeOfSave: 2020-12-02T17:57:36.719663300
+PlayerID: 82 - TeamID: 117 GameID: 70 - Series: 1113 Link +16_-15 WIN 14 - -1910/21/2020 12:30 - TimeOfSave: 2020-12-02T17:57:36.720659700
+PlayerID: 83 - TeamID: 117 GameID: 70 - Series: 1113 Hero +21_-12 WIN 14 - -1910/21/2020 12:30 - TimeOfSave: 2020-12-02T17:57:36.721657300
+PlayerID: 84 - TeamID: 117 GameID: 70 - Series: 1113 Ice Climbers +11_-11 WIN 14 - -1910/21/2020 12:30 - TimeOfSave: 2020-12-02T17:57:36.722653900
+TeamID: 118 - Legends GameID: 70 - SeriesID: 1113 TournamentID: 24 - LegendsAWAY LOSS : 14 - -19 - 10/21/2020 12:30 - TimeOfSave: 2020-12-02T17:57:36.722653900
+PlayerID: 85 - TeamID: 118 GameID: 70 - Series: 1113 Bayonetta +11_-17 LOSS 14 - -1910/21/2020 12:30 - TimeOfSave: 2020-12-02T17:58:16.977725200
+PlayerID: 86 - TeamID: 118 GameID: 70 - Series: 1113 Dr. Mario +15_-20 LOSS 14 - -1910/21/2020 12:30 - TimeOfSave: 2020-12-02T17:58:16.978723400
+PlayerID: 87 - TeamID: 118 GameID: 70 - Series: 1113 Ganondorf +19_-20 LOSS 14 - -1910/21/2020 12:30 - TimeOfSave: 2020-12-02T17:58:16.979720
+PlayerID: 88 - TeamID: 118 GameID: 70 - Series: 1113 Pokemon Trainer +7_-14 LOSS 14 - -1910/21/2020 12:30 - TimeOfSave: 2020-12-02T17:58:16.979720
+TeamID: 117 - Wrecking Crew -  SeriesID: 1113 TournamentID: 24 - Wrecking CrewWIN  : 10/21/2020 12:30 - TimeOfSave: 2020-12-02T17:58:16.980717800
+TeamID: 118 - Legends -  SeriesID: 1113 TournamentID: 24 - LegendsLOSS  : 10/21/2020 12:30 - TimeOfSave: 2020-12-02T17:58:16.981714900
+TeamID: 111 - Monarch GameID: 71 - SeriesID: 956 TournamentID: 24 - MonarchHOME LOSS : -15 - 11 - 10/21/2020 12:30 - TimeOfSave: 2020-12-03T20:42:41.500640700
+PlayerID: 57 - TeamID: 111 GameID: 71 - Series: 956 0 Suit Samus +13_-16 LOSS -15 - 1110/21/2020 12:30 - TimeOfSave: 2020-12-03T20:43:40.169266700
+PlayerID: 58 - TeamID: 111 GameID: 71 - Series: 956 Lucina +16_-19 LOSS -15 - 1110/21/2020 12:30 - TimeOfSave: 2020-12-03T20:43:40.170264400
+PlayerID: 59 - TeamID: 111 GameID: 71 - Series: 956 Piranha Plant +15_-14 LOSS -15 - 1110/21/2020 12:30 - TimeOfSave: 2020-12-03T20:43:40.171264700
+PlayerID: 60 - TeamID: 111 GameID: 71 - Series: 956 Duck Hunt +6_-16 LOSS -15 - 1110/21/2020 12:30 - TimeOfSave: 2020-12-03T20:43:40.173256400
+TeamID: 105 - BlackSun GameID: 71 - SeriesID: 956 TournamentID: 24 - BlackSunAWAY WIN : -15 - 11 - 10/21/2020 12:30 - TimeOfSave: 2020-12-03T20:43:40.174254100
+PlayerID: 33 - TeamID: 105 GameID: 71 - Series: 956 Villager +15_-13 WIN -15 - 1110/21/2020 12:30 - TimeOfSave: 2020-12-03T20:44:55.110075
+PlayerID: 34 - TeamID: 105 GameID: 71 - Series: 956 Sonic +12_-12 WIN -15 - 1110/21/2020 12:30 - TimeOfSave: 2020-12-03T20:44:55.112382500
+PlayerID: 35 - TeamID: 105 GameID: 71 - Series: 956 Lucas +22_-13 WIN -15 - 1110/21/2020 12:30 - TimeOfSave: 2020-12-03T20:44:55.113377400
+PlayerID: 36 - TeamID: 105 GameID: 71 - Series: 956 Dark Samus +12_-12 WIN -15 - 1110/21/2020 12:30 - TimeOfSave: 2020-12-03T20:44:55.115378
+TeamID: 111 - Monarch -  SeriesID: 956 TournamentID: 24 - MonarchLOSS  : 10/21/2020 12:30 - TimeOfSave: 2020-12-03T20:44:55.129333700
+TeamID: 105 - BlackSun -  SeriesID: 956 TournamentID: 24 - BlackSunWIN  : 10/21/2020 12:30 - TimeOfSave: 2020-12-03T20:44:55.131330800
+TeamID: 110 - Vanquish GameID: 72 - SeriesID: 973 TournamentID: 24 - VanquishHOME LOSS : -16 - 16 - 10/21/2020 12:30 - TimeOfSave: 2020-12-03T22:23:24.464337600
+PlayerID: 53 - TeamID: 110 GameID: 72 - Series: 973 Sheik +6_-8 LOSS -16 - 1610/21/2020 12:30 - TimeOfSave: 2020-12-03T22:23:49.537442900
+PlayerID: 54 - TeamID: 110 GameID: 72 - Series: 973 Pac-Man +7_-11 LOSS -16 - 1610/21/2020 12:30 - TimeOfSave: 2020-12-03T22:23:49.539175100
+PlayerID: 55 - TeamID: 110 GameID: 72 - Series: 973 Roy +7_-14 LOSS -16 - 1610/21/2020 12:30 - TimeOfSave: 2020-12-03T22:23:49.539436200
+PlayerID: 56 - TeamID: 110 GameID: 72 - Series: 973 Richter +9_-12 LOSS -16 - 1610/21/2020 12:30 - TimeOfSave: 2020-12-03T22:23:49.540436700
+TeamID: 106 - Inferno GameID: 72 - SeriesID: 973 TournamentID: 24 - InfernoAWAY WIN : -16 - 16 - 10/21/2020 12:30 - TimeOfSave: 2020-12-03T22:23:49.543079600
+PlayerID: 37 - TeamID: 106 GameID: 72 - Series: 973 Bowser +17_-10 WIN -16 - 1610/21/2020 12:30 - TimeOfSave: 2020-12-03T22:24:14.374420300
+PlayerID: 38 - TeamID: 106 GameID: 72 - Series: 973 Ness +7_-6 WIN -16 - 1610/21/2020 12:30 - TimeOfSave: 2020-12-03T22:24:14.375719
+PlayerID: 39 - TeamID: 106 GameID: 72 - Series: 973 Pit +12_-8 WIN -16 - 1610/21/2020 12:30 - TimeOfSave: 2020-12-03T22:24:14.376715600
+PlayerID: 40 - TeamID: 106 GameID: 72 - Series: 973 Dark Pit +9_-5 WIN -16 - 1610/21/2020 12:30 - TimeOfSave: 2020-12-03T22:24:14.378067200
+TeamID: 110 - Vanquish -  SeriesID: 973 TournamentID: 24 - VanquishLOSS  : 10/21/2020 12:30 - TimeOfSave: 2020-12-03T22:24:14.379063400
+TeamID: 106 - Inferno -  SeriesID: 973 TournamentID: 24 - InfernoWIN  : 10/21/2020 12:30 - TimeOfSave: 2020-12-03T22:24:14.380060700
+TeamID: 107 - Doom GameID: 73 - SeriesID: 989 TournamentID: 24 - DoomHOME LOSS : -7 - 7 - 10/21/2020 12:30 - TimeOfSave: 2020-12-04T00:09:09.031232300
+PlayerID: 41 - TeamID: 107 GameID: 73 - Series: 989 Incineroar +16_-15 LOSS -7 - 710/21/2020 12:30 - TimeOfSave: 2020-12-04T00:10:09.650083900
+PlayerID: 42 - TeamID: 107 GameID: 73 - Series: 989 Fox +6_-11 LOSS -7 - 710/21/2020 12:30 - TimeOfSave: 2020-12-04T00:10:09.651082200
+PlayerID: 43 - TeamID: 107 GameID: 73 - Series: 989 Wolf +10_-13 LOSS -7 - 710/21/2020 12:30 - TimeOfSave: 2020-12-04T00:10:09.652078300
+PlayerID: 44 - TeamID: 107 GameID: 73 - Series: 989 Samus +12_-12 LOSS -7 - 710/21/2020 12:30 - TimeOfSave: 2020-12-04T00:10:09.653076100
+TeamID: 109 - Fury GameID: 73 - SeriesID: 989 TournamentID: 24 - FuryAWAY WIN : -7 - 7 - 10/21/2020 12:30 - TimeOfSave: 2020-12-04T00:10:09.654075600
+PlayerID: 49 - TeamID: 109 GameID: 73 - Series: 989 Ike +17_-11 WIN -7 - 710/21/2020 12:30 - TimeOfSave: 2020-12-04T00:10:44.938254200
+PlayerID: 50 - TeamID: 109 GameID: 73 - Series: 989 Byleth +13_-10 WIN -7 - 710/21/2020 12:30 - TimeOfSave: 2020-12-04T00:10:44.938630200
+PlayerID: 51 - TeamID: 109 GameID: 73 - Series: 989 Rosalina +8_-11 WIN -7 - 710/21/2020 12:30 - TimeOfSave: 2020-12-04T00:10:44.939636800
+PlayerID: 52 - TeamID: 109 GameID: 73 - Series: 989 Mega Man +13_-12 WIN -7 - 710/21/2020 12:30 - TimeOfSave: 2020-12-04T00:10:44.940631500
+TeamID: 107 - Doom -  SeriesID: 989 TournamentID: 24 - DoomLOSS  : 10/21/2020 12:30 - TimeOfSave: 2020-12-04T00:10:44.951633600
+TeamID: 109 - Fury -  SeriesID: 989 TournamentID: 24 - FuryWIN  : 10/21/2020 12:30 - TimeOfSave: 2020-12-04T00:10:44.952596900
+TeamID: 123 - Brute Force GameID: 74 - SeriesID: 1073 TournamentID: 24 - Brute ForceHOME LOSS : -9 - 7 - 10/21/2020 12:30 - TimeOfSave: 2020-12-04T20:43:50.666045800
+PlayerID: 105 - TeamID: 123 GameID: 74 - Series: 1073 Donkey Kong +10_-15 LOSS -9 - 710/21/2020 12:30 - TimeOfSave: 2020-12-04T20:44:11.736648100
+PlayerID: 106 - TeamID: 123 GameID: 74 - Series: 1073 Greninja +12_-16 LOSS -9 - 710/21/2020 12:30 - TimeOfSave: 2020-12-04T20:44:11.737644900
+PlayerID: 107 - TeamID: 123 GameID: 74 - Series: 1073 Zelda +15_-12 LOSS -9 - 710/21/2020 12:30 - TimeOfSave: 2020-12-04T20:44:11.738642200
+PlayerID: 108 - TeamID: 123 GameID: 74 - Series: 1073 Falco +8_-11 LOSS -9 - 710/21/2020 12:30 - TimeOfSave: 2020-12-04T20:44:11.738642200
+TeamID: 112 - Rampage GameID: 74 - SeriesID: 1073 TournamentID: 24 - RampageAWAY WIN : -9 - 7 - 10/21/2020 12:30 - TimeOfSave: 2020-12-04T20:44:11.740263700
+PlayerID: 61 - TeamID: 112 GameID: 74 - Series: 1073 Yoshi +13_-8 WIN -9 - 710/21/2020 12:30 - TimeOfSave: 2020-12-04T20:45:17.821792100
+PlayerID: 62 - TeamID: 112 GameID: 74 - Series: 1073 Mewtwo +14_-12 WIN -9 - 710/21/2020 12:30 - TimeOfSave: 2020-12-04T20:45:17.822789200
+PlayerID: 63 - TeamID: 112 GameID: 74 - Series: 1073 Ryu +10_-13 WIN -9 - 710/21/2020 12:30 - TimeOfSave: 2020-12-04T20:45:17.823787
+PlayerID: 64 - TeamID: 112 GameID: 74 - Series: 1073 Snake +16_-13 WIN -9 - 710/21/2020 12:30 - TimeOfSave: 2020-12-04T20:45:17.823787
+TeamID: 123 - Brute Force -  SeriesID: 1073 TournamentID: 24 - Brute ForceLOSS  : 10/21/2020 12:30 - TimeOfSave: 2020-12-04T20:45:17.836749900
+TeamID: 112 - Rampage -  SeriesID: 1073 TournamentID: 24 - RampageWIN  : 10/21/2020 12:30 - TimeOfSave: 2020-12-04T20:45:17.837378300
+TeamID: 107 - Doom GameID: 75 - SeriesID: 990 TournamentID: 24 - DoomHOME WIN : 7 - -11 - 10/21/2020 12:30 - TimeOfSave: 2020-12-04T21:43:39.885350
+PlayerID: 41 - TeamID: 107 GameID: 75 - Series: 990 Incineroar +13_-10 WIN 7 - -1110/21/2020 12:30 - TimeOfSave: 2020-12-04T21:44:01.560843900
+PlayerID: 42 - TeamID: 107 GameID: 75 - Series: 990 Fox +7_-9 WIN 7 - -1110/21/2020 12:30 - TimeOfSave: 2020-12-04T21:44:01.562275600
+PlayerID: 43 - TeamID: 107 GameID: 75 - Series: 990 Wolf +9_-8 WIN 7 - -1110/21/2020 12:30 - TimeOfSave: 2020-12-04T21:44:01.563271900
+PlayerID: 44 - TeamID: 107 GameID: 75 - Series: 990 Samus +14_-9 WIN 7 - -1110/21/2020 12:30 - TimeOfSave: 2020-12-04T21:44:01.564271600
+TeamID: 110 - Vanquish GameID: 75 - SeriesID: 990 TournamentID: 24 - VanquishAWAY LOSS : 7 - -11 - 10/21/2020 12:30 - TimeOfSave: 2020-12-04T21:44:01.565270100
+PlayerID: 53 - TeamID: 110 GameID: 75 - Series: 990 Sheik +9_-11 LOSS 7 - -1110/21/2020 12:30 - TimeOfSave: 2020-12-04T21:44:33.577280
+PlayerID: 54 - TeamID: 110 GameID: 75 - Series: 990 Pac-Man +6_-11 LOSS 7 - -1110/21/2020 12:30 - TimeOfSave: 2020-12-04T21:44:33.578276100
+PlayerID: 55 - TeamID: 110 GameID: 75 - Series: 990 Roy +7_-10 LOSS 7 - -1110/21/2020 12:30 - TimeOfSave: 2020-12-04T21:44:33.578276100
+PlayerID: 56 - TeamID: 110 GameID: 75 - Series: 990 Richter +12_-13 LOSS 7 - -1110/21/2020 12:30 - TimeOfSave: 2020-12-04T21:44:33.579273800
+TeamID: 107 - Doom -  SeriesID: 990 TournamentID: 24 - DoomWIN  : 10/21/2020 12:30 - TimeOfSave: 2020-12-04T21:44:33.583074500
+TeamID: 110 - Vanquish -  SeriesID: 990 TournamentID: 24 - VanquishLOSS  : 10/21/2020 12:30 - TimeOfSave: 2020-12-04T21:44:33.584073200
+TeamID: 114 - Chaos GameID: 76 - SeriesID: 1093 TournamentID: 24 - ChaosHOME WIN : 7 - -7 - 10/21/2020 12:30 - TimeOfSave: 2020-12-04T23:00:55.380100
+PlayerID: 69 - TeamID: 114 GameID: 76 - Series: 1093 Wario +19_-15 WIN 7 - -710/21/2020 12:30 - TimeOfSave: 2020-12-04T23:01:48.688153800
+PlayerID: 70 - TeamID: 114 GameID: 76 - Series: 1093 Kirby +12_-12 WIN 7 - -710/21/2020 12:30 - TimeOfSave: 2020-12-04T23:01:48.689151300
+PlayerID: 71 - TeamID: 114 GameID: 76 - Series: 1093 Diddy Kong +9_-9 WIN 7 - -710/21/2020 12:30 - TimeOfSave: 2020-12-04T23:01:48.689151300
+PlayerID: 72 - TeamID: 114 GameID: 76 - Series: 1093 Joker +14_-11 WIN 7 - -710/21/2020 12:30 - TimeOfSave: 2020-12-04T23:01:48.690148600
+TeamID: 122 - High Voltage GameID: 76 - SeriesID: 1093 TournamentID: 24 - High VoltageAWAY LOSS : 7 - -7 - 10/21/2020 12:30 - TimeOfSave: 2020-12-04T23:01:48.691146500
+PlayerID: 101 - TeamID: 122 GameID: 76 - Series: 1093 Pichu +13_-16 LOSS 7 - -710/21/2020 12:30 - TimeOfSave: 2020-12-04T23:02:44.328296500
+PlayerID: 102 - TeamID: 122 GameID: 76 - Series: 1093 Terry +10_-13 LOSS 7 - -710/21/2020 12:30 - TimeOfSave: 2020-12-04T23:02:44.330290500
+PlayerID: 103 - TeamID: 122 GameID: 76 - Series: 1093 Pikachu +11_-11 LOSS 7 - -710/21/2020 12:30 - TimeOfSave: 2020-12-04T23:02:44.331288100
+PlayerID: 104 - TeamID: 122 GameID: 76 - Series: 1093 Mr. Game & Watch +13_-14 LOSS 7 - -710/21/2020 12:30 - TimeOfSave: 2020-12-04T23:02:44.332285800
+TeamID: 114 - Chaos -  SeriesID: 1093 TournamentID: 24 - ChaosWIN  : 10/21/2020 12:30 - TimeOfSave: 2020-12-04T23:02:44.334279800
+TeamID: 122 - High Voltage -  SeriesID: 1093 TournamentID: 24 - High VoltageLOSS  : 10/21/2020 12:30 - TimeOfSave: 2020-12-04T23:02:44.335280700
+TeamID: 116 - Royalty GameID: 77 - SeriesID: 1108 TournamentID: 24 - RoyaltyHOME WIN : 3 - -5 - 10/21/2020 12:30 - TimeOfSave: 2020-12-04T23:51:48.964474800
+PlayerID: 77 - TeamID: 116 GameID: 77 - Series: 1108 Toon Link +7_-12 WIN 3 - -510/21/2020 12:30 - TimeOfSave: 2020-12-04T23:52:20.755990900
+PlayerID: 78 - TeamID: 116 GameID: 77 - Series: 1108 Isabelle +17_-13 WIN 3 - -510/21/2020 12:30 - TimeOfSave: 2020-12-04T23:52:20.756987300
+PlayerID: 79 - TeamID: 116 GameID: 77 - Series: 1108 Mario +12_-12 WIN 3 - -510/21/2020 12:30 - TimeOfSave: 2020-12-04T23:52:20.756987300
+PlayerID: 80 - TeamID: 116 GameID: 77 - Series: 1108 Peach +16_-12 WIN 3 - -510/21/2020 12:30 - TimeOfSave: 2020-12-04T23:52:20.757984600
+TeamID: 120 - Mean Green GameID: 77 - SeriesID: 1108 TournamentID: 24 - Mean GreenAWAY LOSS : 3 - -5 - 10/21/2020 12:30 - TimeOfSave: 2020-12-04T23:52:20.757984600
+PlayerID: 93 - TeamID: 120 GameID: 77 - Series: 1108 Little Mac +11_-17 LOSS 3 - -510/21/2020 12:30 - TimeOfSave: 2020-12-04T23:53:09.096654500
+PlayerID: 94 - TeamID: 120 GameID: 77 - Series: 1108 Corrin +18_-14 LOSS 3 - -510/21/2020 12:30 - TimeOfSave: 2020-12-04T23:53:09.097617100
+PlayerID: 95 - TeamID: 120 GameID: 77 - Series: 1108 Luigi +8_-12 LOSS 3 - -510/21/2020 12:30 - TimeOfSave: 2020-12-04T23:53:09.098615800
+PlayerID: 96 - TeamID: 120 GameID: 77 - Series: 1108 Palutena +11_-10 LOSS 3 - -510/21/2020 12:30 - TimeOfSave: 2020-12-04T23:53:09.099613300
+TeamID: 116 - Royalty -  SeriesID: 1108 TournamentID: 24 - RoyaltyWIN  : 10/21/2020 12:30 - TimeOfSave: 2020-12-04T23:53:09.100610200
+TeamID: 120 - Mean Green -  SeriesID: 1108 TournamentID: 24 - Mean GreenLOSS  : 10/21/2020 12:30 - TimeOfSave: 2020-12-04T23:53:09.100610200
+TeamID: 113 - Alliance GameID: 78 - SeriesID: 1084 TournamentID: 24 - AllianceHOME WIN : 1 - -1 - 10/21/2020 12:30 - TimeOfSave: 2020-12-05T00:21:48.685227400
+PlayerID: 65 - TeamID: 113 GameID: 78 - Series: 1084 Robin +21_-14 WIN 1 - -110/21/2020 12:30 - TimeOfSave: 2020-12-05T00:23:30.287212100
+PlayerID: 66 - TeamID: 113 GameID: 78 - Series: 1084 Captain Falcon +12_-12 WIN 1 - -110/21/2020 12:30 - TimeOfSave: 2020-12-05T00:23:30.288209500
+PlayerID: 67 - TeamID: 113 GameID: 78 - Series: 1084 Inkling +8_-10 WIN 1 - -110/21/2020 12:30 - TimeOfSave: 2020-12-05T00:23:30.289206900
+PlayerID: 68 - TeamID: 113 GameID: 78 - Series: 1084 Ridley +11_-15 WIN 1 - -110/21/2020 12:30 - TimeOfSave: 2020-12-05T00:23:30.290204
+TeamID: 123 - Brute Force GameID: 78 - SeriesID: 1084 TournamentID: 24 - Brute ForceAWAY LOSS : 1 - -1 - 10/21/2020 12:30 - TimeOfSave: 2020-12-05T00:23:30.291201300
+PlayerID: 105 - TeamID: 123 GameID: 78 - Series: 1084 Donkey Kong +18_-15 LOSS 1 - -110/21/2020 12:30 - TimeOfSave: 2020-12-05T00:24:06.220495700
+PlayerID: 106 - TeamID: 123 GameID: 78 - Series: 1084 Greninja +9_-14 LOSS 1 - -110/21/2020 12:30 - TimeOfSave: 2020-12-05T00:24:06.220495700
+PlayerID: 107 - TeamID: 123 GameID: 78 - Series: 1084 Zelda +16_-11 LOSS 1 - -110/21/2020 12:30 - TimeOfSave: 2020-12-05T00:24:06.221492
+PlayerID: 108 - TeamID: 123 GameID: 78 - Series: 1084 Falco +9_-13 LOSS 1 - -110/21/2020 12:30 - TimeOfSave: 2020-12-05T00:24:06.221492
+TeamID: 113 - Alliance -  SeriesID: 1084 TournamentID: 24 - AllianceWIN  : 10/21/2020 12:30 - TimeOfSave: 2020-12-05T00:24:06.228473700
+TeamID: 123 - Brute Force -  SeriesID: 1084 TournamentID: 24 - Brute ForceLOSS  : 10/21/2020 12:30 - TimeOfSave: 2020-12-05T00:24:06.229471400
+TeamID: 115 - Supremacy GameID: 79 - SeriesID: 1101 TournamentID: 24 - SupremacyHOME WIN : 19 - -19 - 10/21/2020 12:30 - TimeOfSave: 2020-12-06T16:26:02.265440800
+PlayerID: 73 - TeamID: 115 GameID: 79 - Series: 1101 Olimar +11_-8 WIN 19 - -1910/21/2020 12:30 - TimeOfSave: 2020-12-06T16:26:29.903750500
+PlayerID: 74 - TeamID: 115 GameID: 79 - Series: 1101 King K. Rool +9_-9 WIN 19 - -1910/21/2020 12:30 - TimeOfSave: 2020-12-06T16:26:29.904747700
+PlayerID: 75 - TeamID: 115 GameID: 79 - Series: 1101 Cloud +17_-11 WIN 19 - -1910/21/2020 12:30 - TimeOfSave: 2020-12-06T16:26:29.905744900
+PlayerID: 76 - TeamID: 115 GameID: 79 - Series: 1101 Bowser Jr +21_-11 WIN 19 - -1910/21/2020 12:30 - TimeOfSave: 2020-12-06T16:26:29.907740200
+TeamID: 121 - Icons GameID: 79 - SeriesID: 1101 TournamentID: 24 - IconsAWAY LOSS : 19 - -19 - 10/21/2020 12:30 - TimeOfSave: 2020-12-06T16:26:29.909734500
+PlayerID: 97 - TeamID: 121 GameID: 79 - Series: 1101 Ken +9_-16 LOSS 19 - -1910/21/2020 12:30 - TimeOfSave: 2020-12-06T16:26:57.996249
+PlayerID: 98 - TeamID: 121 GameID: 79 - Series: 1101 Banjo & Kazooie +10_-13 LOSS 19 - -1910/21/2020 12:30 - TimeOfSave: 2020-12-06T16:26:57.996249
+PlayerID: 99 - TeamID: 121 GameID: 79 - Series: 1101 Lucario +6_-13 LOSS 19 - -1910/21/2020 12:30 - TimeOfSave: 2020-12-06T16:26:57.997245700
+PlayerID: 100 - TeamID: 121 GameID: 79 - Series: 1101 R.O.B. +14_-16 LOSS 19 - -1910/21/2020 12:30 - TimeOfSave: 2020-12-06T16:26:57.998242600
+TeamID: 115 - Supremacy -  SeriesID: 1101 TournamentID: 24 - SupremacyWIN  : 10/21/2020 12:30 - TimeOfSave: 2020-12-06T16:26:58.005225700
+TeamID: 121 - Icons -  SeriesID: 1101 TournamentID: 24 - IconsLOSS  : 10/21/2020 12:30 - TimeOfSave: 2020-12-06T16:26:58.006222800
+TeamID: 108 - Crown GameID: 80 - SeriesID: 1005 TournamentID: 24 - CrownHOME WIN : 3 - -3 - 10/21/2020 12:30 - TimeOfSave: 2020-12-06T17:17:12.626439600
+PlayerID: 45 - TeamID: 108 GameID: 80 - Series: 1005 Daisy +8_-11 WIN 3 - -310/21/2020 12:30 - TimeOfSave: 2020-12-06T17:17:38.468797900
+PlayerID: 46 - TeamID: 108 GameID: 80 - Series: 1005 Shulk +8_-10 WIN 3 - -310/21/2020 12:30 - TimeOfSave: 2020-12-06T17:17:38.469467700
+PlayerID: 47 - TeamID: 108 GameID: 80 - Series: 1005 King Dedede +21_-15 WIN 3 - -310/21/2020 12:30 - TimeOfSave: 2020-12-06T17:17:38.469467700
+PlayerID: 48 - TeamID: 108 GameID: 80 - Series: 1005 Metaknight +16_-14 WIN 3 - -310/21/2020 12:30 - TimeOfSave: 2020-12-06T17:17:38.470492100
+TeamID: 109 - Fury GameID: 80 - SeriesID: 1005 TournamentID: 24 - FuryAWAY LOSS : 3 - -3 - 10/21/2020 12:30 - TimeOfSave: 2020-12-06T17:17:38.470492100
+PlayerID: 49 - TeamID: 109 GameID: 80 - Series: 1005 Ike +15_-13 LOSS 3 - -310/21/2020 12:30 - TimeOfSave: 2020-12-06T17:18:10.005525400
+PlayerID: 50 - TeamID: 109 GameID: 80 - Series: 1005 Byleth +14_-13 LOSS 3 - -310/21/2020 12:30 - TimeOfSave: 2020-12-06T17:18:10.006524200
+PlayerID: 51 - TeamID: 109 GameID: 80 - Series: 1005 Rosalina +8_-12 LOSS 3 - -310/21/2020 12:30 - TimeOfSave: 2020-12-06T17:18:10.006524200
+PlayerID: 52 - TeamID: 109 GameID: 80 - Series: 1005 Mega Man +12_-14 LOSS 3 - -310/21/2020 12:30 - TimeOfSave: 2020-12-06T17:18:10.007521
+TeamID: 108 - Crown -  SeriesID: 1005 TournamentID: 24 - CrownWIN  : 10/21/2020 12:30 - TimeOfSave: 2020-12-06T17:18:10.008517600
+TeamID: 109 - Fury -  SeriesID: 1005 TournamentID: 24 - FuryLOSS  : 10/21/2020 12:30 - TimeOfSave: 2020-12-06T17:18:10.008517600
+TeamID: 106 - Inferno GameID: 81 - SeriesID: 974 TournamentID: 24 - InfernoHOME WIN : 10 - -12 - 10/21/2020 12:30 - TimeOfSave: 2020-12-06T18:45:54.682008
+PlayerID: 37 - TeamID: 106 GameID: 81 - Series: 974 Bowser +17_-13 WIN 10 - -1210/21/2020 12:30 - TimeOfSave: 2020-12-06T18:46:17.727268
+PlayerID: 38 - TeamID: 106 GameID: 81 - Series: 974 Ness +16_-10 WIN 10 - -1210/21/2020 12:30 - TimeOfSave: 2020-12-06T18:46:17.728236400
+PlayerID: 39 - TeamID: 106 GameID: 81 - Series: 974 Pit +13_-12 WIN 10 - -1210/21/2020 12:30 - TimeOfSave: 2020-12-06T18:46:17.729233900
+PlayerID: 40 - TeamID: 106 GameID: 81 - Series: 974 Dark Pit +10_-11 WIN 10 - -1210/21/2020 12:30 - TimeOfSave: 2020-12-06T18:46:17.729233900
+TeamID: 111 - Monarch GameID: 81 - SeriesID: 974 TournamentID: 24 - MonarchAWAY LOSS : 10 - -12 - 10/21/2020 12:30 - TimeOfSave: 2020-12-06T18:46:17.730268
+PlayerID: 57 - TeamID: 111 GameID: 81 - Series: 974 0 Suit Samus +17_-17 LOSS 10 - -1210/21/2020 12:30 - TimeOfSave: 2020-12-06T18:46:57.848036300
+PlayerID: 58 - TeamID: 111 GameID: 81 - Series: 974 Lucina +8_-11 LOSS 10 - -1210/21/2020 12:30 - TimeOfSave: 2020-12-06T18:46:57.850565
+PlayerID: 59 - TeamID: 111 GameID: 81 - Series: 974 Piranha Plant +11_-13 LOSS 10 - -1210/21/2020 12:30 - TimeOfSave: 2020-12-06T18:46:57.852508800
+PlayerID: 60 - TeamID: 111 GameID: 81 - Series: 974 Duck Hunt +9_-16 LOSS 10 - -1210/21/2020 12:30 - TimeOfSave: 2020-12-06T18:46:57.854503600
+TeamID: 106 - Inferno -  SeriesID: 974 TournamentID: 24 - InfernoWIN  : 10/21/2020 12:30 - TimeOfSave: 2020-12-06T18:46:57.858491700
+TeamID: 111 - Monarch -  SeriesID: 974 TournamentID: 24 - MonarchLOSS  : 10/21/2020 12:30 - TimeOfSave: 2020-12-06T18:46:57.860487
+TeamID: 117 - Wrecking Crew GameID: 82 - SeriesID: 1114 TournamentID: 24 - Wrecking CrewHOME WIN : 4 - -4 - 10/21/2020 12:30 - TimeOfSave: 2020-12-06T20:36:40.102904900
+PlayerID: 81 - TeamID: 117 GameID: 82 - Series: 1114 Simon +17_-18 WIN 4 - -410/21/2020 12:30 - TimeOfSave: 2020-12-06T20:37:19.622962200
+PlayerID: 82 - TeamID: 117 GameID: 82 - Series: 1114 Link +23_-15 WIN 4 - -410/21/2020 12:30 - TimeOfSave: 2020-12-06T20:37:19.624328200
+PlayerID: 83 - TeamID: 117 GameID: 82 - Series: 1114 Hero +11_-13 WIN 4 - -410/21/2020 12:30 - TimeOfSave: 2020-12-06T20:37:19.625641
+PlayerID: 84 - TeamID: 117 GameID: 82 - Series: 1114 Ice Climbers +12_-13 WIN 4 - -410/21/2020 12:30 - TimeOfSave: 2020-12-06T20:37:19.626642300
+TeamID: 119 - Thrashers GameID: 82 - SeriesID: 1114 TournamentID: 24 - ThrashersAWAY LOSS : 4 - -4 - 10/21/2020 12:30 - TimeOfSave: 2020-12-06T20:37:19.627409500
+PlayerID: 89 - TeamID: 119 GameID: 82 - Series: 1114 Chrom +23_-18 LOSS 4 - -410/21/2020 12:30 - TimeOfSave: 2020-12-06T20:37:44.624280400
+PlayerID: 90 - TeamID: 119 GameID: 82 - Series: 1114 Marth +16_-17 LOSS 4 - -410/21/2020 12:30 - TimeOfSave: 2020-12-06T20:37:44.624846400
+PlayerID: 91 - TeamID: 119 GameID: 82 - Series: 1114 Young Link +9_-14 LOSS 4 - -410/21/2020 12:30 - TimeOfSave: 2020-12-06T20:37:44.625919200
+PlayerID: 92 - TeamID: 119 GameID: 82 - Series: 1114 Jigglypuff +11_-14 LOSS 4 - -410/21/2020 12:30 - TimeOfSave: 2020-12-06T20:37:44.627331800
+TeamID: 117 - Wrecking Crew -  SeriesID: 1114 TournamentID: 24 - Wrecking CrewWIN  : 10/21/2020 12:30 - TimeOfSave: 2020-12-06T20:37:44.629574
+TeamID: 119 - Thrashers -  SeriesID: 1114 TournamentID: 24 - ThrashersLOSS  : 10/21/2020 12:30 - TimeOfSave: 2020-12-06T20:37:44.630108
+TeamID: 112 - Rampage GameID: 83 - SeriesID: 957 TournamentID: 24 - RampageHOME WIN : 0 - -8 - 10/21/2020 12:30 - TimeOfSave: 2020-12-07T22:16:19.665165500
+PlayerID: 61 - TeamID: 112 GameID: 83 - Series: 957 Yoshi +9_-8 WIN 0 - -810/21/2020 12:30 - TimeOfSave: 2020-12-07T22:16:44.252062700
+PlayerID: 62 - TeamID: 112 GameID: 83 - Series: 957 Mewtwo +11_-11 WIN 0 - -810/21/2020 12:30 - TimeOfSave: 2020-12-07T22:16:44.252563600
+PlayerID: 63 - TeamID: 112 GameID: 83 - Series: 957 Ryu +5_-11 WIN 0 - -810/21/2020 12:30 - TimeOfSave: 2020-12-07T22:16:44.253563600
+PlayerID: 64 - TeamID: 112 GameID: 83 - Series: 957 Snake +18_-13 WIN 0 - -810/21/2020 12:30 - TimeOfSave: 2020-12-07T22:16:44.254579100
+TeamID: 105 - BlackSun GameID: 83 - SeriesID: 957 TournamentID: 24 - BlackSunAWAY LOSS : 0 - -8 - 10/21/2020 12:30 - TimeOfSave: 2020-12-07T22:16:44.255603700
+PlayerID: 33 - TeamID: 105 GameID: 83 - Series: 957 Villager +8_-12 LOSS 0 - -810/21/2020 12:30 - TimeOfSave: 2020-12-07T22:18:37.326686100
+PlayerID: 34 - TeamID: 105 GameID: 83 - Series: 957 Sonic +9_-10 LOSS 0 - -810/21/2020 12:30 - TimeOfSave: 2020-12-07T22:18:37.327685700
+PlayerID: 35 - TeamID: 105 GameID: 83 - Series: 957 Lucas +10_-10 LOSS 0 - -810/21/2020 12:30 - TimeOfSave: 2020-12-07T22:18:37.329817
+PlayerID: 36 - TeamID: 105 GameID: 83 - Series: 957 Dark Samus +8_-11 LOSS 0 - -810/21/2020 12:30 - TimeOfSave: 2020-12-07T22:18:37.331060400
+TeamID: 112 - Rampage -  SeriesID: 957 TournamentID: 24 - RampageWIN  : 10/21/2020 12:30 - TimeOfSave: 2020-12-07T22:18:37.345189900
+TeamID: 105 - BlackSun -  SeriesID: 957 TournamentID: 24 - BlackSunLOSS  : 10/21/2020 12:30 - TimeOfSave: 2020-12-07T22:18:37.347033200
+TeamID: 108 - Crown GameID: 84 - SeriesID: 1006 TournamentID: 24 - CrownHOME WIN : 5 - -6 - 10/21/2020 12:30 - TimeOfSave: 2020-12-08T03:16:51.022602800
+PlayerID: 45 - TeamID: 108 GameID: 84 - Series: 1006 Daisy +10_-10 WIN 5 - -610/21/2020 12:30 - TimeOfSave: 2020-12-08T03:17:16.017909400
+PlayerID: 46 - TeamID: 108 GameID: 84 - Series: 1006 Shulk +14_-15 WIN 5 - -610/21/2020 12:30 - TimeOfSave: 2020-12-08T03:17:16.020192600
+PlayerID: 47 - TeamID: 108 GameID: 84 - Series: 1006 King Dedede +14_-11 WIN 5 - -610/21/2020 12:30 - TimeOfSave: 2020-12-08T03:17:16.022185900
+PlayerID: 48 - TeamID: 108 GameID: 84 - Series: 1006 Metaknight +13_-10 WIN 5 - -610/21/2020 12:30 - TimeOfSave: 2020-12-08T03:17:16.023403600
+TeamID: 110 - Vanquish GameID: 84 - SeriesID: 1006 TournamentID: 24 - VanquishAWAY LOSS : 5 - -6 - 10/21/2020 12:30 - TimeOfSave: 2020-12-08T03:17:16.026236900
+PlayerID: 53 - TeamID: 110 GameID: 84 - Series: 1006 Sheik +12_-12 LOSS 5 - -610/21/2020 12:30 - TimeOfSave: 2020-12-08T03:17:53.315099700
+PlayerID: 54 - TeamID: 110 GameID: 84 - Series: 1006 Pac-Man +14_-12 LOSS 5 - -610/21/2020 12:30 - TimeOfSave: 2020-12-08T03:17:53.317031900
+PlayerID: 55 - TeamID: 110 GameID: 84 - Series: 1006 Roy +9_-15 LOSS 5 - -610/21/2020 12:30 - TimeOfSave: 2020-12-08T03:17:53.318510
+PlayerID: 56 - TeamID: 110 GameID: 84 - Series: 1006 Richter +11_-13 LOSS 5 - -610/21/2020 12:30 - TimeOfSave: 2020-12-08T03:17:53.319507200
+TeamID: 108 - Crown -  SeriesID: 1006 TournamentID: 24 - CrownWIN  : 10/21/2020 12:30 - TimeOfSave: 2020-12-08T03:17:53.332328400
+TeamID: 110 - Vanquish -  SeriesID: 1006 TournamentID: 24 - VanquishLOSS  : 10/21/2020 12:30 - TimeOfSave: 2020-12-08T03:17:53.334322900
+TeamID: 122 - High Voltage GameID: 85 - SeriesID: 1102 TournamentID: 24 - High VoltageHOME LOSS : 0 - 1 - 10/21/2020 12:30 - TimeOfSave: 2020-12-09T19:09:29.831006100
+PlayerID: 101 - TeamID: 122 GameID: 85 - Series: 1102 Pichu +15_-16 LOSS 0 - 110/21/2020 12:30 - TimeOfSave: 2020-12-09T19:10:01.702721200
+PlayerID: 102 - TeamID: 122 GameID: 85 - Series: 1102 Terry +13_-15 LOSS 0 - 110/21/2020 12:30 - TimeOfSave: 2020-12-09T19:10:01.703718600
+PlayerID: 103 - TeamID: 122 GameID: 85 - Series: 1102 Pikachu +15_-12 LOSS 0 - 110/21/2020 12:30 - TimeOfSave: 2020-12-09T19:10:01.704715900
+PlayerID: 104 - TeamID: 122 GameID: 85 - Series: 1102 Mr. Game & Watch +13_-13 LOSS 0 - 110/21/2020 12:30 - TimeOfSave: 2020-12-09T19:10:01.704715900
+TeamID: 115 - Supremacy GameID: 85 - SeriesID: 1102 TournamentID: 24 - SupremacyAWAY WIN : 0 - 1 - 10/21/2020 12:30 - TimeOfSave: 2020-12-09T19:10:01.705713100
+PlayerID: 73 - TeamID: 115 GameID: 85 - Series: 1102 Olimar +15_-11 WIN 0 - 110/21/2020 12:30 - TimeOfSave: 2020-12-09T19:10:37.561306800
+PlayerID: 74 - TeamID: 115 GameID: 85 - Series: 1102 King K. Rool +16_-15 WIN 0 - 110/21/2020 12:30 - TimeOfSave: 2020-12-09T19:10:37.562321700
+PlayerID: 75 - TeamID: 115 GameID: 85 - Series: 1102 Cloud +14_-15 WIN 0 - 110/21/2020 12:30 - TimeOfSave: 2020-12-09T19:10:37.563326600
+PlayerID: 76 - TeamID: 115 GameID: 85 - Series: 1102 Bowser Jr +11_-14 WIN 0 - 110/21/2020 12:30 - TimeOfSave: 2020-12-09T19:10:37.564324100
+TeamID: 122 - High Voltage -  SeriesID: 1102 TournamentID: 24 - High VoltageLOSS  : 10/21/2020 12:30 - TimeOfSave: 2020-12-09T19:10:37.574292700
+TeamID: 115 - Supremacy -  SeriesID: 1102 TournamentID: 24 - SupremacyWIN  : 10/21/2020 12:30 - TimeOfSave: 2020-12-09T19:10:37.575291600
+TeamID: 123 - Brute Force GameID: 86 - SeriesID: 1094 TournamentID: 24 - Brute ForceHOME WIN : 9 - -11 - 10/21/2020 12:30 - TimeOfSave: 2020-12-09T19:37:57.628706400
+PlayerID: 105 - TeamID: 123 GameID: 86 - Series: 1094 Donkey Kong +19_-15 WIN 9 - -1110/21/2020 12:30 - TimeOfSave: 2020-12-09T19:38:29.272334500
+PlayerID: 106 - TeamID: 123 GameID: 86 - Series: 1094 Greninja +11_-11 WIN 9 - -1110/21/2020 12:30 - TimeOfSave: 2020-12-09T19:38:29.273332
+PlayerID: 107 - TeamID: 123 GameID: 86 - Series: 1094 Zelda +21_-13 WIN 9 - -1110/21/2020 12:30 - TimeOfSave: 2020-12-09T19:38:29.274330
+PlayerID: 108 - TeamID: 123 GameID: 86 - Series: 1094 Falco +7_-10 WIN 9 - -1110/21/2020 12:30 - TimeOfSave: 2020-12-09T19:38:29.274330
+TeamID: 114 - Chaos GameID: 86 - SeriesID: 1094 TournamentID: 24 - ChaosAWAY LOSS : 9 - -11 - 10/21/2020 12:30 - TimeOfSave: 2020-12-09T19:38:29.275326
+PlayerID: 69 - TeamID: 114 GameID: 86 - Series: 1094 Wario +19_-17 LOSS 9 - -1110/21/2020 12:30 - TimeOfSave: 2020-12-09T19:39:12.145900300
+PlayerID: 70 - TeamID: 114 GameID: 86 - Series: 1094 Kirby +17_-15 LOSS 9 - -1110/21/2020 12:30 - TimeOfSave: 2020-12-09T19:39:12.147662
+PlayerID: 71 - TeamID: 114 GameID: 86 - Series: 1094 Diddy Kong +7_-17 LOSS 9 - -1110/21/2020 12:30 - TimeOfSave: 2020-12-09T19:39:12.150692200
+PlayerID: 72 - TeamID: 114 GameID: 86 - Series: 1094 Joker +6_-11 LOSS 9 - -1110/21/2020 12:30 - TimeOfSave: 2020-12-09T19:39:12.152655300
+TeamID: 123 - Brute Force -  SeriesID: 1094 TournamentID: 24 - Brute ForceWIN  : 10/21/2020 12:30 - TimeOfSave: 2020-12-09T19:39:12.153643400
+TeamID: 114 - Chaos -  SeriesID: 1094 TournamentID: 24 - ChaosLOSS  : 10/21/2020 12:30 - TimeOfSave: 2020-12-09T19:39:12.153643400
+TeamID: 107 - Doom GameID: 87 - SeriesID: 991 TournamentID: 24 - DoomHOME WIN : 2 - -10 - 10/21/2020 12:30 - TimeOfSave: 2020-12-09T20:24:10.758040900
+PlayerID: 41 - TeamID: 107 GameID: 87 - Series: 991 Incineroar +19_-11 WIN 2 - -1010/21/2020 12:30 - TimeOfSave: 2020-12-09T20:24:46.955810100
+PlayerID: 42 - TeamID: 107 GameID: 87 - Series: 991 Fox +8_-13 WIN 2 - -1010/21/2020 12:30 - TimeOfSave: 2020-12-09T20:24:46.956807700
+PlayerID: 43 - TeamID: 107 GameID: 87 - Series: 991 Wolf +6_-10 WIN 2 - -1010/21/2020 12:30 - TimeOfSave: 2020-12-09T20:24:46.957803500
+PlayerID: 44 - TeamID: 107 GameID: 87 - Series: 991 Samus +15_-12 WIN 2 - -1010/21/2020 12:30 - TimeOfSave: 2020-12-09T20:24:46.958803
+TeamID: 111 - Monarch GameID: 87 - SeriesID: 991 TournamentID: 24 - MonarchAWAY LOSS : 2 - -10 - 10/21/2020 12:30 - TimeOfSave: 2020-12-09T20:24:46.959799600
+PlayerID: 57 - TeamID: 111 GameID: 87 - Series: 991 0 Suit Samus +9_-13 LOSS 2 - -1010/21/2020 12:30 - TimeOfSave: 2020-12-09T20:25:33.238608100
+PlayerID: 58 - TeamID: 111 GameID: 87 - Series: 991 Lucina +11_-12 LOSS 2 - -1010/21/2020 12:30 - TimeOfSave: 2020-12-09T20:25:33.241593700
+PlayerID: 59 - TeamID: 111 GameID: 87 - Series: 991 Piranha Plant +9_-12 LOSS 2 - -1010/21/2020 12:30 - TimeOfSave: 2020-12-09T20:25:33.243587300
+PlayerID: 60 - TeamID: 111 GameID: 87 - Series: 991 Duck Hunt +13_-15 LOSS 2 - -1010/21/2020 12:30 - TimeOfSave: 2020-12-09T20:25:33.246580500
+TeamID: 107 - Doom -  SeriesID: 991 TournamentID: 24 - DoomWIN  : 10/21/2020 12:30 - TimeOfSave: 2020-12-09T20:25:33.246580500
+TeamID: 111 - Monarch -  SeriesID: 991 TournamentID: 24 - MonarchLOSS  : 10/21/2020 12:30 - TimeOfSave: 2020-12-09T20:25:33.247573900
+TeamID: 121 - Icons GameID: 88 - SeriesID: 1109 TournamentID: 24 - IconsHOME LOSS : -6 - 8 - 10/21/2020 12:30 - TimeOfSave: 2020-12-09T21:05:11.566085500
+PlayerID: 97 - TeamID: 121 GameID: 88 - Series: 1109 Ken +8_-11 LOSS -6 - 810/21/2020 12:30 - TimeOfSave: 2020-12-09T21:05:55.827708100
+PlayerID: 98 - TeamID: 121 GameID: 88 - Series: 1109 Banjo & Kazooie +13_-14 LOSS -6 - 810/21/2020 12:30 - TimeOfSave: 2020-12-09T21:05:55.828956500
+PlayerID: 99 - TeamID: 121 GameID: 88 - Series: 1109 Lucario +8_-11 LOSS -6 - 810/21/2020 12:30 - TimeOfSave: 2020-12-09T21:05:55.830984
+PlayerID: 100 - TeamID: 121 GameID: 88 - Series: 1109 R.O.B. +14_-13 LOSS -6 - 810/21/2020 12:30 - TimeOfSave: 2020-12-09T21:05:55.832199600
+TeamID: 116 - Royalty GameID: 88 - SeriesID: 1109 TournamentID: 24 - RoyaltyAWAY WIN : -6 - 8 - 10/21/2020 12:30 - TimeOfSave: 2020-12-09T21:05:55.833164900
+PlayerID: 77 - TeamID: 116 GameID: 88 - Series: 1109 Toon Link +8_-9 WIN -6 - 810/21/2020 12:30 - TimeOfSave: 2020-12-09T21:06:22.748186
+PlayerID: 78 - TeamID: 116 GameID: 88 - Series: 1109 Isabelle +8_-9 WIN -6 - 810/21/2020 12:30 - TimeOfSave: 2020-12-09T21:06:22.749904200
+PlayerID: 79 - TeamID: 116 GameID: 88 - Series: 1109 Mario +19_-12 WIN -6 - 810/21/2020 12:30 - TimeOfSave: 2020-12-09T21:06:22.751214700
+PlayerID: 80 - TeamID: 116 GameID: 88 - Series: 1109 Peach +15_-12 WIN -6 - 810/21/2020 12:30 - TimeOfSave: 2020-12-09T21:06:22.752658900
+TeamID: 121 - Icons -  SeriesID: 1109 TournamentID: 24 - IconsLOSS  : 10/21/2020 12:30 - TimeOfSave: 2020-12-09T21:06:22.754652100
+TeamID: 116 - Royalty -  SeriesID: 1109 TournamentID: 24 - RoyaltyWIN  : 10/21/2020 12:30 - TimeOfSave: 2020-12-09T21:06:22.755780600
+TeamID: 118 - Legends GameID: 89 - SeriesID: 1120 TournamentID: 24 - LegendsHOME WIN : 19 - -18 - 10/21/2020 12:30 - TimeOfSave: 2020-12-09T22:12:51.698572400
+PlayerID: 85 - TeamID: 118 GameID: 89 - Series: 1120 Bayonetta +7_-8 WIN 19 - -1810/21/2020 12:30 - TimeOfSave: 2020-12-09T22:13:19.301275400
+PlayerID: 86 - TeamID: 118 GameID: 89 - Series: 1120 Dr. Mario +15_-9 WIN 19 - -1810/21/2020 12:30 - TimeOfSave: 2020-12-09T22:13:19.302273100
+PlayerID: 87 - TeamID: 118 GameID: 89 - Series: 1120 Ganondorf +9_-7 WIN 19 - -1810/21/2020 12:30 - TimeOfSave: 2020-12-09T22:13:19.304267100
+PlayerID: 88 - TeamID: 118 GameID: 89 - Series: 1120 Pokemon Trainer +20_-8 WIN 19 - -1810/21/2020 12:30 - TimeOfSave: 2020-12-09T22:13:19.305264200
+TeamID: 119 - Thrashers GameID: 89 - SeriesID: 1120 TournamentID: 24 - ThrashersAWAY LOSS : 19 - -18 - 10/21/2020 12:30 - TimeOfSave: 2020-12-09T22:13:19.306807100
+PlayerID: 89 - TeamID: 119 GameID: 89 - Series: 1120 Chrom +11_-15 LOSS 19 - -1810/21/2020 12:30 - TimeOfSave: 2020-12-09T22:13:51.222999500
+PlayerID: 90 - TeamID: 119 GameID: 89 - Series: 1120 Marth +8_-13 LOSS 19 - -1810/21/2020 12:30 - TimeOfSave: 2020-12-09T22:13:51.224248700
+PlayerID: 91 - TeamID: 119 GameID: 89 - Series: 1120 Young Link +6_-11 LOSS 19 - -1810/21/2020 12:30 - TimeOfSave: 2020-12-09T22:13:51.225362500
+PlayerID: 92 - TeamID: 119 GameID: 89 - Series: 1120 Jigglypuff +7_-11 LOSS 19 - -1810/21/2020 12:30 - TimeOfSave: 2020-12-09T22:13:51.226390600
+TeamID: 118 - Legends -  SeriesID: 1120 TournamentID: 24 - LegendsWIN  : 10/21/2020 12:30 - TimeOfSave: 2020-12-09T22:13:51.227387100
+TeamID: 119 - Thrashers -  SeriesID: 1120 TournamentID: 24 - ThrashersLOSS  : 10/21/2020 12:30 - TimeOfSave: 2020-12-09T22:13:51.228696600
+TeamID: 106 - Inferno GameID: 90 - SeriesID: 975 TournamentID: 24 - InfernoHOME LOSS : -4 - 3 - 10/21/2020 12:30 - TimeOfSave: 2020-12-09T22:42:52.984472100
+PlayerID: 37 - TeamID: 106 GameID: 90 - Series: 975 Bowser +12_-16 LOSS -4 - 310/21/2020 12:30 - TimeOfSave: 2020-12-09T22:43:21.699186500
+PlayerID: 38 - TeamID: 106 GameID: 90 - Series: 975 Ness +12_-10 LOSS -4 - 310/21/2020 12:30 - TimeOfSave: 2020-12-09T22:43:21.700860100
+PlayerID: 39 - TeamID: 106 GameID: 90 - Series: 975 Pit +13_-13 LOSS -4 - 310/21/2020 12:30 - TimeOfSave: 2020-12-09T22:43:21.703360300
+PlayerID: 40 - TeamID: 106 GameID: 90 - Series: 975 Dark Pit +11_-13 LOSS -4 - 310/21/2020 12:30 - TimeOfSave: 2020-12-09T22:43:21.704626300
+TeamID: 112 - Rampage GameID: 90 - SeriesID: 975 TournamentID: 24 - RampageAWAY WIN : -4 - 3 - 10/21/2020 12:30 - TimeOfSave: 2020-12-09T22:43:21.705623600
+PlayerID: 61 - TeamID: 112 GameID: 90 - Series: 975 Yoshi +12_-11 WIN -4 - 310/21/2020 12:30 - TimeOfSave: 2020-12-09T22:43:48.042280
+PlayerID: 62 - TeamID: 112 GameID: 90 - Series: 975 Mewtwo +15_-13 WIN -4 - 310/21/2020 12:30 - TimeOfSave: 2020-12-09T22:43:48.043133700
+PlayerID: 63 - TeamID: 112 GameID: 90 - Series: 975 Ryu +9_-11 WIN -4 - 310/21/2020 12:30 - TimeOfSave: 2020-12-09T22:43:48.044131800
+PlayerID: 64 - TeamID: 112 GameID: 90 - Series: 975 Snake +17_-15 WIN -4 - 310/21/2020 12:30 - TimeOfSave: 2020-12-09T22:43:48.046131
+TeamID: 106 - Inferno -  SeriesID: 975 TournamentID: 24 - InfernoLOSS  : 10/21/2020 12:30 - TimeOfSave: 2020-12-09T22:43:48.047243900
+TeamID: 112 - Rampage -  SeriesID: 975 TournamentID: 24 - RampageWIN  : 10/21/2020 12:30 - TimeOfSave: 2020-12-09T22:43:48.048240800
+TeamID: 120 - Mean Green GameID: 91 - SeriesID: 1115 TournamentID: 24 - Mean GreenHOME LOSS : -16 - 9 - 10/21/2020 12:30 - TimeOfSave: 2020-12-09T23:50:04.636992800
+PlayerID: 93 - TeamID: 120 GameID: 91 - Series: 1115 Little Mac +13_-16 LOSS -16 - 910/21/2020 12:30 - TimeOfSave: 2020-12-09T23:50:34.208403300
+PlayerID: 94 - TeamID: 120 GameID: 91 - Series: 1115 Corrin +23_-22 LOSS -16 - 910/21/2020 12:30 - TimeOfSave: 2020-12-09T23:50:34.209402700
+PlayerID: 95 - TeamID: 120 GameID: 91 - Series: 1115 Luigi +9_-18 LOSS -16 - 910/21/2020 12:30 - TimeOfSave: 2020-12-09T23:50:34.210678800
+PlayerID: 96 - TeamID: 120 GameID: 91 - Series: 1115 Palutena +16_-20 LOSS -16 - 910/21/2020 12:30 - TimeOfSave: 2020-12-09T23:50:34.211675700
+TeamID: 117 - Wrecking Crew GameID: 91 - SeriesID: 1115 TournamentID: 24 - Wrecking CrewAWAY WIN : -16 - 9 - 10/21/2020 12:30 - TimeOfSave: 2020-12-09T23:50:34.212881300
+PlayerID: 81 - TeamID: 117 GameID: 91 - Series: 1115 Simon +26_-17 WIN -16 - 910/21/2020 12:30 - TimeOfSave: 2020-12-09T23:51:02.933672800
+PlayerID: 82 - TeamID: 117 GameID: 91 - Series: 1115 Link +19_-16 WIN -16 - 910/21/2020 12:30 - TimeOfSave: 2020-12-09T23:51:02.935286500
+PlayerID: 83 - TeamID: 117 GameID: 91 - Series: 1115 Hero +13_-15 WIN -16 - 910/21/2020 12:30 - TimeOfSave: 2020-12-09T23:51:02.937278700
+PlayerID: 84 - TeamID: 117 GameID: 91 - Series: 1115 Ice Climbers +14_-15 WIN -16 - 910/21/2020 12:30 - TimeOfSave: 2020-12-09T23:51:02.939149700
+TeamID: 120 - Mean Green -  SeriesID: 1115 TournamentID: 24 - Mean GreenLOSS  : 10/21/2020 12:30 - TimeOfSave: 2020-12-09T23:51:02.953582200
+TeamID: 117 - Wrecking Crew -  SeriesID: 1115 TournamentID: 24 - Wrecking CrewWIN  : 10/21/2020 12:30 - TimeOfSave: 2020-12-09T23:51:02.955866700
+TeamID: 105 - BlackSun GameID: 92 - SeriesID: 958 TournamentID: 24 - BlackSunHOME WIN : 5 - -9 - 10/21/2020 12:30 - TimeOfSave: 2020-12-10T00:17:46.376878800
+PlayerID: 33 - TeamID: 105 GameID: 92 - Series: 958 Villager +16_-16 WIN 5 - -910/21/2020 12:30 - TimeOfSave: 2020-12-10T00:18:17.772945600
+PlayerID: 34 - TeamID: 105 GameID: 92 - Series: 958 Sonic +23_-19 WIN 5 - -910/21/2020 12:30 - TimeOfSave: 2020-12-10T00:18:17.775826900
+PlayerID: 35 - TeamID: 105 GameID: 92 - Series: 958 Lucas +26_-20 WIN 5 - -910/21/2020 12:30 - TimeOfSave: 2020-12-10T00:18:17.778019800
+PlayerID: 36 - TeamID: 105 GameID: 92 - Series: 958 Dark Samus +13_-18 WIN 5 - -910/21/2020 12:30 - TimeOfSave: 2020-12-10T00:18:17.779614300
+TeamID: 113 - Alliance GameID: 92 - SeriesID: 958 TournamentID: 24 - AllianceAWAY LOSS : 5 - -9 - 10/21/2020 12:30 - TimeOfSave: 2020-12-10T00:18:17.781860
+PlayerID: 65 - TeamID: 113 GameID: 92 - Series: 958 Robin +24_-21 LOSS 5 - -910/21/2020 12:30 - TimeOfSave: 2020-12-10T00:18:41.015546900
+PlayerID: 66 - TeamID: 113 GameID: 92 - Series: 958 Captain Falcon +19_-21 LOSS 5 - -910/21/2020 12:30 - TimeOfSave: 2020-12-10T00:18:41.016730400
+PlayerID: 67 - TeamID: 113 GameID: 92 - Series: 958 Inkling +12_-17 LOSS 5 - -910/21/2020 12:30 - TimeOfSave: 2020-12-10T00:18:41.017726800
+PlayerID: 68 - TeamID: 113 GameID: 92 - Series: 958 Ridley +13_-18 LOSS 5 - -910/21/2020 12:30 - TimeOfSave: 2020-12-10T00:18:41.018724100
+TeamID: 105 - BlackSun -  SeriesID: 958 TournamentID: 24 - BlackSunWIN  : 10/21/2020 12:30 - TimeOfSave: 2020-12-10T00:18:41.019853800
+TeamID: 113 - Alliance -  SeriesID: 958 TournamentID: 24 - AllianceLOSS  : 10/21/2020 12:30 - TimeOfSave: 2020-12-10T00:18:41.020850700
+TeamID: 109 - Fury GameID: 93 - SeriesID: 1021 TournamentID: 24 - FuryHOME WIN : 17 - -24 - 10/21/2020 12:30 - TimeOfSave: 2020-12-10T16:46:46.860083800
+PlayerID: 49 - TeamID: 109 GameID: 93 - Series: 1021 Ike +20_-13 WIN 17 - -2410/21/2020 12:30 - TimeOfSave: 2020-12-10T16:47:17.794741300
+PlayerID: 50 - TeamID: 109 GameID: 93 - Series: 1021 Byleth +15_-10 WIN 17 - -2410/21/2020 12:30 - TimeOfSave: 2020-12-10T16:47:17.795736600
+PlayerID: 51 - TeamID: 109 GameID: 93 - Series: 1021 Rosalina +11_-13 WIN 17 - -2410/21/2020 12:30 - TimeOfSave: 2020-12-10T16:47:17.795736600
+PlayerID: 52 - TeamID: 109 GameID: 93 - Series: 1021 Mega Man +18_-11 WIN 17 - -2410/21/2020 12:30 - TimeOfSave: 2020-12-10T16:47:17.796733900
+TeamID: 110 - Vanquish GameID: 93 - SeriesID: 1021 TournamentID: 24 - VanquishAWAY LOSS : 17 - -24 - 10/21/2020 12:30 - TimeOfSave: 2020-12-10T16:47:17.797731
+PlayerID: 53 - TeamID: 110 GameID: 93 - Series: 1021 Sheik +15_-17 LOSS 17 - -2410/21/2020 12:30 - TimeOfSave: 2020-12-10T16:47:49.506159600
+PlayerID: 54 - TeamID: 110 GameID: 93 - Series: 1021 Pac-Man +9_-14 LOSS 17 - -2410/21/2020 12:30 - TimeOfSave: 2020-12-10T16:47:49.508154100
+PlayerID: 55 - TeamID: 110 GameID: 93 - Series: 1021 Roy +7_-16 LOSS 17 - -2410/21/2020 12:30 - TimeOfSave: 2020-12-10T16:47:49.509150100
+PlayerID: 56 - TeamID: 110 GameID: 93 - Series: 1021 Richter +12_-20 LOSS 17 - -2410/21/2020 12:30 - TimeOfSave: 2020-12-10T16:47:49.510149400
+TeamID: 109 - Fury -  SeriesID: 1021 TournamentID: 24 - FuryWIN  : 10/21/2020 12:30 - TimeOfSave: 2020-12-10T16:47:49.521117200
+TeamID: 110 - Vanquish -  SeriesID: 1021 TournamentID: 24 - VanquishLOSS  : 10/21/2020 12:30 - TimeOfSave: 2020-12-10T16:47:49.522114600
+TeamID: 116 - Royalty GameID: 94 - SeriesID: 1110 TournamentID: 24 - RoyaltyHOME WIN : 4 - -5 - 10/21/2020 12:30 - TimeOfSave: 2020-12-10T17:27:48.425472900
+PlayerID: 77 - TeamID: 116 GameID: 94 - Series: 1110 Toon Link +7_-11 WIN 4 - -510/21/2020 12:30 - TimeOfSave: 2020-12-10T17:28:15.261582400
+PlayerID: 78 - TeamID: 116 GameID: 94 - Series: 1110 Isabelle +13_-11 WIN 4 - -510/21/2020 12:30 - TimeOfSave: 2020-12-10T17:28:15.264110500
+PlayerID: 79 - TeamID: 116 GameID: 94 - Series: 1110 Mario +16_-11 WIN 4 - -510/21/2020 12:30 - TimeOfSave: 2020-12-10T17:28:15.265143200
+PlayerID: 80 - TeamID: 116 GameID: 94 - Series: 1110 Peach +13_-12 WIN 4 - -510/21/2020 12:30 - TimeOfSave: 2020-12-10T17:28:15.266095200
+TeamID: 122 - High Voltage GameID: 94 - SeriesID: 1110 TournamentID: 24 - High VoltageAWAY LOSS : 4 - -5 - 10/21/2020 12:30 - TimeOfSave: 2020-12-10T17:28:15.267092300
+PlayerID: 101 - TeamID: 122 GameID: 94 - Series: 1110 Pichu +11_-14 LOSS 4 - -510/21/2020 12:30 - TimeOfSave: 2020-12-10T17:28:38.732896500
+PlayerID: 102 - TeamID: 122 GameID: 94 - Series: 1110 Terry +8_-10 LOSS 4 - -510/21/2020 12:30 - TimeOfSave: 2020-12-10T17:28:38.735768800
+PlayerID: 103 - TeamID: 122 GameID: 94 - Series: 1110 Pikachu +8_-9 LOSS 4 - -510/21/2020 12:30 - TimeOfSave: 2020-12-10T17:28:38.738803700
+PlayerID: 104 - TeamID: 122 GameID: 94 - Series: 1110 Mr. Game & Watch +16_-15 LOSS 4 - -510/21/2020 12:30 - TimeOfSave: 2020-12-10T17:28:38.741751800
+TeamID: 116 - Royalty -  SeriesID: 1110 TournamentID: 24 - RoyaltyWIN  : 10/21/2020 12:30 - TimeOfSave: 2020-12-10T17:28:38.744742400
+TeamID: 122 - High Voltage -  SeriesID: 1110 TournamentID: 24 - High VoltageLOSS  : 10/21/2020 12:30 - TimeOfSave: 2020-12-10T17:28:38.747736200
+TeamID: 118 - Legends GameID: 95 - SeriesID: 1121 TournamentID: 24 - LegendsHOME WIN : 6 - -10 - 10/21/2020 12:30 - TimeOfSave: 2020-12-10T19:39:20.639321400
+PlayerID: 85 - TeamID: 118 GameID: 95 - Series: 1121 Bayonetta +9_-13 WIN 6 - -1010/21/2020 12:30 - TimeOfSave: 2020-12-10T19:44:03.003597300
+PlayerID: 86 - TeamID: 118 GameID: 95 - Series: 1121 Dr. Mario +12_-14 WIN 6 - -1010/21/2020 12:30 - TimeOfSave: 2020-12-10T19:44:03.005592100
+PlayerID: 87 - TeamID: 118 GameID: 95 - Series: 1121 Ganondorf +25_-14 WIN 6 - -1010/21/2020 12:30 - TimeOfSave: 2020-12-10T19:44:03.008504100
+PlayerID: 88 - TeamID: 118 GameID: 95 - Series: 1121 Pokemon Trainer +14_-13 WIN 6 - -1010/21/2020 12:30 - TimeOfSave: 2020-12-10T19:44:03.010874100
+TeamID: 120 - Mean Green GameID: 95 - SeriesID: 1121 TournamentID: 24 - Mean GreenAWAY LOSS : 6 - -10 - 10/21/2020 12:30 - TimeOfSave: 2020-12-10T19:44:03.013386400
+PlayerID: 93 - TeamID: 120 GameID: 95 - Series: 1121 Little Mac +14_-23 LOSS 6 - -1010/21/2020 12:30 - TimeOfSave: 2020-12-10T19:45:51.398910100
+PlayerID: 94 - TeamID: 120 GameID: 95 - Series: 1121 Corrin +16_-11 LOSS 6 - -1010/21/2020 12:30 - TimeOfSave: 2020-12-10T19:45:51.402870500
+PlayerID: 95 - TeamID: 120 GameID: 95 - Series: 1121 Luigi +8_-14 LOSS 6 - -1010/21/2020 12:30 - TimeOfSave: 2020-12-10T19:45:51.405541700
+PlayerID: 96 - TeamID: 120 GameID: 95 - Series: 1121 Palutena +15_-15 LOSS 6 - -1010/21/2020 12:30 - TimeOfSave: 2020-12-10T19:45:51.407627800
+TeamID: 118 - Legends -  SeriesID: 1121 TournamentID: 24 - LegendsWIN  : 10/21/2020 12:30 - TimeOfSave: 2020-12-10T19:45:51.409627200
+TeamID: 120 - Mean Green -  SeriesID: 1121 TournamentID: 24 - Mean GreenLOSS  : 10/21/2020 12:30 - TimeOfSave: 2020-12-10T19:45:51.411960800
+TeamID: 114 - Chaos GameID: 96 - SeriesID: 959 TournamentID: 24 - ChaosHOME WIN : 1 - -1 - 10/21/2020 12:30 - TimeOfSave: 2020-12-10T21:34:27.338888300
+PlayerID: 69 - TeamID: 114 GameID: 96 - Series: 959 Wario +13_-12 WIN 1 - -110/21/2020 12:30 - TimeOfSave: 2020-12-10T21:34:51.148237700
+PlayerID: 70 - TeamID: 114 GameID: 96 - Series: 959 Kirby +21_-12 WIN 1 - -110/21/2020 12:30 - TimeOfSave: 2020-12-10T21:34:51.149990100
+PlayerID: 71 - TeamID: 114 GameID: 96 - Series: 959 Diddy Kong +8_-13 WIN 1 - -110/21/2020 12:30 - TimeOfSave: 2020-12-10T21:34:51.153023500
+PlayerID: 72 - TeamID: 114 GameID: 96 - Series: 959 Joker +8_-12 WIN 1 - -110/21/2020 12:30 - TimeOfSave: 2020-12-10T21:34:51.154445
+TeamID: 105 - BlackSun GameID: 96 - SeriesID: 959 TournamentID: 24 - BlackSunAWAY LOSS : 1 - -1 - 10/21/2020 12:30 - TimeOfSave: 2020-12-10T21:34:51.157434500
+PlayerID: 33 - TeamID: 105 GameID: 96 - Series: 959 Villager +12_-12 LOSS 1 - -110/21/2020 12:30 - TimeOfSave: 2020-12-10T21:35:16.857913100
+PlayerID: 34 - TeamID: 105 GameID: 96 - Series: 959 Sonic +11_-13 LOSS 1 - -110/21/2020 12:30 - TimeOfSave: 2020-12-10T21:35:16.858991
+PlayerID: 35 - TeamID: 105 GameID: 96 - Series: 959 Lucas +15_-12 LOSS 1 - -110/21/2020 12:30 - TimeOfSave: 2020-12-10T21:35:16.859990800
+PlayerID: 36 - TeamID: 105 GameID: 96 - Series: 959 Dark Samus +11_-13 LOSS 1 - -110/21/2020 12:30 - TimeOfSave: 2020-12-10T21:35:16.860985700
+TeamID: 114 - Chaos -  SeriesID: 959 TournamentID: 24 - ChaosWIN  : 10/21/2020 12:30 - TimeOfSave: 2020-12-10T21:35:16.861981700
+TeamID: 105 - BlackSun -  SeriesID: 959 TournamentID: 24 - BlackSunLOSS  : 10/21/2020 12:30 - TimeOfSave: 2020-12-10T21:35:16.863016100
+TeamID: 111 - Monarch GameID: 97 - SeriesID: 1007 TournamentID: 24 - MonarchHOME WIN : 0 - -3 - 10/21/2020 12:30 - TimeOfSave: 2020-12-10T22:16:18.518806300
+PlayerID: 57 - TeamID: 111 GameID: 97 - Series: 1007 0 Suit Samus +7_-12 WIN 0 - -310/21/2020 12:30 - TimeOfSave: 2020-12-10T22:16:52.443411700
+PlayerID: 58 - TeamID: 111 GameID: 97 - Series: 1007 Lucina +20_-15 WIN 0 - -310/21/2020 12:30 - TimeOfSave: 2020-12-10T22:16:52.447401200
+PlayerID: 59 - TeamID: 111 GameID: 97 - Series: 1007 Piranha Plant +16_-15 WIN 0 - -310/21/2020 12:30 - TimeOfSave: 2020-12-10T22:16:52.451394400
+PlayerID: 60 - TeamID: 111 GameID: 97 - Series: 1007 Duck Hunt +14_-15 WIN 0 - -310/21/2020 12:30 - TimeOfSave: 2020-12-10T22:16:52.456322900
+TeamID: 108 - Crown GameID: 97 - SeriesID: 1007 TournamentID: 24 - CrownAWAY LOSS : 0 - -3 - 10/21/2020 12:30 - TimeOfSave: 2020-12-10T22:16:52.460308600
+PlayerID: 45 - TeamID: 108 GameID: 97 - Series: 1007 Daisy +12_-13 LOSS 0 - -310/21/2020 12:30 - TimeOfSave: 2020-12-10T22:17:29.792785
+PlayerID: 46 - TeamID: 108 GameID: 97 - Series: 1007 Shulk +16_-15 LOSS 0 - -310/21/2020 12:30 - TimeOfSave: 2020-12-10T22:17:29.793748200
+PlayerID: 47 - TeamID: 108 GameID: 97 - Series: 1007 King Dedede +17_-18 LOSS 0 - -310/21/2020 12:30 - TimeOfSave: 2020-12-10T22:17:29.794745900
+PlayerID: 48 - TeamID: 108 GameID: 97 - Series: 1007 Metaknight +12_-14 LOSS 0 - -310/21/2020 12:30 - TimeOfSave: 2020-12-10T22:17:29.794745900
+TeamID: 111 - Monarch -  SeriesID: 1007 TournamentID: 24 - MonarchWIN  : 10/21/2020 12:30 - TimeOfSave: 2020-12-10T22:17:29.795744500
+TeamID: 108 - Crown -  SeriesID: 1007 TournamentID: 24 - CrownLOSS  : 10/21/2020 12:30 - TimeOfSave: 2020-12-10T22:17:29.795744500
+TeamID: 117 - Wrecking Crew GameID: 98 - SeriesID: 1116 TournamentID: 24 - Wrecking CrewHOME WIN : 17 - -17 - 10/21/2020 12:30 - TimeOfSave: 2020-12-11T00:29:21.689551
+PlayerID: 81 - TeamID: 117 GameID: 98 - Series: 1116 Simon +11_-8 WIN 17 - -1710/21/2020 12:30 - TimeOfSave: 2020-12-11T00:30:06.142245500
+PlayerID: 82 - TeamID: 117 GameID: 98 - Series: 1116 Link +12_-8 WIN 17 - -1710/21/2020 12:30 - TimeOfSave: 2020-12-11T00:30:06.144239200
+PlayerID: 83 - TeamID: 117 GameID: 98 - Series: 1116 Hero +8_-8 WIN 17 - -1710/21/2020 12:30 - TimeOfSave: 2020-12-11T00:30:06.147238800
+PlayerID: 84 - TeamID: 117 GameID: 98 - Series: 1116 Ice Climbers +18_-8 WIN 17 - -1710/21/2020 12:30 - TimeOfSave: 2020-12-11T00:30:06.150264600
+TeamID: 121 - Icons GameID: 98 - SeriesID: 1116 TournamentID: 24 - IconsAWAY LOSS : 17 - -17 - 10/21/2020 12:30 - TimeOfSave: 2020-12-11T00:30:06.153250600
+PlayerID: 97 - TeamID: 121 GameID: 98 - Series: 1116 Ken +8_-14 LOSS 17 - -1710/21/2020 12:30 - TimeOfSave: 2020-12-11T00:30:42.915466300
+PlayerID: 98 - TeamID: 121 GameID: 98 - Series: 1116 Banjo & Kazooie +13_-12 LOSS 17 - -1710/21/2020 12:30 - TimeOfSave: 2020-12-11T00:30:42.916466800
+PlayerID: 99 - TeamID: 121 GameID: 98 - Series: 1116 Lucario +4_-11 LOSS 17 - -1710/21/2020 12:30 - TimeOfSave: 2020-12-11T00:30:42.917464300
+PlayerID: 100 - TeamID: 121 GameID: 98 - Series: 1116 R.O.B. +7_-12 LOSS 17 - -1710/21/2020 12:30 - TimeOfSave: 2020-12-11T00:30:42.918481900
+TeamID: 117 - Wrecking Crew -  SeriesID: 1116 TournamentID: 24 - Wrecking CrewWIN  : 10/21/2020 12:30 - TimeOfSave: 2020-12-11T00:30:42.919467300
+TeamID: 121 - Icons -  SeriesID: 1116 TournamentID: 24 - IconsLOSS  : 10/21/2020 12:30 - TimeOfSave: 2020-12-11T00:30:42.920590400
+TeamID: 113 - Alliance GameID: 99 - SeriesID: 976 TournamentID: 24 - AllianceHOME LOSS : -4 - 4 - 10/21/2020 12:30 - TimeOfSave: 2020-12-11T11:40:13.595900200
+PlayerID: 65 - TeamID: 113 GameID: 99 - Series: 976 Robin +11_-13 LOSS -4 - 410/21/2020 12:30 - TimeOfSave: 2020-12-11T11:41:04.201472200
+PlayerID: 66 - TeamID: 113 GameID: 99 - Series: 976 Captain Falcon +9_-14 LOSS -4 - 410/21/2020 12:30 - TimeOfSave: 2020-12-11T11:41:04.202467200
+PlayerID: 67 - TeamID: 113 GameID: 99 - Series: 976 Inkling +6_-9 LOSS -4 - 410/21/2020 12:30 - TimeOfSave: 2020-12-11T11:41:04.203465
+PlayerID: 68 - TeamID: 113 GameID: 99 - Series: 976 Ridley +20_-14 LOSS -4 - 410/21/2020 12:30 - TimeOfSave: 2020-12-11T11:41:04.204463200
+TeamID: 106 - Inferno GameID: 99 - SeriesID: 976 TournamentID: 24 - InfernoAWAY WIN : -4 - 4 - 10/21/2020 12:30 - TimeOfSave: 2020-12-11T11:41:04.205459200
+PlayerID: 37 - TeamID: 106 GameID: 99 - Series: 976 Bowser +10_-14 WIN -4 - 410/21/2020 12:30 - TimeOfSave: 2020-12-11T11:41:39.738361700
+PlayerID: 38 - TeamID: 106 GameID: 99 - Series: 976 Ness +15_-10 WIN -4 - 410/21/2020 12:30 - TimeOfSave: 2020-12-11T11:41:39.739358800
+PlayerID: 39 - TeamID: 106 GameID: 99 - Series: 976 Pit +10_-12 WIN -4 - 410/21/2020 12:30 - TimeOfSave: 2020-12-11T11:41:39.739358800
+PlayerID: 40 - TeamID: 106 GameID: 99 - Series: 976 Dark Pit +15_-10 WIN -4 - 410/21/2020 12:30 - TimeOfSave: 2020-12-11T11:41:39.740356100
+TeamID: 113 - Alliance -  SeriesID: 976 TournamentID: 24 - AllianceLOSS  : 10/21/2020 12:30 - TimeOfSave: 2020-12-11T11:41:39.746344500
+TeamID: 106 - Inferno -  SeriesID: 976 TournamentID: 24 - InfernoWIN  : 10/21/2020 12:30 - TimeOfSave: 2020-12-11T11:41:39.747337300
+TeamID: 115 - Supremacy GameID: 100 - SeriesID: 1103 TournamentID: 24 - SupremacyHOME LOSS : -8 - 8 - 10/21/2020 12:30 - TimeOfSave: 2020-12-11T15:54:01.813005500
+PlayerID: 73 - TeamID: 115 GameID: 100 - Series: 1103 Olimar +12_-13 LOSS -8 - 810/21/2020 12:30 - TimeOfSave: 2020-12-11T15:54:42.008259100
+PlayerID: 74 - TeamID: 115 GameID: 100 - Series: 1103 King K. Rool +9_-15 LOSS -8 - 810/21/2020 12:30 - TimeOfSave: 2020-12-11T15:54:42.009664900
+PlayerID: 75 - TeamID: 115 GameID: 100 - Series: 1103 Cloud +14_-12 LOSS -8 - 810/21/2020 12:30 - TimeOfSave: 2020-12-11T15:54:42.010308700
+PlayerID: 76 - TeamID: 115 GameID: 100 - Series: 1103 Bowser Jr +11_-14 LOSS -8 - 810/21/2020 12:30 - TimeOfSave: 2020-12-11T15:54:42.012511500
+TeamID: 123 - Brute Force GameID: 100 - SeriesID: 1103 TournamentID: 24 - Brute ForceAWAY WIN : -8 - 8 - 10/21/2020 12:30 - TimeOfSave: 2020-12-11T15:54:42.014146900
+PlayerID: 105 - TeamID: 123 GameID: 100 - Series: 1103 Donkey Kong +16_-12 WIN -8 - 810/21/2020 12:30 - TimeOfSave: 2020-12-11T15:55:04.620014700
+PlayerID: 106 - TeamID: 123 GameID: 100 - Series: 1103 Greninja +11_-11 WIN -8 - 810/21/2020 12:30 - TimeOfSave: 2020-12-11T15:55:04.621044
+PlayerID: 107 - TeamID: 123 GameID: 100 - Series: 1103 Zelda +14_-13 WIN -8 - 810/21/2020 12:30 - TimeOfSave: 2020-12-11T15:55:04.622006300
+PlayerID: 108 - TeamID: 123 GameID: 100 - Series: 1103 Falco +13_-10 WIN -8 - 810/21/2020 12:30 - TimeOfSave: 2020-12-11T15:55:04.623005300
+TeamID: 115 - Supremacy -  SeriesID: 1103 TournamentID: 24 - SupremacyLOSS  : 10/21/2020 12:30 - TimeOfSave: 2020-12-11T15:55:04.625687
+TeamID: 123 - Brute Force -  SeriesID: 1103 TournamentID: 24 - Brute ForceWIN  : 10/21/2020 12:30 - TimeOfSave: 2020-12-11T15:55:04.626578400
+TeamID: 112 - Rampage GameID: 101 - SeriesID: 992 TournamentID: 24 - RampageHOME WIN : 5 - -4 - 10/21/2020 12:30 - TimeOfSave: 2020-12-11T16:56:44.901879500
+PlayerID: 61 - TeamID: 112 GameID: 101 - Series: 992 Yoshi +12_-9 WIN 5 - -410/21/2020 12:30 - TimeOfSave: 2020-12-11T16:57:06.565816900
+PlayerID: 62 - TeamID: 112 GameID: 101 - Series: 992 Mewtwo +12_-10 WIN 5 - -410/21/2020 12:30 - TimeOfSave: 2020-12-11T16:57:06.568144600
+PlayerID: 63 - TeamID: 112 GameID: 101 - Series: 992 Ryu +3_-9 WIN 5 - -410/21/2020 12:30 - TimeOfSave: 2020-12-11T16:57:06.570391500
+PlayerID: 64 - TeamID: 112 GameID: 101 - Series: 992 Snake +16_-10 WIN 5 - -410/21/2020 12:30 - TimeOfSave: 2020-12-11T16:57:06.572349
+TeamID: 107 - Doom GameID: 101 - SeriesID: 992 TournamentID: 24 - DoomAWAY LOSS : 5 - -4 - 10/21/2020 12:30 - TimeOfSave: 2020-12-11T16:57:06.574119800
+PlayerID: 41 - TeamID: 107 GameID: 101 - Series: 992 Incineroar +12_-11 LOSS 5 - -410/21/2020 12:30 - TimeOfSave: 2020-12-11T16:57:28.398634900
+PlayerID: 42 - TeamID: 107 GameID: 101 - Series: 992 Fox +7_-12 LOSS 5 - -410/21/2020 12:30 - TimeOfSave: 2020-12-11T16:57:28.398995
+PlayerID: 43 - TeamID: 107 GameID: 101 - Series: 992 Wolf +10_-10 LOSS 5 - -410/21/2020 12:30 - TimeOfSave: 2020-12-11T16:57:28.399993300
+PlayerID: 44 - TeamID: 107 GameID: 101 - Series: 992 Samus +9_-9 LOSS 5 - -410/21/2020 12:30 - TimeOfSave: 2020-12-11T16:57:28.400988900
+TeamID: 112 - Rampage -  SeriesID: 992 TournamentID: 24 - RampageWIN  : 10/21/2020 12:30 - TimeOfSave: 2020-12-11T16:57:28.402986200
+TeamID: 107 - Doom -  SeriesID: 992 TournamentID: 24 - DoomLOSS  : 10/21/2020 12:30 - TimeOfSave: 2020-12-11T16:57:28.402986200
+TeamID: 119 - Thrashers GameID: 102 - SeriesID: 1126 TournamentID: 24 - ThrashersHOME WIN : 3 - -6 - 10/21/2020 12:30 - TimeOfSave: 2020-12-11T18:58:38.959074800
+PlayerID: 89 - TeamID: 119 GameID: 102 - Series: 1126 Chrom +24_-19 WIN 3 - -610/21/2020 12:30 - TimeOfSave: 2020-12-11T18:59:03.155452700
+PlayerID: 90 - TeamID: 119 GameID: 102 - Series: 1126 Marth +19_-14 WIN 3 - -610/21/2020 12:30 - TimeOfSave: 2020-12-11T18:59:03.157089
+PlayerID: 91 - TeamID: 119 GameID: 102 - Series: 1126 Young Link +11_-13 WIN 3 - -610/21/2020 12:30 - TimeOfSave: 2020-12-11T18:59:03.159393
+PlayerID: 92 - TeamID: 119 GameID: 102 - Series: 1126 Jigglypuff +7_-12 WIN 3 - -610/21/2020 12:30 - TimeOfSave: 2020-12-11T18:59:03.161817300
+TeamID: 120 - Mean Green GameID: 102 - SeriesID: 1126 TournamentID: 24 - Mean GreenAWAY LOSS : 3 - -6 - 10/21/2020 12:30 - TimeOfSave: 2020-12-11T18:59:03.164864900
+PlayerID: 93 - TeamID: 120 GameID: 102 - Series: 1126 Little Mac +17_-17 LOSS 3 - -610/21/2020 12:30 - TimeOfSave: 2020-12-11T18:59:31.671527200
+PlayerID: 94 - TeamID: 120 GameID: 102 - Series: 1126 Corrin +15_-16 LOSS 3 - -610/21/2020 12:30 - TimeOfSave: 2020-12-11T18:59:31.673633700
+PlayerID: 95 - TeamID: 120 GameID: 102 - Series: 1126 Luigi +11_-13 LOSS 3 - -610/21/2020 12:30 - TimeOfSave: 2020-12-11T18:59:31.675626300
+PlayerID: 96 - TeamID: 120 GameID: 102 - Series: 1126 Palutena +14_-17 LOSS 3 - -610/21/2020 12:30 - TimeOfSave: 2020-12-11T18:59:31.678139500
+TeamID: 119 - Thrashers -  SeriesID: 1126 TournamentID: 24 - ThrashersWIN  : 10/21/2020 12:30 - TimeOfSave: 2020-12-11T18:59:31.681127800
+TeamID: 120 - Mean Green -  SeriesID: 1126 TournamentID: 24 - Mean GreenLOSS  : 10/21/2020 12:30 - TimeOfSave: 2020-12-11T18:59:31.683124800
+TeamID: 107 - Doom GameID: 103 - SeriesID: 993 TournamentID: 24 - DoomHOME LOSS : -10 - 8 - 10/21/2020 12:30 - TimeOfSave: 2020-12-11T20:01:25.516546600
+PlayerID: 41 - TeamID: 107 GameID: 103 - Series: 993 Incineroar +17_-19 LOSS -10 - 810/21/2020 12:30 - TimeOfSave: 2020-12-11T20:02:10.638479
+PlayerID: 42 - TeamID: 107 GameID: 103 - Series: 993 Fox +5_-12 LOSS -10 - 810/21/2020 12:30 - TimeOfSave: 2020-12-11T20:02:10.639475900
+PlayerID: 43 - TeamID: 107 GameID: 103 - Series: 993 Wolf +16_-16 LOSS -10 - 810/21/2020 12:30 - TimeOfSave: 2020-12-11T20:02:10.639475900
+PlayerID: 44 - TeamID: 107 GameID: 103 - Series: 993 Samus +11_-12 LOSS -10 - 810/21/2020 12:30 - TimeOfSave: 2020-12-11T20:02:10.640644700
+TeamID: 113 - Alliance GameID: 103 - SeriesID: 993 TournamentID: 24 - AllianceAWAY WIN : -10 - 8 - 10/21/2020 12:30 - TimeOfSave: 2020-12-11T20:02:10.641471200
+PlayerID: 65 - TeamID: 113 GameID: 103 - Series: 993 Robin +18_-13 WIN -10 - 810/21/2020 12:30 - TimeOfSave: 2020-12-11T20:02:43.318824200
+PlayerID: 66 - TeamID: 113 GameID: 103 - Series: 993 Captain Falcon +9_-12 WIN -10 - 810/21/2020 12:30 - TimeOfSave: 2020-12-11T20:02:43.319137600
+PlayerID: 67 - TeamID: 113 GameID: 103 - Series: 993 Inkling +10_-13 WIN -10 - 810/21/2020 12:30 - TimeOfSave: 2020-12-11T20:02:43.320137900
+PlayerID: 68 - TeamID: 113 GameID: 103 - Series: 993 Ridley +22_-13 WIN -10 - 810/21/2020 12:30 - TimeOfSave: 2020-12-11T20:02:43.320137900
+TeamID: 107 - Doom -  SeriesID: 993 TournamentID: 24 - DoomLOSS  : 10/21/2020 12:30 - TimeOfSave: 2020-12-11T20:02:43.326153900
+TeamID: 113 - Alliance -  SeriesID: 993 TournamentID: 24 - AllianceWIN  : 10/21/2020 12:30 - TimeOfSave: 2020-12-11T20:02:43.327119100
+TeamID: 118 - Legends GameID: 104 - SeriesID: 1122 TournamentID: 24 - LegendsHOME WIN : 12 - -12 - 10/21/2020 12:30 - TimeOfSave: 2020-12-11T21:30:37.245054900
+PlayerID: 85 - TeamID: 118 GameID: 104 - Series: 1122 Bayonetta +7_-8 WIN 12 - -1210/21/2020 12:30 - TimeOfSave: 2020-12-11T21:31:30.307096500
+PlayerID: 86 - TeamID: 118 GameID: 104 - Series: 1122 Dr. Mario +11_-9 WIN 12 - -1210/21/2020 12:30 - TimeOfSave: 2020-12-11T21:31:30.308701700
+PlayerID: 87 - TeamID: 118 GameID: 104 - Series: 1122 Ganondorf +13_-8 WIN 12 - -1210/21/2020 12:30 - TimeOfSave: 2020-12-11T21:31:30.310428
+PlayerID: 88 - TeamID: 118 GameID: 104 - Series: 1122 Pokemon Trainer +15_-9 WIN 12 - -1210/21/2020 12:30 - TimeOfSave: 2020-12-11T21:31:30.312203600
+TeamID: 121 - Icons GameID: 104 - SeriesID: 1122 TournamentID: 24 - IconsAWAY LOSS : 12 - -12 - 10/21/2020 12:30 - TimeOfSave: 2020-12-11T21:31:30.315194
+PlayerID: 97 - TeamID: 121 GameID: 104 - Series: 1122 Ken +9_-13 LOSS 12 - -1210/21/2020 12:30 - TimeOfSave: 2020-12-11T21:31:55.527281300
+PlayerID: 98 - TeamID: 121 GameID: 104 - Series: 1122 Banjo & Kazooie +5_-9 LOSS 12 - -1210/21/2020 12:30 - TimeOfSave: 2020-12-11T21:31:55.528275600
+PlayerID: 99 - TeamID: 121 GameID: 104 - Series: 1122 Lucario +10_-12 LOSS 12 - -1210/21/2020 12:30 - TimeOfSave: 2020-12-11T21:31:55.529273300
+PlayerID: 100 - TeamID: 121 GameID: 104 - Series: 1122 R.O.B. +10_-12 LOSS 12 - -1210/21/2020 12:30 - TimeOfSave: 2020-12-11T21:31:55.530287300
+TeamID: 118 - Legends -  SeriesID: 1122 TournamentID: 24 - LegendsWIN  : 10/21/2020 12:30 - TimeOfSave: 2020-12-11T21:31:55.531244300
+TeamID: 121 - Icons -  SeriesID: 1122 TournamentID: 24 - IconsLOSS  : 10/21/2020 12:30 - TimeOfSave: 2020-12-11T21:31:55.532247
+TeamID: 117 - Wrecking Crew GameID: 105 - SeriesID: 1117 TournamentID: 24 - Wrecking CrewHOME WIN : 9 - -15 - 10/21/2020 12:30 - TimeOfSave: 2020-12-11T21:58:34.928972300
+PlayerID: 81 - TeamID: 117 GameID: 105 - Series: 1117 Simon +10_-12 WIN 9 - -1510/21/2020 12:30 - TimeOfSave: 2020-12-11T21:59:08.867479800
+PlayerID: 82 - TeamID: 117 GameID: 105 - Series: 1117 Link +15_-8 WIN 9 - -1510/21/2020 12:30 - TimeOfSave: 2020-12-11T21:59:08.868323600
+PlayerID: 83 - TeamID: 117 GameID: 105 - Series: 1117 Hero +14_-8 WIN 9 - -1510/21/2020 12:30 - TimeOfSave: 2020-12-11T21:59:08.868323600
+PlayerID: 84 - TeamID: 117 GameID: 105 - Series: 1117 Ice Climbers +8_-10 WIN 9 - -1510/21/2020 12:30 - TimeOfSave: 2020-12-11T21:59:08.869344500
+TeamID: 122 - High Voltage GameID: 105 - SeriesID: 1117 TournamentID: 24 - High VoltageAWAY LOSS : 9 - -15 - 10/21/2020 12:30 - TimeOfSave: 2020-12-11T21:59:08.869344500
+PlayerID: 101 - TeamID: 122 GameID: 105 - Series: 1117 Pichu +11_-14 LOSS 9 - -1510/21/2020 12:30 - TimeOfSave: 2020-12-11T21:59:43.857318300
+PlayerID: 102 - TeamID: 122 GameID: 105 - Series: 1117 Terry +6_-11 LOSS 9 - -1510/21/2020 12:30 - TimeOfSave: 2020-12-11T21:59:43.860315600
+PlayerID: 103 - TeamID: 122 GameID: 105 - Series: 1117 Pikachu +11_-12 LOSS 9 - -1510/21/2020 12:30 - TimeOfSave: 2020-12-11T21:59:43.863302400
+PlayerID: 104 - TeamID: 122 GameID: 105 - Series: 1117 Mr. Game & Watch +6_-12 LOSS 9 - -1510/21/2020 12:30 - TimeOfSave: 2020-12-11T21:59:43.866007
+TeamID: 117 - Wrecking Crew -  SeriesID: 1117 TournamentID: 24 - Wrecking CrewWIN  : 10/21/2020 12:30 - TimeOfSave: 2020-12-11T21:59:43.869009100
+TeamID: 122 - High Voltage -  SeriesID: 1117 TournamentID: 24 - High VoltageLOSS  : 10/21/2020 12:30 - TimeOfSave: 2020-12-11T21:59:43.871998300
+TeamID: 109 - Fury GameID: 106 - SeriesID: 1022 TournamentID: 24 - FuryHOME WIN : 8 - -10 - 10/21/2020 12:30 - TimeOfSave: 2020-12-11T22:22:59.107041700
+PlayerID: 49 - TeamID: 109 GameID: 106 - Series: 1022 Ike +20_-15 WIN 8 - -1010/21/2020 12:30 - TimeOfSave: 2020-12-11T22:23:42.934298300
+PlayerID: 50 - TeamID: 109 GameID: 106 - Series: 1022 Byleth +21_-12 WIN 8 - -1010/21/2020 12:30 - TimeOfSave: 2020-12-11T22:23:42.936291400
+PlayerID: 51 - TeamID: 109 GameID: 106 - Series: 1022 Rosalina +9_-14 WIN 8 - -1010/21/2020 12:30 - TimeOfSave: 2020-12-11T22:23:42.938337
+PlayerID: 52 - TeamID: 109 GameID: 106 - Series: 1022 Mega Man +11_-12 WIN 8 - -1010/21/2020 12:30 - TimeOfSave: 2020-12-11T22:23:42.940289300
+TeamID: 111 - Monarch GameID: 106 - SeriesID: 1022 TournamentID: 24 - MonarchAWAY LOSS : 8 - -10 - 10/21/2020 12:30 - TimeOfSave: 2020-12-11T22:23:42.941281800
+PlayerID: 57 - TeamID: 111 GameID: 106 - Series: 1022 0 Suit Samus +10_-15 LOSS 8 - -1010/21/2020 12:30 - TimeOfSave: 2020-12-11T22:25:20.301723600
+PlayerID: 58 - TeamID: 111 GameID: 106 - Series: 1022 Lucina +11_-17 LOSS 8 - -1010/21/2020 12:30 - TimeOfSave: 2020-12-11T22:25:20.303680700
+PlayerID: 59 - TeamID: 111 GameID: 106 - Series: 1022 Piranha Plant +20_-17 LOSS 8 - -1010/21/2020 12:30 - TimeOfSave: 2020-12-11T22:25:20.306672200
+PlayerID: 60 - TeamID: 111 GameID: 106 - Series: 1022 Duck Hunt +10_-12 LOSS 8 - -1010/21/2020 12:30 - TimeOfSave: 2020-12-11T22:25:20.308714600
+TeamID: 109 - Fury -  SeriesID: 1022 TournamentID: 24 - FuryWIN  : 10/21/2020 12:30 - TimeOfSave: 2020-12-11T22:25:20.311862300
+TeamID: 111 - Monarch -  SeriesID: 1022 TournamentID: 24 - MonarchLOSS  : 10/21/2020 12:30 - TimeOfSave: 2020-12-11T22:25:20.313895500
+TeamID: 106 - Inferno GameID: 107 - SeriesID: 977 TournamentID: 24 - InfernoHOME WIN : 4 - -3 - 10/21/2020 12:30 - TimeOfSave: 2020-12-11T23:45:24.454985800
+PlayerID: 37 - TeamID: 106 GameID: 107 - Series: 977 Bowser +12_-12 WIN 4 - -310/21/2020 12:30 - TimeOfSave: 2020-12-11T23:46:07.638439800
+PlayerID: 38 - TeamID: 106 GameID: 107 - Series: 977 Ness +12_-9 WIN 4 - -310/21/2020 12:30 - TimeOfSave: 2020-12-11T23:46:07.640533400
+PlayerID: 39 - TeamID: 106 GameID: 107 - Series: 977 Pit +11_-10 WIN 4 - -310/21/2020 12:30 - TimeOfSave: 2020-12-11T23:46:07.642701700
+PlayerID: 40 - TeamID: 106 GameID: 107 - Series: 977 Dark Pit +13_-13 WIN 4 - -310/21/2020 12:30 - TimeOfSave: 2020-12-11T23:46:07.644420700
+TeamID: 114 - Chaos GameID: 107 - SeriesID: 977 TournamentID: 24 - ChaosAWAY LOSS : 4 - -3 - 10/21/2020 12:30 - TimeOfSave: 2020-12-11T23:46:07.646703800
+PlayerID: 69 - TeamID: 114 GameID: 107 - Series: 977 Wario +17_-14 LOSS 4 - -310/21/2020 12:30 - TimeOfSave: 2020-12-11T23:46:43.308622100
+PlayerID: 70 - TeamID: 114 GameID: 107 - Series: 977 Kirby +10_-12 LOSS 4 - -310/21/2020 12:30 - TimeOfSave: 2020-12-11T23:46:43.308995300
+PlayerID: 71 - TeamID: 114 GameID: 107 - Series: 977 Diddy Kong +8_-11 LOSS 4 - -310/21/2020 12:30 - TimeOfSave: 2020-12-11T23:46:43.310025600
+PlayerID: 72 - TeamID: 114 GameID: 107 - Series: 977 Joker +9_-10 LOSS 4 - -310/21/2020 12:30 - TimeOfSave: 2020-12-11T23:46:43.311054100
+TeamID: 106 - Inferno -  SeriesID: 977 TournamentID: 24 - InfernoWIN  : 10/21/2020 12:30 - TimeOfSave: 2020-12-11T23:46:43.312022
+TeamID: 114 - Chaos -  SeriesID: 977 TournamentID: 24 - ChaosLOSS  : 10/21/2020 12:30 - TimeOfSave: 2020-12-11T23:46:43.313360100
+TeamID: 116 - Royalty GameID: 108 - SeriesID: 1111 TournamentID: 24 - RoyaltyHOME LOSS : -13 - 11 - 10/21/2020 12:30 - TimeOfSave: 2020-12-12T00:32:10.977204600
+PlayerID: 77 - TeamID: 116 GameID: 108 - Series: 1111 Toon Link +7_-16 LOSS -13 - 1110/21/2020 12:30 - TimeOfSave: 2020-12-12T00:32:41.595524800
+PlayerID: 78 - TeamID: 116 GameID: 108 - Series: 1111 Isabelle +10_-12 LOSS -13 - 1110/21/2020 12:30 - TimeOfSave: 2020-12-12T00:32:41.596523500
+PlayerID: 79 - TeamID: 116 GameID: 108 - Series: 1111 Mario +15_-16 LOSS -13 - 1110/21/2020 12:30 - TimeOfSave: 2020-12-12T00:32:41.596523500
+PlayerID: 80 - TeamID: 116 GameID: 108 - Series: 1111 Peach +16_-17 LOSS -13 - 1110/21/2020 12:30 - TimeOfSave: 2020-12-12T00:32:41.597521700
+TeamID: 123 - Brute Force GameID: 108 - SeriesID: 1111 TournamentID: 24 - Brute ForceAWAY WIN : -13 - 11 - 10/21/2020 12:30 - TimeOfSave: 2020-12-12T00:32:41.598517900
+PlayerID: 105 - TeamID: 123 GameID: 108 - Series: 1111 Donkey Kong +16_-15 WIN -13 - 1110/21/2020 12:30 - TimeOfSave: 2020-12-12T00:33:07.158411800
+PlayerID: 106 - TeamID: 123 GameID: 108 - Series: 1111 Greninja +9_-12 WIN -13 - 1110/21/2020 12:30 - TimeOfSave: 2020-12-12T00:33:07.160351800
+PlayerID: 107 - TeamID: 123 GameID: 108 - Series: 1111 Zelda +18_-11 WIN -13 - 1110/21/2020 12:30 - TimeOfSave: 2020-12-12T00:33:07.160749400
+PlayerID: 108 - TeamID: 123 GameID: 108 - Series: 1111 Falco +16_-10 WIN -13 - 1110/21/2020 12:30 - TimeOfSave: 2020-12-12T00:33:07.162775400
+TeamID: 116 - Royalty -  SeriesID: 1111 TournamentID: 24 - RoyaltyLOSS  : 10/21/2020 12:30 - TimeOfSave: 2020-12-12T00:33:07.171839900
+TeamID: 123 - Brute Force -  SeriesID: 1111 TournamentID: 24 - Brute ForceWIN  : 10/21/2020 12:30 - TimeOfSave: 2020-12-12T00:33:07.174230100
+TeamID: 107 - Doom GameID: 109 - SeriesID: 993 TournamentID: 24 - DoomHOME LOSS : -10 - 8 - 10/21/2020 12:30 - TimeOfSave: 2020-12-13T15:03:55.823494800
+PlayerID: 41 - TeamID: 107 GameID: 109 - Series: 993 Incineroar +17_-19 LOSS -10 - 810/21/2020 12:30 - TimeOfSave: 2020-12-13T15:05:02.168852500
+PlayerID: 42 - TeamID: 107 GameID: 109 - Series: 993 Fox +5_-12 LOSS -10 - 810/21/2020 12:30 - TimeOfSave: 2020-12-13T15:05:02.169899100
+PlayerID: 43 - TeamID: 107 GameID: 109 - Series: 993 Wolf +16_-16 LOSS -10 - 810/21/2020 12:30 - TimeOfSave: 2020-12-13T15:05:02.170898200
+PlayerID: 44 - TeamID: 107 GameID: 109 - Series: 993 Samus +11_-12 LOSS -10 - 810/21/2020 12:30 - TimeOfSave: 2020-12-13T15:05:02.171894800
+TeamID: 113 - Alliance GameID: 109 - SeriesID: 993 TournamentID: 24 - AllianceAWAY WIN : -10 - 8 - 10/21/2020 12:30 - TimeOfSave: 2020-12-13T15:05:02.172921200
+PlayerID: 65 - TeamID: 113 GameID: 109 - Series: 993 Robin +18_-13 WIN -10 - 810/21/2020 12:30 - TimeOfSave: 2020-12-13T15:07:04.227725500
+PlayerID: 66 - TeamID: 113 GameID: 109 - Series: 993 Captain Falcon +9_-12 WIN -10 - 810/21/2020 12:30 - TimeOfSave: 2020-12-13T15:07:04.228722900
+PlayerID: 67 - TeamID: 113 GameID: 109 - Series: 993 Inkling +10_-13 WIN -10 - 810/21/2020 12:30 - TimeOfSave: 2020-12-13T15:07:04.229720600
+PlayerID: 68 - TeamID: 113 GameID: 109 - Series: 993 Ridley +22_-13 WIN -10 - 810/21/2020 12:30 - TimeOfSave: 2020-12-13T15:07:04.230717900
+TeamID: 107 - Doom -  SeriesID: 993 TournamentID: 24 - DoomLOSS  : 10/21/2020 12:30 - TimeOfSave: 2020-12-13T15:07:04.242047
+TeamID: 113 - Alliance -  SeriesID: 993 TournamentID: 24 - AllianceWIN  : 10/21/2020 12:30 - TimeOfSave: 2020-12-13T15:07:04.242474800
+TeamID: 118 - Legends GameID: 110 - SeriesID: 1122 TournamentID: 24 - LegendsHOME WIN : 12 - -12 - 10/21/2020 12:30 - TimeOfSave: 2020-12-13T15:08:37.623453700
+PlayerID: 85 - TeamID: 118 GameID: 110 - Series: 1122 Bayonetta +7_-8 WIN 12 - -1210/21/2020 12:30 - TimeOfSave: 2020-12-13T15:09:02.237487100
+PlayerID: 86 - TeamID: 118 GameID: 110 - Series: 1122 Dr. Mario +11_-9 WIN 12 - -1210/21/2020 12:30 - TimeOfSave: 2020-12-13T15:09:02.239870400
+PlayerID: 87 - TeamID: 118 GameID: 110 - Series: 1122 Ganondorf +13_-8 WIN 12 - -1210/21/2020 12:30 - TimeOfSave: 2020-12-13T15:09:02.241863
+PlayerID: 88 - TeamID: 118 GameID: 110 - Series: 1122 Pokemon Trainer +15_-9 WIN 12 - -1210/21/2020 12:30 - TimeOfSave: 2020-12-13T15:09:02.244557600
+TeamID: 121 - Icons GameID: 110 - SeriesID: 1122 TournamentID: 24 - IconsAWAY LOSS : 12 - -12 - 10/21/2020 12:30 - TimeOfSave: 2020-12-13T15:09:02.245997900
+PlayerID: 97 - TeamID: 121 GameID: 110 - Series: 1122 Ken +9_-13 LOSS 12 - -1210/21/2020 12:30 - TimeOfSave: 2020-12-13T15:09:48.177952900
+PlayerID: 98 - TeamID: 121 GameID: 110 - Series: 1122 Banjo & Kazooie +5_-9 LOSS 12 - -1210/21/2020 12:30 - TimeOfSave: 2020-12-13T15:09:48.178949400
+PlayerID: 99 - TeamID: 121 GameID: 110 - Series: 1122 Lucario +10_-12 LOSS 12 - -1210/21/2020 12:30 - TimeOfSave: 2020-12-13T15:09:48.180943300
+PlayerID: 100 - TeamID: 121 GameID: 110 - Series: 1122 R.O.B. +10_-12 LOSS 12 - -1210/21/2020 12:30 - TimeOfSave: 2020-12-13T15:09:48.181940200
+TeamID: 118 - Legends -  SeriesID: 1122 TournamentID: 24 - LegendsWIN  : 10/21/2020 12:30 - TimeOfSave: 2020-12-13T15:09:48.182160700
+TeamID: 121 - Icons -  SeriesID: 1122 TournamentID: 24 - IconsLOSS  : 10/21/2020 12:30 - TimeOfSave: 2020-12-13T15:09:48.184156600
+TeamID: 117 - Wrecking Crew GameID: 111 - SeriesID: 1117 TournamentID: 24 - Wrecking CrewHOME WIN : 9 - -15 - 10/21/2020 12:30 - TimeOfSave: 2020-12-13T15:11:01.457201600
+PlayerID: 81 - TeamID: 117 GameID: 111 - Series: 1117 Simon +10_-12 WIN 9 - -1510/21/2020 12:30 - TimeOfSave: 2020-12-13T15:11:31.344997100
+PlayerID: 82 - TeamID: 117 GameID: 111 - Series: 1117 Link +15_-8 WIN 9 - -1510/21/2020 12:30 - TimeOfSave: 2020-12-13T15:11:31.347107500
+PlayerID: 83 - TeamID: 117 GameID: 111 - Series: 1117 Hero +14_-8 WIN 9 - -1510/21/2020 12:30 - TimeOfSave: 2020-12-13T15:11:31.349175500
+PlayerID: 84 - TeamID: 117 GameID: 111 - Series: 1117 Ice Climbers +8_-10 WIN 9 - -1510/21/2020 12:30 - TimeOfSave: 2020-12-13T15:11:31.351333500
+TeamID: 122 - High Voltage GameID: 111 - SeriesID: 1117 TournamentID: 24 - High VoltageAWAY LOSS : 9 - -15 - 10/21/2020 12:30 - TimeOfSave: 2020-12-13T15:11:31.353332200
+PlayerID: 101 - TeamID: 122 GameID: 111 - Series: 1117 Pichu +11_-14 LOSS 9 - -1510/21/2020 12:30 - TimeOfSave: 2020-12-13T15:12:07.515264200
+PlayerID: 102 - TeamID: 122 GameID: 111 - Series: 1117 Terry +6_-11 LOSS 9 - -1510/21/2020 12:30 - TimeOfSave: 2020-12-13T15:12:07.516261900
+PlayerID: 103 - TeamID: 122 GameID: 111 - Series: 1117 Pikachu +11_-12 LOSS 9 - -1510/21/2020 12:30 - TimeOfSave: 2020-12-13T15:12:07.517257900
+PlayerID: 104 - TeamID: 122 GameID: 111 - Series: 1117 Mr. Game & Watch +6_-12 LOSS 9 - -1510/21/2020 12:30 - TimeOfSave: 2020-12-13T15:12:07.519272900
+TeamID: 117 - Wrecking Crew -  SeriesID: 1117 TournamentID: 24 - Wrecking CrewWIN  : 10/21/2020 12:30 - TimeOfSave: 2020-12-13T15:12:07.520500400
+TeamID: 122 - High Voltage -  SeriesID: 1117 TournamentID: 24 - High VoltageLOSS  : 10/21/2020 12:30 - TimeOfSave: 2020-12-13T15:12:07.522182800
+TeamID: 109 - Fury GameID: 112 - SeriesID: 1022 TournamentID: 24 - FuryHOME WIN : 8 - -10 - 10/21/2020 12:30 - TimeOfSave: 2020-12-13T15:14:52.099335700
+PlayerID: 49 - TeamID: 109 GameID: 112 - Series: 1022 Ike +20_-15 WIN 8 - -1010/21/2020 12:30 - TimeOfSave: 2020-12-13T15:19:12.693283400
+PlayerID: 50 - TeamID: 109 GameID: 112 - Series: 1022 Byleth +21_-12 WIN 8 - -1010/21/2020 12:30 - TimeOfSave: 2020-12-13T15:19:12.696031300
+PlayerID: 51 - TeamID: 109 GameID: 112 - Series: 1022 Rosalina +9_-14 WIN 8 - -1010/21/2020 12:30 - TimeOfSave: 2020-12-13T15:19:12.697531400
+PlayerID: 52 - TeamID: 109 GameID: 112 - Series: 1022 Mega Man +11_-12 WIN 8 - -1010/21/2020 12:30 - TimeOfSave: 2020-12-13T15:19:12.699648600
+TeamID: 111 - Monarch GameID: 112 - SeriesID: 1022 TournamentID: 24 - MonarchAWAY LOSS : 8 - -10 - 10/21/2020 12:30 - TimeOfSave: 2020-12-13T15:19:12.701870200
+PlayerID: 57 - TeamID: 111 GameID: 112 - Series: 1022 0 Suit Samus +10_-15 LOSS 8 - -1010/21/2020 12:30 - TimeOfSave: 2020-12-13T15:20:18.865425600
+PlayerID: 58 - TeamID: 111 GameID: 112 - Series: 1022 Lucina +11_-17 LOSS 8 - -1010/21/2020 12:30 - TimeOfSave: 2020-12-13T15:20:18.867195900
+PlayerID: 59 - TeamID: 111 GameID: 112 - Series: 1022 Piranha Plant +20_-17 LOSS 8 - -1010/21/2020 12:30 - TimeOfSave: 2020-12-13T15:20:18.868192
+PlayerID: 60 - TeamID: 111 GameID: 112 - Series: 1022 Duck Hunt +10_-12 LOSS 8 - -1010/21/2020 12:30 - TimeOfSave: 2020-12-13T15:20:18.869189600
+TeamID: 109 - Fury -  SeriesID: 1022 TournamentID: 24 - FuryWIN  : 10/21/2020 12:30 - TimeOfSave: 2020-12-13T15:20:18.870184700
+TeamID: 111 - Monarch -  SeriesID: 1022 TournamentID: 24 - MonarchLOSS  : 10/21/2020 12:30 - TimeOfSave: 2020-12-13T15:20:18.871217500
+TeamID: 106 - Inferno GameID: 113 - SeriesID: 977 TournamentID: 24 - InfernoHOME WIN : 4 - -3 - 10/21/2020 12:30 - TimeOfSave: 2020-12-13T15:25:21.467476100
+PlayerID: 37 - TeamID: 106 GameID: 113 - Series: 977 Bowser +12_-12 WIN 4 - -310/21/2020 12:30 - TimeOfSave: 2020-12-13T15:52:32.684301600
+PlayerID: 38 - TeamID: 106 GameID: 113 - Series: 977 Ness +12_-9 WIN 4 - -310/21/2020 12:30 - TimeOfSave: 2020-12-13T15:52:32.684735900
+PlayerID: 39 - TeamID: 106 GameID: 113 - Series: 977 Pit +11_-10 WIN 4 - -310/21/2020 12:30 - TimeOfSave: 2020-12-13T15:52:32.686733500
+PlayerID: 40 - TeamID: 106 GameID: 113 - Series: 977 Dark Pit +13_-13 WIN 4 - -310/21/2020 12:30 - TimeOfSave: 2020-12-13T15:52:32.687730900
+TeamID: 114 - Chaos GameID: 113 - SeriesID: 977 TournamentID: 24 - ChaosAWAY LOSS : 4 - -3 - 10/21/2020 12:30 - TimeOfSave: 2020-12-13T15:52:32.687880600
+PlayerID: 69 - TeamID: 114 GameID: 113 - Series: 977 Wario +17_-14 LOSS 4 - -310/21/2020 12:30 - TimeOfSave: 2020-12-13T15:53:26.646953600
+PlayerID: 70 - TeamID: 114 GameID: 113 - Series: 977 Kirby +10_-12 LOSS 4 - -310/21/2020 12:30 - TimeOfSave: 2020-12-13T15:53:26.648610300
+PlayerID: 71 - TeamID: 114 GameID: 113 - Series: 977 Diddy Kong +8_-11 LOSS 4 - -310/21/2020 12:30 - TimeOfSave: 2020-12-13T15:53:26.650894400
+PlayerID: 72 - TeamID: 114 GameID: 113 - Series: 977 Joker +9_-10 LOSS 4 - -310/21/2020 12:30 - TimeOfSave: 2020-12-13T15:53:26.652703600
+TeamID: 106 - Inferno -  SeriesID: 977 TournamentID: 24 - InfernoWIN  : 10/21/2020 12:30 - TimeOfSave: 2020-12-13T15:53:26.654925600
+TeamID: 114 - Chaos -  SeriesID: 977 TournamentID: 24 - ChaosLOSS  : 10/21/2020 12:30 - TimeOfSave: 2020-12-13T15:53:26.656977900TeamID: 105 - BlackSun GameID: 115 - SeriesID: 960 TournamentID: 24 - BlackSunHOME WIN : 5 - -7 - 10/21/2020 12:30 - TimeOfSave: 2020-12-13T18:37:49.421785800
+PlayerID: 33 - TeamID: 105 GameID: 115 - Series: 960 Villager +21_-19 WIN 5 - -710/21/2020 12:30 - TimeOfSave: 2020-12-13T18:38:19.542406200
+PlayerID: 34 - TeamID: 105 GameID: 115 - Series: 960 Sonic +22_-17 WIN 5 - -710/21/2020 12:30 - TimeOfSave: 2020-12-13T18:38:19.543403900
+PlayerID: 35 - TeamID: 105 GameID: 115 - Series: 960 Lucas +11_-15 WIN 5 - -710/21/2020 12:30 - TimeOfSave: 2020-12-13T18:38:19.543403900
+PlayerID: 36 - TeamID: 105 GameID: 115 - Series: 960 Dark Samus +17_-15 WIN 5 - -710/21/2020 12:30 - TimeOfSave: 2020-12-13T18:38:19.544401100
+TeamID: 115 - Supremacy GameID: 115 - SeriesID: 960 TournamentID: 24 - SupremacyAWAY LOSS : 5 - -7 - 10/21/2020 12:30 - TimeOfSave: 2020-12-13T18:38:19.545398300
+PlayerID: 73 - TeamID: 115 GameID: 115 - Series: 960 Olimar +11_-16 LOSS 5 - -710/21/2020 12:30 - TimeOfSave: 2020-12-13T18:38:44.336568300
+PlayerID: 74 - TeamID: 115 GameID: 115 - Series: 960 King K. Rool +15_-16 LOSS 5 - -710/21/2020 12:30 - TimeOfSave: 2020-12-13T18:38:44.338547500
+PlayerID: 75 - TeamID: 115 GameID: 115 - Series: 960 Cloud +20_-20 LOSS 5 - -710/21/2020 12:30 - TimeOfSave: 2020-12-13T18:38:44.340542600
+PlayerID: 76 - TeamID: 115 GameID: 115 - Series: 960 Bowser Jr +18_-19 LOSS 5 - -710/21/2020 12:30 - TimeOfSave: 2020-12-13T18:38:44.342534800
+TeamID: 105 - BlackSun -  SeriesID: 960 TournamentID: 24 - BlackSunWIN  : 10/21/2020 12:30 - TimeOfSave: 2020-12-13T18:38:44.364475800
+TeamID: 115 - Supremacy -  SeriesID: 960 TournamentID: 24 - SupremacyLOSS  : 10/21/2020 12:30 - TimeOfSave: 2020-12-13T18:38:44.366470900
+TeamID: 108 - Crown GameID: 116 - SeriesID: 1008 TournamentID: 24 - CrownHOME WIN : 0 - -3 - 10/21/2020 12:30 - TimeOfSave: 2020-12-15T21:25:39.283550400
+PlayerID: 45 - TeamID: 108 GameID: 116 - Series: 1008 Daisy +7_-12 WIN 0 - -310/21/2020 12:30 - TimeOfSave: 2020-12-15T21:26:07.831132800
+PlayerID: 46 - TeamID: 108 GameID: 116 - Series: 1008 Shulk +15_-9 WIN 0 - -310/21/2020 12:30 - TimeOfSave: 2020-12-15T21:26:07.832163300
+PlayerID: 47 - TeamID: 108 GameID: 116 - Series: 1008 King Dedede +13_-14 WIN 0 - -310/21/2020 12:30 - TimeOfSave: 2020-12-15T21:26:07.833129400
+PlayerID: 48 - TeamID: 108 GameID: 116 - Series: 1008 Metaknight +11_-11 WIN 0 - -310/21/2020 12:30 - TimeOfSave: 2020-12-15T21:26:07.834178700
+TeamID: 112 - Rampage GameID: 116 - SeriesID: 1008 TournamentID: 24 - RampageAWAY LOSS : 0 - -3 - 10/21/2020 12:30 - TimeOfSave: 2020-12-15T21:26:07.835840
+PlayerID: 61 - TeamID: 112 GameID: 116 - Series: 1008 Yoshi +10_-10 LOSS 0 - -310/21/2020 12:30 - TimeOfSave: 2020-12-15T21:26:44.288873200
+PlayerID: 62 - TeamID: 112 GameID: 116 - Series: 1008 Mewtwo +10_-12 LOSS 0 - -310/21/2020 12:30 - TimeOfSave: 2020-12-15T21:26:44.290196600
+PlayerID: 63 - TeamID: 112 GameID: 116 - Series: 1008 Ryu +10_-12 LOSS 0 - -310/21/2020 12:30 - TimeOfSave: 2020-12-15T21:26:44.291234200
+PlayerID: 64 - TeamID: 112 GameID: 116 - Series: 1008 Snake +15_-14 LOSS 0 - -310/21/2020 12:30 - TimeOfSave: 2020-12-15T21:26:44.292228200
+TeamID: 108 - Crown -  SeriesID: 1008 TournamentID: 24 - CrownWIN  : 10/21/2020 12:30 - TimeOfSave: 2020-12-15T21:26:44.301011800
+TeamID: 112 - Rampage -  SeriesID: 1008 TournamentID: 24 - RampageLOSS  : 10/21/2020 12:30 - TimeOfSave: 2020-12-15T21:26:44.301716200
+TeamID: 110 - Vanquish GameID: 117 - SeriesID: 1036 TournamentID: 24 - VanquishHOME LOSS : -6 - 3 - 10/21/2020 12:30 - TimeOfSave: 2020-12-15T22:49:43.089954500
+PlayerID: 53 - TeamID: 110 GameID: 117 - Series: 1036 Sheik +8_-9 LOSS -6 - 310/21/2020 12:30 - TimeOfSave: 2020-12-15T22:50:26.359657600
+PlayerID: 54 - TeamID: 110 GameID: 117 - Series: 1036 Pac-Man +7_-8 LOSS -6 - 310/21/2020 12:30 - TimeOfSave: 2020-12-15T22:50:26.360652700
+PlayerID: 55 - TeamID: 110 GameID: 117 - Series: 1036 Roy +8_-11 LOSS -6 - 310/21/2020 12:30 - TimeOfSave: 2020-12-15T22:50:26.361665300
+PlayerID: 56 - TeamID: 110 GameID: 117 - Series: 1036 Richter +8_-9 LOSS -6 - 310/21/2020 12:30 - TimeOfSave: 2020-12-15T22:50:26.362660800
+TeamID: 111 - Monarch GameID: 117 - SeriesID: 1036 TournamentID: 24 - MonarchAWAY WIN : -6 - 3 - 10/21/2020 12:30 - TimeOfSave: 2020-12-15T22:50:26.363655100
+PlayerID: 57 - TeamID: 111 GameID: 117 - Series: 1036 0 Suit Samus +5_-9 WIN -6 - 310/21/2020 12:30 - TimeOfSave: 2020-12-15T22:50:57.087380200
+PlayerID: 58 - TeamID: 111 GameID: 117 - Series: 1036 Lucina +9_-8 WIN -6 - 310/21/2020 12:30 - TimeOfSave: 2020-12-15T22:50:57.088379500
+PlayerID: 59 - TeamID: 111 GameID: 117 - Series: 1036 Piranha Plant +10_-9 WIN -6 - 310/21/2020 12:30 - TimeOfSave: 2020-12-15T22:50:57.089376600
+PlayerID: 60 - TeamID: 111 GameID: 117 - Series: 1036 Duck Hunt +14_-9 WIN -6 - 310/21/2020 12:30 - TimeOfSave: 2020-12-15T22:50:57.089376600
+TeamID: 110 - Vanquish -  SeriesID: 1036 TournamentID: 24 - VanquishLOSS  : 10/21/2020 12:30 - TimeOfSave: 2020-12-15T22:50:57.090373900
+TeamID: 111 - Monarch -  SeriesID: 1036 TournamentID: 24 - MonarchWIN  : 10/21/2020 12:30 - TimeOfSave: 2020-12-15T22:50:57.091369600
+TeamID: 118 - Legends GameID: 118 - SeriesID: 1123 TournamentID: 24 - LegendsHOME WIN : 15 - -15 - 10/21/2020 12:30 - TimeOfSave: 2020-12-15T23:53:27.804695900
+PlayerID: 85 - TeamID: 118 GameID: 118 - Series: 1123 Bayonetta +15_-6 WIN 15 - -1510/21/2020 12:30 - TimeOfSave: 2020-12-15T23:53:56.407477400
+PlayerID: 86 - TeamID: 118 GameID: 118 - Series: 1123 Dr. Mario +12_-7 WIN 15 - -1510/21/2020 12:30 - TimeOfSave: 2020-12-15T23:53:56.407477400
+PlayerID: 87 - TeamID: 118 GameID: 118 - Series: 1123 Ganondorf +11_-9 WIN 15 - -1510/21/2020 12:30 - TimeOfSave: 2020-12-15T23:53:56.408475700
+PlayerID: 88 - TeamID: 118 GameID: 118 - Series: 1123 Pokemon Trainer +9_-7 WIN 15 - -1510/21/2020 12:30 - TimeOfSave: 2020-12-15T23:53:56.409191
+TeamID: 122 - High Voltage GameID: 118 - SeriesID: 1123 TournamentID: 24 - High VoltageAWAY LOSS : 15 - -15 - 10/21/2020 12:30 - TimeOfSave: 2020-12-15T23:53:56.410184200
+PlayerID: 101 - TeamID: 122 GameID: 118 - Series: 1123 Pichu +6_-12 LOSS 15 - -1510/21/2020 12:30 - TimeOfSave: 2020-12-15T23:55:10.208076
+PlayerID: 102 - TeamID: 122 GameID: 118 - Series: 1123 Terry +5_-10 LOSS 15 - -1510/21/2020 12:30 - TimeOfSave: 2020-12-15T23:55:10.208619300
+PlayerID: 103 - TeamID: 122 GameID: 118 - Series: 1123 Pikachu +10_-11 LOSS 15 - -1510/21/2020 12:30 - TimeOfSave: 2020-12-15T23:55:10.208619300
+PlayerID: 104 - TeamID: 122 GameID: 118 - Series: 1123 Mr. Game & Watch +8_-11 LOSS 15 - -1510/21/2020 12:30 - TimeOfSave: 2020-12-15T23:55:10.209612900
+TeamID: 118 - Legends -  SeriesID: 1123 TournamentID: 24 - LegendsWIN  : 10/21/2020 12:30 - TimeOfSave: 2020-12-15T23:55:10.216594200
+TeamID: 122 - High Voltage -  SeriesID: 1123 TournamentID: 24 - High VoltageLOSS  : 10/21/2020 12:30 - TimeOfSave: 2020-12-15T23:55:10.217592100
+TeamID: 107 - Doom GameID: 119 - SeriesID: 994 TournamentID: 24 - DoomHOME LOSS : -9 - 7 - 10/21/2020 12:30 - TimeOfSave: 2020-12-24T18:58:48.405454600
+PlayerID: 41 - TeamID: 107 GameID: 119 - Series: 994 Incineroar +19_-16 LOSS -9 - 710/21/2020 12:30 - TimeOfSave: 2020-12-24T18:59:21.158636200
+PlayerID: 42 - TeamID: 107 GameID: 119 - Series: 994 Fox +8_-13 LOSS -9 - 710/21/2020 12:30 - TimeOfSave: 2020-12-24T18:59:21.159634100
+PlayerID: 43 - TeamID: 107 GameID: 119 - Series: 994 Wolf +7_-11 LOSS -9 - 710/21/2020 12:30 - TimeOfSave: 2020-12-24T18:59:21.160630800
+PlayerID: 44 - TeamID: 107 GameID: 119 - Series: 994 Samus +10_-13 LOSS -9 - 710/21/2020 12:30 - TimeOfSave: 2020-12-24T18:59:21.160630800
+TeamID: 114 - Chaos GameID: 119 - SeriesID: 994 TournamentID: 24 - ChaosAWAY WIN : -9 - 7 - 10/21/2020 12:30 - TimeOfSave: 2020-12-24T18:59:21.161628500
+PlayerID: 69 - TeamID: 114 GameID: 119 - Series: 994 Wario +11_-9 WIN -9 - 710/21/2020 12:30 - TimeOfSave: 2020-12-24T18:59:52.976422100
+PlayerID: 70 - TeamID: 114 GameID: 119 - Series: 994 Kirby +13_-13 WIN -9 - 710/21/2020 12:30 - TimeOfSave: 2020-12-24T18:59:52.978086900
+PlayerID: 71 - TeamID: 114 GameID: 119 - Series: 994 Diddy Kong +13_-11 WIN -9 - 710/21/2020 12:30 - TimeOfSave: 2020-12-24T18:59:52.980089500
+PlayerID: 72 - TeamID: 114 GameID: 119 - Series: 994 Joker +16_-13 WIN -9 - 710/21/2020 12:30 - TimeOfSave: 2020-12-24T18:59:52.982081100
+TeamID: 107 - Doom -  SeriesID: 994 TournamentID: 24 - DoomLOSS  : 10/21/2020 12:30 - TimeOfSave: 2020-12-24T18:59:53.001271800
+TeamID: 114 - Chaos -  SeriesID: 994 TournamentID: 24 - ChaosWIN  : 10/21/2020 12:30 - TimeOfSave: 2020-12-24T18:59:53.002762600
+TeamID: 119 - Thrashers GameID: 120 - SeriesID: 1127 TournamentID: 24 - ThrashersHOME WIN : -1 - -3 - 10/21/2020 12:30 - TimeOfSave: 2020-12-24T19:45:33.925023400
+PlayerID: 89 - TeamID: 119 GameID: 120 - Series: 1127 Chrom +12_-16 WIN -1 - -310/21/2020 12:30 - TimeOfSave: 2020-12-24T19:46:08.529182400
+PlayerID: 90 - TeamID: 119 GameID: 120 - Series: 1127 Marth +14_-12 WIN -1 - -310/21/2020 12:30 - TimeOfSave: 2020-12-24T19:46:08.531168200
+PlayerID: 91 - TeamID: 119 GameID: 120 - Series: 1127 Young Link +12_-13 WIN -1 - -310/21/2020 12:30 - TimeOfSave: 2020-12-24T19:46:08.533171200
+PlayerID: 92 - TeamID: 119 GameID: 120 - Series: 1127 Jigglypuff +15_-13 WIN -1 - -310/21/2020 12:30 - TimeOfSave: 2020-12-24T19:46:08.535158500
+TeamID: 121 - Icons GameID: 120 - SeriesID: 1127 TournamentID: 24 - IconsAWAY LOSS : -1 - -3 - 10/21/2020 12:30 - TimeOfSave: 2020-12-24T19:46:08.535158500
+PlayerID: 97 - TeamID: 121 GameID: 120 - Series: 1127 Ken +14_-19 LOSS -1 - -310/21/2020 12:30 - TimeOfSave: 2020-12-24T19:47:49.629088300
+PlayerID: 98 - TeamID: 121 GameID: 120 - Series: 1127 Banjo & Kazooie +11_-13 LOSS -1 - -310/21/2020 12:30 - TimeOfSave: 2020-12-24T19:47:49.630087600
+PlayerID: 99 - TeamID: 121 GameID: 120 - Series: 1127 Lucario +13_-11 LOSS -1 - -310/21/2020 12:30 - TimeOfSave: 2020-12-24T19:47:49.631085
+PlayerID: 100 - TeamID: 121 GameID: 120 - Series: 1127 R.O.B. +14_-12 LOSS -1 - -310/21/2020 12:30 - TimeOfSave: 2020-12-24T19:47:49.631085
+TeamID: 119 - Thrashers -  SeriesID: 1127 TournamentID: 24 - ThrashersWIN  : 10/21/2020 12:30 - TimeOfSave: 2020-12-24T19:47:49.632082800
+TeamID: 121 - Icons -  SeriesID: 1127 TournamentID: 24 - IconsLOSS  : 10/21/2020 12:30 - TimeOfSave: 2020-12-24T19:47:49.633079800
+TeamID: 105 - BlackSun GameID: 121 - SeriesID: 961 TournamentID: 24 - BlackSunHOME WIN : 1 - -10 - 10/21/2020 12:30 - TimeOfSave: 2020-12-27T14:00:29.798068600
+PlayerID: 33 - TeamID: 105 GameID: 121 - Series: 961 Villager +24_-18 WIN 1 - -1010/21/2020 12:30 - TimeOfSave: 2020-12-27T14:01:03.837014400
+PlayerID: 34 - TeamID: 105 GameID: 121 - Series: 961 Sonic +15_-18 WIN 1 - -1010/21/2020 12:30 - TimeOfSave: 2020-12-27T14:01:03.838083600
+PlayerID: 35 - TeamID: 105 GameID: 121 - Series: 961 Lucas +19_-17 WIN 1 - -1010/21/2020 12:30 - TimeOfSave: 2020-12-27T14:01:03.839082100
+PlayerID: 36 - TeamID: 105 GameID: 121 - Series: 961 Dark Samus +16_-20 WIN 1 - -1010/21/2020 12:30 - TimeOfSave: 2020-12-27T14:01:03.839082100
+TeamID: 116 - Royalty GameID: 121 - SeriesID: 961 TournamentID: 24 - RoyaltyAWAY LOSS : 1 - -10 - 10/21/2020 12:30 - TimeOfSave: 2020-12-27T14:01:03.840079600
+PlayerID: 77 - TeamID: 116 GameID: 121 - Series: 961 Toon Link +8_-15 LOSS 1 - -1010/21/2020 12:30 - TimeOfSave: 2020-12-27T14:01:31.932936600
+PlayerID: 78 - TeamID: 116 GameID: 121 - Series: 961 Isabelle +20_-20 LOSS 1 - -1010/21/2020 12:30 - TimeOfSave: 2020-12-27T14:01:31.933516700
+PlayerID: 79 - TeamID: 116 GameID: 121 - Series: 961 Mario +25_-20 LOSS 1 - -1010/21/2020 12:30 - TimeOfSave: 2020-12-27T14:01:31.934623900
+PlayerID: 80 - TeamID: 116 GameID: 121 - Series: 961 Peach +14_-22 LOSS 1 - -1010/21/2020 12:30 - TimeOfSave: 2020-12-27T14:01:31.935621200
+TeamID: 105 - BlackSun -  SeriesID: 961 TournamentID: 24 - BlackSunWIN  : 10/21/2020 12:30 - TimeOfSave: 2020-12-27T14:01:31.942366500
+TeamID: 116 - Royalty -  SeriesID: 961 TournamentID: 24 - RoyaltyLOSS  : 10/21/2020 12:30 - TimeOfSave: 2020-12-27T14:01:31.943135500
+TeamID: 106 - Inferno GameID: 122 - SeriesID: 978 TournamentID: 24 - InfernoHOME WIN : 9 - -10 - 10/21/2020 12:30 - TimeOfSave: 2020-12-27T14:58:28.346538400
+PlayerID: 37 - TeamID: 106 GameID: 122 - Series: 978 Bowser +16_-14 WIN 9 - -1010/21/2020 12:30 - TimeOfSave: 2020-12-27T14:59:09.724303
+PlayerID: 38 - TeamID: 106 GameID: 122 - Series: 978 Ness +15_-9 WIN 9 - -1010/21/2020 12:30 - TimeOfSave: 2020-12-27T14:59:09.726337800
+PlayerID: 39 - TeamID: 106 GameID: 122 - Series: 978 Pit +12_-13 WIN 9 - -1010/21/2020 12:30 - TimeOfSave: 2020-12-27T14:59:09.728596600
+PlayerID: 40 - TeamID: 106 GameID: 122 - Series: 978 Dark Pit +12_-10 WIN 9 - -1010/21/2020 12:30 - TimeOfSave: 2020-12-27T14:59:09.731102100
+TeamID: 115 - Supremacy GameID: 122 - SeriesID: 978 TournamentID: 24 - SupremacyAWAY LOSS : 9 - -10 - 10/21/2020 12:30 - TimeOfSave: 2020-12-27T14:59:09.732301
+PlayerID: 73 - TeamID: 115 GameID: 122 - Series: 978 Olimar +12_-14 LOSS 9 - -1010/21/2020 12:30 - TimeOfSave: 2020-12-27T15:00:09.499577200
+PlayerID: 74 - TeamID: 115 GameID: 122 - Series: 978 King K. Rool +14_-15 LOSS 9 - -1010/21/2020 12:30 - TimeOfSave: 2020-12-27T15:00:09.502083900
+PlayerID: 75 - TeamID: 115 GameID: 122 - Series: 978 Cloud +9_-12 LOSS 9 - -1010/21/2020 12:30 - TimeOfSave: 2020-12-27T15:00:09.504117200
+PlayerID: 76 - TeamID: 115 GameID: 122 - Series: 978 Bowser Jr +10_-14 LOSS 9 - -1010/21/2020 12:30 - TimeOfSave: 2020-12-27T15:00:09.505984500
+TeamID: 106 - Inferno -  SeriesID: 978 TournamentID: 24 - InfernoWIN  : 10/21/2020 12:30 - TimeOfSave: 2020-12-27T15:00:09.507439700
+TeamID: 115 - Supremacy -  SeriesID: 978 TournamentID: 24 - SupremacyLOSS  : 10/21/2020 12:30 - TimeOfSave: 2020-12-27T15:00:09.509089300
+TeamID: 108 - Crown GameID: 123 - SeriesID: 1009 TournamentID: 24 - CrownHOME LOSS : -2 - 1 - 10/21/2020 12:30 - TimeOfSave: 2020-12-27T16:04:55.573135100
+PlayerID: 45 - TeamID: 108 GameID: 123 - Series: 1009 Daisy +5_-9 LOSS -2 - 110/21/2020 12:30 - TimeOfSave: 2020-12-27T16:05:24.397986700
+PlayerID: 46 - TeamID: 108 GameID: 123 - Series: 1009 Shulk +14_-13 LOSS -2 - 110/21/2020 12:30 - TimeOfSave: 2020-12-27T16:05:24.398982900
+PlayerID: 47 - TeamID: 108 GameID: 123 - Series: 1009 King Dedede +18_-15 LOSS -2 - 110/21/2020 12:30 - TimeOfSave: 2020-12-27T16:05:24.399980
+PlayerID: 48 - TeamID: 108 GameID: 123 - Series: 1009 Metaknight +9_-11 LOSS -2 - 110/21/2020 12:30 - TimeOfSave: 2020-12-27T16:05:24.400977400
+TeamID: 113 - Alliance GameID: 123 - SeriesID: 1009 TournamentID: 24 - AllianceAWAY WIN : -2 - 1 - 10/21/2020 12:30 - TimeOfSave: 2020-12-27T16:05:24.403062300
+PlayerID: 65 - TeamID: 113 GameID: 123 - Series: 1009 Robin +17_-10 WIN -2 - 110/21/2020 12:30 - TimeOfSave: 2020-12-27T16:06:05.942977700
+PlayerID: 66 - TeamID: 113 GameID: 123 - Series: 1009 Captain Falcon +12_-13 WIN -2 - 110/21/2020 12:30 - TimeOfSave: 2020-12-27T16:06:05.946431400
+PlayerID: 67 - TeamID: 113 GameID: 123 - Series: 1009 Inkling +6_-9 WIN -2 - 110/21/2020 12:30 - TimeOfSave: 2020-12-27T16:06:05.949810300
+PlayerID: 68 - TeamID: 113 GameID: 123 - Series: 1009 Ridley +12_-14 WIN -2 - 110/21/2020 12:30 - TimeOfSave: 2020-12-27T16:06:05.951416400
+TeamID: 108 - Crown -  SeriesID: 1009 TournamentID: 24 - CrownLOSS  : 10/21/2020 12:30 - TimeOfSave: 2020-12-27T16:06:05.952414100
+TeamID: 113 - Alliance -  SeriesID: 1009 TournamentID: 24 - AllianceWIN  : 10/21/2020 12:30 - TimeOfSave: 2020-12-27T16:06:05.953415700
+TeamID: 117 - Wrecking Crew GameID: 124 - SeriesID: 1118 TournamentID: 24 - Wrecking CrewHOME WIN : 9 - -9 - 10/21/2020 12:30 - TimeOfSave: 2020-12-27T16:31:56.971672500
+PlayerID: 81 - TeamID: 117 GameID: 124 - Series: 1118 Simon +14_-12 WIN 9 - -910/21/2020 12:30 - TimeOfSave: 2020-12-27T16:32:16.835751600
+PlayerID: 82 - TeamID: 117 GameID: 124 - Series: 1118 Link +16_-10 WIN 9 - -910/21/2020 12:30 - TimeOfSave: 2020-12-27T16:32:16.836749800
+PlayerID: 83 - TeamID: 117 GameID: 124 - Series: 1118 Hero +9_-9 WIN 9 - -910/21/2020 12:30 - TimeOfSave: 2020-12-27T16:32:16.838745
+PlayerID: 84 - TeamID: 117 GameID: 124 - Series: 1118 Ice Climbers +10_-9 WIN 9 - -910/21/2020 12:30 - TimeOfSave: 2020-12-27T16:32:16.839742300
+TeamID: 123 - Brute Force GameID: 124 - SeriesID: 1118 TournamentID: 24 - Brute ForceAWAY LOSS : 9 - -9 - 10/21/2020 12:30 - TimeOfSave: 2020-12-27T16:32:16.840735900
+PlayerID: 105 - TeamID: 123 GameID: 124 - Series: 1118 Donkey Kong +12_-14 LOSS 9 - -910/21/2020 12:30 - TimeOfSave: 2020-12-27T16:32:38.661072300
+PlayerID: 106 - TeamID: 123 GameID: 124 - Series: 1118 Greninja +6_-12 LOSS 9 - -910/21/2020 12:30 - TimeOfSave: 2020-12-27T16:32:38.664447600
+PlayerID: 107 - TeamID: 123 GameID: 124 - Series: 1118 Zelda +10_-11 LOSS 9 - -910/21/2020 12:30 - TimeOfSave: 2020-12-27T16:32:38.667576500
+PlayerID: 108 - TeamID: 123 GameID: 124 - Series: 1118 Falco +12_-12 LOSS 9 - -910/21/2020 12:30 - TimeOfSave: 2020-12-27T16:32:38.671154
+TeamID: 117 - Wrecking Crew -  SeriesID: 1118 TournamentID: 24 - Wrecking CrewWIN  : 10/21/2020 12:30 - TimeOfSave: 2020-12-27T16:32:38.674177500
+TeamID: 123 - Brute Force -  SeriesID: 1118 TournamentID: 24 - Brute ForceLOSS  : 10/21/2020 12:30 - TimeOfSave: 2020-12-27T16:32:38.677899800
+TeamID: 109 - Fury GameID: 125 - SeriesID: 1023 TournamentID: 24 - FuryHOME LOSS : -9 - 1 - 10/21/2020 12:30 - TimeOfSave: 2021-01-13T22:08:39.384904700
+PlayerID: 49 - TeamID: 109 GameID: 125 - Series: 1023 Ike +16_-14 LOSS -9 - 110/21/2020 12:30 - TimeOfSave: 2021-01-13T22:09:39.248145500
+PlayerID: 50 - TeamID: 109 GameID: 125 - Series: 1023 Byleth +18_-15 LOSS -9 - 110/21/2020 12:30 - TimeOfSave: 2021-01-13T22:09:39.250841400
+PlayerID: 51 - TeamID: 109 GameID: 125 - Series: 1023 Rosalina +2_-14 LOSS -9 - 110/21/2020 12:30 - TimeOfSave: 2021-01-13T22:09:39.251812700
+PlayerID: 52 - TeamID: 109 GameID: 125 - Series: 1023 Mega Man +11_-13 LOSS -9 - 110/21/2020 12:30 - TimeOfSave: 2021-01-13T22:09:39.252806800
+TeamID: 112 - Rampage GameID: 125 - SeriesID: 1023 TournamentID: 24 - RampageAWAY WIN : -9 - 1 - 10/21/2020 12:30 - TimeOfSave: 2021-01-13T22:09:39.253802900
+PlayerID: 61 - TeamID: 112 GameID: 125 - Series: 1023 Yoshi +9_-11 WIN -9 - 110/21/2020 12:30 - TimeOfSave: 2021-01-13T22:10:11.826971600
+PlayerID: 62 - TeamID: 112 GameID: 125 - Series: 1023 Mewtwo +21_-16 WIN -9 - 110/21/2020 12:30 - TimeOfSave: 2021-01-13T22:10:11.830188500
+PlayerID: 63 - TeamID: 112 GameID: 125 - Series: 1023 Sephiroth +10_-11 WIN -9 - 110/21/2020 12:30 - TimeOfSave: 2021-01-13T22:10:11.832342300
+PlayerID: 64 - TeamID: 112 GameID: 125 - Series: 1023 Snake +16_-17 WIN -9 - 110/21/2020 12:30 - TimeOfSave: 2021-01-13T22:10:11.834532100
+TeamID: 109 - Fury -  SeriesID: 1023 TournamentID: 24 - FuryLOSS  : 10/21/2020 12:30 - TimeOfSave: 2021-01-13T22:10:11.857320900
+TeamID: 112 - Rampage -  SeriesID: 1023 TournamentID: 24 - RampageWIN  : 10/21/2020 12:30 - TimeOfSave: 2021-01-13T22:10:11.860572100
+TeamID: 122 - High Voltage GameID: 126 - SeriesID: 1128 TournamentID: 24 - High VoltageHOME WIN : 1 - -5 - 10/21/2020 12:30 - TimeOfSave: 2021-01-13T23:56:23.158042600
+PlayerID: 101 - TeamID: 122 GameID: 126 - Series: 1128 Pichu +16_-15 WIN 1 - -510/21/2020 12:30 - TimeOfSave: 2021-01-13T23:56:56.879168700
+PlayerID: 102 - TeamID: 122 GameID: 126 - Series: 1128 Terry +10_-11 WIN 1 - -510/21/2020 12:30 - TimeOfSave: 2021-01-13T23:56:56.880542800
+PlayerID: 103 - TeamID: 122 GameID: 126 - Series: 1128 Pikachu +8_-9 WIN 1 - -510/21/2020 12:30 - TimeOfSave: 2021-01-13T23:56:56.881540400
+PlayerID: 104 - TeamID: 122 GameID: 126 - Series: 1128 Mr. Game & Watch +15_-13 WIN 1 - -510/21/2020 12:30 - TimeOfSave: 2021-01-13T23:56:56.882536400
+TeamID: 119 - Thrashers GameID: 126 - SeriesID: 1128 TournamentID: 24 - ThrashersAWAY LOSS : 1 - -5 - 10/21/2020 12:30 - TimeOfSave: 2021-01-13T23:56:56.884531400
+PlayerID: 89 - TeamID: 119 GameID: 126 - Series: 1128 Chrom +20_-16 LOSS 1 - -510/21/2020 12:30 - TimeOfSave: 2021-01-13T23:57:25.934107
+PlayerID: 90 - TeamID: 119 GameID: 126 - Series: 1128 Marth +6_-14 LOSS 1 - -510/21/2020 12:30 - TimeOfSave: 2021-01-13T23:57:25.936770300
+PlayerID: 91 - TeamID: 119 GameID: 126 - Series: 1128 Young Link +7_-13 LOSS 1 - -510/21/2020 12:30 - TimeOfSave: 2021-01-13T23:57:25.938813400
+PlayerID: 92 - TeamID: 119 GameID: 126 - Series: 1128 Jigglypuff +15_-10 LOSS 1 - -510/21/2020 12:30 - TimeOfSave: 2021-01-13T23:57:25.941034700
+TeamID: 122 - High Voltage -  SeriesID: 1128 TournamentID: 24 - High VoltageWIN  : 10/21/2020 12:30 - TimeOfSave: 2021-01-13T23:57:25.944026800
+TeamID: 119 - Thrashers -  SeriesID: 1128 TournamentID: 24 - ThrashersLOSS  : 10/21/2020 12:30 - TimeOfSave: 2021-01-13T23:57:25.948907300
+TeamID: 121 - Icons GameID: 127 - SeriesID: 1131 TournamentID: 24 - IconsHOME LOSS : -3 - 3 - 10/21/2020 12:30 - TimeOfSave: 2021-01-14T03:21:21.969232800
+PlayerID: 97 - TeamID: 121 GameID: 127 - Series: 1131 Ken +8_-13 LOSS -3 - 310/21/2020 12:30 - TimeOfSave: 2021-01-14T03:21:55.623860100
+PlayerID: 98 - TeamID: 121 GameID: 127 - Series: 1131 Banjo & Kazooie +14_-9 LOSS -3 - 310/21/2020 12:30 - TimeOfSave: 2021-01-14T03:21:55.624890600
+PlayerID: 99 - TeamID: 121 GameID: 127 - Series: 1131 Lucario +7_-10 LOSS -3 - 310/21/2020 12:30 - TimeOfSave: 2021-01-14T03:21:55.626381200
+PlayerID: 100 - TeamID: 121 GameID: 127 - Series: 1131 R.O.B. +12_-12 LOSS -3 - 310/21/2020 12:30 - TimeOfSave: 2021-01-14T03:21:55.628130
+TeamID: 120 - Mean Green GameID: 127 - SeriesID: 1131 TournamentID: 24 - Mean GreenAWAY WIN : -3 - 3 - 10/21/2020 12:30 - TimeOfSave: 2021-01-14T03:21:55.629568400
+PlayerID: 93 - TeamID: 120 GameID: 127 - Series: 1131 Little Mac +11_-12 WIN -3 - 310/21/2020 12:30 - TimeOfSave: 2021-01-14T03:22:36.558777700
+PlayerID: 94 - TeamID: 120 GameID: 127 - Series: 1131 Corrin +6_-9 WIN -3 - 310/21/2020 12:30 - TimeOfSave: 2021-01-14T03:22:36.561495500
+PlayerID: 95 - TeamID: 120 GameID: 127 - Series: 1131 Luigi +8_-11 WIN -3 - 310/21/2020 12:30 - TimeOfSave: 2021-01-14T03:22:36.563791400
+PlayerID: 96 - TeamID: 120 GameID: 127 - Series: 1131 Palutena +19_-9 WIN -3 - 310/21/2020 12:30 - TimeOfSave: 2021-01-14T03:22:36.566037500
+TeamID: 121 - Icons -  SeriesID: 1131 TournamentID: 24 - IconsLOSS  : 10/21/2020 12:30 - TimeOfSave: 2021-01-14T03:22:36.569111700
+TeamID: 120 - Mean Green -  SeriesID: 1131 TournamentID: 24 - Mean GreenWIN  : 10/21/2020 12:30 - TimeOfSave: 2021-01-14T03:22:36.572468900
+TeamID: 115 - Supremacy GameID: 128 - SeriesID: 995 TournamentID: 24 - SupremacyHOME WIN : 13 - -15 - 10/21/2020 12:30 - TimeOfSave: 2021-01-18T00:34:21.516931400
+PlayerID: 73 - TeamID: 115 GameID: 128 - Series: 995 Olimar +9_-9 WIN 13 - -1510/21/2020 12:30 - TimeOfSave: 2021-01-18T00:35:06.802853100
+PlayerID: 74 - TeamID: 115 GameID: 128 - Series: 995 King K. Rool +21_-13 WIN 13 - -1510/21/2020 12:30 - TimeOfSave: 2021-01-18T00:35:06.804846700
+PlayerID: 75 - TeamID: 115 GameID: 128 - Series: 995 Cloud +12_-13 WIN 13 - -1510/21/2020 12:30 - TimeOfSave: 2021-01-18T00:35:06.805844800
+PlayerID: 76 - TeamID: 115 GameID: 128 - Series: 995 Bowser Jr +14_-10 WIN 13 - -1510/21/2020 12:30 - TimeOfSave: 2021-01-18T00:35:06.806445500
+TeamID: 107 - Doom GameID: 128 - SeriesID: 995 TournamentID: 24 - DoomAWAY LOSS : 13 - -15 - 10/21/2020 12:30 - TimeOfSave: 2021-01-18T00:35:06.808440700
+PlayerID: 41 - TeamID: 107 GameID: 128 - Series: 995 Incineroar +11_-15 LOSS 13 - -1510/21/2020 12:30 - TimeOfSave: 2021-01-18T00:35:40.203014200
+PlayerID: 42 - TeamID: 107 GameID: 128 - Series: 995 Fox +10_-16 LOSS 13 - -1510/21/2020 12:30 - TimeOfSave: 2021-01-18T00:35:40.204836100
+PlayerID: 43 - TeamID: 107 GameID: 128 - Series: 995 Wolf +11_-15 LOSS 13 - -1510/21/2020 12:30 - TimeOfSave: 2021-01-18T00:35:40.207826800
+PlayerID: 44 - TeamID: 107 GameID: 128 - Series: 995 Samus +13_-14 LOSS 13 - -1510/21/2020 12:30 - TimeOfSave: 2021-01-18T00:35:40.209865
+TeamID: 115 - Supremacy -  SeriesID: 995 TournamentID: 24 - SupremacyWIN  : 10/21/2020 12:30 - TimeOfSave: 2021-01-18T00:35:40.231578100
+TeamID: 107 - Doom -  SeriesID: 995 TournamentID: 24 - DoomLOSS  : 10/21/2020 12:30 - TimeOfSave: 2021-01-18T00:35:40.234265900
+TeamID: 114 - Chaos GameID: 129 - SeriesID: 1010 TournamentID: 24 - ChaosHOME LOSS : 11 - 17 - 10/21/2020 12:30 - TimeOfSave: 2021-01-19T15:54:04.733728600
+PlayerID: 69 - TeamID: 114 GameID: 129 - Series: 1010 Wario +11_-17 LOSS 11 - 1710/21/2020 12:30 - TimeOfSave: 2021-01-19T15:54:42.493823900
+PlayerID: 70 - TeamID: 114 GameID: 129 - Series: 1010 Kirby +11_-13 LOSS 11 - 1710/21/2020 12:30 - TimeOfSave: 2021-01-19T15:54:42.494857300
+PlayerID: 71 - TeamID: 114 GameID: 129 - Series: 1010 Diddy Kong +10_-15 LOSS 11 - 1710/21/2020 12:30 - TimeOfSave: 2021-01-19T15:54:42.495885800
+PlayerID: 72 - TeamID: 114 GameID: 129 - Series: 1010 Joker +10_-14 LOSS 11 - 1710/21/2020 12:30 - TimeOfSave: 2021-01-19T15:54:42.496882600
+TeamID: 108 - Crown GameID: 129 - SeriesID: 1010 TournamentID: 24 - CrownAWAY WIN : 11 - 17 - 10/21/2020 12:30 - TimeOfSave: 2021-01-19T15:54:42.497880100
+PlayerID: 45 - TeamID: 108 GameID: 129 - Series: 1010 Daisy +7_-12 WIN 11 - 1710/21/2020 12:30 - TimeOfSave: 2021-01-19T15:55:17.629660200
+PlayerID: 46 - TeamID: 108 GameID: 129 - Series: 1010 Shulk +18_-10 WIN 11 - 1710/21/2020 12:30 - TimeOfSave: 2021-01-19T15:55:17.631703500
+PlayerID: 47 - TeamID: 108 GameID: 129 - Series: 1010 King Dedede +13_-11 WIN 11 - 1710/21/2020 12:30 - TimeOfSave: 2021-01-19T15:55:17.632729900
+PlayerID: 48 - TeamID: 108 GameID: 129 - Series: 1010 Metaknight +17_-9 WIN 11 - 1710/21/2020 12:30 - TimeOfSave: 2021-01-19T15:55:17.634732600
+TeamID: 114 - Chaos -  SeriesID: 1010 TournamentID: 24 - ChaosLOSS  : 10/21/2020 12:30 - TimeOfSave: 2021-01-19T15:55:17.658157800
+TeamID: 108 - Crown -  SeriesID: 1010 TournamentID: 24 - CrownWIN  : 10/21/2020 12:30 - TimeOfSave: 2021-01-19T15:55:17.660829300
+TeamID: 114 - Chaos GameID: 130 - SeriesID: 1010 TournamentID: 24 - ChaosHOME LOSS : -2 - 1 - 10/21/2020 12:30 - TimeOfSave: 2021-01-19T16:35:41.211567200
+PlayerID: 69 - TeamID: 114 GameID: 130 - Series: 1010 Wario +13_-16 LOSS -2 - 110/21/2020 12:30 - TimeOfSave: 2021-01-19T16:36:11.267441800
+PlayerID: 70 - TeamID: 114 GameID: 130 - Series: 1010 Kirby +18_-13 LOSS -2 - 110/21/2020 12:30 - TimeOfSave: 2021-01-19T16:36:11.269183800
+PlayerID: 71 - TeamID: 114 GameID: 130 - Series: 1010 Diddy Kong +8_-11 LOSS -2 - 110/21/2020 12:30 - TimeOfSave: 2021-01-19T16:36:11.270181600
+PlayerID: 72 - TeamID: 114 GameID: 130 - Series: 1010 Joker +9_-10 LOSS -2 - 110/21/2020 12:30 - TimeOfSave: 2021-01-19T16:36:11.271177
+TeamID: 108 - Crown GameID: 130 - SeriesID: 1010 TournamentID: 24 - CrownAWAY WIN : -2 - 1 - 10/21/2020 12:30 - TimeOfSave: 2021-01-19T16:36:11.273172600
+PlayerID: 45 - TeamID: 108 GameID: 130 - Series: 1010 Daisy +6_-11 WIN -2 - 110/21/2020 12:30 - TimeOfSave: 2021-01-19T16:36:40.015601500
+PlayerID: 46 - TeamID: 108 GameID: 130 - Series: 1010 Shulk +13_-14 WIN -2 - 110/21/2020 12:30 - TimeOfSave: 2021-01-19T16:36:40.018050
+PlayerID: 47 - TeamID: 108 GameID: 130 - Series: 1010 King Dedede +17_-12 WIN -2 - 110/21/2020 12:30 - TimeOfSave: 2021-01-19T16:36:40.019066900
+PlayerID: 48 - TeamID: 108 GameID: 130 - Series: 1010 Metaknight +13_-11 WIN -2 - 110/21/2020 12:30 - TimeOfSave: 2021-01-19T16:36:40.020844900
+TeamID: 114 - Chaos -  SeriesID: 1010 TournamentID: 24 - ChaosLOSS  : 10/21/2020 12:30 - TimeOfSave: 2021-01-19T16:36:40.034628
+TeamID: 108 - Crown -  SeriesID: 1010 TournamentID: 24 - CrownWIN  : 10/21/2020 12:30 - TimeOfSave: 2021-01-19T16:36:40.035623700
+TeamID: 123 - Brute Force GameID: 131 - SeriesID: 1124 TournamentID: 24 - Brute ForceHOME WIN : 5 - -5 - 10/21/2020 12:30 - TimeOfSave: 2021-01-19T17:03:57.969541100
+PlayerID: 105 - TeamID: 123 GameID: 131 - Series: 1124 Donkey Kong +21_-14 WIN 5 - -510/21/2020 12:30 - TimeOfSave: 2021-01-19T17:04:42.006963300
+PlayerID: 106 - TeamID: 123 GameID: 131 - Series: 1124 Greninja +9_-13 WIN 5 - -510/21/2020 12:30 - TimeOfSave: 2021-01-19T17:04:42.007959200
+PlayerID: 107 - TeamID: 123 GameID: 131 - Series: 1124 Zelda +14_-11 WIN 5 - -510/21/2020 12:30 - TimeOfSave: 2021-01-19T17:04:42.009954200
+PlayerID: 108 - TeamID: 123 GameID: 131 - Series: 1124 Falco +11_-12 WIN 5 - -510/21/2020 12:30 - TimeOfSave: 2021-01-19T17:04:42.010952
+TeamID: 118 - Legends GameID: 131 - SeriesID: 1124 TournamentID: 24 - LegendsAWAY LOSS : 5 - -5 - 10/21/2020 12:30 - TimeOfSave: 2021-01-19T17:04:42.011948900
+PlayerID: 85 - TeamID: 118 GameID: 131 - Series: 1124 Bayonetta +5_-11 LOSS 5 - -510/21/2020 12:30 - TimeOfSave: 2021-01-19T17:05:03.534274
+PlayerID: 86 - TeamID: 118 GameID: 131 - Series: 1124 Dr. Mario +23_-15 LOSS 5 - -510/21/2020 12:30 - TimeOfSave: 2021-01-19T17:05:03.534659700
+PlayerID: 87 - TeamID: 118 GameID: 131 - Series: 1124 Ganondorf +13_-13 LOSS 5 - -510/21/2020 12:30 - TimeOfSave: 2021-01-19T17:05:03.535657300
+PlayerID: 88 - TeamID: 118 GameID: 131 - Series: 1124 Pokemon Trainer +9_-16 LOSS 5 - -510/21/2020 12:30 - TimeOfSave: 2021-01-19T17:05:03.536654900
+TeamID: 123 - Brute Force -  SeriesID: 1124 TournamentID: 24 - Brute ForceWIN  : 10/21/2020 12:30 - TimeOfSave: 2021-01-19T17:05:03.538649400
+TeamID: 118 - Legends -  SeriesID: 1124 TournamentID: 24 - LegendsLOSS  : 10/21/2020 12:30 - TimeOfSave: 2021-01-19T17:05:03.539646800
+TeamID: 117 - Wrecking Crew GameID: 132 - SeriesID: 962 TournamentID: 24 - Wrecking CrewHOME WIN : 9 - -8 - 10/21/2020 12:30 - TimeOfSave: 2021-01-19T17:45:26.236348700
+PlayerID: 81 - TeamID: 117 GameID: 132 - Series: 962 Simon +11_-9 WIN 9 - -810/21/2020 12:30 - TimeOfSave: 2021-01-19T17:45:51.823587300
+PlayerID: 82 - TeamID: 117 GameID: 132 - Series: 962 Link +12_-9 WIN 9 - -810/21/2020 12:30 - TimeOfSave: 2021-01-19T17:45:51.824861700
+PlayerID: 83 - TeamID: 117 GameID: 132 - Series: 962 Hero +17_-8 WIN 9 - -810/21/2020 12:30 - TimeOfSave: 2021-01-19T17:45:51.825932700
+PlayerID: 84 - TeamID: 117 GameID: 132 - Series: 962 Ice Climbers +6_-11 WIN 9 - -810/21/2020 12:30 - TimeOfSave: 2021-01-19T17:45:51.826931500
+TeamID: 105 - BlackSun GameID: 132 - SeriesID: 962 TournamentID: 24 - BlackSunAWAY LOSS : 9 - -8 - 10/21/2020 12:30 - TimeOfSave: 2021-01-19T17:45:51.827927100
+PlayerID: 33 - TeamID: 105 GameID: 132 - Series: 962 Villager +8_-11 LOSS 9 - -810/21/2020 12:30 - TimeOfSave: 2021-01-19T17:47:32.751717200
+PlayerID: 34 - TeamID: 105 GameID: 132 - Series: 962 Sonic +10_-12 LOSS 9 - -810/21/2020 12:30 - TimeOfSave: 2021-01-19T17:47:32.754195600
+PlayerID: 35 - TeamID: 105 GameID: 132 - Series: 962 Lucas +11_-10 LOSS 9 - -810/21/2020 12:30 - TimeOfSave: 2021-01-19T17:47:32.756188100
+PlayerID: 36 - TeamID: 105 GameID: 132 - Series: 962 Dark Samus +8_-12 LOSS 9 - -810/21/2020 12:30 - TimeOfSave: 2021-01-19T17:47:32.758394800
+TeamID: 117 - Wrecking Crew -  SeriesID: 962 TournamentID: 24 - Wrecking CrewWIN  : 10/21/2020 12:30 - TimeOfSave: 2021-01-19T17:47:32.761042
+TeamID: 105 - BlackSun -  SeriesID: 962 TournamentID: 24 - BlackSunLOSS  : 10/21/2020 12:30 - TimeOfSave: 2021-01-19T17:47:32.763069100
+TeamID: 113 - Alliance GameID: 133 - SeriesID: 1024 TournamentID: 24 - AllianceHOME LOSS : -14 - 14 - 10/21/2020 12:30 - TimeOfSave: 2021-01-19T19:25:32.375053800
+PlayerID: 65 - TeamID: 113 GameID: 133 - Series: 1024 Robin +6_-12 LOSS -14 - 1410/21/2020 12:30 - TimeOfSave: 2021-01-19T19:25:55.162144500
+PlayerID: 66 - TeamID: 113 GameID: 133 - Series: 1024 Captain Falcon +9_-13 LOSS -14 - 1410/21/2020 12:30 - TimeOfSave: 2021-01-19T19:25:55.163257600
+PlayerID: 67 - TeamID: 113 GameID: 133 - Series: 1024 Inkling +14_-15 LOSS -14 - 1410/21/2020 12:30 - TimeOfSave: 2021-01-19T19:25:55.164253800
+PlayerID: 68 - TeamID: 113 GameID: 133 - Series: 1024 Ridley +16_-19 LOSS -14 - 1410/21/2020 12:30 - TimeOfSave: 2021-01-19T19:25:55.164253800
+TeamID: 109 - Fury GameID: 133 - SeriesID: 1024 TournamentID: 24 - FuryAWAY WIN : -14 - 14 - 10/21/2020 12:30 - TimeOfSave: 2021-01-19T19:25:55.165251200
+PlayerID: 49 - TeamID: 109 GameID: 133 - Series: 1024 Ike +17_-11 WIN -14 - 1410/21/2020 12:30 - TimeOfSave: 2021-01-19T19:26:27.045073500
+PlayerID: 50 - TeamID: 109 GameID: 133 - Series: 1024 Byleth +15_-12 WIN -14 - 1410/21/2020 12:30 - TimeOfSave: 2021-01-19T19:26:27.047021800
+PlayerID: 51 - TeamID: 109 GameID: 133 - Series: 1024 Rosalina +9_-11 WIN -14 - 1410/21/2020 12:30 - TimeOfSave: 2021-01-19T19:26:27.048022200
+PlayerID: 52 - TeamID: 109 GameID: 133 - Series: 1024 Mega Man +18_-11 WIN -14 - 1410/21/2020 12:30 - TimeOfSave: 2021-01-19T19:26:27.049016500
+TeamID: 113 - Alliance -  SeriesID: 1024 TournamentID: 24 - AllianceLOSS  : 10/21/2020 12:30 - TimeOfSave: 2021-01-19T19:26:27.058517600
+TeamID: 109 - Fury -  SeriesID: 1024 TournamentID: 24 - FuryWIN  : 10/21/2020 12:30 - TimeOfSave: 2021-01-19T19:26:27.059514700
+TeamID: 112 - Rampage GameID: 134 - SeriesID: 1037 TournamentID: 24 - RampageHOME WIN : -1 - -11 - 10/21/2020 12:30 - TimeOfSave: 2021-01-19T23:25:55.685663800
+PlayerID: 61 - TeamID: 112 GameID: 134 - Series: 1037 Yoshi +10_-8 WIN -1 - -1110/21/2020 12:30 - TimeOfSave: 2021-01-19T23:27:31.865107
+PlayerID: 62 - TeamID: 112 GameID: 134 - Series: 1037 Mewtwo +15_-11 WIN -1 - -1110/21/2020 12:30 - TimeOfSave: 2021-01-19T23:27:31.866211500
+PlayerID: 63 - TeamID: 112 GameID: 134 - Series: 1037 Sephiroth +4_-8 WIN -1 - -1110/21/2020 12:30 - TimeOfSave: 2021-01-19T23:27:31.867650800
+PlayerID: 64 - TeamID: 112 GameID: 134 - Series: 1037 Snake +10_-13 WIN -1 - -1110/21/2020 12:30 - TimeOfSave: 2021-01-19T23:27:31.868645500
+TeamID: 110 - Vanquish GameID: 134 - SeriesID: 1037 TournamentID: 24 - VanquishAWAY LOSS : -1 - -11 - 10/21/2020 12:30 - TimeOfSave: 2021-01-19T23:27:31.869678300
+PlayerID: 53 - TeamID: 110 GameID: 134 - Series: 1037 Sheik +7_-8 LOSS -1 - -1110/21/2020 12:30 - TimeOfSave: 2021-01-19T23:27:53.685587
+PlayerID: 54 - TeamID: 110 GameID: 134 - Series: 1037 Pac-Man +6_-8 LOSS -1 - -1110/21/2020 12:30 - TimeOfSave: 2021-01-19T23:27:53.686191500
+PlayerID: 55 - TeamID: 110 GameID: 134 - Series: 1037 Roy +8_-12 LOSS -1 - -1110/21/2020 12:30 - TimeOfSave: 2021-01-19T23:27:53.687218100
+PlayerID: 56 - TeamID: 110 GameID: 134 - Series: 1037 Richter +7_-11 LOSS -1 - -1110/21/2020 12:30 - TimeOfSave: 2021-01-19T23:27:53.688279600
+TeamID: 112 - Rampage -  SeriesID: 1037 TournamentID: 24 - RampageWIN  : 10/21/2020 12:30 - TimeOfSave: 2021-01-19T23:27:53.690277500
+TeamID: 110 - Vanquish -  SeriesID: 1037 TournamentID: 24 - VanquishLOSS  : 10/21/2020 12:30 - TimeOfSave: 2021-01-19T23:27:53.691274800
+TeamID: 116 - Royalty GameID: 135 - SeriesID: 979 TournamentID: 24 - RoyaltyHOME LOSS : -16 - 16 - 10/21/2020 12:30 - TimeOfSave: 2021-01-20T00:33:18.172739900
+PlayerID: 77 - TeamID: 116 GameID: 135 - Series: 979 Toon Link +4_-13 LOSS -16 - 1610/21/2020 12:30 - TimeOfSave: 2021-01-20T00:33:45.593066200
+PlayerID: 78 - TeamID: 116 GameID: 135 - Series: 979 Isabelle +14_-15 LOSS -16 - 1610/21/2020 12:30 - TimeOfSave: 2021-01-20T00:33:45.594335700
+PlayerID: 79 - TeamID: 116 GameID: 135 - Series: 979 Mario +11_-14 LOSS -16 - 1610/21/2020 12:30 - TimeOfSave: 2021-01-20T00:33:45.596857200
+PlayerID: 80 - TeamID: 116 GameID: 135 - Series: 979 Peach +12_-15 LOSS -16 - 1610/21/2020 12:30 - TimeOfSave: 2021-01-20T00:33:45.598740600
+TeamID: 106 - Inferno GameID: 135 - SeriesID: 979 TournamentID: 24 - InfernoAWAY WIN : -16 - 16 - 10/21/2020 12:30 - TimeOfSave: 2021-01-20T00:33:45.600376200
+PlayerID: 37 - TeamID: 106 GameID: 135 - Series: 979 Bowser +20_-11 WIN -16 - 1610/21/2020 12:30 - TimeOfSave: 2021-01-20T00:34:08.178619900
+PlayerID: 38 - TeamID: 106 GameID: 135 - Series: 979 Ness +11_-9 WIN -16 - 1610/21/2020 12:30 - TimeOfSave: 2021-01-20T00:34:08.179944700
+PlayerID: 39 - TeamID: 106 GameID: 135 - Series: 979 Pit +14_-10 WIN -16 - 1610/21/2020 12:30 - TimeOfSave: 2021-01-20T00:34:08.181012700
+PlayerID: 40 - TeamID: 106 GameID: 135 - Series: 979 Dark Pit +12_-11 WIN -16 - 1610/21/2020 12:30 - TimeOfSave: 2021-01-20T00:34:08.182009500
+TeamID: 116 - Royalty -  SeriesID: 979 TournamentID: 24 - RoyaltyLOSS  : 10/21/2020 12:30 - TimeOfSave: 2021-01-20T00:34:08.184005
+TeamID: 106 - Inferno -  SeriesID: 979 TournamentID: 24 - InfernoWIN  : 10/21/2020 12:30 - TimeOfSave: 2021-01-20T00:34:08.185414
+TeamID: 110 - Vanquish GameID: 136 - SeriesID: 1038 TournamentID: 24 - VanquishHOME LOSS : -18 - 18 - 10/21/2020 12:30 - TimeOfSave: 2021-01-21T23:11:19.855277400
+PlayerID: 53 - TeamID: 110 GameID: 136 - Series: 1038 Sheik +3_-10 LOSS -18 - 1810/21/2020 12:30 - TimeOfSave: 2021-01-21T23:11:40.299807100
+PlayerID: 54 - TeamID: 110 GameID: 136 - Series: 1038 Pac-Man +7_-10 LOSS -18 - 1810/21/2020 12:30 - TimeOfSave: 2021-01-21T23:11:40.300804200
+PlayerID: 55 - TeamID: 110 GameID: 136 - Series: 1038 Roy +7_-11 LOSS -18 - 1810/21/2020 12:30 - TimeOfSave: 2021-01-21T23:11:40.301800500
+PlayerID: 56 - TeamID: 110 GameID: 136 - Series: 1038 Richter +11_-15 LOSS -18 - 1810/21/2020 12:30 - TimeOfSave: 2021-01-21T23:11:40.302798200
+TeamID: 113 - Alliance GameID: 136 - SeriesID: 1038 TournamentID: 24 - AllianceAWAY WIN : -18 - 18 - 10/21/2020 12:30 - TimeOfSave: 2021-01-21T23:11:40.303795900
+PlayerID: 65 - TeamID: 113 GameID: 136 - Series: 1038 Robin +17_-7 WIN -18 - 1810/21/2020 12:30 - TimeOfSave: 2021-01-21T23:12:02.655303200
+PlayerID: 66 - TeamID: 113 GameID: 136 - Series: 1038 Captain Falcon +6_-6 WIN -18 - 1810/21/2020 12:30 - TimeOfSave: 2021-01-21T23:12:02.656298900
+PlayerID: 67 - TeamID: 113 GameID: 136 - Series: 1038 Inkling +11_-7 WIN -18 - 1810/21/2020 12:30 - TimeOfSave: 2021-01-21T23:12:02.656298900
+PlayerID: 68 - TeamID: 113 GameID: 136 - Series: 1038 Ridley +12_-8 WIN -18 - 1810/21/2020 12:30 - TimeOfSave: 2021-01-21T23:12:02.657294300
+TeamID: 110 - Vanquish -  SeriesID: 1038 TournamentID: 24 - VanquishLOSS  : 10/21/2020 12:30 - TimeOfSave: 2021-01-21T23:12:02.663280200
+TeamID: 113 - Alliance -  SeriesID: 1038 TournamentID: 24 - AllianceWIN  : 10/21/2020 12:30 - TimeOfSave: 2021-01-21T23:12:02.665273800
+TeamID: 120 - Mean Green GameID: 137 - SeriesID: 1132 TournamentID: 24 - Mean GreenHOME LOSS : 0 - 0 - 10/21/2020 12:30 - TimeOfSave: 2021-01-22T02:21:59.813013200
+PlayerID: 93 - TeamID: 120 GameID: 137 - Series: 1132 Little Mac +0_-0 LOSS 0 - 010/21/2020 12:30 - TimeOfSave: 2021-01-22T02:23:15.269973500
+PlayerID: 94 - TeamID: 120 GameID: 137 - Series: 1132 Corrin +0_-0 LOSS 0 - 010/21/2020 12:30 - TimeOfSave: 2021-01-22T02:23:15.271109200
+PlayerID: 95 - TeamID: 120 GameID: 137 - Series: 1132 Luigi +0_-0 LOSS 0 - 010/21/2020 12:30 - TimeOfSave: 2021-01-22T02:23:15.272137200
+PlayerID: 96 - TeamID: 120 GameID: 137 - Series: 1132 Palutena +0_-0 LOSS 0 - 010/21/2020 12:30 - TimeOfSave: 2021-01-22T02:23:15.273139600
+TeamID: 122 - High Voltage GameID: 137 - SeriesID: 1132 TournamentID: 24 - High VoltageAWAY LOSS : 0 - 0 - 10/21/2020 12:30 - TimeOfSave: 2021-01-22T02:23:15.274133400
+PlayerID: 101 - TeamID: 122 GameID: 137 - Series: 1132 Pichu +0_-0 LOSS 0 - 010/21/2020 12:30 - TimeOfSave: 2021-01-22T02:23:18.379980100
+PlayerID: 102 - TeamID: 122 GameID: 137 - Series: 1132 Terry +0_-0 LOSS 0 - 010/21/2020 12:30 - TimeOfSave: 2021-01-22T02:23:18.381974500
+PlayerID: 103 - TeamID: 122 GameID: 137 - Series: 1132 Pikachu +0_-0 LOSS 0 - 010/21/2020 12:30 - TimeOfSave: 2021-01-22T02:23:18.381974500
+PlayerID: 104 - TeamID: 122 GameID: 137 - Series: 1132 Mr. Game & Watch +0_-0 LOSS 0 - 010/21/2020 12:30 - TimeOfSave: 2021-01-22T02:23:18.382972700
+TeamID: 120 - Mean Green GameID: 137 - SeriesID: 1132 TournamentID: 24 - Mean GreenHOME LOSS : 0 - 0 - 10/21/2020 12:30 - TimeOfSave: 2021-01-22T02:24:13.617206700
+PlayerID: 93 - TeamID: 120 GameID: 137 - Series: 1132 Little Mac +0_-0 LOSS 0 - 010/21/2020 12:30 - TimeOfSave: 2021-01-22T02:28:41.060828900
+PlayerID: 94 - TeamID: 120 GameID: 137 - Series: 1132 Corrin +0_-0 LOSS 0 - 010/21/2020 12:30 - TimeOfSave: 2021-01-22T02:28:41.061910500
+PlayerID: 95 - TeamID: 120 GameID: 137 - Series: 1132 Luigi +0_-0 LOSS 0 - 010/21/2020 12:30 - TimeOfSave: 2021-01-22T02:28:41.062907400
+PlayerID: 96 - TeamID: 120 GameID: 137 - Series: 1132 Palutena +0_-0 LOSS 0 - 010/21/2020 12:30 - TimeOfSave: 2021-01-22T02:28:41.063592400
+TeamID: 122 - High Voltage GameID: 137 - SeriesID: 1132 TournamentID: 24 - High VoltageAWAY LOSS : 0 - 0 - 10/21/2020 12:30 - TimeOfSave: 2021-01-22T02:28:41.064586200
+PlayerID: 101 - TeamID: 122 GameID: 137 - Series: 1132 Pichu +0_-0 LOSS 0 - 010/21/2020 12:30 - TimeOfSave: 2021-01-22T02:28:42.221892700
+PlayerID: 102 - TeamID: 122 GameID: 137 - Series: 1132 Terry +0_-0 LOSS 0 - 010/21/2020 12:30 - TimeOfSave: 2021-01-22T02:28:42.222926700
+PlayerID: 103 - TeamID: 122 GameID: 137 - Series: 1132 Pikachu +0_-0 LOSS 0 - 010/21/2020 12:30 - TimeOfSave: 2021-01-22T02:28:42.225618800
+PlayerID: 104 - TeamID: 122 GameID: 137 - Series: 1132 Mr. Game & Watch +0_-0 LOSS 0 - 010/21/2020 12:30 - TimeOfSave: 2021-01-22T02:28:42.227755
+TeamID: 120 - Mean Green GameID: 138 - SeriesID: 1132 TournamentID: 24 - Mean GreenHOME WIN : 12 - -14 - 10/21/2020 12:30 - TimeOfSave: 2021-01-22T02:47:24.277551100
+PlayerID: 93 - TeamID: 120 GameID: 138 - Series: 1132 Little Mac +15_-13 WIN 12 - -1410/21/2020 12:30 - TimeOfSave: 2021-01-22T02:48:21.184752500
+PlayerID: 94 - TeamID: 120 GameID: 138 - Series: 1132 Corrin +15_-12 WIN 12 - -1410/21/2020 12:30 - TimeOfSave: 2021-01-22T02:48:21.186742400
+PlayerID: 95 - TeamID: 120 GameID: 138 - Series: 1132 Luigi +13_-12 WIN 12 - -1410/21/2020 12:30 - TimeOfSave: 2021-01-22T02:48:21.187851
+PlayerID: 96 - TeamID: 120 GameID: 138 - Series: 1132 Palutena +21_-15 WIN 12 - -1410/21/2020 12:30 - TimeOfSave: 2021-01-22T02:48:21.188927
+TeamID: 122 - High Voltage GameID: 138 - SeriesID: 1132 TournamentID: 24 - High VoltageAWAY LOSS : 12 - -14 - 10/21/2020 12:30 - TimeOfSave: 2021-01-22T02:48:21.190959100
+PlayerID: 101 - TeamID: 122 GameID: 138 - Series: 1132 Pichu +14_-19 LOSS 12 - -1410/21/2020 12:30 - TimeOfSave: 2021-01-22T02:48:58.923174300
+PlayerID: 102 - TeamID: 122 GameID: 138 - Series: 1132 Terry +14_-17 LOSS 12 - -1410/21/2020 12:30 - TimeOfSave: 2021-01-22T02:48:58.924521800
+PlayerID: 103 - TeamID: 122 GameID: 138 - Series: 1132 Pikachu +19_-17 LOSS 12 - -1410/21/2020 12:30 - TimeOfSave: 2021-01-22T02:48:58.925520100
+PlayerID: 104 - TeamID: 122 GameID: 138 - Series: 1132 Mr. Game & Watch +4_-12 LOSS 12 - -1410/21/2020 12:30 - TimeOfSave: 2021-01-22T02:48:58.926517500
+TeamID: 120 - Mean Green -  SeriesID: 1132 TournamentID: 24 - Mean GreenWIN  : 10/21/2020 12:30 - TimeOfSave: 2021-01-22T02:48:58.927542700
+TeamID: 122 - High Voltage -  SeriesID: 1132 TournamentID: 24 - High VoltageLOSS  : 10/21/2020 12:30 - TimeOfSave: 2021-01-22T02:48:58.928604200
+TeamID: 107 - Doom GameID: 139 - SeriesID: 996 TournamentID: 24 - DoomHOME WIN : 7 - -7 - 10/21/2020 12:30 - TimeOfSave: 2021-01-22T13:01:12.008557400
+PlayerID: 41 - TeamID: 107 GameID: 139 - Series: 996 Incineroar +12_-10 WIN 7 - -710/21/2020 12:30 - TimeOfSave: 2021-01-22T13:02:04.401296400
+PlayerID: 42 - TeamID: 107 GameID: 139 - Series: 996 Fox +7_-8 WIN 7 - -710/21/2020 12:30 - TimeOfSave: 2021-01-22T13:02:04.402295700
+PlayerID: 43 - TeamID: 107 GameID: 139 - Series: 996 Wolf +14_-12 WIN 7 - -710/21/2020 12:30 - TimeOfSave: 2021-01-22T13:02:04.402295700
+PlayerID: 44 - TeamID: 107 GameID: 139 - Series: 996 Samus +14_-10 WIN 7 - -710/21/2020 12:30 - TimeOfSave: 2021-01-22T13:02:04.403292500
+TeamID: 116 - Royalty GameID: 139 - SeriesID: 996 TournamentID: 24 - RoyaltyAWAY LOSS : 7 - -7 - 10/21/2020 12:30 - TimeOfSave: 2021-01-22T13:02:04.404289300
+PlayerID: 77 - TeamID: 116 GameID: 139 - Series: 996 Toon Link +11_-11 LOSS 7 - -710/21/2020 12:30 - TimeOfSave: 2021-01-22T13:02:58.333716800
+PlayerID: 78 - TeamID: 116 GameID: 139 - Series: 996 Isabelle +10_-13 LOSS 7 - -710/21/2020 12:30 - TimeOfSave: 2021-01-22T13:02:58.335710300
+PlayerID: 79 - TeamID: 116 GameID: 139 - Series: 996 Mario +13_-13 LOSS 7 - -710/21/2020 12:30 - TimeOfSave: 2021-01-22T13:02:58.337705800
+PlayerID: 80 - TeamID: 116 GameID: 139 - Series: 996 Peach +6_-10 LOSS 7 - -710/21/2020 12:30 - TimeOfSave: 2021-01-22T13:02:58.338702500
+TeamID: 107 - Doom -  SeriesID: 996 TournamentID: 24 - DoomWIN  : 10/21/2020 12:30 - TimeOfSave: 2021-01-22T13:02:58.347678300
+TeamID: 116 - Royalty -  SeriesID: 996 TournamentID: 24 - RoyaltyLOSS  : 10/21/2020 12:30 - TimeOfSave: 2021-01-22T13:02:58.347678300
+TeamID: 114 - Chaos GameID: 140 - SeriesID: 1025 TournamentID: 24 - ChaosHOME LOSS : 13 - 14 - 10/21/2020 12:30 - TimeOfSave: 2021-01-22T16:48:29.740954400
+PlayerID: 69 - TeamID: 114 GameID: 140 - Series: 1025 Wario +13_-14 LOSS 13 - 1410/21/2020 12:30 - TimeOfSave: 2021-01-22T16:48:53.215761200
+PlayerID: 70 - TeamID: 114 GameID: 140 - Series: 1025 Kirby +23_-14 LOSS 13 - 1410/21/2020 12:30 - TimeOfSave: 2021-01-22T16:48:53.217715100
+PlayerID: 71 - TeamID: 114 GameID: 140 - Series: 1025 Diddy Kong +1_-11 LOSS 13 - 1410/21/2020 12:30 - TimeOfSave: 2021-01-22T16:48:53.218768500
+PlayerID: 72 - TeamID: 114 GameID: 140 - Series: 1025 Joker +10_-12 LOSS 13 - 1410/21/2020 12:30 - TimeOfSave: 2021-01-22T16:48:53.219517900
+TeamID: 109 - Fury GameID: 140 - SeriesID: 1025 TournamentID: 24 - FuryAWAY WIN : 13 - 14 - 10/21/2020 12:30 - TimeOfSave: 2021-01-22T16:48:53.220516700
+PlayerID: 49 - TeamID: 109 GameID: 140 - Series: 1025 Ike +18_-15 WIN 13 - 1410/21/2020 12:30 - TimeOfSave: 2021-01-22T16:49:17.506544400
+PlayerID: 50 - TeamID: 109 GameID: 140 - Series: 1025 Byleth +12_-12 WIN 13 - 1410/21/2020 12:30 - TimeOfSave: 2021-01-22T16:49:17.508079400
+PlayerID: 51 - TeamID: 109 GameID: 140 - Series: 1025 Rosalina +6_-9 WIN 13 - 1410/21/2020 12:30 - TimeOfSave: 2021-01-22T16:49:17.509075900
+PlayerID: 52 - TeamID: 109 GameID: 140 - Series: 1025 Mega Man +15_-11 WIN 13 - 1410/21/2020 12:30 - TimeOfSave: 2021-01-22T16:49:17.510984100
+TeamID: 114 - Chaos -  SeriesID: 1025 TournamentID: 24 - ChaosLOSS  : 10/21/2020 12:30 - TimeOfSave: 2021-01-22T16:49:17.511965100
+TeamID: 109 - Fury -  SeriesID: 1025 TournamentID: 24 - FuryWIN  : 10/21/2020 12:30 - TimeOfSave: 2021-01-22T16:49:17.512966200
+TeamID: 115 - Supremacy GameID: 141 - SeriesID: 1011 TournamentID: 24 - SupremacyHOME LOSS : -6 - 3 - 10/21/2020 12:30 - TimeOfSave: 2021-01-22T17:37:30.993750300
+PlayerID: 73 - TeamID: 115 GameID: 141 - Series: 1011 Olimar +11_-10 LOSS -6 - 310/21/2020 12:30 - TimeOfSave: 2021-01-22T17:37:57.079490900
+PlayerID: 74 - TeamID: 115 GameID: 141 - Series: 1011 King K. Rool +10_-13 LOSS -6 - 310/21/2020 12:30 - TimeOfSave: 2021-01-22T17:37:57.080624300
+PlayerID: 75 - TeamID: 115 GameID: 141 - Series: 1011 Cloud +12_-13 LOSS -6 - 310/21/2020 12:30 - TimeOfSave: 2021-01-22T17:37:57.082620900
+PlayerID: 76 - TeamID: 115 GameID: 141 - Series: 1011 Bowser Jr +10_-13 LOSS -6 - 310/21/2020 12:30 - TimeOfSave: 2021-01-22T17:37:57.083434800
+TeamID: 108 - Crown GameID: 141 - SeriesID: 1011 TournamentID: 24 - CrownAWAY WIN : -6 - 3 - 10/21/2020 12:30 - TimeOfSave: 2021-01-22T17:37:57.084599700
+PlayerID: 45 - TeamID: 108 GameID: 141 - Series: 1011 Daisy +11_-9 WIN -6 - 310/21/2020 12:30 - TimeOfSave: 2021-01-22T17:38:33.861010800
+PlayerID: 46 - TeamID: 108 GameID: 141 - Series: 1011 Shulk +10_-13 WIN -6 - 310/21/2020 12:30 - TimeOfSave: 2021-01-22T17:38:33.862045100
+PlayerID: 47 - TeamID: 108 GameID: 141 - Series: 1011 King Dedede +14_-12 WIN -6 - 310/21/2020 12:30 - TimeOfSave: 2021-01-22T17:38:33.865108100
+PlayerID: 48 - TeamID: 108 GameID: 141 - Series: 1011 Metaknight +14_-12 WIN -6 - 310/21/2020 12:30 - TimeOfSave: 2021-01-22T17:38:33.867991800
+TeamID: 115 - Supremacy -  SeriesID: 1011 TournamentID: 24 - SupremacyLOSS  : 10/21/2020 12:30 - TimeOfSave: 2021-01-22T17:38:33.875952500
+TeamID: 108 - Crown -  SeriesID: 1011 TournamentID: 24 - CrownWIN  : 10/21/2020 12:30 - TimeOfSave: 2021-01-22T17:38:33.876939300
+TeamID: 123 - Brute Force GameID: 142 - SeriesID: 1129 TournamentID: 24 - Brute ForceHOME WIN : 7 - -9 - 10/21/2020 12:30 - TimeOfSave: 2021-01-22T22:15:43.094535
+PlayerID: 105 - TeamID: 123 GameID: 142 - Series: 1129 Donkey Kong +8_-14 WIN 7 - -910/21/2020 12:30 - TimeOfSave: 2021-01-22T22:16:05.911569300
+PlayerID: 106 - TeamID: 123 GameID: 142 - Series: 1129 Greninja +13_-12 WIN 7 - -910/21/2020 12:30 - TimeOfSave: 2021-01-22T22:16:05.912567700
+PlayerID: 107 - TeamID: 123 GameID: 142 - Series: 1129 Zelda +14_-8 WIN 7 - -910/21/2020 12:30 - TimeOfSave: 2021-01-22T22:16:05.913566
+PlayerID: 108 - TeamID: 123 GameID: 142 - Series: 1129 Falco +14_-8 WIN 7 - -910/21/2020 12:30 - TimeOfSave: 2021-01-22T22:16:05.913566
+TeamID: 119 - Thrashers GameID: 142 - SeriesID: 1129 TournamentID: 24 - ThrashersAWAY LOSS : 7 - -9 - 10/21/2020 12:30 - TimeOfSave: 2021-01-22T22:16:05.914563800
+PlayerID: 89 - TeamID: 119 GameID: 142 - Series: 1129 Chrom +15_-16 LOSS 7 - -910/21/2020 12:30 - TimeOfSave: 2021-01-22T22:16:49.836729900
+PlayerID: 90 - TeamID: 119 GameID: 142 - Series: 1129 Marth +14_-13 LOSS 7 - -910/21/2020 12:30 - TimeOfSave: 2021-01-22T22:16:49.837728
+PlayerID: 91 - TeamID: 119 GameID: 142 - Series: 1129 Young Link +6_-12 LOSS 7 - -910/21/2020 12:30 - TimeOfSave: 2021-01-22T22:16:49.838772900
+PlayerID: 92 - TeamID: 119 GameID: 142 - Series: 1129 Jigglypuff +7_-10 LOSS 7 - -910/21/2020 12:30 - TimeOfSave: 2021-01-22T22:16:49.839769800
+TeamID: 123 - Brute Force -  SeriesID: 1129 TournamentID: 24 - Brute ForceWIN  : 10/21/2020 12:30 - TimeOfSave: 2021-01-22T22:16:49.846198100
+TeamID: 119 - Thrashers -  SeriesID: 1129 TournamentID: 24 - ThrashersLOSS  : 10/21/2020 12:30 - TimeOfSave: 2021-01-22T22:16:49.847230300
+TeamID: 118 - Legends GameID: 143 - SeriesID: 963 TournamentID: 24 - LegendsHOME WIN : 3 - -4 - 10/21/2020 12:30 - TimeOfSave: 2021-01-23T01:23:05.208562100
+PlayerID: 85 - TeamID: 118 GameID: 143 - Series: 963 Bayonetta +7_-9 WIN 3 - -410/21/2020 12:30 - TimeOfSave: 2021-01-23T01:23:27.842050
+PlayerID: 86 - TeamID: 118 GameID: 143 - Series: 963 Dr. Mario +11_-11 WIN 3 - -410/21/2020 12:30 - TimeOfSave: 2021-01-23T01:23:27.844044400
+PlayerID: 87 - TeamID: 118 GameID: 143 - Series: 963 Ganondorf +16_-11 WIN 3 - -410/21/2020 12:30 - TimeOfSave: 2021-01-23T01:23:27.846038
+PlayerID: 88 - TeamID: 118 GameID: 143 - Series: 963 Pokemon Trainer +8_-8 WIN 3 - -410/21/2020 12:30 - TimeOfSave: 2021-01-23T01:23:27.848033800
+TeamID: 105 - BlackSun GameID: 143 - SeriesID: 963 TournamentID: 24 - BlackSunAWAY LOSS : 3 - -4 - 10/21/2020 12:30 - TimeOfSave: 2021-01-23T01:23:27.851025600
+PlayerID: 33 - TeamID: 105 GameID: 143 - Series: 963 Villager +15_-9 LOSS 3 - -410/21/2020 12:30 - TimeOfSave: 2021-01-23T01:24:00.514251400
+PlayerID: 34 - TeamID: 105 GameID: 143 - Series: 963 Sonic +1_-10 LOSS 3 - -410/21/2020 12:30 - TimeOfSave: 2021-01-23T01:24:00.514706500
+PlayerID: 35 - TeamID: 105 GameID: 143 - Series: 963 Lucas +8_-11 LOSS 3 - -410/21/2020 12:30 - TimeOfSave: 2021-01-23T01:24:00.515707600
+PlayerID: 36 - TeamID: 105 GameID: 143 - Series: 963 Dark Samus +14_-12 LOSS 3 - -410/21/2020 12:30 - TimeOfSave: 2021-01-23T01:24:00.517701700
+TeamID: 118 - Legends -  SeriesID: 963 TournamentID: 24 - LegendsWIN  : 10/21/2020 12:30 - TimeOfSave: 2021-01-23T01:24:00.518699100
+TeamID: 105 - BlackSun -  SeriesID: 963 TournamentID: 24 - BlackSunLOSS  : 10/21/2020 12:30 - TimeOfSave: 2021-01-23T01:24:00.519698200
+TeamID: 106 - Inferno GameID: 144 - SeriesID: 980 TournamentID: 24 - InfernoHOME WIN : 0 - -2 - 10/21/2020 12:30 - TimeOfSave: 2021-01-23T03:12:01.303223300
+PlayerID: 37 - TeamID: 106 GameID: 144 - Series: 980 Bowser +10_-13 WIN 0 - -210/21/2020 12:30 - TimeOfSave: 2021-01-23T03:13:16.735115200
+PlayerID: 38 - TeamID: 106 GameID: 144 - Series: 980 Ness +16_-11 WIN 0 - -210/21/2020 12:30 - TimeOfSave: 2021-01-23T03:13:16.736645300
+PlayerID: 39 - TeamID: 106 GameID: 144 - Series: 980 Pit +11_-13 WIN 0 - -210/21/2020 12:30 - TimeOfSave: 2021-01-23T03:13:16.739255400
+PlayerID: 40 - TeamID: 106 GameID: 144 - Series: 980 Dark Pit +14_-14 WIN 0 - -210/21/2020 12:30 - TimeOfSave: 2021-01-23T03:13:16.740686700
+TeamID: 117 - Wrecking Crew GameID: 144 - SeriesID: 980 TournamentID: 24 - Wrecking CrewAWAY LOSS : 0 - -2 - 10/21/2020 12:30 - TimeOfSave: 2021-01-23T03:13:16.743052100
+PlayerID: 81 - TeamID: 117 GameID: 144 - Series: 980 Simon +8_-12 LOSS 0 - -210/21/2020 12:30 - TimeOfSave: 2021-01-23T03:14:08.835480500
+PlayerID: 82 - TeamID: 117 GameID: 144 - Series: 980 Link +13_-14 LOSS 0 - -210/21/2020 12:30 - TimeOfSave: 2021-01-23T03:14:08.836837500
+PlayerID: 83 - TeamID: 117 GameID: 144 - Series: 980 Hero +18_-12 LOSS 0 - -210/21/2020 12:30 - TimeOfSave: 2021-01-23T03:14:08.838062900
+PlayerID: 84 - TeamID: 117 GameID: 144 - Series: 980 Ice Climbers +10_-13 LOSS 0 - -210/21/2020 12:30 - TimeOfSave: 2021-01-23T03:14:08.839178800
+TeamID: 106 - Inferno -  SeriesID: 980 TournamentID: 24 - InfernoWIN  : 10/21/2020 12:30 - TimeOfSave: 2021-01-23T03:14:08.840561900
+TeamID: 117 - Wrecking Crew -  SeriesID: 980 TournamentID: 24 - Wrecking CrewLOSS  : 10/21/2020 12:30 - TimeOfSave: 2021-01-23T03:14:08.841559600

@@ -203,7 +203,7 @@ public class TournamentController {
                                     keepAddingPlayers = true;
                                     addPlayers = view.promptToAddPlayers(newTeam);
                                     if (addPlayers) {
-                                        addPlayerToTeam(newTeam, currentUser);
+                                        addPlayerToTeam(newTeam, currentUser, newTournament);
                                     } else {
                                         keepAddingPlayers = false;
                                     }
@@ -383,18 +383,25 @@ public class TournamentController {
 
         List<Team> teamList = tmService
                 .getTeamsByTournamentId(tournament.getTournamentId());
+        //Need a list of tournament's completed games to send to standings method
+        List<Game> completedGames = tService.getCompletedGames(tournament);
         List<Team> teamStandings = tmService.getTeamStandings(
-                teamList, tournament);
+                teamList, tournament, completedGames);
         boolean isStarted;
         boolean isCreator = tournament.getUsername()
                 .equalsIgnoreCase(currentUser.getUserName());
         boolean keepGoing;
         boolean addPlayers;
         boolean keepAddingPlayers;
+        int teamSelection;
         int operation;
+        Team selected = null;
         do {
             keepGoing = true;
             isStarted = !tournament.isIsSignUp();
+            if(tournament.getCurrentRound() == 0 & !tournament.isIsSignUp()){
+            tournament.setCurrentRound(1);
+        }
             operation = view.displayTournamentAndNavigate(tournament,
                     currentUser);
 
@@ -412,7 +419,7 @@ public class TournamentController {
                         // View Schedule
                         List<Series> schedule = tService
                                 .getScheduleByTournament(tournament);
-                        view.tournamentFullSchedule(schedule, tournament);
+//                        view.tournamentFullSchedule(schedule, tournament);
                         engageSchedule(tournament, schedule);
                     }
                     break;
@@ -428,7 +435,7 @@ public class TournamentController {
                                 addPlayers = view.promptToAddPlayers(newTeam);
                                 if (addPlayers) {
                                     keepAddingPlayers = true;
-                                    addPlayerToTeam(newTeam, currentUser);
+                                    addPlayerToTeam(newTeam, currentUser, tournament);
                                 }
                             } while (keepAddingPlayers);
                         } catch (TeamNameTakenException | EventFullException e) {
@@ -437,7 +444,36 @@ public class TournamentController {
                         tmService.saveTeamEntities();
                     } else {
                         //view Standings
-                        view.teamStandingsDisplay(teamStandings, tournament);
+                        teamSelection = view.teamStandingsDisplay(teamStandings,
+                                tournament);
+                        if (teamSelection == 0) {
+                            // Go Back
+                        } else {// View Team
+                            String results;
+                            int resultOperation;
+                            for (Team team : teamStandings) {
+                                if (teamSelection == team.getRank()) {
+                                    selected = team;
+                                    break;
+                                }
+                            }
+                            List<Player> roster = tmService.getPlayersByTeamId(
+                                    selected.getTeamId());
+                            view.teamAndRoster(selected, roster, tournament);
+                            if (view.getGameResults()) {
+                                results = tmService.getAllGameResults(
+                                        selected.getTeamId());
+                                resultOperation = view.gameResults(results);
+                                if (resultOperation == 0) {
+                                    //do nothing more
+                                } else {
+                                    String singleResult = tmService
+                                            .getSingleGameResult(
+                                                    resultOperation);
+                                    view.SingleGameResult(singleResult);
+                                }
+                            }
+                        }
                     }
 
                     break;
@@ -460,12 +496,12 @@ public class TournamentController {
                                 try {
                                     team = tmService.getTeam(teamId);
                                     roster = tmService.getPlayersByTeamId(teamId);
-                                    view.teamAndRoster(team, roster);
+                                    view.teamAndRoster(team, roster, tournament);
                                     do {
                                         addToRoster = view.promptToAddPlayers(team);
                                         if (addToRoster) {
-                                            addPlayerToTeam(team, currentUser);
-                                        } 
+                                            addPlayerToTeam(team, currentUser, tournament);
+                                        }
                                     } while (addToRoster);
                                 } catch (NoSuchTeamException e) {
                                     noTeam = true;
@@ -507,12 +543,14 @@ public class TournamentController {
                         //Main Menu
                         keepGoing = false;
                     }
+                    break;
                 case 6:
                     if (!isStarted & isCreator) {
                         //Delete Tournament
                         deleteCore(tournament);
 
                     }
+                    break;
                 case 7:
                     if (!isStarted & isCreator) {
                         // Main Menu
@@ -535,18 +573,18 @@ public class TournamentController {
         return newTeam;
     }
 
-    private void addPlayerToTeam(Team team, User currentUser)
+    private void addPlayerToTeam(Team team, User currentUser, Tournament tournament)
             throws TournamentPersistenceException {
         Player player = null;
         String playerName;
         boolean hasErrors;
         List<Player> roster = tmService.getPlayersByTeamId(team.getTeamId());
         if (team.getNumOfPlayers() >= team.getMaxPlayers()) {
-            view.teamAndRoster(team, roster);
+            view.teamAndRoster(team, roster, tournament);
         } else {
             do {
                 hasErrors = false;
-                view.teamAndRoster(team, roster);
+                view.teamAndRoster(team, roster, tournament);
                 playerName = view.createPlayerForm(team, currentUser);
                 try {
                     player = tmService.validatePlayerInfo(playerName, team);
@@ -583,7 +621,8 @@ public class TournamentController {
         return fullSchedule;
     }
 
-    private void engageSchedule(Tournament tournament, List<Series> fullSchedule) {
+    private void engageSchedule(Tournament tournament, List<Series> fullSchedule)
+            throws TournamentPersistenceException {
         int scheduleOperation;
         boolean keepEngaging;
 
@@ -606,7 +645,7 @@ public class TournamentController {
 
     ///////////////////////////// Tertiary Methods /////////////////////////////
     private void seriesIDSelected(Tournament tournament, int seriesId) throws
-            NoSuchSeriesException {
+            NoSuchSeriesException, TournamentPersistenceException {
         boolean keepNavigating;
         Series series = null;
         int navigation;
@@ -648,7 +687,8 @@ public class TournamentController {
 
     ///////////////////////////// Quarternary Methods /////////////////////////////
     private void updateSeriesStatus(Series series, Tournament tournament) throws
-            NoSuchTeamException, SeriesNotReadyException {
+            NoSuchTeamException, SeriesNotReadyException,
+            TournamentPersistenceException {
         boolean navErrors;
         Team homeTeam;
         Team awayTeam;
@@ -671,7 +711,7 @@ public class TournamentController {
     }
 
     private void gamesListOperations(Tournament tournament, int seriesId)
-            throws NoSuchGameException {
+            throws NoSuchGameException, TournamentPersistenceException {
         List<Game> games;
         int gameListNavigation;
         int gameOperation;
@@ -716,24 +756,37 @@ public class TournamentController {
     }
 
     private void updateGameResults(Game game,
-            Tournament tournament) {
+            Tournament tournament) throws TournamentPersistenceException {
         Team homeTeam;
         Team awayTeam;
-        Series series = null;
+        Series series;
+        List<Player> players = null;
         try {
             tService.updateGame(game);
 
             homeTeam = tmService.getTeam(game.getHomeTeamId());
             tmService.updateTeamStats(homeTeam, game);
-            
+            if (homeTeam.isHasPlayers()) {
+                players = tmService.getPlayersByTeamId(homeTeam.getTeamId());
+                players = view.updatePlayerScores(homeTeam, players, game);
+                tmService.updatePlayerStats(players, game);
+            }
+
             awayTeam = tmService.getTeam(game.getAwayTeamId());
             tmService.updateTeamStats(awayTeam, game);
+            if (homeTeam.isHasPlayers()) {
+                players = tmService.getPlayersByTeamId(awayTeam.getTeamId());
+                players = view.updatePlayerScores(awayTeam, players, game);
+                tmService.updatePlayerStats(players, game);
+            }
 
             series = tService.getSeries(game.getSeriesId());
             tService.updateSeries(series);
 
             tmService.updateTeamStats(homeTeam, series, tournament);
             tmService.updateTeamStats(awayTeam, series, tournament);
+            tmService.updatePlayerStats(players, series, tournament);
+            tmService.updatePlayerStats(players, series, tournament);
         } catch (PlayersNotCheckedInException
                 | NoSuchTeamException | NoSuchSeriesException
                 | SeriesNotReadyException

@@ -142,9 +142,12 @@ public class TournamentDaoFileImpl implements TournamentDao {
         int numOfParticipants = Integer.parseInt(tournamentTokens[8]);
         int actualNumOfParticipants = Integer.parseInt(tournamentTokens[9]);
         int seedsToAdvance = Integer.parseInt(tournamentTokens[10]);
-        int s1NumOfRounds = Integer.parseInt(tournamentTokens[11]);
-        int s2NumOfRounds = Integer.parseInt(tournamentTokens[12]);
-        int currentRound = Integer.parseInt(tournamentTokens[13]);
+        int numOfCycles = Integer.parseInt(tournamentTokens[11]);
+        int s1NumOfRounds = Integer.parseInt(tournamentTokens[12]);
+        int s2NumOfRounds = Integer.parseInt(tournamentTokens[13]);
+        int currentRound = Integer.parseInt(tournamentTokens[14]);
+        LocalDateTime ldt = LocalDateTime.parse(tournamentTokens[15],
+                DateTimeFormatter.ofPattern("MM/dd/yyyy HH:mm"));
 
         Tournament unmarshalledTournament = new Tournament(tournamentId);
         unmarshalledTournament.setUsername(username);
@@ -160,6 +163,8 @@ public class TournamentDaoFileImpl implements TournamentDao {
         unmarshalledTournament.setStageType(stageType);
         unmarshalledTournament.setTournamentName(tournamentName);
         unmarshalledTournament.setActualNumOfParticipants(actualNumOfParticipants);
+        unmarshalledTournament.setNumOfCycles(numOfCycles);
+        unmarshalledTournament.setStartDate(ldt);
 
         return unmarshalledTournament;
     }
@@ -220,7 +225,7 @@ public class TournamentDaoFileImpl implements TournamentDao {
         String homeTeam = gameTokens[8];
         String awayTeam = gameTokens[9];
         LocalDateTime dateTime = LocalDateTime.parse(gameTokens[10],
-                DateTimeFormatter.ofPattern("MM/dd/yyyy HH:mm"));;
+                DateTimeFormatter.ofPattern("MM/dd/yyyy HH:mm"));
         boolean isComplete = Boolean.parseBoolean(gameTokens[11]);
         int homeScore = Integer.parseInt(gameTokens[12]);
         int awayScore = Integer.parseInt(gameTokens[13]);
@@ -259,9 +264,12 @@ public class TournamentDaoFileImpl implements TournamentDao {
         tournamentAsText += aTournament.getMaxNumOfParticipants() + DEL;
         tournamentAsText += aTournament.getActualNumOfParticipants() + DEL;
         tournamentAsText += aTournament.getSeedsToAdvance() + DEL;
+        tournamentAsText += aTournament.getNumOfCycles() + DEL;
         tournamentAsText += aTournament.getS1NumOfRounds() + DEL;
         tournamentAsText += aTournament.getS2NumOfRounds() + DEL;
-        tournamentAsText += aTournament.getCurrentRound();
+        tournamentAsText += aTournament.getCurrentRound() + DEL;
+        tournamentAsText += aTournament.getStartDate().format(DateTimeFormatter
+                .ofPattern("MM/dd/yyyy HH:mm"));
 
         return tournamentAsText;
     }

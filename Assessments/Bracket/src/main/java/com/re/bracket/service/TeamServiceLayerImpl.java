@@ -19,10 +19,15 @@ import com.re.bracket.dto.Series;
 import com.re.bracket.dto.Stat;
 import com.re.bracket.dto.Team;
 import com.re.bracket.dto.Tournament;
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
+import java.util.Scanner;
 import java.util.stream.Collectors;
 
 /**
@@ -126,243 +131,361 @@ public class TeamServiceLayerImpl implements TeamServiceLayer {
     }
 
     @Override
-    public Team updateTeamStats(Team team, Game played) {
-        String winningTeamName = played.getWinningTeamName();
-        String losingTeamName = played.getLosingTeamName();
-        int homeTeamId = played.getHomeTeamId();
-        int awayTeamId = played.getAwayTeamId();
-        int homeScore = played.getHomeScore();
-        int awayScore = played.getAwayScore();
-        int stageNumber = played.getStageNumber();
+    public Team updateTeamStats(Team team, Game game) throws TournamentPersistenceException {
+        String winningTeamName = game.getWinningTeamName();
+        int homeTeamId = game.getHomeTeamId();
+        int stageNumber = game.getStageNumber();
+        Stat currentStat;
+        if (stageNumber == 1) {
+            currentStat = team.getStatInfo();
+        } else {
+            currentStat = team.getS2StatInfo();
+        }
+        int awayGamesPlayed = currentStat.getAwayGamesPlayed();
+        int awayLosses = currentStat.getAwayLosses();
+        int awayWins = currentStat.getAwayWins();
+        int gameLosses = currentStat.getGameLosses();
+        int gameWins = currentStat.getGameWins();
+        int homeGamesPlayed = currentStat.getHomeGamesPlayed();
+        int homeLosses = currentStat.getHomeLosses();
+        int homeWins = currentStat.getHomeWins();
+        int gamesPlayed = currentStat.getGamesPlayed();
+        boolean isWinStreak = currentStat.isIsWinStreak();
+        int streakCount = currentStat.getStreakCount();
+        int totalPoints = currentStat.getTotalPoints();
+        int homePoints = game.getHomeScore();
+        int awayPoints = game.getAwayScore();
 
-        int awayGamesPlayed = team.getStatInfo().getAwayGamesPlayed();
-        int awayLosses = team.getStatInfo().getAwayLosses();
-        int awayWins = team.getStatInfo().getAwayWins();
-        int gameLosses = team.getStatInfo().getGameLosses();
-        int gameWins = team.getStatInfo().getGameWins();
-        int homeGamesPlayed = team.getStatInfo().getHomeGamesPlayed();
-        int homeLosses = team.getStatInfo().getHomeLosses();
-        int homeWins = team.getStatInfo().getHomeWins();
-        int gamesPlayed = team.getStatInfo().getGamesPlayed();
-        boolean isWinStreak = team.getStatInfo().isIsWinStreak();
-        int seriesLosses = team.getStatInfo().getSeriesLosses();
-        int seriesPlayed = team.getStatInfo().getSeriesPlayed();
-        int seriesWins = team.getStatInfo().getSeriesWins();
-        int streakCount = team.getStatInfo().getStreakCount();
-//        int ties = team.getStatInfo().getTies();
-        int totalPoints = team.getStatInfo().getTotalPoints();
-        int homePoints = played.getHomeScore();
-        int awayPoints = played.getAwayScore();
-        
-        
-        if (played.isIsComplete()) {
-
+        if (game.isIsComplete()) {
             //////////////////////////Win //////////////////////////////
             if (winningTeamName.equalsIgnoreCase(team.getTeamName())) {//win
                 if (team.getTeamId() == homeTeamId) {//at Home
-                    if (stageNumber == 1) {//Stage 1
-                        team.getStatInfo().setGameWins(gameWins + 1);
-                        team.getStatInfo().setHomeGamesPlayed(homeGamesPlayed + 1);
-                        team.getStatInfo().setHomeWins(homeWins + 1);
-                        team.getStatInfo().setGamesPlayed(gamesPlayed + 1);
-                        if (isWinStreak) {//on winning streak
-                            team.getStatInfo().setStreakCount(streakCount + 1);
-                        } else {//on losing streak
-                            team.getStatInfo().setIsWinStreak(true);
-                            team.getStatInfo().setStreakCount(1);
-                        }
-
-                        team.getStatInfo().setWinPercent((double) team.getStatInfo()
-                                .getGameWins() / team.getStatInfo().getGamesPlayed());
-                        team.getStatInfo().setTotalPoints(totalPoints + homePoints);
-                        team.getStatInfo().setPtsPerGame((double) team.getStatInfo()
-                                .getTotalPoints() / team.getStatInfo()
-                                        .getGamesPlayed());
-                    } else {//Stage2
-                        team.getS2StatInfo().setGameWins(gameWins + 1);
-                        team.getS2StatInfo().setHomeGamesPlayed(homeGamesPlayed + 1);
-                        team.getS2StatInfo().setHomeWins(homeWins + 1);
-                        team.getStatInfo().setGamesPlayed(gamesPlayed + 1);
-                        if (isWinStreak) {//on winning streak
-                            team.getS2StatInfo().setStreakCount(streakCount + 1);
-                        } else {//on losing streak
-                            team.getS2StatInfo().setIsWinStreak(true);
-                            team.getS2StatInfo().setStreakCount(1);
-                        }
-                        team.getS2StatInfo().setWinPercent((double) gameWins / gamesPlayed);
-                        team.getS2StatInfo().setTotalPoints(totalPoints + homePoints);
-                        team.getS2StatInfo().setPtsPerGame((double) team.getS2StatInfo()
-                                .getTotalPoints() / team.getS2StatInfo()
-                                        .getGamesPlayed());
+                    currentStat.setGameWins(gameWins + 1);
+                    currentStat.setHomeGamesPlayed(homeGamesPlayed + 1);
+                    currentStat.setHomeWins(homeWins + 1);
+                    currentStat.setGamesPlayed(gamesPlayed + 1);
+                    if (isWinStreak) {//on winning streak
+                        currentStat.setStreakCount(streakCount + 1);
+                    } else {//on losing streak
+                        currentStat.setIsWinStreak(true);
+                        currentStat.setStreakCount(1);
                     }
+                    currentStat.setWinPercent((double) currentStat
+                            .getGameWins() / currentStat.getGamesPlayed());
+                    currentStat.setTotalPoints(totalPoints + homePoints);
+                    currentStat.setPtsPerGame((double) currentStat
+                            .getTotalPoints() / currentStat
+                                    .getGamesPlayed());
                 } else {//At Away
-                    if (stageNumber == 1) {//Stage 1
-                        team.getStatInfo().setGameWins(gameWins + 1);
-                        team.getStatInfo().setAwayGamesPlayed(awayGamesPlayed + 1);
-                        team.getStatInfo().setAwayWins(awayWins + 1);
-                        team.getStatInfo().setGamesPlayed(gamesPlayed + 1);
-                        if (isWinStreak) {//on winning streak
-                            team.getStatInfo().setStreakCount(streakCount + 1);
-                        } else {//on losing streak
-                            team.getStatInfo().setIsWinStreak(true);
-                            team.getStatInfo().setStreakCount(1);
-                        }
-                        team.getStatInfo().setWinPercent((double) team.getStatInfo()
-                                .getGameWins() / team.getStatInfo().getGamesPlayed());
-                        team.getStatInfo().setTotalPoints(totalPoints + awayPoints);
-                        team.getStatInfo().setPtsPerGame((double) team.getStatInfo()
-                                .getTotalPoints() / team.getStatInfo()
-                                        .getGamesPlayed());
-                    } else {//Stage2
-                        team.getS2StatInfo().setGameWins(gameWins + 1);
-                        team.getS2StatInfo().setAwayGamesPlayed(awayGamesPlayed + 1);
-                        team.getS2StatInfo().setAwayWins(awayWins + 1);
-                        team.getS2StatInfo().setGamesPlayed(gamesPlayed + 1);
-                        if (isWinStreak) {//on winning streak
-                            team.getS2StatInfo().setStreakCount(streakCount + 1);
-                        } else {//on losing streak
-                            team.getS2StatInfo().setIsWinStreak(true);
-                            team.getS2StatInfo().setStreakCount(1);
-                        }
-                        team.getS2StatInfo().setWinPercent((double) gameWins / gamesPlayed);
-                        team.getS2StatInfo().setTotalPoints(totalPoints + awayPoints);
-                        team.getS2StatInfo().setPtsPerGame((double) team.getS2StatInfo()
-                                .getTotalPoints() / team.getS2StatInfo()
-                                        .getGamesPlayed());
+                    currentStat.setGameWins(gameWins + 1);
+                    currentStat.setAwayGamesPlayed(awayGamesPlayed + 1);
+                    currentStat.setAwayWins(awayWins + 1);
+                    currentStat.setGamesPlayed(gamesPlayed + 1);
+                    if (isWinStreak) {//on winning streak
+                        currentStat.setStreakCount(streakCount + 1);
+                    } else {//on losing streak
+                        currentStat.setIsWinStreak(true);
+                        currentStat.setStreakCount(1);
                     }
+                    currentStat.setWinPercent((double) currentStat
+                            .getGameWins() / currentStat.getGamesPlayed());
+                    currentStat.setTotalPoints(totalPoints + awayPoints);
+                    currentStat.setPtsPerGame((double) currentStat
+                            .getTotalPoints() / currentStat
+                                    .getGamesPlayed());
                 }
-
             } else {////////////////////////////Lose////////////////////////////
                 if (team.getTeamId() == homeTeamId) {//at Home
-                    if (stageNumber == 1) {//Stage 1
-                        team.getStatInfo().setGameLosses(gameLosses + 1);
-                        team.getStatInfo().setHomeGamesPlayed(homeGamesPlayed + 1);
-                        team.getStatInfo().setHomeLosses(homeLosses + 1);
-                        team.getStatInfo().setGamesPlayed(gamesPlayed + 1);
-                        if (isWinStreak) {//on winning streak
-                            team.getStatInfo().setIsWinStreak(false);
-                            team.getStatInfo().setStreakCount(1);
-                        } else {//on losing streak
-                            team.getStatInfo().setStreakCount(streakCount + 1);
-                        }
-                        team.getStatInfo().setWinPercent((double) team.getStatInfo()
-                                .getGameWins() / team.getStatInfo().getGamesPlayed());
-                        team.getStatInfo().setTotalPoints(totalPoints + homePoints);
-                        team.getStatInfo().setPtsPerGame((double) team.getStatInfo()
-                                .getTotalPoints() / team.getStatInfo()
-                                        .getGamesPlayed());
-                    } else {//Stage2
-                        team.getS2StatInfo().setGameLosses(gameLosses + 1);
-                        team.getS2StatInfo().setHomeGamesPlayed(homeGamesPlayed + 1);
-                        team.getS2StatInfo().setHomeLosses(homeLosses + 1);
-                        team.getStatInfo().setGamesPlayed(gamesPlayed + 1);
-                        if (isWinStreak) {//on winning streak
-                            team.getS2StatInfo().setIsWinStreak(false);
-                            team.getS2StatInfo().setStreakCount(1);
-                        } else {//on losing streak
-                            team.getS2StatInfo().setStreakCount(streakCount + 1);
-                        }
-                        team.getS2StatInfo().setWinPercent((double) team.getStatInfo()
-                                .getGameWins() / team.getStatInfo().getGamesPlayed());
-                        team.getS2StatInfo().setTotalPoints(totalPoints + homePoints);
-                        team.getS2StatInfo().setPtsPerGame((double) team.getS2StatInfo()
-                                .getTotalPoints() / team.getS2StatInfo()
-                                        .getGamesPlayed());
+                    currentStat.setGameLosses(gameLosses + 1);
+                    currentStat.setHomeGamesPlayed(homeGamesPlayed + 1);
+                    currentStat.setHomeLosses(homeLosses + 1);
+                    currentStat.setGamesPlayed(gamesPlayed + 1);
+                    if (isWinStreak) {//on winning streak
+                        currentStat.setIsWinStreak(false);
+                        currentStat.setStreakCount(1);
+                    } else {//on losing streak
+                        currentStat.setStreakCount(streakCount + 1);
                     }
+                    currentStat.setWinPercent((double) currentStat
+                            .getGameWins() / currentStat.getGamesPlayed());
+                    currentStat.setTotalPoints(totalPoints + homePoints);
+                    currentStat.setPtsPerGame((double) currentStat
+                            .getTotalPoints() / currentStat
+                                    .getGamesPlayed());
                 } else {//At Away
-                    if (stageNumber == 1) {//Stage 1
-                        team.getStatInfo().setGameLosses(gameLosses + 1);
-                        team.getStatInfo().setAwayGamesPlayed(awayGamesPlayed + 1);
-                        team.getStatInfo().setAwayLosses(awayLosses + 1);
-                        team.getStatInfo().setGamesPlayed(gamesPlayed + 1);
-                        if (isWinStreak) {//on winning streak
-                            team.getStatInfo().setIsWinStreak(false);
-                            team.getStatInfo().setStreakCount(1);
-                        } else {//on losing streak
-                            team.getStatInfo().setStreakCount(streakCount + 1);
-                        }
-                        team.getStatInfo().setWinPercent((double) team.getStatInfo()
-                                .getGameWins() / team.getStatInfo().getGamesPlayed());
-                        team.getStatInfo().setTotalPoints(totalPoints + awayPoints);
-                        team.getStatInfo().setPtsPerGame((double) team.getStatInfo()
-                                .getTotalPoints() / team.getStatInfo()
-                                        .getGamesPlayed());
-                    } else {//Stage2
-                        team.getS2StatInfo().setGameLosses(gameLosses + 1);
-                        team.getS2StatInfo().setAwayGamesPlayed(awayGamesPlayed + 1);
-                        team.getS2StatInfo().setAwayLosses(awayLosses + 1);
-                        team.getS2StatInfo().setGamesPlayed(gamesPlayed + 1);
-                        if (isWinStreak) {//on winning streak
-                            team.getS2StatInfo().setIsWinStreak(false);
-                            team.getS2StatInfo().setStreakCount(1);
-                        } else {//on losing streak
-                            team.getS2StatInfo().setStreakCount(streakCount + 1);
-                        }
-                        team.getS2StatInfo().setWinPercent((double) team.getStatInfo()
-                                .getGameWins() / team.getStatInfo().getGamesPlayed());
-                        team.getS2StatInfo().setTotalPoints(totalPoints + homePoints);
-                        team.getS2StatInfo().setPtsPerGame((double) team.getS2StatInfo()
-                                .getTotalPoints() / team.getS2StatInfo()
-                                        .getGamesPlayed());
+                    currentStat.setGameLosses(gameLosses + 1);
+                    currentStat.setAwayGamesPlayed(awayGamesPlayed + 1);
+                    currentStat.setAwayLosses(awayLosses + 1);
+                    currentStat.setGamesPlayed(gamesPlayed + 1);
+                    if (isWinStreak) {//on winning streak
+                        currentStat.setIsWinStreak(false);
+                        currentStat.setStreakCount(1);
+                    } else {//on losing streak
+                        currentStat.setStreakCount(streakCount + 1);
                     }
+                    currentStat.setWinPercent((double) currentStat
+                            .getGameWins() / currentStat.getGamesPlayed());
+                    currentStat.setTotalPoints(totalPoints + awayPoints);
+                    currentStat.setPtsPerGame((double) currentStat
+                            .getTotalPoints() / currentStat
+                                    .getGamesPlayed());
                 }
             }
+            //log team results
+            String teamResult = team.getTeamName();
+            if (team.getTeamId() == game.getHomeTeamId()) {
+                teamResult += "HOME ";
+            } else {
+                teamResult += "AWAY ";
+            }
+            if (team.getTeamName().equalsIgnoreCase(game.getWinningTeamName())) {
+                teamResult += "WIN";
+            } else {
+                teamResult += "LOSS";
+            }
+            tmAudit.writeAudit("TeamID: " + team.getTeamId() + " - "
+                    + team.getTeamName() + " GameID: " + game.getGameId() + " - "
+                    + "SeriesID: " + game.getSeriesId() + " TournamentID: "
+                    + team.getTournamentId() + " - " + teamResult + " : "
+                    + game.getHomeScore() + " - " + game.getAwayScore() + " - "
+                    + game.getDateTime().format(DateTimeFormatter
+                            .ofPattern("MM/dd/yyyy HH:mm")));
         } else {
-
+            //do not update stats
         }
         tmDao.addTeam(team);
         return team;
     }
 
     @Override
-    public Team updateTeamStats(Team team, Series series, Tournament tournament) {
+    public Team updateTeamStats(Team team, Series series, Tournament tournament)
+            throws TournamentPersistenceException {
         int seriesWins;
         int seriesLosses;
         int seriesPlayed;
+        Stat currentStat;
+        if (!tournament.isIsSecondStage()) {
+            currentStat = team.getStatInfo();
+        } else {
+            currentStat = team.getS2StatInfo();
+        }
 
         if (!series.isIsComplete()) {
             return team;
         } else {//stage 1
-            if (!tournament.isIsSecondStage()) {
-                if (series.getSeriesWinnerName()
-                        .equalsIgnoreCase(team.getTeamName())) {//series winner
-                    seriesWins = team.getStatInfo().getSeriesWins();
-                    team.getStatInfo().setSeriesWins(seriesWins + 1);
-                } else {//seriesLoser
-                    seriesLosses = team.getStatInfo().getSeriesLosses();
-                    team.getStatInfo().setSeriesWins(seriesLosses + 1);
-                }
-                seriesPlayed = team.getStatInfo().getSeriesPlayed();
-                team.getStatInfo().setSeriesPlayed(seriesPlayed + 1);
-            } else {//stage 2
-                if (series.getSeriesWinnerName()
-                        .equalsIgnoreCase(team.getTeamName())) {//series winner
-                    seriesWins = team.getS2StatInfo().getSeriesWins();
-                    team.getS2StatInfo().setSeriesWins(seriesWins + 1);
-                } else {//seriesLoser
-                    seriesLosses = team.getS2StatInfo().getSeriesLosses();
-                    team.getS2StatInfo().setSeriesLosses(seriesLosses + 1);
-                }
-                seriesPlayed = team.getS2StatInfo().getSeriesPlayed();
-                team.getS2StatInfo().setSeriesPlayed(seriesPlayed + 1);
+            if (series.getSeriesWinnerName()
+                    .equalsIgnoreCase(team.getTeamName())) {//series winner
+                seriesWins = currentStat.getSeriesWins();
+                currentStat.setSeriesWins(seriesWins + 1);
+            } else {//seriesLoser
+                seriesLosses = currentStat.getSeriesLosses();
+                currentStat.setSeriesLosses(seriesLosses + 1);
             }
+            seriesPlayed = currentStat.getSeriesPlayed();
+            currentStat.setSeriesPlayed(seriesPlayed + 1);
+            //log team results
         }
+        String teamResult = team.getTeamName();
+        if (team.getTeamName().equalsIgnoreCase(series.getSeriesWinnerName())) {
+            teamResult += "WIN ";
+        } else {
+            teamResult += "LOSS ";
+        }
+
+        tmAudit.writeAudit("TeamID: " + team.getTeamId() + " - "
+                + team.getTeamName() + " - " + " SeriesID: "
+                + series.getSeriesId() + " TournamentID: "
+                + team.getTournamentId() + " - " + teamResult + " : "
+                + series.getDateTime().format(DateTimeFormatter
+                        .ofPattern("MM/dd/yyyy HH:mm")));
         tmDao.addTeam(team);
         return team;
     }
-    
+
     @Override
-    public Player updatePlayerStats(Player player, Game game) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public List<Player> updatePlayerStats(List<Player> players, Game game)
+            throws TournamentPersistenceException {
+        String winningTeamName = game.getWinningTeamName();
+        int homeTeamId = game.getHomeTeamId();
+        int stageNumber = game.getStageNumber();
+
+        for (Player player : players) {
+            Team team = tmDao.getTeam(player.getTeamId());
+            Stat currentStat;
+            if (stageNumber == 1) {
+                currentStat = player.getStatInfo();
+            } else {
+                currentStat = player.getS2StatInfo();
+            }
+            int awayGamesPlayed = currentStat.getAwayGamesPlayed();
+            int awayLosses = currentStat.getAwayLosses();
+            int awayWins = currentStat.getAwayWins();
+            int gameLosses = currentStat.getGameLosses();
+            int gameWins = currentStat.getGameWins();
+            int homeGamesPlayed = currentStat.getHomeGamesPlayed();
+            int homeLosses = currentStat.getHomeLosses();
+            int homeWins = currentStat.getHomeWins();
+            int gamesPlayed = currentStat.getGamesPlayed();
+            boolean isWinStreak = currentStat.isIsWinStreak();
+            int streakCount = currentStat.getStreakCount();
+            int totalPoints = currentStat.getTotalPoints();
+            int posPts = currentStat.getPosPoints();//temp
+            int negPts = currentStat.getNegPoints();//temp
+            int homePoints = game.getHomeScore();
+            int awayPoints = game.getAwayScore();
+
+            if (game.isIsComplete()) {
+                //////////////////////////Win //////////////////////////////
+                if (winningTeamName.equalsIgnoreCase(team.getTeamName())) {//win
+                    if (player.getTeamId() == homeTeamId) {//at Home
+                        currentStat.setGameWins(gameWins + 1);
+                        currentStat.setHomeGamesPlayed(homeGamesPlayed + 1);
+                        currentStat.setHomeWins(homeWins + 1);
+                        currentStat.setGamesPlayed(gamesPlayed + 1);
+                        if (isWinStreak) {//on winning streak
+                            currentStat.setStreakCount(streakCount + 1);
+                        } else {//on losing streak
+                            currentStat.setIsWinStreak(true);
+                            currentStat.setStreakCount(1);
+                        }
+                        currentStat.setWinPercent((double) currentStat
+                                .getGameWins() / currentStat.getGamesPlayed());
+                        currentStat.setTotalPoints(totalPoints + posPts - negPts);
+                        currentStat.setPtsPerGame((double) currentStat
+                                .getTotalPoints() / currentStat
+                                        .getGamesPlayed());
+                    } else {//At Away
+                        currentStat.setGameWins(gameWins + 1);
+                        currentStat.setAwayGamesPlayed(awayGamesPlayed + 1);
+                        currentStat.setAwayWins(awayWins + 1);
+                        currentStat.setGamesPlayed(gamesPlayed + 1);
+                        if (isWinStreak) {//on winning streak
+                            currentStat.setStreakCount(streakCount + 1);
+                        } else {//on losing streak
+                            currentStat.setIsWinStreak(true);
+                            currentStat.setStreakCount(1);
+                        }
+                        currentStat.setWinPercent((double) currentStat
+                                .getGameWins() / currentStat.getGamesPlayed());
+                        currentStat.setTotalPoints(totalPoints + posPts - negPts);
+                        currentStat.setPtsPerGame((double) currentStat
+                                .getTotalPoints() / currentStat
+                                        .getGamesPlayed());
+                    }
+                } else {////////////////////////////Lose////////////////////////////
+                    if (player.getTeamId() == homeTeamId) {//at Home
+                        currentStat.setGameLosses(gameLosses + 1);
+                        currentStat.setHomeGamesPlayed(homeGamesPlayed + 1);
+                        currentStat.setHomeLosses(homeLosses + 1);
+                        currentStat.setGamesPlayed(gamesPlayed + 1);
+                        if (isWinStreak) {//on winning streak
+                            currentStat.setIsWinStreak(false);
+                            currentStat.setStreakCount(1);
+                        } else {//on losing streak
+                            currentStat.setStreakCount(streakCount + 1);
+                        }
+                        currentStat.setWinPercent((double) currentStat
+                                .getGameWins() / currentStat.getGamesPlayed());
+                        currentStat.setTotalPoints(totalPoints + posPts - negPts);
+                        currentStat.setPtsPerGame((double) currentStat
+                                .getTotalPoints() / currentStat
+                                        .getGamesPlayed());
+                    } else {//At Away
+                        currentStat.setGameLosses(gameLosses + 1);
+                        currentStat.setAwayGamesPlayed(awayGamesPlayed + 1);
+                        currentStat.setAwayLosses(awayLosses + 1);
+                        currentStat.setGamesPlayed(gamesPlayed + 1);
+                        if (isWinStreak) {//on winning streak
+                            currentStat.setIsWinStreak(false);
+                            currentStat.setStreakCount(1);
+                        } else {//on losing streak
+                            currentStat.setStreakCount(streakCount + 1);
+                        }
+                        currentStat.setWinPercent((double) currentStat
+                                .getGameWins() / currentStat.getGamesPlayed());
+                        currentStat.setTotalPoints(totalPoints + posPts - negPts);
+                        currentStat.setPtsPerGame((double) currentStat
+                                .getTotalPoints() / currentStat
+                                        .getGamesPlayed());
+                    }
+                }
+                //log player results
+            } else {
+                //do not update stats
+            }
+            String result = "";
+            if (game.getWinningTeamName().equalsIgnoreCase(team.getTeamName())) {
+                result += "WIN ";
+            } else {
+                result += "LOSS ";
+            }
+            tmAudit.writeAudit("PlayerID: " + player.getPlayerId() + " - "
+                    + "TeamID: " + player.getTeamId() + " "
+                    + "GameID: " + game.getGameId() + " - Series: "
+                    + game.getSeriesId() + " " + player.getPlayerName() + " +"
+                    + currentStat.getPosPoints() + "_-"
+                    + currentStat.getNegPoints() + " " + result
+                    + game.getHomeScore() + " - " + game.getAwayScore()
+                    + game.getDateTime().format(DateTimeFormatter
+                            .ofPattern("MM/dd/yyyy HH:mm")));
+            currentStat.setPosPoints(0);
+            currentStat.setNegPoints(0);
+            tmDao.addPlayer(player);
+        }
+        return players;
     }
 
     @Override
-    public Player updatePlayerStats(Player player, Series series, Tournament tournament) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public List<Player> updatePlayerStats(List<Player> players, Series series,
+            Tournament tournament) throws TournamentPersistenceException {
+        int seriesWins;
+        int seriesLosses;
+        int seriesPlayed;
+        Stat currentStat;
+        Team team;
+
+        for (Player player : players) {
+            if (!tournament.isIsSecondStage()) {
+                currentStat = player.getStatInfo();
+            } else {
+                currentStat = player.getS2StatInfo();
+            }
+
+            if (!series.isIsComplete()) {
+                return players;
+            } else {//stage 1
+                team = tmDao.getTeam(player.getTeamId());
+                if (series.getSeriesWinnerName()
+                        .equalsIgnoreCase(team.getTeamName())) {//series winner
+                    seriesWins = currentStat.getSeriesWins();
+                    currentStat.setSeriesWins(seriesWins + 1);
+                } else {//seriesLoser
+                    seriesLosses = currentStat.getSeriesLosses();
+                    currentStat.setSeriesLosses(seriesLosses + 1);
+                }
+                seriesPlayed = currentStat.getSeriesPlayed();
+                currentStat.setSeriesPlayed(seriesPlayed + 1);
+                //log player results
+            }
+
+//            String result = "";
+//            if(series.getSeriesWinnerName().equalsIgnoreCase(team.getTeamName())){
+//                result += "WIN";
+//            } else {
+//                result += "LOSE";
+//            }
+//            tmAudit.writeAudit("PlayerID: " + player.getPlayerId() + " - "
+//                    + "GameID: " + series.getSeriesId() + " - Series: " 
+//                    + series.getSeriesId() + " -TournamentID: " 
+//                    + series.getTournamentId() + result + series.getDateTime() );
+            tmDao.addPlayer(player);
+        }
+        return players;
     }
 
     @Override
-    public Tournament userJoinTournament(Tournament tournament, String username) throws EventFullException {
+    public Tournament userJoinTournament(Tournament tournament, String username)
+            throws EventFullException {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
@@ -407,7 +530,7 @@ public class TeamServiceLayerImpl implements TeamServiceLayer {
         numOfPlayers = this.getPlayersByTeamId(team.getTeamId()).size();
         team.setNumOfPlayers(numOfPlayers + 1);
         tmDao.addPlayer(newPlayer);
-        
+
         config.setNextPlayerId(nextPlayerId);
         return newPlayer;
     }
@@ -447,11 +570,40 @@ public class TeamServiceLayerImpl implements TeamServiceLayer {
     }
 
     @Override
-    public List<Team> getTeamStandings(List<Team> teamList, Tournament tournament) {
+    public List<Team> getTeamStandings(List<Team> teamList, 
+            Tournament tournament, List<Game> completedGames) {
+        int pntDifferential;
+        Stat stat;
+        
+        for(Team team : teamList){
+            pntDifferential = 0;
+            for(Game game : completedGames){
+                if(team.getTeamName().equalsIgnoreCase(game.getWinningTeamName())){
+                    pntDifferential += Math.abs(game.getAwayScore() - game.getHomeScore());
+                } else if(team.getTeamName().equalsIgnoreCase(game.getLosingTeamName())){
+                    pntDifferential += -Math.abs(game.getAwayScore() - game.getHomeScore());
+                } else {
+                    
+                }
+            }
+            if(!tournament.isIsSecondStage()){
+                stat = team.getStatInfo();
+                
+            } else {
+                stat = team.getS2StatInfo();
+            }
+            stat.setPntDifferential(pntDifferential);
+            
+        }
+        
         int rank = 1;
         if (!tournament.isIsSecondStage()) {
             Collections.sort(teamList, Comparator.comparing((Team t)
                     -> t.getStatInfo().getWinPercent()).thenComparing(t
+                    -> t.getStatInfo().getGameWins()).thenComparing(t
+                    -> t.getStatInfo().getGameLosses(), Comparator
+                            .reverseOrder()).thenComparing(t
+                    -> t.getStatInfo().getPntDifferential()).thenComparing(t
                     -> t.getStatInfo().getPtsPerGame()).thenComparing(t
                     -> t.getStatInfo().getTotalPoints()));
 
@@ -461,6 +613,7 @@ public class TeamServiceLayerImpl implements TeamServiceLayer {
         } else {
             Collections.sort(teamList, Comparator.comparing((Team t)
                     -> t.getS2StatInfo().getWinPercent()).thenComparing(t
+                    -> t.getStatInfo().getPntDifferential()).thenComparing(t
                     -> t.getS2StatInfo().getPtsPerGame()).thenComparing(t
                     -> t.getS2StatInfo().getTotalPoints()));
 //            Collections.sort(teamList, (Team team1, Team team2)
@@ -480,7 +633,6 @@ public class TeamServiceLayerImpl implements TeamServiceLayer {
 //    public List<Stat> getPlayerStandings(List<Team> teamList, Tournament tournament) {
 //        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
 //    }
-
     @Override
     public void loadTeamEntities() throws TournamentPersistenceException {
         tmDao.loadPlayers();
@@ -493,5 +645,47 @@ public class TeamServiceLayerImpl implements TeamServiceLayer {
         tmDao.writeTeams();
     }
 
-    
+    @Override
+    public String getSingleGameResult(int gameId) throws TournamentPersistenceException {
+        Scanner sc;
+        try {
+            sc = new Scanner(new BufferedReader(new FileReader("teamAudit.txt")));
+        } catch (FileNotFoundException e) {
+            throw new TournamentPersistenceException("Cannot fetch results.", e);
+        }
+        String result = "";
+        String currentLine;
+        while (sc.hasNextLine()) {
+            currentLine = sc.nextLine();
+            if (currentLine.contains("PlayerID: ")& currentLine
+                    .contains("GameID: " + gameId)) {
+                result += currentLine + "\n";
+            }
+        }
+        sc.close();
+        
+        return result;
+    }
+
+    @Override
+    public String getAllGameResults(int teamId) throws TournamentPersistenceException {
+        Scanner sc;
+        try {
+            sc = new Scanner(new BufferedReader(new FileReader("teamAudit.txt")));
+        } catch (FileNotFoundException e) {
+            throw new TournamentPersistenceException("Cannot fetch results.", e);
+        }
+        String result = "";
+        String currentLine;
+        while (sc.hasNextLine()) {
+            currentLine = sc.nextLine();
+            if (currentLine.contains("TeamID: " + teamId)) {
+                result += currentLine + "\n";
+            }
+        }
+        sc.close();
+        
+        return result;
+    }
+
 }

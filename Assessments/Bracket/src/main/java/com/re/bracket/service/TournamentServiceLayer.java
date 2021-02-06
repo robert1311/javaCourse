@@ -54,7 +54,8 @@ public interface TournamentServiceLayer {
 
     public List<Game> getGamesbySeriesId(int seriesId);
 
-    public Game updateGame(Game game) throws PlayersNotCheckedInException;
+    public Game updateGame(Game game) throws PlayersNotCheckedInException,
+            TournamentPersistenceException;
     
     public Game removeGame(int gameId);
 
@@ -62,6 +63,8 @@ public interface TournamentServiceLayer {
 
     public Series updateSeries(Series series) throws SeriesNotReadyException,
             InvalidResultsException;
+    
+    public List<Game> getCompletedGames(Tournament tournament);
 
 //    public Tournament updateTournament(Tournament tournament);
 

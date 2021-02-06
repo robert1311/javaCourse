@@ -1,3 +1,4 @@
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -25,6 +26,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
+import java.util.OptionalInt;
 import java.util.stream.Collectors;
 
 /**
@@ -267,17 +269,22 @@ public class TournamentServiceLayerImpl implements TournamentServiceLayer {
                 .stream()
                 .filter(s -> s.getTournamentId() == tournament.getTournamentId())
                 .collect(Collectors.toList());
+
         maxRoundComplete = schedule.stream().filter(s -> s.isIsComplete())
-                .mapToInt(s -> s.getRoundNumber()).max().getAsInt();
+                .mapToInt(s -> s.getRoundNumber()).max().orElse(0);
         tournament.setCurrentRound(maxRoundComplete);
-        List<Series> currentRoundCompleteedSeries = schedule.stream().filter(s
-                -> s.getRoundNumber() == maxRoundComplete)
-                .collect(Collectors.toList());
-        if(currentRoundCompleteedSeries.size() == matchupCount){
-            tournament.setCurrentRound(maxRoundComplete + 1);
-        } 
+//        if(tournament.getCurrentRound() == 0 & !tournament.isIsSignUp()){
+//            tournament.setCurrentRound(1);
+//        }
+
+//        List<Series> currentRoundCompleteedSeries = schedule.stream().filter(s
+//                -> s.getRoundNumber() == maxRoundComplete)
+//                .collect(Collectors.toList());
+//        if(currentRoundCompleteedSeries.size() == matchupCount){
+//            tournament.setCurrentRound(maxRoundComplete + 1);
+//        } 
         tDao.addTournament(tournament);
-        
+
         return schedule;
     }
 
@@ -461,7 +468,8 @@ public class TournamentServiceLayerImpl implements TournamentServiceLayer {
     }
 
     @Override
-    public Game updateGame(Game game) throws PlayersNotCheckedInException {
+    public Game updateGame(Game game) throws PlayersNotCheckedInException,
+            TournamentPersistenceException {
 
 //        final String I = "][";
 //        int checkInsNeeded = 5;
@@ -481,6 +489,12 @@ public class TournamentServiceLayerImpl implements TournamentServiceLayer {
                     + "checked in.");
         }
         game.setIsComplete(true);
+        tAudit.writeAudit("GameID: " + game.getGameId() + " - Series Gm #: "
+                + game.getSeriesGameNum() + "-Stage: " + game.getStageNumber()
+                + " - Home: " + game.getHomeTeam() + ":" + game.getHomeScore()
+                + " - Away: " + game.getAwayTeam() + ":" + game.getAwayScore()
+                + " - Winner: " + game.getWinningTeamName() + " - "
+                + game.getDateTime());
         tDao.addGame(game);
         return game;
     }
@@ -509,8 +523,7 @@ public class TournamentServiceLayerImpl implements TournamentServiceLayer {
         int team2Wins = 0;
         Tournament tournament = tDao.getTournament(series.getTournamentId());
         if (!series.isIsReady() | series.getDateTime().isAfter(LocalDateTime
-                .now().withSecond(0).withNano(0)) | series.getRoundNumber() 
-                != tournament.getCurrentRound()) {
+                .now().withSecond(0).withNano(0))) {
             throw new SeriesNotReadyException("Series cannot be updated until "
                     + "previous rounds have been completed, \nparticipants "
                     + "checked-in (if needed), and current time is not before "
@@ -555,6 +568,26 @@ public class TournamentServiceLayerImpl implements TournamentServiceLayer {
         return series;
     }
 
+    @Override
+    public List<Game> getCompletedGames(Tournament tournament) {
+        List<Series> matchups = getScheduleByTournament(tournament);
+        List<Integer> seriesIds = new ArrayList<>();
+        matchups
+                .stream()
+                .mapToInt(s -> s.getSeriesId())
+                .forEach(i -> seriesIds.add(i));
+
+        List<Game> allCompletedGames = tDao.getAllGames()
+                .stream()
+                .filter(g -> seriesIds.contains(g.getSeriesId()))
+                .filter(c -> c.isIsComplete())
+                .collect(Collectors.toList());
+        
+        return allCompletedGames;
+    
+        
+    }
+
 //    @Override
 //    public Tournament updateTournament(Tournament tournament) {
 //        
@@ -570,7 +603,7 @@ public class TournamentServiceLayerImpl implements TournamentServiceLayer {
         tDao.loadSeries();
         tDao.loadTournaments();
     }
-    
+
     @Override
     public void saveTournamentEntities() throws TournamentPersistenceException {
         tDao.writeGames();

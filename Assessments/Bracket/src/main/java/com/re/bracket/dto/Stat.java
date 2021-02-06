@@ -28,6 +28,7 @@ private double winPercent;
 private int posPoints;
 private int negPoints;
 private int TotalPoints;
+private int pntDifferential;
 double ptsPerGame;
 private int seriesWins;
 private int seriesLosses;
@@ -175,6 +176,16 @@ private int streakCount;
         this.TotalPoints = TotalPoints;
     }
 
+    public int getPntDifferential() {
+        return pntDifferential;
+    }
+
+    public void setPntDifferential(int pntDifferential) {
+        this.pntDifferential = pntDifferential;
+    }
+
+    
+    
     public double getPtsPerGame() {
         return ptsPerGame;
     }
@@ -217,29 +228,30 @@ private int streakCount;
 
     @Override
     public int hashCode() {
-        int hash = 7;
-        hash = 61 * hash + (this.isPlayer ? 1 : 0);
-        hash = 61 * hash + this.stageNumber;
-        hash = 61 * hash + this.homeGamesPlayed;
-        hash = 61 * hash + this.awayGamesPlayed;
-        hash = 61 * hash + this.gamesPlayed;
-        hash = 61 * hash + this.seriesPlayed;
-        hash = 61 * hash + this.homeWins;
-        hash = 61 * hash + this.homeLosses;
-        hash = 61 * hash + this.awayWins;
-        hash = 61 * hash + this.awayLosses;
-        hash = 61 * hash + this.gameWins;
-        hash = 61 * hash + this.gameLosses;
-        hash = 61 * hash + this.ties;
-        hash = 61 * hash + (int) (Double.doubleToLongBits(this.winPercent) ^ (Double.doubleToLongBits(this.winPercent) >>> 32));
-        hash = 61 * hash + this.posPoints;
-        hash = 61 * hash + this.negPoints;
-        hash = 61 * hash + this.TotalPoints;
-        hash = 61 * hash + (int) (Double.doubleToLongBits(this.ptsPerGame) ^ (Double.doubleToLongBits(this.ptsPerGame) >>> 32));
-        hash = 61 * hash + this.seriesWins;
-        hash = 61 * hash + this.seriesLosses;
-        hash = 61 * hash + (this.isWinStreak ? 1 : 0);
-        hash = 61 * hash + this.streakCount;
+        int hash = 5;
+        hash = 67 * hash + (this.isPlayer ? 1 : 0);
+        hash = 67 * hash + this.stageNumber;
+        hash = 67 * hash + this.homeGamesPlayed;
+        hash = 67 * hash + this.awayGamesPlayed;
+        hash = 67 * hash + this.gamesPlayed;
+        hash = 67 * hash + this.seriesPlayed;
+        hash = 67 * hash + this.homeWins;
+        hash = 67 * hash + this.homeLosses;
+        hash = 67 * hash + this.awayWins;
+        hash = 67 * hash + this.awayLosses;
+        hash = 67 * hash + this.gameWins;
+        hash = 67 * hash + this.gameLosses;
+        hash = 67 * hash + this.ties;
+        hash = 67 * hash + (int) (Double.doubleToLongBits(this.winPercent) ^ (Double.doubleToLongBits(this.winPercent) >>> 32));
+        hash = 67 * hash + this.posPoints;
+        hash = 67 * hash + this.negPoints;
+        hash = 67 * hash + this.TotalPoints;
+        hash = 67 * hash + this.pntDifferential;
+        hash = 67 * hash + (int) (Double.doubleToLongBits(this.ptsPerGame) ^ (Double.doubleToLongBits(this.ptsPerGame) >>> 32));
+        hash = 67 * hash + this.seriesWins;
+        hash = 67 * hash + this.seriesLosses;
+        hash = 67 * hash + (this.isWinStreak ? 1 : 0);
+        hash = 67 * hash + this.streakCount;
         return hash;
     }
 
@@ -306,6 +318,9 @@ private int streakCount;
         if (this.TotalPoints != other.TotalPoints) {
             return false;
         }
+        if (this.pntDifferential != other.pntDifferential) {
+            return false;
+        }
         if (Double.doubleToLongBits(this.ptsPerGame) != Double.doubleToLongBits(other.ptsPerGame)) {
             return false;
         }
@@ -323,6 +338,8 @@ private int streakCount;
         }
         return true;
     }
+
+    
 
     
     

@@ -1,0 +1,119 @@
+GameID: 29 - Series Gm #: 1-Stage: 1 - Home: Red:4 - Away: Yellow:6 - Winner: Yellow - 2020-10-13T10:30 - TimeOfSave: 2020-10-24T19:12:11.579666
+GameID: 30 - Series Gm #: 1-Stage: 1 - Home: Nuggets:2 - Away: Lakers:-3 - Winner: Nuggets - 2020-10-21T10:30 - TimeOfSave: 2020-10-24T19:16:37.507709900
+GameID: 31 - Series Gm #: 1-Stage: 1 - Home: Clippers:-2 - Away: Mavs:10 - Winner: Mavs - 2020-10-21T10:30 - TimeOfSave: 2020-10-24T20:05:52.182219600
+GameID: 32 - Series Gm #: 1-Stage: 1 - Home: Nuggets:4 - Away: Mavs:8 - Winner: Mavs - 2020-10-21T10:30 - TimeOfSave: 2020-10-25T15:20:59.920110700
+GameID: 33 - Series Gm #: 1-Stage: 1 - Home: Clippers:4 - Away: Lakers:8 - Winner: Lakers - 2020-10-21T10:30 - TimeOfSave: 2020-10-25T15:22:32.974478300
+GameID: 34 - Series Gm #: 1-Stage: 1 - Home: Fury:2 - Away: Brute Force:-4 - Winner: Fury - 2020-10-21T12:30 - TimeOfSave: 2020-11-02T22:26:04.848016700
+GameID: 35 - Series Gm #: 1-Stage: 1 - Home: Rampage:-4 - Away: Mean Green:-8 - Winner: Rampage - 2020-10-21T12:30 - TimeOfSave: 2020-11-10T22:54:34.777281200
+GameID: 36 - Series Gm #: 1-Stage: 1 - Home: Monarch:0 - Away: Icons:-11 - Winner: Monarch - 2020-10-21T12:30 - TimeOfSave: 2020-11-11T00:12:07.345997600
+GameID: 37 - Series Gm #: 1-Stage: 1 - Home: Alliance:5 - Away: Thrashers:-15 - Winner: Alliance - 2020-10-21T12:30 - TimeOfSave: 2020-11-16T18:11:11.492873300
+GameID: 38 - Series Gm #: 1-Stage: 1 - Home: Alliance:5 - Away: Thrashers:-15 - Winner: Alliance - 2020-10-21T12:30 - TimeOfSave: 2020-11-16T18:15:17.159083400
+GameID: 39 - Series Gm #: 1-Stage: 1 - Home: Vanquish:7 - Away: High Voltage:-7 - Winner: Vanquish - 2020-10-21T12:30 - TimeOfSave: 2020-11-16T19:38:44.029751600
+GameID: 40 - Series Gm #: 1-Stage: 1 - Home: Chaos:0 - Away: Legends:0 - Winner:  - 2020-10-21T12:30 - TimeOfSave: 2020-11-16T19:52:22.459035
+GameID: 40 - Series Gm #: 1-Stage: 1 - Home: Chaos:0 - Away: Legends:0 - Winner:  - 2020-10-21T12:30 - TimeOfSave: 2020-11-16T22:38:05.576847900
+GameID: 41 - Series Gm #: 1-Stage: 1 - Home: Chaos:-6 - Away: Legends:4 - Winner: Legends - 2020-10-21T12:30 - TimeOfSave: 2020-11-16T23:28:18.108604700
+GameID: 42 - Series Gm #: 1-Stage: 1 - Home: Alliance:4 - Away: Thrashers:-6 - Winner: Alliance - 2020-10-21T12:30 - TimeOfSave: 2020-11-17T13:25:49.814515700
+GameID: 43 - Series Gm #: 1-Stage: 1 - Home: Vanquish:-14 - Away: High Voltage:14 - Winner: High Voltage - 2020-10-21T12:30 - TimeOfSave: 2020-11-17T14:08:16.137684900
+GameID: 44 - Series Gm #: 1-Stage: 1 - Home: Supremacy:-4 - Away: Wrecking Crew:2 - Winner: Wrecking Crew - 2020-10-21T12:30 - TimeOfSave: 2020-11-17T15:38:35.140683800
+GameID: 45 - Series Gm #: 1-Stage: 1 - Home: BlackSun:9 - Away: Crown:-10 - Winner: BlackSun - 2020-10-21T12:30 - TimeOfSave: 2020-11-18T01:19:27.072465500
+GameID: 46 - Series Gm #: 1-Stage: 1 - Home: Inferno:1 - Away: Doom:-3 - Winner: Inferno - 2020-10-21T12:30 - TimeOfSave: 2020-11-18T02:05:29.181260500
+GameID: 47 - Series Gm #: 1-Stage: 1 - Home: Vanquish:3 - Away: Brute Force:-3 - Winner: Vanquish - 2020-10-21T12:30 - TimeOfSave: 2020-11-18T13:54:24.866780100
+GameID: 48 - Series Gm #: 1-Stage: 1 - Home: Monarch:8 - Away: High Voltage:-16 - Winner: Monarch - 2020-10-21T12:30 - TimeOfSave: 2020-11-18T14:18:29.725898500
+GameID: 49 - Series Gm #: 1-Stage: 1 - Home: Alliance:12 - Away: Mean Green:-11 - Winner: Alliance - 2020-10-21T12:30 - TimeOfSave: 2020-11-18T14:52:39.367981600
+GameID: 50 - Series Gm #: 1-Stage: 1 - Home: Chaos:-7 - Away: Thrashers:7 - Winner: Thrashers - 2020-10-21T12:30 - TimeOfSave: 2020-11-18T23:07:30.828415700
+GameID: 51 - Series Gm #: 1-Stage: 1 - Home: Supremacy:-2 - Away: Legends:1 - Winner: Legends - 2020-10-21T12:30 - TimeOfSave: 2020-11-18T23:39:52.640361200
+GameID: 52 - Series Gm #: 1-Stage: 1 - Home: Royalty:-13 - Away: Wrecking Crew:13 - Winner: Wrecking Crew - 2020-10-21T12:30 - TimeOfSave: 2020-11-19T19:24:25.850043400
+GameID: 53 - Series Gm #: 1-Stage: 1 - Home: Rampage:-3 - Away: Icons:-1 - Winner: Icons - 2020-10-21T12:30 - TimeOfSave: 2020-11-19T20:44:27.635020700
+GameID: 54 - Series Gm #: 1-Stage: 1 - Home: BlackSun:-9 - Away: Fury:9 - Winner: Fury - 2020-10-21T12:30 - TimeOfSave: 2020-11-19T22:27:42.633018100
+GameID: 55 - Series Gm #: 1-Stage: 1 - Home: Inferno:7 - Away: Crown:-6 - Winner: Inferno - 2020-10-21T12:30 - TimeOfSave: 2020-11-19T23:34:13.884515300
+GameID: 56 - Series Gm #: 1-Stage: 1 - Home: Monarch:0 - Away: Brute Force:0 - Winner:  - 2020-10-21T12:30 - TimeOfSave: 2020-11-26T11:55:36.849318200
+GameID: 56 - Series Gm #: 1-Stage: 1 - Home: Monarch:0 - Away: Brute Force:0 - Winner:  - 2020-10-21T12:30 - TimeOfSave: 2020-11-26T11:57:22.043909700
+GameID: 57 - Series Gm #: 1-Stage: 1 - Home: Brute Force:-11 - Away: Monarch:6 - Winner: Brute Force - 2020-10-21T12:30 - TimeOfSave: 2020-11-26T12:19:47.372510600
+GameID: 58 - Series Gm #: 1-Stage: 1 - Home: High Voltage:3 - Away: Rampage:-14 - Winner: Rampage - 2020-10-21T12:30 - TimeOfSave: 2020-11-30T20:43:50.020626500
+GameID: 59 - Series Gm #: 1-Stage: 1 - Home: Icons:-3 - Away: Alliance:2 - Winner: Alliance - 2020-10-21T12:30 - TimeOfSave: 2020-12-01T14:59:13.083110500
+GameID: 60 - Series Gm #: 1-Stage: 1 - Home: Mean Green:-3 - Away: Chaos:-1 - Winner: Chaos - 2020-10-21T12:30 - TimeOfSave: 2020-12-01T16:23:00.531635
+GameID: 61 - Series Gm #: 1-Stage: 1 - Home: Thrashers:-18 - Away: Supremacy:18 - Winner: Supremacy - 2020-10-21T12:30 - TimeOfSave: 2020-12-01T17:28:07.299987800
+GameID: 62 - Series Gm #: 1-Stage: 1 - Home: Legends:-1 - Away: Royalty:1 - Winner: Royalty - 2020-10-21T12:30 - TimeOfSave: 2020-12-01T18:46:35.945984700
+GameID: 63 - Series Gm #: 1-Stage: 1 - Home: BlackSun:7 - Away: Vanquish:-11 - Winner: BlackSun - 2020-10-21T12:30 - TimeOfSave: 2020-12-01T19:25:11.983609700
+GameID: 64 - Series Gm #: 1-Stage: 1 - Home: Fury:17 - Away: Inferno:-20 - Winner: Fury - 2020-10-21T12:30 - TimeOfSave: 2020-12-01T20:10:30.914218900
+GameID: 65 - Series Gm #: 1-Stage: 1 - Home: Crown:8 - Away: Doom:-9 - Winner: Crown - 2020-10-21T12:30 - TimeOfSave: 2020-12-01T20:45:18.870555900
+GameID: 66 - Series Gm #: 1-Stage: 1 - Home: High Voltage:-15 - Away: Alliance:14 - Winner: Alliance - 2020-10-21T12:30 - TimeOfSave: 2020-12-02T15:26:47.567751400
+GameID: 67 - Series Gm #: 1-Stage: 1 - Home: Icons:12 - Away: Chaos:-17 - Winner: Icons - 2020-10-21T12:30 - TimeOfSave: 2020-12-02T15:53:26.696902900
+GameID: 68 - Series Gm #: 1-Stage: 1 - Home: Mean Green:4 - Away: Supremacy:-6 - Winner: Mean Green - 2020-10-21T12:30 - TimeOfSave: 2020-12-02T16:29:21.402295700
+GameID: 69 - Series Gm #: 1-Stage: 1 - Home: Thrashers:8 - Away: Royalty:-9 - Winner: Thrashers - 2020-10-21T12:30 - TimeOfSave: 2020-12-02T17:07:15.500464900
+GameID: 70 - Series Gm #: 1-Stage: 1 - Home: Wrecking Crew:14 - Away: Legends:-19 - Winner: Wrecking Crew - 2020-10-21T12:30 - TimeOfSave: 2020-12-02T17:57:08.570052600
+GameID: 71 - Series Gm #: 1-Stage: 1 - Home: Monarch:-15 - Away: BlackSun:11 - Winner: BlackSun - 2020-10-21T12:30 - TimeOfSave: 2020-12-03T20:42:41.485676900
+GameID: 72 - Series Gm #: 1-Stage: 1 - Home: Vanquish:-16 - Away: Inferno:16 - Winner: Inferno - 2020-10-21T12:30 - TimeOfSave: 2020-12-03T22:23:24.463341400
+GameID: 73 - Series Gm #: 1-Stage: 1 - Home: Doom:-7 - Away: Fury:7 - Winner: Fury - 2020-10-21T12:30 - TimeOfSave: 2020-12-04T00:09:09.024269300
+GameID: 74 - Series Gm #: 1-Stage: 1 - Home: Brute Force:-9 - Away: Rampage:7 - Winner: Rampage - 2020-10-21T12:30 - TimeOfSave: 2020-12-04T20:43:50.651767
+GameID: 75 - Series Gm #: 1-Stage: 1 - Home: Doom:7 - Away: Vanquish:-11 - Winner: Doom - 2020-10-21T12:30 - TimeOfSave: 2020-12-04T21:43:39.878625200
+GameID: 76 - Series Gm #: 1-Stage: 1 - Home: Chaos:7 - Away: High Voltage:-7 - Winner: Chaos - 2020-10-21T12:30 - TimeOfSave: 2020-12-04T23:00:55.371120100
+GameID: 77 - Series Gm #: 1-Stage: 1 - Home: Royalty:3 - Away: Mean Green:-5 - Winner: Royalty - 2020-10-21T12:30 - TimeOfSave: 2020-12-04T23:51:48.960485500
+GameID: 78 - Series Gm #: 1-Stage: 1 - Home: Alliance:1 - Away: Brute Force:-1 - Winner: Alliance - 2020-10-21T12:30 - TimeOfSave: 2020-12-05T00:21:48.675253400
+GameID: 79 - Series Gm #: 1-Stage: 1 - Home: Supremacy:19 - Away: Icons:-19 - Winner: Supremacy - 2020-10-21T12:30 - TimeOfSave: 2020-12-06T16:26:02.257459900
+GameID: 80 - Series Gm #: 1-Stage: 1 - Home: Crown:3 - Away: Fury:-3 - Winner: Crown - 2020-10-21T12:30 - TimeOfSave: 2020-12-06T17:17:12.625443
+GameID: 81 - Series Gm #: 1-Stage: 1 - Home: Inferno:10 - Away: Monarch:-12 - Winner: Inferno - 2020-10-21T12:30 - TimeOfSave: 2020-12-06T18:45:54.676023200
+GameID: 82 - Series Gm #: 1-Stage: 1 - Home: Wrecking Crew:4 - Away: Thrashers:-4 - Winner: Wrecking Crew - 2020-10-21T12:30 - TimeOfSave: 2020-12-06T20:36:40.100900700
+GameID: 83 - Series Gm #: 1-Stage: 1 - Home: Rampage:0 - Away: BlackSun:-8 - Winner: Rampage - 2020-10-21T12:30 - TimeOfSave: 2020-12-07T22:16:19.604758900
+GameID: 84 - Series Gm #: 1-Stage: 1 - Home: Crown:5 - Away: Vanquish:-6 - Winner: Crown - 2020-10-21T12:30 - TimeOfSave: 2020-12-08T03:16:51.014151
+GameID: 85 - Series Gm #: 1-Stage: 1 - Home: High Voltage:0 - Away: Supremacy:1 - Winner: Supremacy - 2020-10-21T12:30 - TimeOfSave: 2020-12-09T19:09:29.792598700
+GameID: 86 - Series Gm #: 1-Stage: 1 - Home: Brute Force:9 - Away: Chaos:-11 - Winner: Brute Force - 2020-10-21T12:30 - TimeOfSave: 2020-12-09T19:37:57.627709900
+GameID: 87 - Series Gm #: 1-Stage: 1 - Home: Doom:2 - Away: Monarch:-10 - Winner: Doom - 2020-10-21T12:30 - TimeOfSave: 2020-12-09T20:24:10.757044
+GameID: 88 - Series Gm #: 1-Stage: 1 - Home: Icons:-6 - Away: Royalty:8 - Winner: Royalty - 2020-10-21T12:30 - TimeOfSave: 2020-12-09T21:05:11.565091500
+GameID: 89 - Series Gm #: 1-Stage: 1 - Home: Legends:19 - Away: Thrashers:-18 - Winner: Legends - 2020-10-21T12:30 - TimeOfSave: 2020-12-09T22:12:51.696928900
+GameID: 90 - Series Gm #: 1-Stage: 1 - Home: Inferno:-4 - Away: Rampage:3 - Winner: Rampage - 2020-10-21T12:30 - TimeOfSave: 2020-12-09T22:42:52.981730800
+GameID: 91 - Series Gm #: 1-Stage: 1 - Home: Mean Green:-16 - Away: Wrecking Crew:9 - Winner: Wrecking Crew - 2020-10-21T12:30 - TimeOfSave: 2020-12-09T23:50:04.627466200
+GameID: 92 - Series Gm #: 1-Stage: 1 - Home: BlackSun:5 - Away: Alliance:-9 - Winner: BlackSun - 2020-10-21T12:30 - TimeOfSave: 2020-12-10T00:17:46.374700800
+GameID: 93 - Series Gm #: 1-Stage: 1 - Home: Fury:17 - Away: Vanquish:-24 - Winner: Fury - 2020-10-21T12:30 - TimeOfSave: 2020-12-10T16:46:46.852095200
+GameID: 94 - Series Gm #: 1-Stage: 1 - Home: Royalty:4 - Away: High Voltage:-5 - Winner: Royalty - 2020-10-21T12:30 - TimeOfSave: 2020-12-10T17:27:48.422477700
+GameID: 95 - Series Gm #: 1-Stage: 1 - Home: Legends:6 - Away: Mean Green:-10 - Winner: Legends - 2020-10-21T12:30 - TimeOfSave: 2020-12-10T19:39:20.637491900
+GameID: 96 - Series Gm #: 1-Stage: 1 - Home: Chaos:1 - Away: BlackSun:-1 - Winner: Chaos - 2020-10-21T12:30 - TimeOfSave: 2020-12-10T21:34:27.337889300
+GameID: 97 - Series Gm #: 1-Stage: 1 - Home: Monarch:0 - Away: Crown:-3 - Winner: Monarch - 2020-10-21T12:30 - TimeOfSave: 2020-12-10T22:16:18.517641200
+GameID: 98 - Series Gm #: 1-Stage: 1 - Home: Wrecking Crew:17 - Away: Icons:-17 - Winner: Wrecking Crew - 2020-10-21T12:30 - TimeOfSave: 2020-12-11T00:29:21.683378500
+GameID: 99 - Series Gm #: 1-Stage: 1 - Home: Alliance:-4 - Away: Inferno:4 - Winner: Inferno - 2020-10-21T12:30 - TimeOfSave: 2020-12-11T11:40:13.582904500
+GameID: 100 - Series Gm #: 1-Stage: 1 - Home: Supremacy:-8 - Away: Brute Force:8 - Winner: Brute Force - 2020-10-21T12:30 - TimeOfSave: 2020-12-11T15:54:01.806115900
+GameID: 101 - Series Gm #: 1-Stage: 1 - Home: Rampage:5 - Away: Doom:-4 - Winner: Rampage - 2020-10-21T12:30 - TimeOfSave: 2020-12-11T16:56:44.900851700
+GameID: 102 - Series Gm #: 1-Stage: 1 - Home: Thrashers:3 - Away: Mean Green:-6 - Winner: Thrashers - 2020-10-21T12:30 - TimeOfSave: 2020-12-11T18:58:38.953142700
+GameID: 103 - Series Gm #: 1-Stage: 1 - Home: Doom:-10 - Away: Alliance:8 - Winner: Alliance - 2020-10-21T12:30 - TimeOfSave: 2020-12-11T20:01:25.504608100
+GameID: 104 - Series Gm #: 1-Stage: 1 - Home: Legends:12 - Away: Icons:-12 - Winner: Legends - 2020-10-21T12:30 - TimeOfSave: 2020-12-11T21:30:37.242112
+GameID: 105 - Series Gm #: 1-Stage: 1 - Home: Wrecking Crew:9 - Away: High Voltage:-15 - Winner: Wrecking Crew - 2020-10-21T12:30 - TimeOfSave: 2020-12-11T21:58:34.927036800
+GameID: 106 - Series Gm #: 1-Stage: 1 - Home: Fury:8 - Away: Monarch:-10 - Winner: Fury - 2020-10-21T12:30 - TimeOfSave: 2020-12-11T22:22:59.104095100
+GameID: 107 - Series Gm #: 1-Stage: 1 - Home: Inferno:4 - Away: Chaos:-3 - Winner: Inferno - 2020-10-21T12:30 - TimeOfSave: 2020-12-11T23:45:24.451513700
+GameID: 108 - Series Gm #: 1-Stage: 1 - Home: Royalty:-13 - Away: Brute Force:11 - Winner: Brute Force - 2020-10-21T12:30 - TimeOfSave: 2020-12-12T00:32:10.968964
+GameID: 109 - Series Gm #: 1-Stage: 1 - Home: Doom:-10 - Away: Alliance:8 - Winner: Alliance - 2020-10-21T12:30 - TimeOfSave: 2020-12-13T15:03:55.797151400
+GameID: 110 - Series Gm #: 1-Stage: 1 - Home: Legends:12 - Away: Icons:-12 - Winner: Legends - 2020-10-21T12:30 - TimeOfSave: 2020-12-13T15:08:37.622657700
+GameID: 111 - Series Gm #: 1-Stage: 1 - Home: Wrecking Crew:9 - Away: High Voltage:-15 - Winner: Wrecking Crew - 2020-10-21T12:30 - TimeOfSave: 2020-12-13T15:11:01.454311700
+GameID: 112 - Series Gm #: 1-Stage: 1 - Home: Fury:8 - Away: Monarch:-10 - Winner: Fury - 2020-10-21T12:30 - TimeOfSave: 2020-12-13T15:14:52.096271700
+GameID: 113 - Series Gm #: 1-Stage: 1 - Home: Inferno:4 - Away: Chaos:-3 - Winner: Inferno - 2020-10-21T12:30 - TimeOfSave: 2020-12-13T15:25:21.464695900
+GameID: 114 - Series Gm #: 2-Stage: 1 - Home: Inferno:0 - Away: Chaos:0 - Winner:  - 2020-10-21T12:30 - TimeOfSave: 2020-12-13T16:01:47.934544500
+GameID: 115 - Series Gm #: 1-Stage: 1 - Home: BlackSun:5 - Away: Supremacy:-7 - Winner: BlackSun - 2020-10-21T12:30 - TimeOfSave: 2020-12-13T18:37:49.414803100
+GameID: 116 - Series Gm #: 1-Stage: 1 - Home: Crown:0 - Away: Rampage:-3 - Winner: Crown - 2020-10-21T12:30 - TimeOfSave: 2020-12-15T21:25:39.271476700
+GameID: 117 - Series Gm #: 1-Stage: 1 - Home: Vanquish:-6 - Away: Monarch:3 - Winner: Monarch - 2020-10-21T12:30 - TimeOfSave: 2020-12-15T22:49:43.087963200
+GameID: 118 - Series Gm #: 1-Stage: 1 - Home: Legends:15 - Away: High Voltage:-15 - Winner: Legends - 2020-10-21T12:30 - TimeOfSave: 2020-12-15T23:53:27.795719800
+GameID: 119 - Series Gm #: 1-Stage: 1 - Home: Doom:-9 - Away: Chaos:7 - Winner: Chaos - 2020-10-21T12:30 - TimeOfSave: 2020-12-24T18:58:48.394519600
+GameID: 120 - Series Gm #: 1-Stage: 1 - Home: Thrashers:-1 - Away: Icons:-3 - Winner: Thrashers - 2020-10-21T12:30 - TimeOfSave: 2020-12-24T19:45:33.922472500
+GameID: 121 - Series Gm #: 1-Stage: 1 - Home: BlackSun:1 - Away: Royalty:-10 - Winner: BlackSun - 2020-10-21T12:30 - TimeOfSave: 2020-12-27T14:00:29.790078500
+GameID: 122 - Series Gm #: 1-Stage: 1 - Home: Inferno:9 - Away: Supremacy:-10 - Winner: Inferno - 2020-10-21T12:30 - TimeOfSave: 2020-12-27T14:58:28.343225600
+GameID: 123 - Series Gm #: 1-Stage: 1 - Home: Crown:-2 - Away: Alliance:1 - Winner: Alliance - 2020-10-21T12:30 - TimeOfSave: 2020-12-27T16:04:55.571250300
+GameID: 124 - Series Gm #: 1-Stage: 1 - Home: Wrecking Crew:14 - Away: Brute Force:-9 - Winner: Wrecking Crew - 2020-10-21T12:30 - TimeOfSave: 2020-12-27T16:31:56.970672200
+GameID: 125 - Series Gm #: 1-Stage: 1 - Home: Fury:-9 - Away: Rampage:1 - Winner: Rampage - 2020-10-21T12:30 - TimeOfSave: 2021-01-13T22:08:39.370877200
+GameID: 126 - Series Gm #: 1-Stage: 1 - Home: High Voltage:1 - Away: Thrashers:-5 - Winner: High Voltage - 2020-10-21T12:30 - TimeOfSave: 2021-01-13T23:56:23.152773700
+GameID: 127 - Series Gm #: 1-Stage: 1 - Home: Icons:-3 - Away: Mean Green:3 - Winner: Mean Green - 2020-10-21T12:30 - TimeOfSave: 2021-01-14T03:21:21.967337100
+GameID: 128 - Series Gm #: 1-Stage: 1 - Home: Supremacy:13 - Away: Doom:-15 - Winner: Supremacy - 2020-10-21T12:30 - TimeOfSave: 2021-01-18T00:34:21.504436300
+GameID: 129 - Series Gm #: 1-Stage: 1 - Home: Chaos:11 - Away: Crown:17 - Winner: Crown - 2020-10-21T12:30 - TimeOfSave: 2021-01-19T15:54:04.718630400
+GameID: 130 - Series Gm #: 1-Stage: 1 - Home: Chaos:-2 - Away: Crown:1 - Winner: Crown - 2020-10-21T12:30 - TimeOfSave: 2021-01-19T16:35:41.197756800
+GameID: 131 - Series Gm #: 1-Stage: 1 - Home: Brute Force:5 - Away: Legends:-5 - Winner: Brute Force - 2020-10-21T12:30 - TimeOfSave: 2021-01-19T17:03:57.968874900
+GameID: 132 - Series Gm #: 1-Stage: 1 - Home: Wrecking Crew:9 - Away: BlackSun:-8 - Winner: Wrecking Crew - 2020-10-21T12:30 - TimeOfSave: 2021-01-19T17:45:26.232503500
+GameID: 133 - Series Gm #: 1-Stage: 1 - Home: Alliance:-14 - Away: Fury:14 - Winner: Fury - 2020-10-21T12:30 - TimeOfSave: 2021-01-19T19:25:32.360231400
+GameID: 134 - Series Gm #: 1-Stage: 1 - Home: Rampage:-1 - Away: Vanquish:-11 - Winner: Rampage - 2020-10-21T12:30 - TimeOfSave: 2021-01-19T23:25:55.681049
+GameID: 135 - Series Gm #: 1-Stage: 1 - Home: Royalty:-16 - Away: Inferno:16 - Winner: Inferno - 2020-10-21T12:30 - TimeOfSave: 2021-01-20T00:33:18.171260200
+GameID: 136 - Series Gm #: 1-Stage: 1 - Home: Vanquish:-18 - Away: Alliance:18 - Winner: Alliance - 2020-10-21T12:30 - TimeOfSave: 2021-01-21T23:11:19.843308900
+GameID: 137 - Series Gm #: 1-Stage: 1 - Home: Mean Green:0 - Away: High Voltage:0 - Winner:  - 2020-10-21T12:30 - TimeOfSave: 2021-01-22T02:21:59.811069900
+GameID: 137 - Series Gm #: 1-Stage: 1 - Home: Mean Green:0 - Away: High Voltage:0 - Winner:  - 2020-10-21T12:30 - TimeOfSave: 2021-01-22T02:24:13.615958600
+GameID: 138 - Series Gm #: 1-Stage: 1 - Home: Mean Green:12 - Away: High Voltage:-14 - Winner: Mean Green - 2020-10-21T12:30 - TimeOfSave: 2021-01-22T02:47:24.275251500
+GameID: 139 - Series Gm #: 1-Stage: 1 - Home: Doom:7 - Away: Royalty:-7 - Winner: Doom - 2020-10-21T12:30 - TimeOfSave: 2021-01-22T13:01:11.999581400
+GameID: 140 - Series Gm #: 1-Stage: 1 - Home: Chaos:13 - Away: Fury:14 - Winner: Fury - 2020-10-21T12:30 - TimeOfSave: 2021-01-22T16:48:29.738947700
+GameID: 141 - Series Gm #: 1-Stage: 1 - Home: Supremacy:-6 - Away: Crown:3 - Winner: Crown - 2020-10-21T12:30 - TimeOfSave: 2021-01-22T17:37:30.982621800
+GameID: 142 - Series Gm #: 1-Stage: 1 - Home: Brute Force:7 - Away: Thrashers:-9 - Winner: Brute Force - 2020-10-21T12:30 - TimeOfSave: 2021-01-22T22:15:43.082736900
+GameID: 143 - Series Gm #: 1-Stage: 1 - Home: Legends:3 - Away: BlackSun:-4 - Winner: Legends - 2020-10-21T12:30 - TimeOfSave: 2021-01-23T01:23:05.205568
+GameID: 144 - Series Gm #: 1-Stage: 1 - Home: Inferno:0 - Away: Wrecking Crew:-2 - Winner: Inferno - 2020-10-21T12:30 - TimeOfSave: 2021-01-23T03:12:01.301327700

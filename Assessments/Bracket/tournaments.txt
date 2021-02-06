@@ -1,6 +1,7 @@
-20::Colors::Rob3113::2::Round-Robin::Single-Elimination::false::false::4::4::4::6::0::4
-22::Players!::Rob3113::2::Round-Robin::Single-Elimination::true::false::8::3::4::0::0::0
-7::ProtoType::Rob3113::1::Round-Robin::n/a::true::false::8::0::4::4::4::0
-10::playerTeamsTrialB::JohnDo456::2::Round-Robin::Single-Elimination::true::false::8::0::8::7::0::0
-11::playerTeamsSave::Rob3113::2::Round-Robin::Single-Elimination::true::false::15::0::8::14::0::0
-12::RobTrial::JoeSmith123::2::Round-Robin::Single-Elimination::true::false::15::0::8::14::0::0
+20::Colors::Rob3113::2::Round-Robin::Single-Elimination::false::false::4::4::4::2::6::0::5::10/13/2020 12:30
+22::Players!::Rob3113::2::Round-Robin::Single-Elimination::false::false::4::4::4::2::6::0::4::10/21/2020 12:30
+7::ProtoType::Rob3113::2::Round-Robin::n/a::true::false::8::0::4::3::4::4::0::10/13/2020 12:30
+24::SSBU::Rob3113::2::Round-Robin::Single-Elimination::false::false::19::19::16::1::19::0::11::10/21/2020 12:30
+10::playerTeamsTrialB::JohnDo456::2::Round-Robin::Single-Elimination::true::false::8::0::8::1::7::0::0::10/13/2020 12:30
+11::playerTeamsSave::Rob3113::2::Round-Robin::Single-Elimination::true::false::15::0::8::1::14::0::0::10/13/2020 12:30
+12::RobTrial::JoeSmith123::2::Round-Robin::Single-Elimination::true::false::15::0::8::1::14::0::0::10/13/2020 12:30
