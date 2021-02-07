@@ -29,9 +29,6 @@ public class VendingMachineServiceLayerTest {
     VendingMachineServiceLayer service;
     
     public VendingMachineServiceLayerTest() {
-//        VendingMachineDao dao = new VendingMachineDaoStubImpl();
-//        VendingMachineAuditDao auditDao = new VendingMachineAuditDaoStubImpl();
-        
         ApplicationContext ctx = 
                 new ClassPathXmlApplicationContext("applicationContext.xml");
         service =ctx.getBean("serviceLayer", VendingMachineServiceLayer.class);

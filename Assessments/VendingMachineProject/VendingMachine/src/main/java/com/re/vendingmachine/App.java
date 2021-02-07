@@ -16,15 +16,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class App {
 
     public static void main(String[] args) {
-//        UserIO myIO = new UserIOConsoleImpl();
-//        VendingMachineView myView = new VendingMachineView(myIO);
-//        VendingMachineDao myDao = new VendingMachineDaoFileImpl();
-//        VendingMachineAuditDao myAudit = new VendingMachineAuditDaoFileImpl();
-//        VendingMachineServiceLayer myService = 
-//            new VendingMachineServiceLayerImpl(myDao, myAudit);
-//        VendingMachineController controller
-//                = new VendingMachineController(myView, myService);
-//        controller.run();
+
         ApplicationContext ctx = 
                 new ClassPathXmlApplicationContext("applicationContext.xml");
         VendingMachineController controller = 
