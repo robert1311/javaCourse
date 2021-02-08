@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Vending Machine</title>
+		<!-- Boot core CSS-->
+		<link href="css/Bootstrap.css"
+			rel="stylesheet">
+		<style>
+			
+			 input{
+			 display: inline-block;
+			 text-align: center;
+			 }
+			 button{
+				margin-bottom: 3px;
+			 }
+			 .button-align{
+				text-align: center;
+			 }
+			 #item{
+				width: 40%;
+			 }
+			 #message{
+				width: 80%;
+				margin: 0 auto;
+			 }
+			 #total-in{
+				width: 40%;
+				margin: 0 auto;
+				
+			 }
+			 #change{
+				width: 90%;
+				margin: 0 auto;
+			 }
+			 .names{
+				text-align: center;
+				height: 10px;
+			 }
+			 .prices{
+				text-align: center;
+				padding-top: 20px;
+				height: 10px;
+			 }
+			 .quantities{
+				text-align: center;
+				padding-top: 65px;
+				padding-bottom: 0px;
+			 }
+			 
+			  .selections{
+				border: thick outset;
+				margin: 5px;	
+				height: 180px;
+			}
+			h4{
+				font-weight: bold;
+				font-size: 1em;
+			}
+			
+			selection a:hover{
+				text-decoration: none;
+				background-color: lightblue;
+			}
+			
+		</style>
+		
+	</head>
+	<body>
+		<div class="container">
+		<h1 class="text-center">Vending Machine</h2>
+		<hr/>
+		<ul class="list-group" id="errorMessages"></ul>
+			<div class="row">
+				<div id="inventory" class="col-sm-8">
+					<!-- 9 buttons for items-->
+					
+				
+				</div>
+				
+				<div id="inputs" class="col-sm-4">
+					<!--3 forms-->
+					<form class="form-horizontal" role="form" id="total">
+						<div class="form-group">
+							<div class="text-center" align="center">
+							<label for="total-in" class="col-sm-12 ">
+								Total $ In
+							</label>
+								<div class="input-fields">
+								<div class="col-sm-12" >
+									<input type="text"
+										   class="form-control"
+										   id="total-in"
+										   value ='0.00' readonly/>
+								</div>
+								</div>
+							</div>
+						</div>
+						<!--4 buttons 6 col wide-->
+						<div class="button-align">
+						 <div class="col-sm-6">
+							<button type="button"
+									id="dollar-button"
+									class="btn btn-default">
+								Add Dollar
+							</button>
+						</div>
+						<div class="col-sm-6">
+							<button type="button"
+									id="quarter-button"
+									class="btn btn-default">
+								Add Quarter
+							</button>
+						</div>
+						<div class="col-sm-6">
+							<button type="button"
+									id="dime-button"
+									class="btn btn-default">
+								Add Dime
+							</button>
+						</div>
+						<div class="col-sm-6">
+							<button type="button"
+									id="nickel-button"
+									class="btn btn-default">
+								Add Nickel
+							</button>
+						</div>
+						</div>
+					</form>
+					
+					
+					<!--Messages form-->
+					
+					<form class="form-horizontal" role="form" id="messages">
+					
+						<div class="col-sm-12">
+							<div class="form-group">
+								<div class="text-center">
+								<label for="message" class="col-sm-12 ">
+								<hr />
+									Messages
+								</label>
+									<div class="col-sm-12" >
+										<input type="text"
+											   class="form-control"
+											   id="message"
+											   placeholder="" readonly/>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="item" class="col-sm-4" style="text-align: right">
+								Item:
+							</label>
+
+							<div id="itemNum">
+							</div>
+
+							<div class="col-sm-8">
+								<input type="text"
+									   class="form-control"
+									   id="item"
+									   placeholder="" readonly required>
+							</div>
+						</div>
+						<div class="col-sm-12">
+							<div class="button-align">
+							<button type="button"
+									id="purchase-button"
+									class="btn btn-default">
+								Make Purchase
+							</button>
+							</div>
+						</div>
+					
+					</form>
+					
+					<form class="form-horizontal" role="form" id="changeDue">
+						<div class="form-group">
+							<div class="text-center">
+							<label for="change" class="col-sm-12 ">
+							<hr />
+								Change
+							</label>
+								<div class="col-sm-12" >
+									<input type="text"
+										   class="form-control"
+										   id="change"
+										    readonly/>
+								</div>
+							</div>
+							<div class="col-sm-12">
+							<div class="button-align">
+							<button  type="button"
+									id="change-button"
+									class="btn btn-default">
+								Change Return
+							</button>
+							</div>
+						</div>
+						</div>
+						
+					</form>
+					</form>
+				</div> 
+			</div>
+		</div>
+		<script src="js/jquery-2.2.4.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/home.js"></script>
+	</body>
+</html>
+	
