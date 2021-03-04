@@ -1,0 +1,16 @@
+com\re\bullsandcows\controller\BullsAndCowsController.class
+com\re\bullsandcows\data\GameDatabaseDao$GameMapper.class
+com\re\bullsandcows\data\GameInMemoryDao.class
+com\re\bullsandcows\data\RoundDatabaseDao.class
+com\re\bullsandcows\data\RoundDatabaseDao$RoundMapper.class
+com\re\bullsandcows\service\BullsAndCowsServiceLayer.class
+com\re\bullsandcows\App.class
+com\re\bullsandcows\data\RoundDao.class
+com\re\bullsandcows\entity\Round.class
+com\re\bullsandcows\data\GameDao.class
+com\re\bullsandcows\service\BullsAndCowsServiceLayerImpl.class
+com\re\bullsandcows\data\GameDatabaseDao.class
+com\re\bullsandcows\TestApplicationConfiguration.class
+com\re\bullsandcows\data\RoundInMemoryDao.class
+com\re\bullsandcows\entity\Game.class
+com\re\bullsandcows\controller\Error.class
