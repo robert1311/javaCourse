@@ -1,0 +1,12 @@
+Water::0.85::27
+RC::1.00::0
+Dr. Pepper::1.25::16
+Sprite::1.25::19
+Pepsi::1.50::15
+Fanta::1.25::5
+Root Beer::1.25::0
+Mr. Pibb::1.00::15
+Coca Cola::1.50::17
+Powerade::2.00::11
+Grand Smoothie::5.99::0
+Vitamin Water::2.50::22
