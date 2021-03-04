@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en"
+      xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+            <title>Field Agent</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-10">
+                <h1>Agents</h1>
+                </div>
+                <div>
+                    <a href="addAgent" class="btn btn-outline-primary">Add an Agent</a>
+                </div>
+            </div>
+           
+            <div class="row">
+                <div class="col-12">
+                    
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                               
+                                <th>Field Agent</th>
+                                <th>Agency</th>
+                                
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr th:each="agent : ${agents}">                               
+                                <td><a href="#" th:href="@{/editAgent(id=${agent.identifier})}"><span th:text="${agent.firstName + ' ' + agent.lastName}"></span></a></td>
+                                <td th:text="${agent.agency.name}">agency</td>
+                                <td><a href="#" th:href="@{/deleteAgent(id=${agent.identifier})}">Delete</a></td>
+                                <td><a href="#" th:href="@{/addAssignment(id=${agent.identifier})}">Add add an Assignment</a></td>
+                                
+                                <!--<td><a href="#" th:href="@{deleteAgent(id=${agent.identifier}, assignmentId=${agent.assignment.id})}"--><!--</a></td>-->
+                                <!--<td><a href="#" th:href="@{addAssignment(id=${agent.identifier})}"Add add an Assignment</td></a>-->
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+               
+            </div>
+        </div>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    </body>
+</html>
