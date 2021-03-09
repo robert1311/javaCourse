@@ -1,2 +1,3 @@
 com\re\bullsandcows\data\GameDatabaseDaoTest.class
+com\re\bullsandcows\service\BullsAndCowsServiceLayerImplTest.class
 com\re\bullsandcows\data\RoundDatabaseDaoTest.class

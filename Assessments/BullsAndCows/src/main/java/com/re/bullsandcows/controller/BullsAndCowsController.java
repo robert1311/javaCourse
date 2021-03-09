@@ -33,13 +33,14 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("api/bullsAndCows")
 public class BullsAndCowsController {
     
-    /* A Game should have an answer and a status (in progress or finished). 
-    While the game is in progress, users should not be able to see the answer. 
-    The answer will be a 4-digit number with no duplicate digits.
+    /* 
+    A Game should have an answer and a status (in progress or finished). While 
+    the game is in progress, users should not be able to see the answer. The 
+    answer will be a 4-digit number with no duplicate digits.
 
-Each Round will have a guess, the time of the guess, and the result of the guess 
-    in the format "e:0:p:0" where "e" stands for exact matches and "p" stands 
-    for partial matches.
+Each Round will have a guess, the time of the guess, and the result of the 
+    guess in the format "e:0:p:0" where "e" stands for exact matches and "p" 
+    stands for partial matches.
 
 You will need several REST endpoints for this:
 
@@ -51,10 +52,11 @@ You will need several REST endpoints for this:
     filled in.
 "game" – GET – Returns a list of all games. Be sure in-progress games do not 
     display their answer.
-"game/{gameId}" - GET – Returns a specific game based on ID. Be sure in-progress 
-    games do not display their answer.
+"game/{gameId}" - GET – Returns a specific game based on ID. Be sure 
+    in-progress games do not display their answer.
 "rounds/{gameId} – GET – Returns a list of rounds for the specified game sorted 
-    by time. */
+    by time.
+    */
     
     @Autowired
     BullsAndCowsServiceLayer service;

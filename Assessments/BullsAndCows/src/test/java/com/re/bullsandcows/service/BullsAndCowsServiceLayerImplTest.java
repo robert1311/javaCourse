@@ -62,60 +62,60 @@ public class BullsAndCowsServiceLayerImplTest {
         assertEquals(1, game.getCurrentRound());
         assertNotEquals(game, fromDao);
     }
-
-    @Test
-    public void testGetAllGames() {
-        Game game = service.createGame();
-        Game game2 = service.createGame();
-
-        List<Game> games = service.getAllGames();
-        assertEquals(2, games.size());
-    }
-
-    @Test
-    public void testmakeGuessesGetRoundsForGame() throws Exception {
-
-        try {
-            Round round6 = service.makeGuess(100, "2h39");
-            fail("InvalidGuessException not thrown");
-        } catch (InvalidGuessException e) {
-
-        }
-
-        try {
-            Round round7 = service.makeGuess(100, "294");
-            fail("InvalidGuessException not thrown");
-        } catch (InvalidGuessException e) {
-
-        }
-
-        Round round = null;
-        try {
-            round = service.makeGuess(99, "1234");
-            fail("GameFinishedException not thrown");
-        } catch (GameFinishedException e) {
-
-        }
-
-        Round round2 = service.makeGuess(100, "6395");
-        assertEquals("e:2:p:2", round2.getResult());
-        assertEquals(3, round2.getGame().getCurrentRound());
-        assertFalse(round2.getGame().isIsFinished());
-
-//        Round round3 = service.makeGuess(round.getGame().getGameId(), "3215");
-//        assertEquals(2, round3.getRoundNumeber());
-//        assertEquals("e:3:p:0", round3.getResult());
-//        assertEquals(3, round.getGame().getCurrentRound());
-//        assertFalse(round.getGame().isIsFinished());
-        Round round4 = service.makeGuess(100, "9365");
-        assertEquals(2, round4.getRoundNumeber());
-        assertEquals("e:4:p:0", round4.getResult());
-        assertEquals(3, round4.getGame().getCurrentRound());
-        assertTrue(round4.getGame().isIsFinished());
-
-        List<Round> rounds = service.getAllRoundsForGame(99);
-        assertEquals(2, rounds.size());
-        
-    }
+//
+//    @Test
+//    public void testGetAllGames() {
+//        Game game = service.createGame();
+//        Game game2 = service.createGame();
+//
+//        List<Game> games = service.getAllGames();
+//        assertEquals(2, games.size());
+//    }
+//
+//    @Test
+//    public void testmakeGuessesGetRoundsForGame() throws Exception {
+//
+//        try {
+//            Round round6 = service.makeGuess(100, "2h39");
+//            fail("InvalidGuessException not thrown");
+//        } catch (InvalidGuessException e) {
+//
+//        }
+//
+//        try {
+//            Round round7 = service.makeGuess(100, "294");
+//            fail("InvalidGuessException not thrown");
+//        } catch (InvalidGuessException e) {
+//
+//        }
+//
+//        Round round = null;
+//        try {
+//            round = service.makeGuess(99, "1234");
+//            fail("GameFinishedException not thrown");
+//        } catch (GameFinishedException e) {
+//
+//        }
+//
+//        Round round2 = service.makeGuess(100, "6395");
+//        assertEquals("e:2:p:2", round2.getResult());
+//        assertEquals(3, round2.getGame().getCurrentRound());
+//        assertFalse(round2.getGame().isIsFinished());
+//
+////        Round round3 = service.makeGuess(round.getGame().getGameId(), "3215");
+////        assertEquals(2, round3.getRoundNumeber());
+////        assertEquals("e:3:p:0", round3.getResult());
+////        assertEquals(3, round.getGame().getCurrentRound());
+////        assertFalse(round.getGame().isIsFinished());
+//        Round round4 = service.makeGuess(100, "9365");
+//        assertEquals(2, round4.getRoundNumeber());
+//        assertEquals("e:4:p:0", round4.getResult());
+//        assertEquals(3, round4.getGame().getCurrentRound());
+//        assertTrue(round4.getGame().isIsFinished());
+//
+//        List<Round> rounds = service.getAllRoundsForGame(99);
+//        assertEquals(2, rounds.size());
+//        
+//    }
 
 }
