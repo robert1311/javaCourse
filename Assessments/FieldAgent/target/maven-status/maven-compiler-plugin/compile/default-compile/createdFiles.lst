@@ -1,8 +1,8 @@
 corbos\fieldagent\data\AssignmentRepository.class
 corbos\fieldagent\entities\SecurityClearance.class
 corbos\fieldagent\entities\Agent.class
-corbos\fieldagent\data\CountryRepository.class
 corbos\fieldagent\AppStart.class
+corbos\fieldagent\data\CountryRepository.class
 corbos\fieldagent\data\AgencyRepository.class
 corbos\fieldagent\data\SecurityClearanceRepository.class
 corbos\fieldagent\controller\AssignmentController.class
